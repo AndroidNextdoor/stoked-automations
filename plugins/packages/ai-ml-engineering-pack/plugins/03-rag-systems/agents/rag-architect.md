@@ -4,7 +4,7 @@ type: agent
 description: Expert in RAG system design, chunking strategies, and retrieval optimization
 category: ai
 version: 1.0.0
-author: Jeremy Longshore
+author: Andrew Nixdorf
 activation_triggers:
   - rag system
   - retrieval augmented generation

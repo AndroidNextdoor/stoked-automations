@@ -9,10 +9,10 @@
     "partition"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/database/database-partition-manager",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-partition-manager",
   "license": "MIT",
   "installation": "/plugin install database-partition-manager@claude@claude-code-plugins-plus",
   "features": [],

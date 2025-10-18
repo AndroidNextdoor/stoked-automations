@@ -367,7 +367,7 @@ rm -rf plugins/*/skills/  # Be careful!
 
 ```bash
 # 1. Export all data from database
-cd /home/jeremy/000-projects/claude-code-plugins
+cd ~/Projects/stoked-automations
 mkdir -p ~/emergency-backup
 cp backups/skills-audit/skills_generation.db ~/emergency-backup/
 

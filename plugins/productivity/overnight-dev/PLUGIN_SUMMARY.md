@@ -375,7 +375,7 @@ If they have a submission form:
 1. Plugin name: **overnight-dev**
 2. Description: "Run Claude autonomously for 6-8 hours overnight using Git hooks that enforce TDD - wake up to fully tested features"
 3. Category: **Productivity**
-4. Repository: github.com/jeremylongshore/claude-code-plugins
+4. Repository: github.com/AndroidNextdoor/stoked-automations
 5. Installation: `/plugin install overnight-dev@claude-code-plugins-plus`
 
 ### Method 2: Pull Request

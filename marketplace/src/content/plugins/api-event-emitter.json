@@ -11,10 +11,10 @@
     "event-driven"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/api-development/api-event-emitter",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-event-emitter",
   "license": "MIT",
   "installation": "/plugin install api-event-emitter@claude@claude-code-plugins-plus",
   "features": [],

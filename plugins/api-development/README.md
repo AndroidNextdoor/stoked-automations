@@ -291,7 +291,7 @@ MIT License - See individual plugin directories for details.
 
 - Documentation: https://docs.claude.com/en/docs/claude-code/plugins
 - Discord: https://discord.com/invite/6PPFFzqPDZ (#claude-code channel)
-- Issues: https://github.com/jeremylongshore/claude-code-plugins/issues
+- Issues: https://github.com/AndroidNextdoor/stoked-automations/issues
 
 ---
 

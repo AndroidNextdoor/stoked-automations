@@ -98,7 +98,7 @@
 
 ```bash
 # Add marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install all
 /plugin install staking-rewards-optimizer@claude-code-plugins-plus

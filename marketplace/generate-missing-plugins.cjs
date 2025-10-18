@@ -71,7 +71,7 @@ pluginsToProcess.forEach(plugin => {
   const category = mapCategory(plugin.category, plugin.source);
 
   // Create author object without email (email is optional and must be valid)
-  const author = { name: (plugin.author && plugin.author.name) || 'Jeremy Longshore' };
+  const author = { name: (plugin.author && plugin.author.name) || 'Andrew Nixdorf' };
 
   // Create the JSON object
   const marketplaceJson = {
@@ -82,7 +82,7 @@ pluginsToProcess.forEach(plugin => {
     keywords: plugin.keywords || [],
     author: author,
     featured: plugin.featured || false,
-    repository: plugin.repository || `https://github.com/jeremylongshore/claude-code-plugins/tree/main/${plugin.source}`,
+    repository: plugin.repository || `https://github.com/AndroidNextdoor/stoked-automations/tree/main/${plugin.source}`,
     license: plugin.license || 'MIT',
     installation: `/plugin install ${plugin.name}@claude-code-plugins-plus`,
     features: [],

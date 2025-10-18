@@ -368,7 +368,7 @@ Valid Plugins: 25 / 25
 
 1. **Add Marketplace**
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 2. **Browse Plugins**

@@ -4,10 +4,10 @@
   "description": "Track new token launches, detect rugpulls, and analyze contract security for early-stage crypto projects",
   "author": {
     "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.ai",
+    "email": "jeremy@intentsolutions.io",
     "url": "https://intentsolutions.ai"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": [
     "crypto",

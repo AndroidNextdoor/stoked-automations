@@ -4,7 +4,7 @@ type: agent
 description: Optimizes prompts for cost, latency, and quality trade-offs
 category: ai
 version: 1.0.0
-author: Jeremy Longshore
+author: Andrew Nixdorf
 activation_triggers:
   - prompt optimization
   - reduce tokens

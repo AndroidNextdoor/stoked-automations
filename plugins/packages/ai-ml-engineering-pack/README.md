@@ -5,7 +5,7 @@
 Master prompt engineering, LLM integration, RAG systems, and AI safety with 12 specialized plugins that accelerate AI development by 10x.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/jeremylongshore/claude-code-plugins)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/AndroidNextdoor/stoked-automations)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-0.1.0+-purple.svg)](https://claude.ai/code)
 
 ##  What's Included
@@ -38,7 +38,7 @@ Master prompt engineering, LLM integration, RAG systems, and AI safety with 12 s
 
 ```bash
 # Add the marketplace (if not already added)
-claude plugin marketplace add jeremylongshore/claude-code-plugins
+claude plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install AI/ML Engineering Pack
 claude plugin install ai-ml-engineering-pack@claude-code-plugins-plus
@@ -622,7 +622,7 @@ Track: accuracy, retrieval time, cost per query
 
 ### Community
 - [Discord](https://discord.com/invite/6PPFFzqPDZ) - #claude-code channel
-- [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/claude-code) - `claude-code` tag
 
 ##  Pricing
@@ -649,7 +649,7 @@ What's included:
 
 **Email:** [email protected]
 
-**GitHub Issues:** https://github.com/jeremylongshore/claude-code-plugins/issues
+**GitHub Issues:** https://github.com/AndroidNextdoor/stoked-automations/issues
 
 **Response time:** Within 24 hours (usually faster)
 
@@ -693,6 +693,6 @@ Built with:
 
 ---
 
-**Questions?** Email [email protected] or open a [GitHub issue](https://github.com/jeremylongshore/claude-code-plugins/issues).
+**Questions?** Email [email protected] or open a [GitHub issue](https://github.com/AndroidNextdoor/stoked-automations/issues).
 
 **Built by AI engineers, for AI engineers.** 

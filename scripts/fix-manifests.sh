@@ -3,7 +3,7 @@
 echo "Fixing plugin manifests by removing invalid fields..."
 
 # Find all plugin.json files with invalid fields
-plugins=$(find /home/jeremy/000-projects/claude-code-plugins/plugins -name "plugin.json" -exec grep -l '"category":\|"enhances":\|"requires":' {} \; 2>/dev/null)
+plugins=$(find ~/Projects/stoked-automations/plugins -name "plugin.json" -exec grep -l '"category":\|"enhances":\|"requires":' {} \; 2>/dev/null)
 
 count=0
 for plugin in $plugins; do

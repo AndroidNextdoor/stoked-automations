@@ -19,7 +19,7 @@
     "url": "https://intentsolutions.io"
   },
   "featured": true,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/productivity/overnight-dev",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/productivity/overnight-dev",
   "license": "MIT",
   "installation": "/plugin install overnight-dev@claude@claude-code-plugins-plus",
   "features": [],

@@ -24,7 +24,7 @@
 
 ### Step 1: Navigate to Discussions
 
-Go to: **[GitHub Discussions - Plugin Pack Requests](https://github.com/jeremylongshore/claude-code-plugins/discussions/categories/ideas)**
+Go to: **[GitHub Discussions - Plugin Pack Requests](https://github.com/AndroidNextdoor/stoked-automations/discussions/categories/ideas)**
 
 ### Step 2: Start New Discussion
 
@@ -399,7 +399,7 @@ I can help with:
 
 ### Q: Can I request just 1-2 plugins?
 
-**A:** Yes! Not every request needs to be a full pack. For single plugin requests, use the [Feature Request](https://github.com/jeremylongshore/claude-code-plugins/issues/new?template=feature-request.yml) issue template instead.
+**A:** Yes! Not every request needs to be a full pack. For single plugin requests, use the [Feature Request](https://github.com/AndroidNextdoor/stoked-automations/issues/new?template=feature-request.yml) issue template instead.
 
 ### Q: What if my request is declined?
 
@@ -448,13 +448,13 @@ I can help with:
 
 **Ready to request a plugin pack?**
 
-1. Go to [Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+1. Go to [Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 2. Click "New discussion"
 3. Select "Plugin Pack Request" (Ideas category)
 4. Fill out the template
 5. Submit and engage with the community!
 
-**Questions?** Ask in [Q&A Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions/categories/q-a)
+**Questions?** Ask in [Q&A Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions/categories/q-a)
 
 ---
 

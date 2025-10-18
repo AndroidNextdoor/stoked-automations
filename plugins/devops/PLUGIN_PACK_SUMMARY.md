@@ -274,7 +274,7 @@ plugin-name/
 
 - **Documentation**: Each plugin has detailed README
 - **Examples**: Production-ready code examples included
-- **Issues**: [GitHub Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
+- **Issues**: [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
 - **Discord**: [Claude Code Discord](https://discord.com/invite/6PPFFzqPDZ)
 
 ## Maintenance
@@ -294,8 +294,8 @@ plugin-name/
 
 ## Credits
 
-**Created by**: Jeremy Longshore ([@jeremylongshore](https://github.com/jeremylongshore))
-**Repository**: https://github.com/jeremylongshore/claude-code-plugins
+**Created by**: Andrew Nixdorf ([@jeremylongshore](https://github.com/jeremylongshore))
+**Repository**: https://github.com/AndroidNextdoor/stoked-automations
 **License**: MIT
 **Version**: 1.0.0
 

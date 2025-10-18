@@ -8,9 +8,9 @@
   "author": {
     "name": "Claude Code Plugins",
     "email": "plugins@example.com",
-    "url": "https://github.com/jeremylongshore/claude-code-plugins"
+    "url": "https://github.com/AndroidNextdoor/stoked-automations"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/plugins/mcp/ai-experiment-logger",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/plugins/mcp/ai-experiment-logger",
   "license": "MIT",
   "keywords": [
     "ai",
@@ -81,7 +81,7 @@
     }
   ],
   "screenshots": [],
-  "documentation": "https://github.com/jeremylongshore/claude-code-plugins/blob/main/plugins/mcp/ai-experiment-logger/README.md",
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/plugins/mcp/ai-experiment-logger/README.md",
   "tags": [
     "mcp",
     "ai",

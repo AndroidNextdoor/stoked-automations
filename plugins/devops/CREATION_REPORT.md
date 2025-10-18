@@ -285,5 +285,5 @@ Successfully created a comprehensive, production-ready DevOps infrastructure plu
 
 **Created**: October 11, 2025
 **Version**: 1.0.0
-**Maintainer**: Jeremy Longshore
-**Repository**: https://github.com/jeremylongshore/claude-code-plugins
+**Maintainer**: Andrew Nixdorf
+**Repository**: https://github.com/AndroidNextdoor/stoked-automations

@@ -9,10 +9,10 @@
     "procedure"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/database/stored-procedure-generator",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/stored-procedure-generator",
   "license": "MIT",
   "installation": "/plugin install stored-procedure-generator@claude@claude-code-plugins-plus",
   "features": [],

@@ -5,7 +5,7 @@
 
 ## Steps to Enable
 
-1. Go to your repository: https://github.com/jeremylongshore/claude-code-plugins
+1. Go to your repository: https://github.com/AndroidNextdoor/stoked-automations
 
 2. Click **Settings** (top right)
 

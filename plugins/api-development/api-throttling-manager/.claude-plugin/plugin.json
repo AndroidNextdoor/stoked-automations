@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Manage API throttling with dynamic rate limits and quota management",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": ["throttling", "rate-limiting", "quota", "traffic-management"]
 }

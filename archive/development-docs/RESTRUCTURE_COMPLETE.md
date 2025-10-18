@@ -217,9 +217,9 @@ claude-code-plugins/
 {
   "name": "claude-code-plugins",
   "owner": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]",
-    "url": "https://github.com/jeremylongshore"
+    "url": "https://github.com/AndroidNextdoor"
   },
   "plugins": [
     {
@@ -274,7 +274,7 @@ claude-code-plugins/
 
 ```bash
 # Add marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install flagship plugin
 /plugin install git-commit-smart@claude-code-plugins-plus
@@ -566,8 +566,8 @@ python3 scripts/check-frontmatter.py plugins/devops/git-commit-smart/commands/co
 
 ##  Contact & Support
 
-- **Issues**: https://github.com/jeremylongshore/claude-code-plugins/issues
-- **Discussions**: https://github.com/jeremylongshore/claude-code-plugins/discussions
+- **Issues**: https://github.com/AndroidNextdoor/stoked-automations/issues
+- **Discussions**: https://github.com/AndroidNextdoor/stoked-automations/discussions
 - **Email**: [email protected]
 - **Discord**: https://discord.com/invite/6PPFFzqPDZ (#claude-code channel)
 

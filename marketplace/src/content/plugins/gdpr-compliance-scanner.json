@@ -9,10 +9,10 @@
     "auditing"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/security/gdpr-compliance-scanner",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/gdpr-compliance-scanner",
   "license": "MIT",
   "installation": "/plugin install gdpr-compliance-scanner@claude@claude-code-plugins-plus",
   "features": [],

@@ -24,7 +24,7 @@ Transform Claude Code into a powerful investment research terminal using OpenBB'
 
 ```bash
 # Add marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install OpenBB Terminal plugin
 /plugin install openbb-terminal@claude-code-plugins-plus
@@ -570,10 +570,10 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ## 🙋 Support
 
-- **Plugin Issues**: https://github.com/jeremylongshore/claude-code-plugins/issues
+- **Plugin Issues**: https://github.com/AndroidNextdoor/stoked-automations/issues
 - **OpenBB Issues**: https://github.com/OpenBB-finance/OpenBB/issues
 - **Discord**: https://discord.gg/openbb (OpenBB community)
-- **Discussions**: https://github.com/jeremylongshore/claude-code-plugins/discussions
+- **Discussions**: https://github.com/AndroidNextdoor/stoked-automations/discussions
 
 ---
 

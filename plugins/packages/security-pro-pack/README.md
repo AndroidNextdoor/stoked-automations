@@ -183,7 +183,7 @@ claude plugin install security-pro-pack
 ## Support
 
 - **Email:** [email protected]
-- **GitHub Issues:** https://github.com/jeremylongshore/claude-code-plugins/issues
+- **GitHub Issues:** https://github.com/AndroidNextdoor/stoked-automations/issues
 - **Documentation:** https://docs.claude-code-plugins.com/security-pro-pack
 - **Discord:** https://discord.gg/claude-code-plugins
 

@@ -240,19 +240,19 @@ All plugins are licensed under MIT License.
 
 ## Author
 
-**Jeremy Longshore**
+**Andrew Nixdorf**
 - GitHub: jeremylongshore
 - Email: [email protected]
 
 ## Repository
 
-https://github.com/jeremylongshore/claude-code-plugins
+https://github.com/AndroidNextdoor/stoked-automations
 
 ## Installation
 
 ```bash
 # Add marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install individual plugins
 /plugin install vulnerability-scanner@claude-code-plugins-plus

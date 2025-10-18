@@ -185,7 +185,7 @@ graph TD
 
 **Built**:  `marketplace/dist/` (production build complete)
 **Deployment**: Automated via GitHub Actions
-**URL**: `https://claudecodeplugins.io/`
+**URL**: `https://stokedautomations.com/`
 
 ### Features
 
@@ -214,7 +214,7 @@ sequenceDiagram
     Actions->>Actions: npm run build
     Actions->>Pages: Deploy dist/ to GitHub Pages
     Pages->>User: Serve at jeremylongshore.github.io
-    User->>User: /plugin marketplace add jeremylongshore/claude-code-plugins
+    User->>User: /plugin marketplace add AndroidNextdoor/stoked-automations
     User->>User: /plugin install project-health-auditor@claude-code-plugins-plus
 ```
 
@@ -364,7 +364,7 @@ git push origin main
 git push origin v1.1.0
 
 # Verify GitHub Actions deployment
-# Visit: https://github.com/jeremylongshore/claude-code-plugins/actions
+# Visit: https://github.com/AndroidNextdoor/stoked-automations/actions
 ```
 
 ### Step 4: Verify Deployment
@@ -373,11 +373,11 @@ git push origin v1.1.0
 # Wait for GitHub Actions to complete (2-3 minutes)
 
 # Verify marketplace is live
-curl -I https://claudecodeplugins.io/
+curl -I https://stokedautomations.com/
 
 # Test installation
 # In Claude Code:
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin list marketplaces
 ```
 

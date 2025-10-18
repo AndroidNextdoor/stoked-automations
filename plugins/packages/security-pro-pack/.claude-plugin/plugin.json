@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Professional security tools for Claude Code: vulnerability scanning, compliance, cryptography audit, container & API security",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]",
-    "url": "https://github.com/jeremylongshore"
+    "url": "https://github.com/AndroidNextdoor"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
-  "homepage": "https://claudecodeplugins.io/",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+  "homepage": "https://stokedautomations.com/",
   "license": "MIT",
   "keywords": [
     "security",

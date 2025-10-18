@@ -14,7 +14,7 @@ Thank you for your interest in contributing! This MCP server helps developers id
 
 ```bash
 # Clone the repository
-git clone https://github.com/jeremylongshore/claude-code-plugins.git
+git clone https://github.com/AndroidNextdoor/stoked-automations.git
 cd claude-code-plugins/plugins/mcp/project-health-auditor
 
 # Install dependencies
@@ -285,8 +285,8 @@ Enhance existing metrics:
 
 ## Questions?
 
-- **GitHub Discussions**: https://github.com/jeremylongshore/claude-code-plugins/discussions
-- **Issues**: https://github.com/jeremylongshore/claude-code-plugins/issues
+- **GitHub Discussions**: https://github.com/AndroidNextdoor/stoked-automations/discussions
+- **Issues**: https://github.com/AndroidNextdoor/stoked-automations/issues
 - **Discord**: https://discord.com/invite/6PPFFzqPDZ (#claude-code channel)
 
 ## License

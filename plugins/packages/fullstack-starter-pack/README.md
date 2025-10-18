@@ -134,7 +134,7 @@ Complete documentation for the Fullstack Starter Pack plugin collection for Clau
 
 **Community:**
 - Discord: https://discord.com/invite/claude-code (#claude-code channel)
-- GitHub: https://github.com/jeremylongshore/claude-code-plugins
+- GitHub: https://github.com/AndroidNextdoor/stoked-automations
 - Issues: Report bugs and request features
 
 **Updates:**
@@ -148,7 +148,7 @@ Complete documentation for the Fullstack Starter Pack plugin collection for Clau
 ## License & Attribution
 
 **License:** MIT License
-**Author:** Jeremy Longshore
+**Author:** Andrew Nixdorf
 **Pricing:** $39 one-time purchase
 
 See individual plugin files for detailed documentation and examples.

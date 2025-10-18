@@ -1,7 +1,7 @@
 # Plugin Repository Report
 
 Generated: 2025-10-11
-Repository: `jeremylongshore/claude-code-plugins`
+Repository: `AndroidNextdoor/stoked-automations`
 Location: `/home/jeremy/projects/claude-code-plugins`
 
 ---
@@ -64,9 +64,9 @@ mcp/
 | Field | Value |
 |-------|-------|
 | Name | claude-code-plugins |
-| Owner | Jeremy Longshore |
+| Owner | Andrew Nixdorf |
 | Version | 1.1.0 |
-| Homepage | https://claudecodeplugins.io/ |
+| Homepage | https://stokedautomations.com/ |
 | Plugins Count | 20 registered in marketplace.json |
 
 ### Sample Plugin Pack Metadata (DevOps Automation)
@@ -75,7 +75,7 @@ mcp/
 | Name | devops-automation-pack |
 | Version | 1.0.0 |
 | Description | 25 professional DevOps plugins for CI/CD, deployment, Docker, Kubernetes... |
-| Author | Jeremy Longshore <jeremy@intentsolutions.ai> |
+| Author | Andrew Nixdorf <andrew@stokedautomation.com> |
 | License | MIT |
 | Keywords | devops, ci-cd, docker, kubernetes, terraform, deployment |
 
@@ -235,7 +235,7 @@ mcp/
 
 ```bash
 # Add the marketplace to Claude Code
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install a plugin pack
 /plugin install devops-automation-pack@claude-code-plugins-plus

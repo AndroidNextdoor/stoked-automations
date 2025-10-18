@@ -97,7 +97,7 @@ This directory contains 6 professional cryptocurrency and market analysis plugin
 Users can install individual plugins:
 
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install staking-rewards-optimizer@claude-code-plugins-plus
 /plugin install nft-rarity-analyzer@claude-code-plugins-plus
 /plugin install gas-fee-optimizer@claude-code-plugins-plus

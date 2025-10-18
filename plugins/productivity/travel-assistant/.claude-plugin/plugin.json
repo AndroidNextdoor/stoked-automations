@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Intelligent travel assistant with real-time weather, currency conversion, timezone info, and AI-powered itinerary planning. Your complete travel companion.",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": [
     "travel",

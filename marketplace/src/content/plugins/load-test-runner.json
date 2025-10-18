@@ -10,10 +10,10 @@
     "k6"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/performance/load-test-runner",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/load-test-runner",
   "license": "MIT",
   "installation": "/plugin install load-test-runner@claude@claude-code-plugins-plus",
   "features": [],

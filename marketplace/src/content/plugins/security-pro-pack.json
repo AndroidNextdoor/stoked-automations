@@ -16,10 +16,10 @@
     "package"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": true,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/packages/security-pro-pack",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/security-pro-pack",
   "license": "MIT",
   "installation": "/plugin install security-pro-pack@claude@claude-code-plugins-plus",
   "features": [],

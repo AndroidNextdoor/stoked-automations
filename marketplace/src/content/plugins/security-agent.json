@@ -12,7 +12,7 @@
     "name": "Claude Code Plugin Hub"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/examples/security-agent",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/examples/security-agent",
   "license": "MIT",
   "installation": "/plugin install security-agent@claude@claude-code-plugins-plus",
   "features": [],

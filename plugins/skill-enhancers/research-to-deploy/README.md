@@ -45,7 +45,7 @@ This plugin will be available to Enterprise tier sponsors ($199/month):
 - ✅ Priority bug fixes (same-day response)
 - ✅ Logo on website
 
-[Contact for Enterprise →](mailto:jeremy@intentsolutions.io)
+[Contact for Enterprise →](mailto:andrew@stokedautomation.com)
 
 ## 📅 Expected Release
 
@@ -57,9 +57,9 @@ Want this prioritized? [Sponsor at Enterprise tier](https://github.com/sponsors/
 
 Watch this repo to be notified when this plugin is released:
 
-[![Watch Releases](https://img.shields.io/github/watchers/jeremylongshore/claude-code-plugins?style=social)](https://github.com/jeremylongshore/claude-code-plugins/subscription)
+[![Watch Releases](https://img.shields.io/github/watchers/AndroidNextdoor/stoked-automations?style=social)](https://github.com/AndroidNextdoor/stoked-automations/subscription)
 
 ---
 
 **Part of the [Skill Enhancers](../) collection**
-[View all available plugins →](https://claudecodeplugins.io/skill-enhancers)
+[View all available plugins →](https://stokedautomations.com/skill-enhancers)

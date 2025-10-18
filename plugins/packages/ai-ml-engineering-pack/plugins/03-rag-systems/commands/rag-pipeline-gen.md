@@ -4,7 +4,7 @@ type: command
 description: Generate complete RAG pipeline with embeddings, vector DB, and retrieval
 category: ai
 version: 1.0.0
-author: Jeremy Longshore
+author: Andrew Nixdorf
 shortcut: rpg
 estimated_time: 5-10 minutes
 ---

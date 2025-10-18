@@ -3,8 +3,8 @@
   "description": "Complete plugin suite for builder-filmmakers: Build products AND create viral videos. 20 plugins covering documentation, video production, content strategy, and workflow optimization. Transform from code to published video in 30 minutes.",
   "version": "1.0.0",
   "author": {
-    "name": "Jeremy Longshore",
-    "url": "https://github.com/jeremylongshore"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor"
   },
   "category": "automation",
   "keywords": [
@@ -28,7 +28,7 @@
     "premium"
   ],
   "featured": true,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "installation": "/plugin install creator-studio-pack@claude@claude-code-plugins-plus",
   "features": [

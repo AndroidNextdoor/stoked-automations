@@ -4,7 +4,7 @@ type: agent
 description: Expert in prompt engineering patterns, techniques, and optimization
 category: ai
 version: 1.0.0
-author: Jeremy Longshore
+author: Andrew Nixdorf
 activation_triggers:
   - prompt engineering
   - prompt design

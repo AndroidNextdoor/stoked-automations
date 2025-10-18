@@ -32,12 +32,12 @@ Error: Plugin 'ai-ml-engineering-pack' not found in marketplace 'claude-code-plu
 1. **Verify marketplace is added:**
 ```bash
 claude plugin marketplace list
-# Should show: jeremylongshore/claude-code-plugins
+# Should show: AndroidNextdoor/stoked-automations
 ```
 
 2. **Add marketplace if missing:**
 ```bash
-claude plugin marketplace add jeremylongshore/claude-code-plugins
+claude plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 3. **Update marketplace index:**
@@ -1018,7 +1018,7 @@ curl 'http://localhost:9090/api/v1/query?query=llm_requests_total'
 ### Where to Get Help
 
 **GitHub Issues (Recommended):**
-- https://github.com/jeremylongshore/claude-code-plugins/issues
+- https://github.com/AndroidNextdoor/stoked-automations/issues
 - Search existing issues first
 - Include error logs, code snippets, and steps to reproduce
 
@@ -1077,8 +1077,8 @@ Current known issues and workarounds:
 2. **Presidio slow first run** - Downloads models on first use (one-time ~500MB)
 3. **Claude API rate limits** - Free tier limited to 50 requests/day
 
-See [GitHub Issues](https://github.com/jeremylongshore/claude-code-plugins/issues) for latest updates.
+See [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues) for latest updates.
 
 ---
 
-**Still stuck?** Open a [GitHub issue](https://github.com/jeremylongshore/claude-code-plugins/issues/new) with the information template above. We typically respond within 24 hours.
+**Still stuck?** Open a [GitHub issue](https://github.com/AndroidNextdoor/stoked-automations/issues/new) with the information template above. We typically respond within 24 hours.

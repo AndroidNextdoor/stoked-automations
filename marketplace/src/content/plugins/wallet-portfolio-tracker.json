@@ -12,10 +12,10 @@
     "crypto"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/crypto/wallet-portfolio-tracker",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/wallet-portfolio-tracker",
   "license": "MIT",
   "installation": "/plugin install wallet-portfolio-tracker@claude@claude-code-plugins-plus",
   "features": [],

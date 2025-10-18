@@ -184,7 +184,7 @@ as an open-source community-driven platform.
 ### Installation
 
 \`\`\`bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install git-commit-smart@claude-code-plugins-plus
 \`\`\`
 
@@ -227,7 +227,7 @@ gh release create v1.0.0 \
 ```
 
 **Option B: Using GitHub Web UI**
-1. Go to: https://github.com/jeremylongshore/claude-code-plugins/releases/new
+1. Go to: https://github.com/AndroidNextdoor/stoked-automations/releases/new
 2. Select tag: `v1.0.0`
 3. Title: ` v1.0.0 - Open-Source Plugin Marketplace Launch`
 4. Copy content from CHANGELOG.md for description
@@ -252,7 +252,7 @@ gh issue create \
 
 Try it now:
 \`\`\`bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install git-commit-smart@claude-code-plugins-plus
 /gc
 \`\`\`
@@ -297,9 +297,9 @@ the standard for Claude Code plugin quality and documentation.
 
 ##  Get Involved
 
-- [Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- [Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - [Discord](https://discord.com/invite/6PPFFzqPDZ) (#claude-code)
-- [Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
+- [Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
 
 Let's revolutionize how developers use Claude Code! " \
   --label "announcement,release,v1.0.0"
@@ -363,7 +363,7 @@ The first open-source marketplace for Claude Code plugins.
 Never write commit messages again. AI analyzes your changes and generates perfect conventional commits.
 
 Install:
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /gc
 
 1/7 
@@ -395,7 +395,7 @@ What makes this marketplace special:
 
 First-mover advantage means we're establishing the quality standards for Claude Code plugins.
 
-Check it out: https://github.com/jeremylongshore/claude-code-plugins
+Check it out: https://github.com/AndroidNextdoor/stoked-automations
 
 #AI #Development #ClaudeCode #OpenSource #DeveloperTools
 ```
@@ -409,7 +409,7 @@ It's an open-source marketplace with production-ready plugins and educational re
 
 **Flagship plugin: git-commit-smart**
 AI-powered conventional commit messages. Try it:
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install git-commit-smart@claude-code-plugins-plus
 /gc
 
@@ -421,7 +421,7 @@ AI-powered conventional commit messages. Try it:
 
 First-mover advantage after the plugin announcement! 
 
-Repo: https://github.com/jeremylongshore/claude-code-plugins
+Repo: https://github.com/AndroidNextdoor/stoked-automations
 
 Happy to answer questions!
 ```

@@ -333,7 +333,7 @@ Strategy developed and refined by Intent Solutions IO team through extensive tes
 
 ## Support
 
-- GitHub: github.com/jeremylongshore/claude-code-plugins
+- GitHub: github.com/AndroidNextdoor/stoked-automations
 - Website: intentsolutions.io
 - Email: [email protected]
 

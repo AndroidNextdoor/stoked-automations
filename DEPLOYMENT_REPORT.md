@@ -1,6 +1,6 @@
 # Deployment Configuration Report
 **Project:** Claude Code Plugins Marketplace
-**Domain:** claudecodeplugins.io
+**Domain:** stokedautomation.com
 **Date:** 2025-10-16
 **Status:** ✅ READY FOR DEPLOYMENT
 
@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-The claudecodeplugins.io marketplace website is **fully configured and ready for deployment**. All configuration files have been reviewed, a critical GitHub Actions workflow issue has been fixed, and comprehensive deployment documentation has been created.
+The stokedautomation.com marketplace website is **fully configured and ready for deployment**. All configuration files have been reviewed, a critical GitHub Actions workflow issue has been fixed, and comprehensive deployment documentation has been created.
 
 **Key Finding:** The GitHub Actions workflow was using `pnpm` but the marketplace directory uses `npm`. This has been corrected.
 
@@ -17,12 +17,12 @@ The claudecodeplugins.io marketplace website is **fully configured and ready for
 ## Configuration Status
 
 ### ✅ Astro Configuration
-**File:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/astro.config.mjs`
+**File:** `~/Projects/stoked-automations/marketplace/astro.config.mjs`
 
 **Status:** Correctly configured for GitHub Pages deployment
 
 **Settings:**
-- Site URL: `https://claudecodeplugins.io` ✅
+- Site URL: `https://stokedautomations.com` ✅
 - Base path: `/` (root domain) ✅
 - Output: `static` (required for GitHub Pages) ✅
 - HTML compression: Enabled ✅
@@ -33,11 +33,11 @@ The claudecodeplugins.io marketplace website is **fully configured and ready for
 ---
 
 ### ✅ CNAME File
-**File:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/public/CNAME`
+**File:** `~/Projects/stoked-automations/marketplace/public/CNAME`
 
 **Status:** Present and correct
 
-**Content:** `claudecodeplugins.io`
+**Content:** `stokedautomation.com`
 
 **Build Verification:** CNAME file is correctly copied to `dist/CNAME` during build ✅
 
@@ -46,7 +46,7 @@ The claudecodeplugins.io marketplace website is **fully configured and ready for
 ---
 
 ### ⚠️ GitHub Actions Workflow (FIXED)
-**File:** `/home/jeremy/000-projects/claude-code-plugins/.github/workflows/deploy-marketplace.yml`
+**File:** `~/Projects/stoked-automations/.github/workflows/deploy-marketplace.yml`
 
 **Status:** Workflow existed but had package manager mismatch
 
@@ -93,7 +93,7 @@ The claudecodeplugins.io marketplace website is **fully configured and ready for
 ---
 
 ### ✅ Build Output
-**Directory:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/dist/`
+**Directory:** `~/Projects/stoked-automations/marketplace/dist/`
 
 **Status:** Build successful
 
@@ -124,7 +124,7 @@ dist/
 ## Documentation Created
 
 ### 1. DEPLOYMENT_CHECKLIST.md (Comprehensive Guide)
-**Location:** `/home/jeremy/000-projects/claude-code-plugins/DEPLOYMENT_CHECKLIST.md`
+**Location:** `~/Projects/stoked-automations/DEPLOYMENT_CHECKLIST.md`
 
 **Contents:**
 - Pre-deployment checks (local build verification)
@@ -144,7 +144,7 @@ dist/
 ---
 
 ### 2. DEPLOYMENT_STATUS.md (Technical Details)
-**Location:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/DEPLOYMENT_STATUS.md`
+**Location:** `~/Projects/stoked-automations/marketplace/DEPLOYMENT_STATUS.md`
 
 **Contents:**
 - Current configuration summary (Astro, CNAME, workflow)
@@ -160,7 +160,7 @@ dist/
 ---
 
 ### 3. DEPLOYMENT_SUMMARY.md (High-Level Overview)
-**Location:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/DEPLOYMENT_SUMMARY.md`
+**Location:** `~/Projects/stoked-automations/marketplace/DEPLOYMENT_SUMMARY.md`
 
 **Contents:**
 - Deployment configuration status table
@@ -180,7 +180,7 @@ dist/
 ---
 
 ### 4. QUICK_DEPLOY_GUIDE.md (Fast Reference)
-**Location:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/QUICK_DEPLOY_GUIDE.md`
+**Location:** `~/Projects/stoked-automations/marketplace/QUICK_DEPLOY_GUIDE.md`
 
 **Contents:**
 - 3-step deploy now guide
@@ -264,7 +264,7 @@ dist/
 
 ### Step 1: Commit Changes
 ```bash
-cd /home/jeremy/000-projects/claude-code-plugins
+cd ~/Projects/stoked-automations
 git add .github/workflows/deploy-marketplace.yml
 git add DEPLOYMENT_CHECKLIST.md
 git add DEPLOYMENT_REPORT.md
@@ -276,9 +276,9 @@ git push origin main
 ```
 
 ### Step 2: Enable GitHub Pages
-1. Visit: https://github.com/jeremylongshore/claude-code-plugins/settings/pages
+1. Visit: https://github.com/AndroidNextdoor/stoked-automations/settings/pages
 2. Source: **GitHub Actions**
-3. Custom domain: `claudecodeplugins.io`
+3. Custom domain: `stokedautomation.com`
 4. Enforce HTTPS: **Enabled**
 5. Click **Save**
 
@@ -292,12 +292,12 @@ Type: A    Name: @    Value: 185.199.111.153
 ```
 
 ### Step 4: Monitor Deployment
-- GitHub Actions: https://github.com/jeremylongshore/claude-code-plugins/actions
+- GitHub Actions: https://github.com/AndroidNextdoor/stoked-automations/actions
 - Wait for green checkmark (build successful)
 - Deployment time: 3-5 minutes
 
 ### Step 5: Verify Site
-- Visit: https://claudecodeplugins.io
+- Visit: https://stokedautomations.com
 - Check HTTPS works (green padlock)
 - Test all pages (index, spotlight, sponsor, skill-enhancers)
 - Verify plugin cards load
@@ -324,7 +324,7 @@ Type: A    Name: @    Value: 185.199.111.153
 
 ### Configuration Files
 ```
-/home/jeremy/000-projects/claude-code-plugins/
+~/Projects/stoked-automations/
 ├── .github/workflows/deploy-marketplace.yml    (UPDATED ✅)
 ├── DEPLOYMENT_CHECKLIST.md                     (NEW ✅)
 ├── DEPLOYMENT_REPORT.md                        (NEW ✅)
@@ -375,9 +375,9 @@ Type: A    Name: @    Value: 185.199.111.153
 - Custom Domains: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
 
 ### Monitoring URLs
-- GitHub Actions: https://github.com/jeremylongshore/claude-code-plugins/actions
-- GitHub Pages Settings: https://github.com/jeremylongshore/claude-code-plugins/settings/pages
-- Production Site: https://claudecodeplugins.io (after deployment)
+- GitHub Actions: https://github.com/AndroidNextdoor/stoked-automations/actions
+- GitHub Pages Settings: https://github.com/AndroidNextdoor/stoked-automations/settings/pages
+- Production Site: https://stokedautomations.com (after deployment)
 
 ---
 

@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Automated penetration testing for web applications with OWASP Top 10 coverage",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": [
     "security",

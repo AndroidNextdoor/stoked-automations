@@ -46,7 +46,7 @@ claude --version
 Add the claude-code-plugins-plus marketplace (if not already added):
 
 ```bash
-claude plugin marketplace add jeremylongshore/claude-code-plugins
+claude plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 ### 3. Install AI/ML Engineering Pack
@@ -264,8 +264,8 @@ Once installed, proceed to:
 
 ## Support
 
-- **Issues:** https://github.com/jeremylongshore/claude-code-plugins/issues
-- **Discussions:** https://github.com/jeremylongshore/claude-code-plugins/discussions
+- **Issues:** https://github.com/AndroidNextdoor/stoked-automations/issues
+- **Discussions:** https://github.com/AndroidNextdoor/stoked-automations/discussions
 - **Email:** [email protected]
 
 ---

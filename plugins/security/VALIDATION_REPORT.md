@@ -133,7 +133,7 @@ All plugin.json files validated for:
 
 -  All 25 plugins have MIT License
 -  Copyright year: 2025
--  Author: Jeremy Longshore
+-  Author: Andrew Nixdorf
 -  Consistent license text across all plugins
 
 ## Additional Documentation

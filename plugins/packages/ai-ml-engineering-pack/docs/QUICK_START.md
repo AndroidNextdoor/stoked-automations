@@ -483,7 +483,7 @@ Having issues? See [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) for:
 
 - **Documentation:** [README.md](./README.md)
 - **Use Cases:** [USE_CASES.md](./USE_CASES.md)
-- **Issues:** https://github.com/jeremylongshore/claude-code-plugins/issues
+- **Issues:** https://github.com/AndroidNextdoor/stoked-automations/issues
 - **Email:** [email protected]
 
 ---

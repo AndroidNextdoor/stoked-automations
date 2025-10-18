@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Complete fullstack development toolkit: React, Express/FastAPI, PostgreSQL scaffolding with AI agents",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]",
-    "url": "https://github.com/jeremylongshore"
+    "url": "https://github.com/AndroidNextdoor"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
-  "homepage": "https://claudecodeplugins.io/",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+  "homepage": "https://stokedautomations.com/",
   "license": "MIT",
   "keywords": [
     "fullstack",

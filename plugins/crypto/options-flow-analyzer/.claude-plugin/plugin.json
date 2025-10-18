@@ -4,10 +4,10 @@
   "description": "Track institutional options flow, unusual activity, and smart money movements",
   "author": {
     "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.ai",
+    "email": "jeremy@intentsolutions.io",
     "url": "https://intentsolutions.ai"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": [
     "options",

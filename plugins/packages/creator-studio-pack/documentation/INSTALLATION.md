@@ -340,7 +340,7 @@ Once installed, see:
 ## Support
 
 - **Documentation**: `/documentation` folder
-- **Issues**: [GitHub Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
+- **Issues**: [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
 - **Discord**: [Claude Code Community](https://discord.com/invite/6PPFFzqPDZ)
 
 ---

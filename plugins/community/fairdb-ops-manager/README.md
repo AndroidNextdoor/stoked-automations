@@ -83,7 +83,7 @@ Since this is your personal plugin:
 
 ```bash
 # Clone the repository locally if not already
-git clone https://github.com/jeremylongshore/claude-code-plugins.git
+git clone https://github.com/AndroidNextdoor/stoked-automations.git
 cd claude-code-plugins
 
 # Install the plugin directly from the local path
@@ -548,8 +548,8 @@ Since this is a personal plugin, contributions are managed directly. If you want
 ## Support & Contact
 
 **Plugin Author:** Intent Solutions IO
-**Email:** jeremy@intentsolutions.io
-**Repository:** https://github.com/jeremylongshore/claude-code-plugins
+**Email:** andrew@stokedautomation.com
+**Repository:** https://github.com/AndroidNextdoor/stoked-automations
 
 **For issues or questions:**
 1. Check the Troubleshooting section

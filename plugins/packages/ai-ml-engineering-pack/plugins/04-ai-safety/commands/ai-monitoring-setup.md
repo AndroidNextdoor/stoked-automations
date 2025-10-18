@@ -4,7 +4,7 @@ type: command
 description: Set up comprehensive LLM monitoring, cost tracking, and observability
 category: ai
 version: 1.0.0
-author: Jeremy Longshore
+author: Andrew Nixdorf
 shortcut: ams
 estimated_time: 5-10 minutes
 ---

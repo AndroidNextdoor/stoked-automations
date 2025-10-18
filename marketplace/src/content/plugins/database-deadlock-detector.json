@@ -9,10 +9,10 @@
     "deadlock"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/database/database-deadlock-detector",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-deadlock-detector",
   "license": "MIT",
   "installation": "/plugin install database-deadlock-detector@claude@claude-code-plugins-plus",
   "features": [],

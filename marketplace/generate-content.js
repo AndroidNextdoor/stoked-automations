@@ -82,7 +82,7 @@ marketplaceData.plugins.forEach(plugin => {
     keywords: plugin.keywords || [],
     author: authorData,
     featured: plugin.featured || false,
-    repository: plugin.repository || `https://github.com/jeremylongshore/claude-code-plugins/tree/main/${plugin.source}`,
+    repository: plugin.repository || `https://github.com/AndroidNextdoor/stoked-automations/tree/main/${plugin.source}`,
     license: plugin.license || 'MIT',
     installation: `/plugin install ${plugin.name}@claude-code-plugins-plus`,
     features: plugin.features || [],

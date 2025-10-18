@@ -341,8 +341,8 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- **Issues:** [GitHub Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- **Issues:** [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - **Email:** plugins@example.com
 
 ## Changelog

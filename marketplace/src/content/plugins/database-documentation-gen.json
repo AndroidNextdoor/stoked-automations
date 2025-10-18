@@ -9,10 +9,10 @@
     "documentation"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/database/database-documentation-gen",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-documentation-gen",
   "license": "MIT",
   "installation": "/plugin install database-documentation-gen@claude@claude-code-plugins-plus",
   "features": [],

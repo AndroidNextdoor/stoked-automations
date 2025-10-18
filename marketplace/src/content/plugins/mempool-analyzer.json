@@ -14,10 +14,10 @@
     "arbitrage"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/crypto/mempool-analyzer",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/mempool-analyzer",
   "license": "MIT",
   "installation": "/plugin install mempool-analyzer@claude@claude-code-plugins-plus",
   "features": [],

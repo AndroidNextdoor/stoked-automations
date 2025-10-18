@@ -4,7 +4,7 @@ type: command
 description: Generate production-ready LLM API integration boilerplate
 category: ai
 version: 1.0.0
-author: Jeremy Longshore
+author: Andrew Nixdorf
 shortcut: las
 estimated_time: 5-10 minutes
 ---

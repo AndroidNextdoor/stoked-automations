@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Create monitoring dashboards for API health, metrics, and alerts",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": ["monitoring", "metrics", "observability", "dashboard"]
 }

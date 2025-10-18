@@ -4,7 +4,7 @@ type: agent
 description: Expert in LLM API integration, error handling, and production patterns
 category: ai
 version: 1.0.0
-author: Jeremy Longshore
+author: Andrew Nixdorf
 activation_triggers:
   - llm integration
   - api integration

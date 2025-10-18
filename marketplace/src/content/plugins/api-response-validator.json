@@ -10,10 +10,10 @@
     "api"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/api-development/api-response-validator",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-response-validator",
   "license": "MIT",
   "installation": "/plugin install api-response-validator@claude@claude-code-plugins-plus",
   "features": [],

@@ -32,7 +32,7 @@ This directory contains templates for structured GitHub Discussions in the claud
 ### For Users (Requesting Plugin Packs)
 
 1. **Navigate to Discussions**
-   - Go to: https://github.com/jeremylongshore/claude-code-plugins/discussions
+   - Go to: https://github.com/AndroidNextdoor/stoked-automations/discussions
 
 2. **Start New Discussion**
    - Click "New discussion"
@@ -246,9 +246,9 @@ Contribution: I can help test and provide real-world examples
 
 ## Getting Help
 
-- **Questions?** Ask in [Discussions Q&A](https://github.com/jeremylongshore/claude-code-plugins/discussions/categories/q-a)
-- **Feedback?** Share in [Discussions General](https://github.com/jeremylongshore/claude-code-plugins/discussions/categories/general)
-- **Issues?** Report in [Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
+- **Questions?** Ask in [Discussions Q&A](https://github.com/AndroidNextdoor/stoked-automations/discussions/categories/q-a)
+- **Feedback?** Share in [Discussions General](https://github.com/AndroidNextdoor/stoked-automations/discussions/categories/general)
+- **Issues?** Report in [Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
 
 ---
 

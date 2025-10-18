@@ -1,4 +1,4 @@
-# Quick Deploy Guide - claudecodeplugins.io
+# Quick Deploy Guide - stokedautomation.com
 
 **Last Updated:** 2025-10-16
 **Time to Deploy:** 3-5 minutes (after initial setup)
@@ -9,7 +9,7 @@
 
 ### Step 1: Commit Workflow Fix
 ```bash
-cd /home/jeremy/000-projects/claude-code-plugins
+cd ~/Projects/stoked-automations
 git add .github/workflows/deploy-marketplace.yml
 git add DEPLOYMENT_CHECKLIST.md
 git add marketplace/DEPLOYMENT_*.md
@@ -19,9 +19,9 @@ git push origin main
 ```
 
 ### Step 2: Enable GitHub Pages
-1. Visit: https://github.com/jeremylongshore/claude-code-plugins/settings/pages
+1. Visit: https://github.com/AndroidNextdoor/stoked-automations/settings/pages
 2. Source: **GitHub Actions**
-3. Custom domain: `claudecodeplugins.io`
+3. Custom domain: `stokedautomation.com`
 4. Enable: **Enforce HTTPS**
 5. Click **Save**
 
@@ -42,13 +42,13 @@ Type: A    Name: @    Value: 185.199.111.153
 
 ```bash
 # Check if site is live
-curl -I https://claudecodeplugins.io
+curl -I https://stokedautomations.com
 
 # Check DNS
-dig claudecodeplugins.io A +short
+dig stokedautomation.com A +short
 
 # View GitHub Actions
-# Visit: https://github.com/jeremylongshore/claude-code-plugins/actions
+# Visit: https://github.com/AndroidNextdoor/stoked-automations/actions
 ```
 
 ---
@@ -57,7 +57,7 @@ dig claudecodeplugins.io A +short
 
 ### Local Commands
 ```bash
-cd /home/jeremy/000-projects/claude-code-plugins/marketplace
+cd ~/Projects/stoked-automations/marketplace
 npm run dev      # Start dev server
 npm run build    # Build for production
 npm run preview  # Preview build
@@ -65,16 +65,16 @@ npm run preview  # Preview build
 
 ### Deploy Commands
 ```bash
-cd /home/jeremy/000-projects/claude-code-plugins
+cd ~/Projects/stoked-automations
 git add marketplace/
 git commit -m "Update marketplace: [description]"
 git push origin main  # Auto-deploys via GitHub Actions
 ```
 
 ### Verification
-- **Site:** https://claudecodeplugins.io
-- **Actions:** https://github.com/jeremylongshore/claude-code-plugins/actions
-- **Settings:** https://github.com/jeremylongshore/claude-code-plugins/settings/pages
+- **Site:** https://stokedautomations.com
+- **Actions:** https://github.com/AndroidNextdoor/stoked-automations/actions
+- **Settings:** https://github.com/AndroidNextdoor/stoked-automations/settings/pages
 
 ---
 
@@ -83,23 +83,23 @@ git push origin main  # Auto-deploys via GitHub Actions
 ### Site not updating?
 ```bash
 # Clear cache: Ctrl+Shift+R (Windows/Linux) or Cmd+Shift+R (Mac)
-# Check Actions: https://github.com/jeremylongshore/claude-code-plugins/actions
+# Check Actions: https://github.com/AndroidNextdoor/stoked-automations/actions
 # Wait 5 minutes for CDN cache
 ```
 
 ### Build failing?
 ```bash
-cd /home/jeremy/000-projects/claude-code-plugins/marketplace
+cd ~/Projects/stoked-automations/marketplace
 npm run build  # Test locally first
 # Fix errors, then commit and push
 ```
 
 ### DNS not working?
 ```bash
-dig claudecodeplugins.io A +short
+dig stokedautomation.com A +short
 # Should show 4 GitHub Pages IPs
 # Wait 24-48 hours for DNS propagation
-# Check: https://www.whatsmydns.net/#A/claudecodeplugins.io
+# Check: https://www.whatsmydns.net/#A/stokedautomation.com
 ```
 
 ---
@@ -107,9 +107,9 @@ dig claudecodeplugins.io A +short
 ## 📚 Full Documentation
 
 For detailed guides, see:
-- **Comprehensive Checklist:** `/home/jeremy/000-projects/claude-code-plugins/DEPLOYMENT_CHECKLIST.md`
-- **Deployment Status:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/DEPLOYMENT_STATUS.md`
-- **Deployment Summary:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/DEPLOYMENT_SUMMARY.md`
+- **Comprehensive Checklist:** `~/Projects/stoked-automations/DEPLOYMENT_CHECKLIST.md`
+- **Deployment Status:** `~/Projects/stoked-automations/marketplace/DEPLOYMENT_STATUS.md`
+- **Deployment Summary:** `~/Projects/stoked-automations/marketplace/DEPLOYMENT_SUMMARY.md`
 
 ---
 

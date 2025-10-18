@@ -3,8 +3,8 @@
   "description": "Multi-agent orchestration with AI SDK v5 - handoffs, routing, and coordination for any AI provider (OpenAI, Anthropic, Google). Build sophisticated multi-agent systems with automatic handoffs, intelligent routing, and seamless coordination.",
   "version": "1.0.0",
   "author": {
-    "name": "Jeremy Longshore",
-    "url": "https://github.com/jeremylongshore"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor"
   },
   "category": "ai-ml-assistance",
   "keywords": [
@@ -26,7 +26,7 @@
     "agent-systems"
   ],
   "featured": true,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "installation": "/plugin install ai-sdk-agents@claude@claude-code-plugins-plus",
   "features": [

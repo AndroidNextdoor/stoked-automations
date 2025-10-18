@@ -284,7 +284,7 @@ MIT License - See LICENSE file for details
 
 ## Author
 
-Jeremy Longshore (jeremy@intentsolutions.io)
+Andrew Nixdorf (andrew@stokedautomation.com)
 
 ## Acknowledgments
 
@@ -295,4 +295,4 @@ Jeremy Longshore (jeremy@intentsolutions.io)
 
 ---
 
-*Part of the Claude Code Plugins ecosystem - https://claudecodeplugins.io*
+*Part of the Claude Code Plugins ecosystem - https://stokedautomations.com*

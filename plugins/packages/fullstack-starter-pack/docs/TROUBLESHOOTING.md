@@ -36,7 +36,7 @@ claude --version
 **Solution:**
 ```bash
 # Add marketplace first
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Then install pack
 /plugin install fullstack-starter-pack@claude-code-plugins-plus
@@ -315,7 +315,7 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 
 **4. Community Support:**
 - Discord: https://discord.com/invite/claude-code
-- GitHub Issues: https://github.com/jeremylongshore/claude-code-plugins/issues
+- GitHub Issues: https://github.com/AndroidNextdoor/stoked-automations/issues
 
 **5. Report Bugs:**
 ```bash

@@ -11,10 +11,10 @@
     "optimization"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/database/database-connection-pooler",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-connection-pooler",
   "license": "MIT",
   "installation": "/plugin install database-connection-pooler@claude@claude-code-plugins-plus",
   "features": [],

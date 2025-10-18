@@ -4,7 +4,7 @@ type: agent
 description: Expert in content filtering, PII detection, bias mitigation, and LLM safety
 category: ai
 version: 1.0.0
-author: Jeremy Longshore
+author: Andrew Nixdorf
 activation_triggers:
   - content filtering
   - PII detection

@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Implement batch API operations with bulk processing and job queues",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": ["batch", "bulk", "queue", "job-processing"]
 }

@@ -151,13 +151,13 @@ Special thanks to:
 ### 📚 Learn More
 
 - [Agent Skills Documentation](docs/agent-skills/)
-- [Plugin Catalog](https://claudecodeplugins.io)
+- [Plugin Catalog](https://stokedautomations.com)
 - [Getting Started Guide](docs/getting-started/)
 - [Skills Generation Audit](backups/skills-audit/skills_generation.db)
 
 ### 🔗 Resources
 
-- [Full Plugin List with Skills](https://claudecodeplugins.io/skills)
+- [Full Plugin List with Skills](https://stokedautomations.com/skills)
 - [Agent Skills Guide](docs/guides/agent-skills.md)
 - [API Reference](docs/api/)
 
@@ -259,7 +259,7 @@ This is the first plugin in our initiative to update all plugins with appropriat
 - **New This Release:** 1 (PI Pathfinder)
 - **Categories:** 14
 - **Agent Skills Plugins:** 2 (Skills Powerkit, PI Pathfinder)
-- **Contributors:** Jeremy Longshore
+- **Contributors:** Andrew Nixdorf
 
 ---
 
@@ -275,7 +275,7 @@ This release resolves a critical schema validation error that prevented ALL user
 - **Critical**: Removed invalid `enhances` field blocking marketplace installations
 - **Legal**: Added 3 legal pages using GetTerms.io (account wH2cn)
 - **CI/CD**: Fixed security scan false positives
-- **Deployment**: All changes live at https://claudecodeplugins.io/
+- **Deployment**: All changes live at https://stokedautomations.com/
 
 ---
 
@@ -375,7 +375,7 @@ All pages use GetTerms.io account `wH2cn` with embedded legal documents:
 - Build Time: 9.03s (7 pages)
 - Static Site: 100% pre-rendered
 - Deployment: GitHub Pages (automated)
-- Live URL: https://claudecodeplugins.io/
+- Live URL: https://stokedautomations.com/
 
 ---
 
@@ -392,7 +392,7 @@ All pages use GetTerms.io account `wH2cn` with embedded legal documents:
 2. **Deploy Marketplace** ✅ DEPLOYED
    - Builds Astro site (7 pages)
    - Deploys to GitHub Pages
-   - Live at claudecodeplugins.io
+   - Live at stokedautomation.com
    - Automated on marketplace/ changes
 
 **Deployment Timeline:**
@@ -422,7 +422,7 @@ All pages use GetTerms.io account `wH2cn` with embedded legal documents:
 
 **Deployment:**
 - CI/CD: 100% passing
-- Website: Live at claudecodeplugins.io
+- Website: Live at stokedautomation.com
 - Legal Pages: Accessible and mobile-responsive
 
 ---
@@ -435,10 +435,10 @@ All pages use GetTerms.io account `wH2cn` with embedded legal documents:
 
 ### 🔗 Links
 
-- **Live Site**: https://claudecodeplugins.io/
-- **Terms**: https://claudecodeplugins.io/terms
-- **Privacy**: https://claudecodeplugins.io/privacy
-- **Acceptable Use**: https://claudecodeplugins.io/acceptable-use
+- **Live Site**: https://stokedautomations.com/
+- **Terms**: https://stokedautomations.com/terms
+- **Privacy**: https://stokedautomations.com/privacy
+- **Acceptable Use**: https://stokedautomations.com/acceptable-use
 - **GitHub Issue**: User-reported installation error (Oct 16, 2025 10:16pm ET)
 
 ---
@@ -469,11 +469,11 @@ All pages use GetTerms.io account `wH2cn` with embedded legal documents:
 - ✅ Marketplace installation works for all users
 - ✅ Full legal compliance with embedded policies
 - ✅ CI/CD passing without false positives
-- ✅ 7 pages deployed to claudecodeplugins.io
+- ✅ 7 pages deployed to stokedautomation.com
 
 **Installation Now Works:**
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 ✅ Success! Marketplace added
 ```
 
@@ -635,7 +635,7 @@ This release adds a comprehensive monetization strategy with 3-tier GitHub Spons
 ### ⚙️ Deployment Configuration
 
 **GitHub Pages Setup:**
-- **Domain:** claudecodeplugins.io (already configured)
+- **Domain:** stokedautomation.com (already configured)
 - **HTTPS:** Enforced with valid SSL certificate (expires 2026-01-13)
 - **Build type:** GitHub Actions workflow
 - **Status:** Ready to deploy
@@ -1017,7 +1017,7 @@ Special recognition to:
 - **Release Audit:** [claudes-docs/SKILLS_POWERKIT_RELEASE_AUDIT.md](claudes-docs/SKILLS_POWERKIT_RELEASE_AUDIT.md)
 - **Release Report:** [claudes-docs/SKILLS_POWERKIT_RELEASE_REPORT.md](claudes-docs/SKILLS_POWERKIT_RELEASE_REPORT.md)
 - **Agent Skills Docs:** https://docs.claude.com/en/docs/claude-code/skills
-- **GitHub Release:** https://github.com/jeremylongshore/claude-code-plugins/releases/tag/v1.0.40
+- **GitHub Release:** https://github.com/AndroidNextdoor/stoked-automations/releases/tag/v1.0.40
 
 ---
 
@@ -1042,14 +1042,14 @@ This release resolves critical dependency management issues that prevented Depen
 🎉 **Special thanks to @thetonymaster (Antonio Cabrera)** for contributing the ai-commit-gen model specification fix!
 
 - GitHub: [@thetonymaster](https://github.com/thetonymaster)
-- PR: [#25](https://github.com/jeremylongshore/claude-code-plugins/pull/25)
+- PR: [#25](https://github.com/AndroidNextdoor/stoked-automations/pull/25)
 - Fix: Updated `/commit` command to use correct model identifier `claude-sonnet-4-5-20250929`
 
 ---
 
 ### 🐛 Bug Fixes
 
-- **ai-commit-gen plugin**: Fixed model specification in `/commit` command - changed from generic "sonnet" to specific `claude-sonnet-4-5-20250929` (thanks @thetonymaster!) [#25](https://github.com/jeremylongshore/claude-code-plugins/pull/25) `plugins/productivity/ai-commit-gen/commands/commit.md:4`
+- **ai-commit-gen plugin**: Fixed model specification in `/commit` command - changed from generic "sonnet" to specific `claude-sonnet-4-5-20250929` (thanks @thetonymaster!) [#25](https://github.com/AndroidNextdoor/stoked-automations/pull/25) `plugins/productivity/ai-commit-gen/commands/commit.md:4`
 
 ---
 
@@ -1069,7 +1069,7 @@ This release resolves critical dependency management issues that prevented Depen
   - `plugins/mcp/conversational-api-debugger/`
   - `plugins/mcp/design-to-code/`
   - `plugins/mcp/workflow-orchestrator/`
-- Updated Express and @types/express in ai-experiment-logger [#32](https://github.com/jeremylongshore/claude-code-plugins/pull/32)
+- Updated Express and @types/express in ai-experiment-logger [#32](https://github.com/AndroidNextdoor/stoked-automations/pull/32)
 
 **Dependency Management:**
 - Created missing `package-lock.json` files for improved dependency tracking
@@ -1091,8 +1091,8 @@ This release resolves critical dependency management issues that prevented Depen
 ### 🔗 Pull Requests
 
 **Merged:**
-- [#25](https://github.com/jeremylongshore/claude-code-plugins/pull/25) - fix(commit): update model to specific sonnet 4.5 version (@thetonymaster)
-- [#32](https://github.com/jeremylongshore/claude-code-plugins/pull/32) - chore(deps): bump express and @types/express
+- [#25](https://github.com/AndroidNextdoor/stoked-automations/pull/25) - fix(commit): update model to specific sonnet 4.5 version (@thetonymaster)
+- [#32](https://github.com/AndroidNextdoor/stoked-automations/pull/32) - chore(deps): bump express and @types/express
 
 **Closed (Deferred):**
 - 18 Dependabot PRs for major version updates - deferred for comprehensive review in future release
@@ -1105,14 +1105,14 @@ This release resolves critical dependency management issues that prevented Depen
 
 **🚀 Marketplace Reliability Hotfix**
 
-Issue [#13](https://github.com/jeremylongshore/claude-code-plugins/issues/13) showed that our CLI marketplace import failed when extra metadata lived in `.claude-plugin/marketplace.json`. This release restores a frictionless `/plugin marketplace add` experience while keeping the website’s richer data intact.
+Issue [#13](https://github.com/AndroidNextdoor/stoked-automations/issues/13) showed that our CLI marketplace import failed when extra metadata lived in `.claude-plugin/marketplace.json`. This release restores a frictionless `/plugin marketplace add` experience while keeping the website’s richer data intact.
 
 **What's New:**
 - CLI marketplace catalog is now regenerated from an extended source file, stripping unsupported keys (`featured`, `mcpTools`, `pluginCount`, `pricing`, `components`).
 - New `npm run sync-marketplace` command (backed by `scripts/sync-marketplace.cjs`) gives maintainers a one-step workflow to refresh the CLI-safe catalog.
 - CI guard runs the sync script on every PR, failing fast if someone forgets to regenerate the CLI catalog.
 
-**Migration Note:** Marketplace installs prior to 2025-10-15 still work, but run `/plugin marketplace remove claude-code-plugins` followed by `/plugin marketplace add jeremylongshore/claude-code-plugins` to pick up the new `claude-code-plugins-plus` slug and avoid conflicts with Anthropic’s catalog.
+**Migration Note:** Marketplace installs prior to 2025-10-15 still work, but run `/plugin marketplace remove claude-code-plugins` followed by `/plugin marketplace add AndroidNextdoor/stoked-automations` to pick up the new `claude-code-plugins-plus` slug and avoid conflicts with Anthropic’s catalog.
 
 ---
 
@@ -1503,7 +1503,7 @@ Browse 225 plugins • Install instantly • Contribute your own
 
 ---
 
-**Full Changelog**: [v1.0.36...v1.0.37](https://github.com/jeremylongshore/claude-code-plugins/compare/v1.0.36...v1.0.37)
+**Full Changelog**: [v1.0.36...v1.0.37](https://github.com/AndroidNextdoor/stoked-automations/compare/v1.0.36...v1.0.37)
 
 ---
 
@@ -1757,9 +1757,9 @@ This release introduces a **comprehensive learning path system** - the most sign
 
 ---
 
-**Full Changelog**: [v1.0.35...v1.0.36](https://github.com/jeremylongshore/claude-code-plugins/compare/v1.0.35...v1.0.36)
+**Full Changelog**: [v1.0.35...v1.0.36](https://github.com/AndroidNextdoor/stoked-automations/compare/v1.0.35...v1.0.36)
 
-**Download Plugin Catalog**: [plugins.json](https://github.com/jeremylongshore/claude-code-plugins/releases/download/v1.0.36/plugins.json)
+**Download Plugin Catalog**: [plugins.json](https://github.com/AndroidNextdoor/stoked-automations/releases/download/v1.0.36/plugins.json)
 
 ---
 
@@ -1948,7 +1948,7 @@ This release brings **advanced AI-powered plugins** to the marketplace, focusing
 
 ---
 
-**Full Changelog**: [v3.0.0...v3.1.0](https://github.com/jeremylongshore/claude-code-plugins/compare/v3.0.0...v3.1.0)
+**Full Changelog**: [v3.0.0...v3.1.0](https://github.com/AndroidNextdoor/stoked-automations/compare/v3.0.0...v3.1.0)
 
 ---
 
@@ -2214,7 +2214,7 @@ This massive release was made possible by systematic plugin development across a
 
 ### 🔗 Links
 
-- **GitHub Repository**: https://github.com/jeremylongshore/claude-code-plugins
+- **GitHub Repository**: https://github.com/AndroidNextdoor/stoked-automations
 - **Marketplace Website**: (Coming soon with all 220 plugins)
 - **Documentation**: See README.md and category-specific docs
 - **Report Issues**: GitHub Issues
@@ -2494,8 +2494,8 @@ All quality work (validation systems, templates, production plugin) was preserve
 
 ---
 
-**Repository**: https://github.com/jeremylongshore/claude-code-plugins
-**Installation**: `/plugin marketplace add jeremylongshore/claude-code-plugins`
+**Repository**: https://github.com/AndroidNextdoor/stoked-automations
+**Installation**: `/plugin marketplace add AndroidNextdoor/stoked-automations`
 **Flagship Plugin**: `/plugin install git-commit-smart@claude-code-plugins-plus`
 ## [1.0.38] - 2025-10-15
 

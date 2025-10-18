@@ -9,10 +9,10 @@
     "auditing"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/security/security-headers-analyzer",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/security-headers-analyzer",
   "license": "MIT",
   "installation": "/plugin install security-headers-analyzer@claude@claude-code-plugins-plus",
   "features": [],

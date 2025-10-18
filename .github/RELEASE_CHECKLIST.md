@@ -178,16 +178,16 @@ Use this checklist for all future releases of the Claude Code Plugins Marketplac
   - [Improvement 2]
 
   ##  Full Changelog
-  See the [complete changelog](https://github.com/jeremylongshore/claude-code-plugins/blob/main/CHANGELOG.md#xyz---yyyy-mm-dd) for all details.
+  See the [complete changelog](https://github.com/AndroidNextdoor/stoked-automations/blob/main/CHANGELOG.md#xyz---yyyy-mm-dd) for all details.
 
   ##  Upgrade
   \`\`\`bash
-  /plugin marketplace add jeremylongshore/claude-code-plugins
+  /plugin marketplace add AndroidNextdoor/stoked-automations
   /plugin install plugin-name@claude-code-plugins
   \`\`\`
 
   ##  Feedback
-  Let us know what you think in the [discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)!" \
+  Let us know what you think in the [discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)!" \
     --label "announcement,release"
   ```
 

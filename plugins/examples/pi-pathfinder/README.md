@@ -129,7 +129,7 @@ Done.
 
 ```bash
 # Add marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install PI Pathfinder  
 /plugin install pi-pathfinder@claude-code-plugins-plus

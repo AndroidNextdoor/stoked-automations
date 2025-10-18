@@ -845,7 +845,7 @@ Ready to build your use case? Start with:
 ## Questions?
 
 - **Email:** [email protected]
-- **GitHub Issues:** https://github.com/jeremylongshore/claude-code-plugins/issues
+- **GitHub Issues:** https://github.com/AndroidNextdoor/stoked-automations/issues
 - **Schedule a call:** [Calendly link for consulting]
 
 ---

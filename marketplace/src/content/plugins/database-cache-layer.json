@@ -9,10 +9,10 @@
     "cache"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/database/database-cache-layer",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-cache-layer",
   "license": "MIT",
   "installation": "/plugin install database-cache-layer@claude@claude-code-plugins-plus",
   "features": [],

@@ -4,7 +4,7 @@ type: agent
 description: Expert in detecting and preventing prompt injection attacks
 category: ai
 version: 1.0.0
-author: Jeremy Longshore
+author: Andrew Nixdorf
 activation_triggers:
   - prompt injection
   - jailbreak

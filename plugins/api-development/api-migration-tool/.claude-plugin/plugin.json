@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Migrate APIs between versions with backward compatibility",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": ["migration", "versioning", "api", "backward-compatibility"]
 }

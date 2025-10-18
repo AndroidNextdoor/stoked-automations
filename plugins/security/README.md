@@ -43,7 +43,7 @@ Comprehensive collection of 25 security and compliance plugins for Claude Code, 
 
 Install individual plugins:
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install vulnerability-scanner@claude-code-plugins-plus
 /plugin install secret-scanner@claude-code-plugins-plus
 ```
@@ -339,7 +339,7 @@ All plugins in this pack are licensed under MIT License. See individual plugin L
 
 ---
 
-**Author**: Jeremy Longshore
-**Repository**: https://github.com/jeremylongshore/claude-code-plugins
+**Author**: Andrew Nixdorf
+**Repository**: https://github.com/AndroidNextdoor/stoked-automations
 **Category**: Security & Compliance
 **Status**: Production Ready

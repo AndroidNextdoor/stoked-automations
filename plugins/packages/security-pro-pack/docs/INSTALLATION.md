@@ -54,7 +54,7 @@ The **Security Pro Pack** is a comprehensive collection of 10 security-focused p
 Option A - From GitHub Releases:
 ```bash
 # Download the latest release
-curl -L https://github.com/jeremylongshore/claude-code-plugins/releases/download/security-pro-pack-v1.0.0/security-pro-pack.zip -o security-pro-pack.zip
+curl -L https://github.com/AndroidNextdoor/stoked-automations/releases/download/security-pro-pack-v1.0.0/security-pro-pack.zip -o security-pro-pack.zip
 
 # Extract the archive
 unzip security-pro-pack.zip
@@ -128,7 +128,7 @@ claude plugin reload
 
 ```bash
 # Clone the repository
-git clone https://github.com/jeremylongshore/claude-code-plugins.git
+git clone https://github.com/AndroidNextdoor/stoked-automations.git
 
 # Navigate to Security Pro Pack
 cd claude-code-plugins/products/security-pro-pack
@@ -322,7 +322,7 @@ sha256sum security-pro-pack.zip
 claude plugin info security-pro-pack
 
 # Check for latest version
-curl -s https://api.github.com/repos/jeremylongshore/claude-code-plugins/releases/latest | grep tag_name
+curl -s https://api.github.com/repos/AndroidNextdoor/stoked-automations/releases/latest | grep tag_name
 ```
 
 ### Update Process
@@ -383,7 +383,7 @@ After successful installation:
 ## Support & Help
 
 **Installation Issues:**
-- GitHub Issues: https://github.com/jeremylongshore/claude-code-plugins/issues
+- GitHub Issues: https://github.com/AndroidNextdoor/stoked-automations/issues
 - Email Support: [email protected]
 
 **Documentation:**

@@ -376,7 +376,7 @@ This plugin is part of the Claude Code Plugins marketplace.
 
 ### Report Issues
 
-https://github.com/jeremylongshore/claude-code-plugins/issues
+https://github.com/AndroidNextdoor/stoked-automations/issues
 
 ### Suggest Features
 

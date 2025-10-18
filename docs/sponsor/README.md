@@ -73,13 +73,13 @@
 - ✅ **Team training** (2-hour workshop per quarter)
 
 #### Brand Benefits
-- ✅ **Logo on claudecodeplugins.io homepage**
+- ✅ **Logo on stokedautomation.com homepage**
 - ✅ **Company spotlight in newsletter** (8,000+ readers)
 - ✅ **Custom case study** featuring your use cases
 
 **Value:** Replace $10k+/month in development time with automated workflows
 
-<a href="mailto:jeremy@intentsolutions.io?subject=Enterprise%20Sponsorship%20Inquiry" target="_blank">
+<a href="mailto:andrew@stokedautomation.com?subject=Enterprise%20Sponsorship%20Inquiry" target="_blank">
   <img src="https://img.shields.io/badge/Contact-Enterprise%20%24199%2Fmo-28a745?style=for-the-badge&logo=mail.ru" alt="Contact for Enterprise">
 </a>
 
@@ -171,7 +171,7 @@ A: You keep using them, but won't receive updates or new premium plugins. No fea
 A: Yes! GitHub Sponsors provides invoices suitable for business tax deductions.
 
 **Q: Do you offer annual pricing?**
-A: Yes! Contact [jeremy@intentsolutions.io](mailto:jeremy@intentsolutions.io) for 20% discount on annual commitments.
+A: Yes! Contact [andrew@stokedautomation.com](mailto:andrew@stokedautomation.com) for 20% discount on annual commitments.
 
 **Q: How do I access premium plugins?**
 A: Pro/Enterprise sponsors get access to private `claude-code-marketplace` repository with premium plugin catalog.
@@ -190,7 +190,7 @@ A: Yes! Many sponsors expense this as "Developer Tools" or "SaaS Subscriptions".
 **Industry:** Automotive SaaS
 **Result:** Automated diagnostic service ($4.99/diagnostic)
 **Tech:** Firebase + Vertex AI Gemini + Claude Code plugins
-**Quote:** *"Claude Code plugins saved 40+ hours in development time"* - Jeremy Longshore
+**Quote:** *"Claude Code plugins saved 40+ hours in development time"* - Andrew Nixdorf
 
 ### HUSTLE - Youth Sports Analytics
 **Industry:** Sports Tech
@@ -228,17 +228,17 @@ A: Yes! Many sponsors expense this as "Developer Tools" or "SaaS Subscriptions".
 
 ## 📧 Contact
 
-**General Questions:** [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
-**Enterprise Inquiries:** [jeremy@intentsolutions.io](mailto:jeremy@intentsolutions.io)
+**General Questions:** [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
+**Enterprise Inquiries:** [andrew@stokedautomation.com](mailto:andrew@stokedautomation.com)
 **Custom Development:** [Intent Solutions](https://intentsolutions.io)
 
 ---
 
 ## 🔗 Quick Links
 
-- **Marketplace:** [claudecodeplugins.io](https://claudecodeplugins.io)
+- **Marketplace:** [stokedautomation.com](https://stokedautomations.com)
 - **GitHub Sponsors:** [Sponsor @jeremylongshore](https://github.com/sponsors/jeremylongshore)
-- **Plugin Repository:** [claude-code-plugins](https://github.com/jeremylongshore/claude-code-plugins)
+- **Plugin Repository:** [claude-code-plugins](https://github.com/AndroidNextdoor/stoked-automations)
 - **Documentation:** [Getting Started](../README.md)
 - **Discord Community:** [Join Discord](https://discord.gg/your-invite) *(Coming Soon)*
 

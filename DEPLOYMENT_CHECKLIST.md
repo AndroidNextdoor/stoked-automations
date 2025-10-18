@@ -1,8 +1,8 @@
-# Deployment Checklist for claudecodeplugins.io
+# Deployment Checklist for stokedautomation.com
 
-**Last Updated:** 2025-10-16
-**Domain:** claudecodeplugins.io
-**Repository:** jeremylongshore/claude-code-plugins
+**Last Updated:** 2025-10-17
+**Domain:** stokedautomation.com
+**Repository:** AndroidNextdoor/stoked-automations
 **Deployment Method:** GitHub Pages
 **Build System:** Astro 5 + Tailwind CSS v4
 
@@ -11,19 +11,19 @@
 ## Pre-Deployment Checks
 
 ### 1. Local Build Verification
-- [ ] Navigate to marketplace directory: `cd /home/jeremy/000-projects/claude-code-plugins/marketplace/`
+- [ ] Navigate to marketplace directory: `cd ~/Projects/stoked-automations/marketplace/`
 - [ ] Install dependencies: `npm install`
 - [ ] Run development server: `npm run dev` (verify at http://localhost:4321)
 - [ ] Build for production: `npm run build`
 - [ ] Preview production build: `npm run preview`
-- [ ] Verify CNAME file exists in dist: `cat dist/CNAME` (should show "claudecodeplugins.io")
+- [ ] Verify CNAME file exists in dist: `cat dist/CNAME` (should show "stokedautomation.com")
 - [ ] Check dist/index.html has correct metadata and title
 - [ ] Verify all assets are in `dist/_astro/` directory
 
 ### 2. Configuration Files Verification
 
 #### astro.config.mjs
-- [x] Site URL is `https://claudecodeplugins.io`
+- [x] Site URL is `https://stokedautomations.com`
 - [x] Base path is `/` (root domain)
 - [x] Output mode is `static`
 - [x] Build assets directory is `_astro`
@@ -31,7 +31,7 @@
 
 #### CNAME File
 - [x] Location: `marketplace/public/CNAME`
-- [x] Content: `claudecodeplugins.io`
+- [x] Content: `stokedautomation.com`
 - [x] No trailing newline issues
 - [x] File is copied to `dist/CNAME` during build
 
@@ -57,11 +57,11 @@
 ## GitHub Repository Setup
 
 ### 1. Enable GitHub Pages
-1. Go to: https://github.com/jeremylongshore/claude-code-plugins/settings/pages
+1. Go to: https://github.com/AndroidNextdoor/stoked-automations/settings/pages
 2. Under "Build and deployment":
    - Source: **GitHub Actions**
    - Branch: NOT used (GitHub Actions deployment)
-3. Custom domain: `claudecodeplugins.io`
+3. Custom domain: `stokedautomation.com`
 4. Enforce HTTPS: **Enabled**
 
 ### 2. Repository Settings
@@ -108,7 +108,7 @@
    ```
    Type: CNAME
    Name: www
-   Value: jeremylongshore.github.io
+   Value: AndroidNextdoor.github.io
    TTL: 3600
    ```
 
@@ -123,16 +123,16 @@
 ### DNS Verification Commands
 ```bash
 # Check A records
-dig claudecodeplugins.io A +short
+dig stokedautomation.com A +short
 
 # Check CNAME
-dig www.claudecodeplugins.io CNAME +short
+dig www.stokedautomation.com CNAME +short
 
 # Full DNS lookup
-nslookup claudecodeplugins.io
+nslookup stokedautomation.com
 
 # Check SSL certificate
-openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins.io < /dev/null
+openssl s_client -connect stokedautomation.com:443 -servername stokedautomation.com < /dev/null
 ```
 
 ---
@@ -143,7 +143,7 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
 1. Make changes in `marketplace/` directory
 2. Commit and push to main branch:
    ```bash
-   cd /home/jeremy/000-projects/claude-code-plugins
+   cd ~/Projects/stoked-automations
    git add marketplace/
    git commit -m "Update marketplace: [description]"
    git push origin main
@@ -153,11 +153,11 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
    - Upload the dist/ artifact
    - Deploy to GitHub Pages
 4. Monitor deployment:
-   - https://github.com/jeremylongshore/claude-code-plugins/actions
-5. Verify deployment at: https://claudecodeplugins.io
+   - https://github.com/AndroidNextdoor/stoked-automations/actions
+5. Verify deployment at: https://stokedautomations.com
 
 ### Manual Deployment (if needed)
-1. Navigate to: https://github.com/jeremylongshore/claude-code-plugins/actions/workflows/deploy-marketplace.yml
+1. Navigate to: https://github.com/AndroidNextdoor/stoked-automations/actions/workflows/deploy-marketplace.yml
 2. Click "Run workflow"
 3. Select branch: `main`
 4. Click "Run workflow" button
@@ -168,7 +168,7 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
 ## Post-Deployment Verification
 
 ### 1. Site Accessibility
-- [ ] Visit https://claudecodeplugins.io
+- [ ] Visit https://stokedautomations.com
 - [ ] Check HTTPS is working (green padlock in browser)
 - [ ] Verify no mixed content warnings
 - [ ] Test on multiple browsers (Chrome, Firefox, Safari, Edge)
@@ -179,7 +179,7 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
 - [ ] All plugin cards display
 - [ ] Search functionality works
 - [ ] Category filters work
-- [ ] Spotlight page loads: https://claudecodeplugins.io/spotlight
+- [ ] Spotlight page loads: https://stokedautomations.com/spotlight
 - [ ] All links work (no 404s)
 - [ ] Images load correctly
 - [ ] Favicon displays
@@ -189,7 +189,7 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
 - [ ] Meta description is present
 - [ ] Open Graph tags are correct (check with https://www.opengraph.xyz/)
 - [ ] Twitter card tags are correct
-- [ ] Canonical URL is `https://claudecodeplugins.io/`
+- [ ] Canonical URL is `https://stokedautomations.com/`
 
 ### 4. Performance
 - [ ] Run Lighthouse audit (Chrome DevTools)
@@ -208,7 +208,7 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
 ## Troubleshooting
 
 ### Build Fails in GitHub Actions
-1. Check Actions logs: https://github.com/jeremylongshore/claude-code-plugins/actions
+1. Check Actions logs: https://github.com/AndroidNextdoor/stoked-automations/actions
 2. Common issues:
    - Missing dependencies: Check `package.json` and `package-lock.json`
    - Node version mismatch: Verify Node 20 is used
@@ -223,17 +223,17 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
 5. Wait 5-10 minutes for CDN cache to clear
 
 ### Custom Domain Not Working
-1. Verify DNS records with `dig claudecodeplugins.io`
+1. Verify DNS records with `dig stokedautomation.com`
 2. Check CNAME file exists in `marketplace/public/CNAME`
 3. Verify CNAME file is in `dist/CNAME` after build
 4. Re-save custom domain in GitHub Pages settings
 5. Wait 24-48 hours for DNS propagation
-6. Check for DNS configuration errors: https://www.whatsmydns.net/#A/claudecodeplugins.io
+6. Check for DNS configuration errors: https://www.whatsmydns.net/#A/stokedautomation.com
 
 ### HTTPS Not Working
 1. Ensure "Enforce HTTPS" is enabled in GitHub Pages settings
 2. Wait 10-15 minutes for certificate provisioning
-3. Check certificate status: `openssl s_client -connect claudecodeplugins.io:443`
+3. Check certificate status: `openssl s_client -connect stokedautomation.com:443`
 4. Clear browser cache
 5. Try incognito/private browsing mode
 
@@ -250,7 +250,7 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
 ### If Deployment Fails or Site is Broken
 1. **Quick Fix:** Revert to previous commit
    ```bash
-   cd /home/jeremy/000-projects/claude-code-plugins
+   cd ~/Projects/stoked-automations
    git log marketplace/ --oneline -10  # Find last working commit
    git revert <commit-hash>
    git push origin main
@@ -298,8 +298,8 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
 ## Contact & Support
 
 ### Repository
-- **GitHub Repo:** https://github.com/jeremylongshore/claude-code-plugins
-- **Issues:** https://github.com/jeremylongshore/claude-code-plugins/issues
+- **GitHub Repo:** https://github.com/AndroidNextdoor/stoked-automations
+- **Issues:** https://github.com/AndroidNextdoor/stoked-automations/issues
 
 ### Documentation
 - **Astro Docs:** https://docs.astro.build
@@ -307,9 +307,9 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
 - **Tailwind CSS Docs:** https://tailwindcss.com/docs
 
 ### Deployment URLs
-- **Production:** https://claudecodeplugins.io
-- **GitHub Actions:** https://github.com/jeremylongshore/claude-code-plugins/actions
-- **GitHub Pages Settings:** https://github.com/jeremylongshore/claude-code-plugins/settings/pages
+- **Production:** https://stokedautomations.com
+- **GitHub Actions:** https://github.com/AndroidNextdoor/stoked-automations/actions
+- **GitHub Pages Settings:** https://github.com/AndroidNextdoor/stoked-automations/settings/pages
 
 ---
 
@@ -332,10 +332,10 @@ openssl s_client -connect claudecodeplugins.io:443 -servername claudecodeplugins
 ### 📝 Next Steps
 1. Enable GitHub Pages in repository settings (source: GitHub Actions)
 2. Configure DNS records at domain registrar
-3. Add custom domain `claudecodeplugins.io` in GitHub Pages settings
+3. Add custom domain `stokedautomation.com` in GitHub Pages settings
 4. Push changes to trigger deployment
 5. Wait for DNS propagation (24-48 hours)
-6. Verify site is live at https://claudecodeplugins.io
+6. Verify site is live at https://stokedautomations.com
 
 ---
 

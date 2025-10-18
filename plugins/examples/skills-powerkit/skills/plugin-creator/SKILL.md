@@ -94,7 +94,7 @@ When activated, I will:
     "name": "Author Name",
     "email": "[email protected]"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": ["keyword1", "keyword2"]
 }

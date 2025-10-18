@@ -289,7 +289,7 @@ Auto-activate based on context:
 
 ```bash
 # Add marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install all testing plugins
 /plugin install unit-test-generator@claude-code-plugins-plus

@@ -340,7 +340,7 @@ Location: `/home/jeremy/projects/claude-code-plugins/plugins/examples/`
 Users can add this marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 Then install any plugin:
@@ -395,8 +395,8 @@ See CONTRIBUTING.md for guidelines on submitting new plugins.
 
 ---
 
-**Repository:** https://github.com/jeremylongshore/claude-code-plugins
-**Author:** Jeremy Longshore
+**Repository:** https://github.com/AndroidNextdoor/stoked-automations
+**Author:** Andrew Nixdorf
 **Email:** [email protected]
 **Status:** Active Development
 **Version:** 1.1.0

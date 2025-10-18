@@ -1,4 +1,4 @@
-# Deployment Status - claudecodeplugins.io
+# Deployment Status - stokedautomation.com
 
 **Generated:** 2025-10-16
 **Status:** ✅ Ready for Deployment
@@ -8,11 +8,11 @@
 ## Configuration Summary
 
 ### Astro Configuration
-**File:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/astro.config.mjs`
+**File:** `~/Projects/stoked-automations/marketplace/astro.config.mjs`
 
 ```javascript
 {
-  site: 'https://claudecodeplugins.io',
+  site: 'https://stokedautomations.com',
   base: '/',
   output: 'static',
   compressHTML: true
@@ -24,16 +24,16 @@
 ---
 
 ### CNAME File
-**File:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/public/CNAME`
+**File:** `~/Projects/stoked-automations/marketplace/public/CNAME`
 
-**Content:** `claudecodeplugins.io`
+**Content:** `stokedautomation.com`
 
 ✅ **Status:** Present and correct (copied to dist/ during build)
 
 ---
 
 ### GitHub Actions Workflow
-**File:** `/home/jeremy/000-projects/claude-code-plugins/.github/workflows/deploy-marketplace.yml`
+**File:** `~/Projects/stoked-automations/.github/workflows/deploy-marketplace.yml`
 
 **Trigger Conditions:**
 - Push to main branch (paths: `marketplace/**`)
@@ -56,7 +56,7 @@
 ---
 
 ### Build Output
-**Directory:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/dist/`
+**Directory:** `~/Projects/stoked-automations/marketplace/dist/`
 
 **Contents:**
 - `index.html` - Main homepage
@@ -80,11 +80,11 @@
 ## Required Actions for Deployment
 
 ### 1. GitHub Repository Settings
-**URL:** https://github.com/jeremylongshore/claude-code-plugins/settings/pages
+**URL:** https://github.com/AndroidNextdoor/stoked-automations/settings/pages
 
 **Required Configuration:**
 - [ ] Source: **GitHub Actions** (not Deploy from a branch)
-- [ ] Custom domain: `claudecodeplugins.io`
+- [ ] Custom domain: `stokedautomation.com`
 - [ ] Enforce HTTPS: ✅ Enabled
 
 ### 2. DNS Configuration
@@ -105,21 +105,21 @@ Type: CNAME, Name: www, Value: jeremylongshore.github.io
 
 **Verification:**
 ```bash
-dig claudecodeplugins.io A +short
+dig stokedautomation.com A +short
 # Should return the 4 GitHub Pages IP addresses above
 ```
 
 ### 3. Trigger Deployment
 **Option A - Automatic (Recommended):**
 ```bash
-cd /home/jeremy/000-projects/claude-code-plugins
+cd ~/Projects/stoked-automations
 git add .github/workflows/deploy-marketplace.yml
 git commit -m "fix: update GitHub Actions workflow to use npm instead of pnpm"
 git push origin main
 ```
 
 **Option B - Manual:**
-1. Go to: https://github.com/jeremylongshore/claude-code-plugins/actions/workflows/deploy-marketplace.yml
+1. Go to: https://github.com/AndroidNextdoor/stoked-automations/actions/workflows/deploy-marketplace.yml
 2. Click "Run workflow"
 3. Select branch: main
 4. Click "Run workflow"
@@ -131,10 +131,10 @@ git push origin main
 After deployment completes:
 
 ### Immediate Checks (within 5 minutes)
-- [ ] Visit https://claudecodeplugins.io
+- [ ] Visit https://stokedautomations.com
 - [ ] Verify HTTPS works (green padlock)
 - [ ] Check homepage loads correctly
-- [ ] Test spotlight page: https://claudecodeplugins.io/spotlight
+- [ ] Test spotlight page: https://stokedautomations.com/spotlight
 - [ ] Verify plugin count shows "227 plugins"
 
 ### Content Checks
@@ -153,7 +153,7 @@ After deployment completes:
 ### SEO Checks
 - [ ] Page title: "Claude Code Plugins Marketplace - 227 Plugins"
 - [ ] Meta description present
-- [ ] Open Graph tags: https://www.opengraph.xyz/?url=https://claudecodeplugins.io
+- [ ] Open Graph tags: https://www.opengraph.xyz/?url=https://stokedautomations.com
 - [ ] Favicon displays
 
 ---
@@ -178,7 +178,7 @@ After deployment completes:
 ### Build Fails
 ```bash
 # Test locally first
-cd /home/jeremy/000-projects/claude-code-plugins/marketplace
+cd ~/Projects/stoked-automations/marketplace
 npm run build
 
 # Check build output
@@ -188,18 +188,18 @@ cat dist/CNAME
 
 ### Site Not Updating
 1. Clear browser cache: Ctrl+Shift+R (Windows/Linux) or Cmd+Shift+R (Mac)
-2. Check GitHub Actions: https://github.com/jeremylongshore/claude-code-plugins/actions
+2. Check GitHub Actions: https://github.com/AndroidNextdoor/stoked-automations/actions
 3. Wait 5-10 minutes for CDN cache to clear
 
 ### Custom Domain Issues
 ```bash
 # Check DNS propagation
-dig claudecodeplugins.io A +short
+dig stokedautomation.com A +short
 
-# Check worldwide DNS: https://www.whatsmydns.net/#A/claudecodeplugins.io
+# Check worldwide DNS: https://www.whatsmydns.net/#A/stokedautomation.com
 
 # Verify CNAME in dist
-cat /home/jeremy/000-projects/claude-code-plugins/marketplace/dist/CNAME
+cat ~/Projects/stoked-automations/marketplace/dist/CNAME
 ```
 
 ---
@@ -229,11 +229,11 @@ cat /home/jeremy/000-projects/claude-code-plugins/marketplace/dist/CNAME
 ## Next Steps
 
 1. **Review the comprehensive checklist:**
-   - See `/home/jeremy/000-projects/claude-code-plugins/DEPLOYMENT_CHECKLIST.md`
+   - See `~/Projects/stoked-automations/DEPLOYMENT_CHECKLIST.md`
 
 2. **Update GitHub Actions workflow:**
    ```bash
-   cd /home/jeremy/000-projects/claude-code-plugins
+   cd ~/Projects/stoked-automations
    git add .github/workflows/deploy-marketplace.yml
    git commit -m "fix: update GitHub Actions workflow to use npm instead of pnpm"
    git push origin main
@@ -242,7 +242,7 @@ cat /home/jeremy/000-projects/claude-code-plugins/marketplace/dist/CNAME
 3. **Enable GitHub Pages:**
    - Visit repository settings
    - Configure GitHub Pages source as "GitHub Actions"
-   - Add custom domain: claudecodeplugins.io
+   - Add custom domain: stokedautomation.com
 
 4. **Configure DNS:**
    - Add A records at your domain registrar

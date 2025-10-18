@@ -93,7 +93,7 @@ my-plugin/
 
 ```bash
 # Clone this repository
-git clone https://github.com/jeremylongshore/claude-code-plugins.git
+git clone https://github.com/AndroidNextdoor/stoked-automations.git
 cd claude-code-plugins/templates/minimal-plugin
 
 # Copy to your workspace
@@ -557,7 +557,7 @@ You've successfully:
 - Browse [crypto plugins](../../../plugins/crypto/) - Real-world implementations
 
 **Join the Community**:
-- 💬 [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- 💬 [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - 🗨️ [Discord](https://discord.com/invite/6PPFFzqPDZ) (#claude-code)
 - 📚 [Official Docs](https://docs.claude.com/en/docs/claude-code/plugins)
 

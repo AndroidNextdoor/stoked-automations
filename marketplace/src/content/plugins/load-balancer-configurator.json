@@ -12,10 +12,10 @@
     "devops"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/devops/load-balancer-configurator",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/load-balancer-configurator",
   "license": "MIT",
   "installation": "/plugin install load-balancer-configurator@claude@claude-code-plugins-plus",
   "features": [],

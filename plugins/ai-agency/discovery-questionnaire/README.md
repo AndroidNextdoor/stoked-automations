@@ -5,7 +5,7 @@ Generate professional discovery questionnaires for AI agency client projects.
 ## Installation
 
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install discovery-questionnaire
 ```
 
@@ -47,4 +47,4 @@ MIT
 
 ---
 
-Part of [Claude Code Plugin Hub](https://github.com/jeremylongshore/claude-code-plugins)
+Part of [Claude Code Plugin Hub](https://github.com/AndroidNextdoor/stoked-automations)

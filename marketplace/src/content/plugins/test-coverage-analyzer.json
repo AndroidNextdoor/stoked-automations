@@ -11,10 +11,10 @@
     "analysis"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/testing/test-coverage-analyzer",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-coverage-analyzer",
   "license": "MIT",
   "installation": "/plugin install test-coverage-analyzer@claude@claude-code-plugins-plus",
   "features": [],

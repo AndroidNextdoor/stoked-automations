@@ -125,7 +125,7 @@ Calculate and present compelling ROI for automation projects.
 
 ### 1. Add the Marketplace
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 ### 2. Install Plugins
@@ -309,9 +309,9 @@ With these plugins:
 - [Make.com Community](https://community.make.com)
 
 ### Support
-- [Plugin Documentation](https://github.com/jeremylongshore/claude-code-plugins)
-- [Report Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
-- [Request Features](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- [Plugin Documentation](https://github.com/AndroidNextdoor/stoked-automations)
+- [Report Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
+- [Request Features](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 
 ##  Business Impact
 
@@ -351,7 +351,7 @@ MIT License - Use freely in your agency
 
 ```bash
 # Add marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install the essentials
 /plugin install n8n-workflow-designer@claude-code-plugins-plus
@@ -366,6 +366,6 @@ MIT License - Use freely in your agency
 
 ---
 
-**Part of [Claude Code Plugin Hub](https://github.com/jeremylongshore/claude-code-plugins)**
+**Part of [Claude Code Plugin Hub](https://github.com/AndroidNextdoor/stoked-automations)**
 
 *Transform your AI agency with professional tools that help you deliver faster, win more clients, and scale your business.*

@@ -717,7 +717,7 @@ Error: Permission denied: /tmp/security-scan-12345
 ### Support Channels
 
 - **Email:** [email protected]
-- **GitHub Issues:** https://github.com/jeremylongshore/claude-code-plugins/issues
+- **GitHub Issues:** https://github.com/AndroidNextdoor/stoked-automations/issues
 - **Discord:** https://discord.gg/claude-code-plugins
 - **Documentation:** https://docs.claude-code-plugins.com
 

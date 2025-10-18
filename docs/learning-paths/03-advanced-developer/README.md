@@ -762,7 +762,7 @@ You've mastered:
 - [Claude Code MCP Guide](https://docs.claude.com/en/docs/claude-code/mcp)
 
 **Join Community**:
-- 💬 [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- 💬 [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - 🗨️ [Discord](https://discord.com/invite/6PPFFzqPDZ)
 - 📚 [MCP Community](https://github.com/modelcontextprotocol)
 

@@ -16,10 +16,10 @@
     "risk-metrics"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": true,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/crypto/crypto-portfolio-tracker",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/crypto-portfolio-tracker",
   "license": "MIT",
   "installation": "/plugin install crypto-portfolio-tracker@claude@claude-code-plugins-plus",
   "features": [

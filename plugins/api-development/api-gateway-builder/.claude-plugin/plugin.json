@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Build API gateway with routing, authentication, and rate limiting",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": ["api-gateway", "routing", "proxy", "microservices"]
 }

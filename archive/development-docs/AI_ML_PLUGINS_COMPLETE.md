@@ -196,7 +196,7 @@ Created **25 comprehensive AI/ML data science plugins** covering the complete ma
 Add the marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 Install individual plugins:
@@ -397,13 +397,13 @@ All plugins are licensed under MIT License.
 
 ## Support
 
-- **Repository:** https://github.com/jeremylongshore/claude-code-plugins
-- **Issues:** https://github.com/jeremylongshore/claude-code-plugins/issues
+- **Repository:** https://github.com/AndroidNextdoor/stoked-automations
+- **Issues:** https://github.com/AndroidNextdoor/stoked-automations/issues
 - **Email:** [email protected]
 
 ---
 
 **Status:**  COMPLETE - 25/25 Plugins Created
 **Date:** October 11, 2025
-**Author:** Jeremy Longshore
+**Author:** Andrew Nixdorf
 **Category:** AI/ML Data Science

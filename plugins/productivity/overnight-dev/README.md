@@ -201,7 +201,7 @@ Before installing, you need:
 
 ```bash
 # Add the Claude Code Plugin marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install overnight-dev
 /plugin install overnight-dev@claude-code-plugins-plus
@@ -590,10 +590,10 @@ A: Write at least one test first. Hooks need something to run.
 
 ## Support
 
-- **GitHub:** [claude-code-plugins](https://github.com/jeremylongshore/claude-code-plugins)
+- **GitHub:** [claude-code-plugins](https://github.com/AndroidNextdoor/stoked-automations)
 - **Website:** [intentsolutions.io](https://intentsolutions.io)
 - **Email:** [email protected]
-- **Issues:** [Report a bug](https://github.com/jeremylongshore/claude-code-plugins/issues)
+- **Issues:** [Report a bug](https://github.com/AndroidNextdoor/stoked-automations/issues)
 
 ---
 
@@ -622,4 +622,4 @@ Strategy developed and refined through hundreds of autonomous overnight developm
 
 ---
 
-*Part of the [Claude Code Plugin Hub](https://github.com/jeremylongshore/claude-code-plugins)*
+*Part of the [Claude Code Plugin Hub](https://github.com/AndroidNextdoor/stoked-automations)*

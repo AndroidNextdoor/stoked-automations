@@ -1,14 +1,14 @@
 {
   "name": "claude-code-plugins-plus",
   "owner": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]",
-    "url": "https://github.com/jeremylongshore"
+    "url": "https://github.com/AndroidNextdoor"
   },
   "metadata": {
     "description": "A comprehensive marketplace and educational hub for Claude Code plugins",
     "version": "1.1.0",
-    "homepage": "https://github.com/jeremylongshore/claude-code-plugins",
+    "homepage": "https://github.com/AndroidNextdoor/stoked-automations",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -33,7 +33,7 @@
         "name": "Claude Code Plugins",
         "email": "[email protected]"
       },
-      "repository": "https://github.com/jeremylongshore/claude-code-plugins"
+      "repository": "https://github.com/AndroidNextdoor/stoked-automations"
     },
     {
       "name": "pi-pathfinder",
@@ -54,10 +54,10 @@
         "no-thinking-required"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
-      "repository": "https://github.com/jeremylongshore/claude-code-plugins"
+      "repository": "https://github.com/AndroidNextdoor/stoked-automations"
     },
     {
       "name": "web-to-github-issue",
@@ -79,7 +79,7 @@
         "name": "Claude Code Plugins Team",
         "email": "[email protected]"
       },
-      "repository": "https://github.com/jeremylongshore/claude-code-plugins"
+      "repository": "https://github.com/AndroidNextdoor/stoked-automations"
     },
     {
       "name": "sugar",
@@ -120,7 +120,7 @@
         "productivity"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -147,10 +147,10 @@
         "incident-response"
       ],
       "author": {
-        "name": "Jeremy Longshore",
-        "email": "jeremy@intentsolutions.io"
+        "name": "Andrew Nixdorf",
+        "email": "andrew@stokedautomation.com"
       },
-      "repository": "https://github.com/jeremylongshore/claude-code-plugins"
+      "repository": "https://github.com/AndroidNextdoor/stoked-automations"
     },
     {
       "name": "devops-automation-pack",
@@ -170,7 +170,7 @@
         "package"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -190,7 +190,7 @@
         "analytics"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -211,7 +211,7 @@
         "http"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -231,7 +231,7 @@
         "documentation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -252,7 +252,7 @@
         "component-generation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -272,7 +272,7 @@
         "parallel-execution"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -288,7 +288,7 @@
         "beginner"
       ],
       "author": {
-        "name": "Jeremy Longshore"
+        "name": "Andrew Nixdorf"
       }
     },
     {
@@ -331,7 +331,7 @@
       ],
       "author": {
         "name": "Claude Code Plugin Hub",
-        "url": "https://github.com/jeremylongshore/claude-code-plugins"
+        "url": "https://github.com/AndroidNextdoor/stoked-automations"
       }
     },
     {
@@ -466,7 +466,7 @@
         "package"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -488,7 +488,7 @@
         "package"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -511,7 +511,7 @@
         "package"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -821,7 +821,7 @@
         "backend"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -840,7 +840,7 @@
         "resolvers"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -858,7 +858,7 @@
         "docs"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -875,7 +875,7 @@
         "backward-compatibility"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -892,7 +892,7 @@
         "security"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -909,7 +909,7 @@
         "redis"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -926,7 +926,7 @@
         "microservices"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -943,7 +943,7 @@
         "streaming"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -960,7 +960,7 @@
         "stub"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -977,7 +977,7 @@
         "vulnerability"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -994,7 +994,7 @@
         "ws"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1011,7 +1011,7 @@
         "api"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1028,7 +1028,7 @@
         "exceptions"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1045,7 +1045,7 @@
         "performance"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1062,7 +1062,7 @@
         "backward-compatibility"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1079,7 +1079,7 @@
         "microservices"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1096,7 +1096,7 @@
         "dashboard"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1113,7 +1113,7 @@
         "stress-testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1130,7 +1130,7 @@
         "security"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1147,7 +1147,7 @@
         "correlation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1164,7 +1164,7 @@
         "traffic-management"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1181,7 +1181,7 @@
         "codegen"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1199,7 +1199,7 @@
         "zod"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1217,7 +1217,7 @@
         "event-driven"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1234,7 +1234,7 @@
         "job-processing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1252,7 +1252,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1270,7 +1270,7 @@
         "containers"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1289,7 +1289,7 @@
         "automation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1308,7 +1308,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1327,7 +1327,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1345,7 +1345,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1363,7 +1363,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1381,7 +1381,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1400,7 +1400,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1418,7 +1418,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1437,7 +1437,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1455,7 +1455,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1474,7 +1474,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1491,7 +1491,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1508,7 +1508,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1526,7 +1526,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1544,7 +1544,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1562,7 +1562,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1580,7 +1580,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1599,7 +1599,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1618,7 +1618,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1637,7 +1637,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1656,7 +1656,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1674,7 +1674,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1692,7 +1692,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1710,7 +1710,7 @@
         "ai"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1728,7 +1728,7 @@
         "data"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1746,7 +1746,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1764,7 +1764,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1782,7 +1782,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1800,7 +1800,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1818,7 +1818,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1836,7 +1836,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1854,7 +1854,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1872,7 +1872,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1890,7 +1890,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1908,7 +1908,7 @@
         "nlp"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1926,7 +1926,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1944,7 +1944,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1962,7 +1962,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1980,7 +1980,7 @@
         "analytics"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1998,7 +1998,7 @@
         "mlops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2016,7 +2016,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2034,7 +2034,7 @@
         "mlops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2052,7 +2052,7 @@
         "mlops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2070,7 +2070,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2088,7 +2088,7 @@
         "deep-learning"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2106,7 +2106,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2124,7 +2124,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2142,7 +2142,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2160,7 +2160,7 @@
         "profit"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2179,7 +2179,7 @@
         "contracts"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2200,7 +2200,7 @@
         "defi"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2221,7 +2221,7 @@
         "trading"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2239,7 +2239,7 @@
         "media"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2259,7 +2259,7 @@
         "defi"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2277,7 +2277,7 @@
         "crypto"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2296,7 +2296,7 @@
         "capital gains"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2316,7 +2316,7 @@
         "crypto"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2335,7 +2335,7 @@
         "routing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2356,7 +2356,7 @@
         "simulation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2375,7 +2375,7 @@
         "l2"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2394,7 +2394,7 @@
         "apy"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2414,7 +2414,7 @@
         "trading"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2434,7 +2434,7 @@
         "forex"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2453,7 +2453,7 @@
         "crypto"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2474,7 +2474,7 @@
         "arbitrage"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2493,7 +2493,7 @@
         "crypto"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2511,7 +2511,7 @@
         "blockchain"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2530,7 +2530,7 @@
         "smart money"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2549,7 +2549,7 @@
         "rewards"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2570,7 +2570,7 @@
         "new-tokens"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2589,7 +2589,7 @@
         "risk"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2608,7 +2608,7 @@
         "crypto"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2626,7 +2626,7 @@
         "transactions"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2644,7 +2644,7 @@
         "testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2660,7 +2660,7 @@
         "validation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2676,7 +2676,7 @@
         "archival"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2692,7 +2692,7 @@
         "audit"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2710,7 +2710,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2726,7 +2726,7 @@
         "cache"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2744,7 +2744,7 @@
         "optimization"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2760,7 +2760,7 @@
         "deadlock"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2776,7 +2776,7 @@
         "diff"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2792,7 +2792,7 @@
         "documentation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2808,7 +2808,7 @@
         "health"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2825,7 +2825,7 @@
         "performance"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2843,7 +2843,7 @@
         "backend"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2859,7 +2859,7 @@
         "partition"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2875,7 +2875,7 @@
         "recovery"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2893,7 +2893,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2911,7 +2911,7 @@
         "normalization"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2927,7 +2927,7 @@
         "security"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2943,7 +2943,7 @@
         "sharding"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2959,7 +2959,7 @@
         "transaction"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2975,7 +2975,7 @@
         "data"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2993,7 +2993,7 @@
         "backend"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3011,7 +3011,7 @@
         "database"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3029,7 +3029,7 @@
         "query"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3045,7 +3045,7 @@
         "procedure"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3062,7 +3062,7 @@
         "observability"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3080,7 +3080,7 @@
         "datadog"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3097,7 +3097,7 @@
         "optimization"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3114,7 +3114,7 @@
         "profiling"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3131,7 +3131,7 @@
         "redis"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3148,7 +3148,7 @@
         "infrastructure"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3165,7 +3165,7 @@
         "optimization"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3183,7 +3183,7 @@
         "sql"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3200,7 +3200,7 @@
         "opentelemetry"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3217,7 +3217,7 @@
         "sre"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3234,7 +3234,7 @@
         "observability"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3251,7 +3251,7 @@
         "k6"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3268,7 +3268,7 @@
         "debugging"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3285,7 +3285,7 @@
         "performance"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3302,7 +3302,7 @@
         "monitoring"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3319,7 +3319,7 @@
         "api"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3336,7 +3336,7 @@
         "testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3353,7 +3353,7 @@
         "advisor"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3370,7 +3370,7 @@
         "testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3387,7 +3387,7 @@
         "user-experience"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3404,7 +3404,7 @@
         "metrics"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3421,7 +3421,7 @@
         "monitoring"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3439,7 +3439,7 @@
         "reliability"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3456,7 +3456,7 @@
         "testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3473,7 +3473,7 @@
         "optimization"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3489,7 +3489,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3505,7 +3505,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3521,7 +3521,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3537,7 +3537,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3553,7 +3553,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3569,7 +3569,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3588,7 +3588,7 @@
         "vulnerabilities"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3604,7 +3604,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3620,7 +3620,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3636,7 +3636,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3652,7 +3652,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3668,7 +3668,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3684,7 +3684,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3702,7 +3702,7 @@
         "exploitation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3720,7 +3720,7 @@
         "passwords"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3736,7 +3736,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3752,7 +3752,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3768,7 +3768,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3784,7 +3784,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3800,7 +3800,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3816,7 +3816,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3832,7 +3832,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3848,7 +3848,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3866,7 +3866,7 @@
         "sast"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3882,7 +3882,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3901,7 +3901,7 @@
         "endpoints"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3920,7 +3920,7 @@
         "browser-testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3938,7 +3938,7 @@
         "api-testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3956,7 +3956,7 @@
         "pitest"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3974,7 +3974,7 @@
         "stress-testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3992,7 +3992,7 @@
         "quality-assurance"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4010,7 +4010,7 @@
         "penetration-testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4028,7 +4028,7 @@
         "analysis"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4046,7 +4046,7 @@
         "factory"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4066,7 +4066,7 @@
         "junit"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4097,7 +4097,7 @@
         "premium"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4123,7 +4123,7 @@
         "coordination"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4143,7 +4143,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4168,7 +4168,7 @@
         "packing-list"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4196,7 +4196,7 @@
         "ai-finance"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     }

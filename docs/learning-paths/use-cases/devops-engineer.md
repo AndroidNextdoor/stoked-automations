@@ -412,7 +412,7 @@ terraform apply
 - [Advanced Developer](../03-advanced-developer/): Build custom tools
 
 **Join Community**:
-- 💬 [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- 💬 [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - 🗨️ [Discord - #devops](https://discord.com/invite/6PPFFzqPDZ)
 
 **Official Resources**:

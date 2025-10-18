@@ -124,7 +124,7 @@ marketplace/src/pages/
 
 ### 1. Sponsor Page Implementation
 
-**File to Create:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/src/pages/sponsor.astro`
+**File to Create:** `~/Projects/stoked-automations/marketplace/src/pages/sponsor.astro`
 
 ```astro
 ---
@@ -133,12 +133,12 @@ import Layout from '../layouts/Layout.astro';
 const seo = {
   title: "Sponsor Claude Code Plugins - Support Open Source AI Tools",
   description: "Support 228+ free Claude Code plugins with GitHub Sponsors. Get early access, premium plugins, and priority support. From $5/mo. 100% open source marketplace.",
-  canonical: "https://claudecodeplugins.io/sponsor",
+  canonical: "https://stokedautomations.com/sponsor",
   keywords: "Claude Code plugins sponsor, GitHub Sponsors, AI developer tools, open source sponsorship, Claude AI plugins, premium plugins, developer automation, AI tools marketplace",
-  ogImage: "https://claudecodeplugins.io/images/sponsor-og-image.png",
-  twitterImage: "https://claudecodeplugins.io/images/sponsor-twitter-card.png",
+  ogImage: "https://stokedautomations.com/images/sponsor-og-image.png",
+  twitterImage: "https://stokedautomations.com/images/sponsor-twitter-card.png",
   twitterCard: "summary_large_image",
-  author: "Jeremy Longshore",
+  author: "Andrew Nixdorf",
   type: "website"
 };
 ---
@@ -174,7 +174,7 @@ const seo = {
 
 ### 2. Skill Enhancers Category Page
 
-**File to Create:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/src/pages/categories/skill-enhancers.astro`
+**File to Create:** `~/Projects/stoked-automations/marketplace/src/pages/categories/skill-enhancers.astro`
 
 ```astro
 ---
@@ -185,12 +185,12 @@ import { getCollection } from 'astro:content';
 const seo = {
   title: "Skill Enhancers - AI Automation Plugins for Claude Code Tools",
   description: "Discover Skill Enhancer plugins that extend Claude's AI capabilities with automation. Convert research to GitHub issues, Slack digests, and production code.",
-  canonical: "https://claudecodeplugins.io/categories/skill-enhancers",
+  canonical: "https://stokedautomations.com/categories/skill-enhancers",
   keywords: "Claude Skill Enhancers, AI automation plugins, Claude Code extensions, web search to GitHub, research automation, AI developer tools, Claude AI plugins, workflow automation",
-  ogImage: "https://claudecodeplugins.io/images/skill-enhancers-og-image.png",
-  twitterImage: "https://claudecodeplugins.io/images/skill-enhancers-twitter-card.png",
+  ogImage: "https://stokedautomations.com/images/skill-enhancers-og-image.png",
+  twitterImage: "https://stokedautomations.com/images/skill-enhancers-twitter-card.png",
   twitterCard: "summary_large_image",
-  author: "Jeremy Longshore",
+  author: "Andrew Nixdorf",
   type: "website",
   category: "skill-enhancers"
 };
@@ -260,7 +260,7 @@ const skillEnhancers = allPlugins.filter(p => p.data.category === 'skill-enhance
 
 ### 3. Web to GitHub Issue Plugin Page
 
-**File to Create:** `/home/jeremy/000-projects/claude-code-plugins/marketplace/src/pages/plugins/web-to-github-issue.astro`
+**File to Create:** `~/Projects/stoked-automations/marketplace/src/pages/plugins/web-to-github-issue.astro`
 
 ```astro
 ---
@@ -270,12 +270,12 @@ import PluginLayout from '../../layouts/PluginLayout.astro';
 const seo = {
   title: "Web to GitHub Issue - Claude AI Research Automation Plugin",
   description: "Free Claude Code plugin that converts AI research into formatted GitHub issues automatically. Save 95% time creating tickets with sources and action items.",
-  canonical: "https://claudecodeplugins.io/plugins/web-to-github-issue",
+  canonical: "https://stokedautomations.com/plugins/web-to-github-issue",
   keywords: "Claude GitHub automation, AI research to GitHub, automated GitHub issues, Claude Code plugin, web search to ticket, research automation, developer productivity, GitHub issue creator",
-  ogImage: "https://claudecodeplugins.io/images/plugins/web-to-github-issue-og.png",
-  twitterImage: "https://claudecodeplugins.io/images/plugins/web-to-github-issue-twitter.png",
+  ogImage: "https://stokedautomations.com/images/plugins/web-to-github-issue-og.png",
+  twitterImage: "https://stokedautomations.com/images/plugins/web-to-github-issue-twitter.png",
   twitterCard: "summary_large_image",
-  author: "Jeremy Longshore",
+  author: "Andrew Nixdorf",
   type: "article",
   category: "skill-enhancers",
   publishedTime: "2025-10-16T00:00:00Z",
@@ -399,7 +399,7 @@ Design Spec:
   * GitHub Sponsors logo
   * Three tier badges (Supporter, Pro, Enterprise)
 - CTA: "Become a Sponsor Today"
-- Logo: claudecodeplugins.io wordmark
+- Logo: stokedautomation.com wordmark
 - Colors: Green (#10b981) accents on dark
 ```
 
@@ -1003,7 +1003,7 @@ gtag('event', 'internal_link_click', {
 ### Build and Deploy
 ```bash
 # Build marketplace site
-cd /home/jeremy/000-projects/claude-code-plugins/marketplace
+cd ~/Projects/stoked-automations/marketplace
 npm run build
 
 # Preview production build
@@ -1030,9 +1030,9 @@ npx sharp -i sponsor-og-image.png -o sponsor-og-image-{width}.webp -w 480,800,12
 npm install html-validator-cli -g
 
 # Validate pages
-html-validator --url=https://claudecodeplugins.io/sponsor
-html-validator --url=https://claudecodeplugins.io/categories/skill-enhancers
-html-validator --url=https://claudecodeplugins.io/plugins/web-to-github-issue
+html-validator --url=https://stokedautomations.com/sponsor
+html-validator --url=https://stokedautomations.com/categories/skill-enhancers
+html-validator --url=https://stokedautomations.com/plugins/web-to-github-issue
 ```
 
 ### Lighthouse CI
@@ -1041,7 +1041,7 @@ html-validator --url=https://claudecodeplugins.io/plugins/web-to-github-issue
 npm install -g @lhci/cli
 
 # Run audit
-lhci autorun --collect.url=https://claudecodeplugins.io/sponsor
+lhci autorun --collect.url=https://stokedautomations.com/sponsor
 ```
 
 ---
@@ -1088,15 +1088,15 @@ lhci autorun --collect.url=https://claudecodeplugins.io/sponsor
 ## Support and Questions
 
 **Created by:** Claude (Anthropic)
-**For:** Jeremy Longshore
+**For:** Andrew Nixdorf
 **Project:** Claude Code Plugins Marketplace
 **Date:** October 16, 2025
 
 **Documentation Files:**
-- `/home/jeremy/000-projects/claude-code-plugins/docs/sponsor/SEO_META_TAGS.md`
-- `/home/jeremy/000-projects/claude-code-plugins/plugins/skill-enhancers/SEO_META_TAGS.md`
-- `/home/jeremy/000-projects/claude-code-plugins/plugins/skill-enhancers/web-to-github-issue/SEO_META_TAGS.md`
-- `/home/jeremy/000-projects/claude-code-plugins/docs/SEO_IMPLEMENTATION_GUIDE.md` (this file)
+- `~/Projects/stoked-automations/docs/sponsor/SEO_META_TAGS.md`
+- `~/Projects/stoked-automations/plugins/skill-enhancers/SEO_META_TAGS.md`
+- `~/Projects/stoked-automations/plugins/skill-enhancers/web-to-github-issue/SEO_META_TAGS.md`
+- `~/Projects/stoked-automations/docs/SEO_IMPLEMENTATION_GUIDE.md` (this file)
 
 **Need Help?**
 - Review detailed specifications in individual SEO_META_TAGS.md files

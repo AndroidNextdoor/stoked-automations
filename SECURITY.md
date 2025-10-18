@@ -384,7 +384,7 @@ chmod +x .git/hooks/pre-commit
 - [Semantic Versioning](https://semver.org/)
 
 **Community**:
-- [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - [Discord - #claude-code](https://discord.com/invite/6PPFFzqPDZ)
 
 ---
@@ -394,8 +394,8 @@ chmod +x .git/hooks/pre-commit
 **This policy is updated regularly**. Last update: 2025-10-13
 
 Subscribe to:
-- [Security Advisories](https://github.com/jeremylongshore/claude-code-plugins/security/advisories)
-- [Release Notes](https://github.com/jeremylongshore/claude-code-plugins/releases)
+- [Security Advisories](https://github.com/AndroidNextdoor/stoked-automations/security/advisories)
+- [Release Notes](https://github.com/AndroidNextdoor/stoked-automations/releases)
 
 ---
 

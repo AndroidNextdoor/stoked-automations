@@ -10,10 +10,10 @@
     "streaming"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/api-development/grpc-service-generator",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/grpc-service-generator",
   "license": "MIT",
   "installation": "/plugin install grpc-service-generator@claude@claude-code-plugins-plus",
   "features": [],

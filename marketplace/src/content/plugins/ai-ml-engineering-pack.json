@@ -16,10 +16,10 @@
     "package"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": true,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/packages/ai-ml-engineering-pack",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/ai-ml-engineering-pack",
   "license": "MIT",
   "installation": "/plugin install ai-ml-engineering-pack@claude@claude-code-plugins-plus",
   "features": [],

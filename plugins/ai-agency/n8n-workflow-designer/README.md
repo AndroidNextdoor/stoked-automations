@@ -17,7 +17,7 @@ n8n is the most powerful open-source automation platform available:
 ## Installation
 
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install n8n-workflow-designer
 ```
 
@@ -218,7 +218,7 @@ Order Received → Inventory Check → Payment → Fulfillment → Tracking → 
 - **n8n Documentation:** [docs.n8n.io](https://docs.n8n.io)
 - **Community Forum:** [community.n8n.io](https://community.n8n.io)
 - **Discord:** Join the n8n Discord
-- **Plugin Issues:** [GitHub Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
+- **Plugin Issues:** [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
 
 ## License
 
@@ -234,6 +234,6 @@ Contributions welcome! Please submit PRs with:
 
 ---
 
-**Part of [Claude Code Plugin Hub](https://github.com/jeremylongshore/claude-code-plugins)**
+**Part of [Claude Code Plugin Hub](https://github.com/AndroidNextdoor/stoked-automations)**
 
 Built for agencies, freelancers, and businesses who need powerful automation without the enterprise price tag.

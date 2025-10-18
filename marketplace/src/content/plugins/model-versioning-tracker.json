@@ -11,10 +11,10 @@
     "mlops"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/ai-ml/model-versioning-tracker",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/model-versioning-tracker",
   "license": "MIT",
   "installation": "/plugin install model-versioning-tracker@claude@claude-code-plugins-plus",
   "features": [],

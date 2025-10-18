@@ -16,17 +16,17 @@ Support 228+ free Claude Code plugins with GitHub Sponsors. Get early access, pr
 
 ### Canonical URL
 ```html
-<link rel="canonical" href="https://claudecodeplugins.io/sponsor" />
+<link rel="canonical" href="https://stokedautomations.com/sponsor" />
 ```
 
 ### Open Graph Tags
 ```html
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://claudecodeplugins.io/sponsor" />
+<meta property="og:url" content="https://stokedautomations.com/sponsor" />
 <meta property="og:title" content="Sponsor Claude Code Plugins - Support Open Source AI Tools" />
 <meta property="og:description" content="Support 228+ free Claude Code plugins with GitHub Sponsors. Get early access, premium plugins, and priority support. From $5/mo. 100% open source marketplace." />
-<meta property="og:image" content="https://claudecodeplugins.io/images/sponsor-og-image.png" />
+<meta property="og:image" content="https://stokedautomations.com/images/sponsor-og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:site_name" content="Claude Code Plugins" />
@@ -39,10 +39,10 @@ Support 228+ free Claude Code plugins with GitHub Sponsors. Get early access, pr
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@jeremylongshore" />
 <meta name="twitter:creator" content="@jeremylongshore" />
-<meta name="twitter:url" content="https://claudecodeplugins.io/sponsor" />
+<meta name="twitter:url" content="https://stokedautomations.com/sponsor" />
 <meta name="twitter:title" content="Sponsor Claude Code Plugins - Support Open Source AI Tools" />
 <meta name="twitter:description" content="Support 228+ free Claude Code plugins with GitHub Sponsors. Get early access, premium plugins, and priority support. From $5/mo." />
-<meta name="twitter:image" content="https://claudecodeplugins.io/images/sponsor-twitter-card.png" />
+<meta name="twitter:image" content="https://stokedautomations.com/images/sponsor-twitter-card.png" />
 <meta name="twitter:image:alt" content="Claude Code Plugins Sponsorship - Support open source AI development tools" />
 ```
 
@@ -51,11 +51,11 @@ Support 228+ free Claude Code plugins with GitHub Sponsors. Get early access, pr
 <!-- Additional SEO -->
 <meta name="keywords" content="Claude Code plugins sponsor, GitHub Sponsors, AI developer tools, open source sponsorship, Claude AI plugins, premium plugins, developer automation, AI tools marketplace" />
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="author" content="Jeremy Longshore" />
+<meta name="author" content="Andrew Nixdorf" />
 <meta name="theme-color" content="#10b981" />
 
 <!-- Language -->
-<link rel="alternate" hreflang="en" href="https://claudecodeplugins.io/sponsor" />
+<link rel="alternate" hreflang="en" href="https://stokedautomations.com/sponsor" />
 
 <!-- Mobile -->
 <meta name="mobile-web-app-capable" content="yes" />
@@ -72,12 +72,12 @@ import Layout from '../../layouts/Layout.astro';
 const seo = {
   title: "Sponsor Claude Code Plugins - Support Open Source AI Tools",
   description: "Support 228+ free Claude Code plugins with GitHub Sponsors. Get early access, premium plugins, and priority support. From $5/mo. 100% open source marketplace.",
-  canonical: "https://claudecodeplugins.io/sponsor",
+  canonical: "https://stokedautomations.com/sponsor",
   keywords: "Claude Code plugins sponsor, GitHub Sponsors, AI developer tools, open source sponsorship, Claude AI plugins, premium plugins, developer automation, AI tools marketplace",
-  ogImage: "https://claudecodeplugins.io/images/sponsor-og-image.png",
-  twitterImage: "https://claudecodeplugins.io/images/sponsor-twitter-card.png",
+  ogImage: "https://stokedautomations.com/images/sponsor-og-image.png",
+  twitterImage: "https://stokedautomations.com/images/sponsor-twitter-card.png",
   twitterCard: "summary_large_image",
-  author: "Jeremy Longshore",
+  author: "Andrew Nixdorf",
   type: "website"
 };
 ---
@@ -109,8 +109,8 @@ const seo = {
       "url": "https://github.com/sponsors/jeremylongshore",
       "seller": {
         "@type": "Person",
-        "name": "Jeremy Longshore",
-        "url": "https://github.com/jeremylongshore"
+        "name": "Andrew Nixdorf",
+        "url": "https://github.com/AndroidNextdoor"
       },
       "category": "Software Support",
       "itemOffered": {
@@ -118,7 +118,7 @@ const seo = {
         "name": "Claude Code Plugins Supporter Access",
         "provider": {
           "@type": "Person",
-          "name": "Jeremy Longshore"
+          "name": "Andrew Nixdorf"
         }
       }
     },
@@ -138,8 +138,8 @@ const seo = {
       "url": "https://github.com/sponsors/jeremylongshore",
       "seller": {
         "@type": "Person",
-        "name": "Jeremy Longshore",
-        "url": "https://github.com/jeremylongshore"
+        "name": "Andrew Nixdorf",
+        "url": "https://github.com/AndroidNextdoor"
       },
       "category": "Software Support",
       "itemOffered": {
@@ -147,7 +147,7 @@ const seo = {
         "name": "Claude Code Plugins Pro Access",
         "provider": {
           "@type": "Person",
-          "name": "Jeremy Longshore"
+          "name": "Andrew Nixdorf"
         }
       }
     },
@@ -164,11 +164,11 @@ const seo = {
         "unitText": "monthly subscription"
       },
       "availability": "https://schema.org/InStock",
-      "url": "mailto:jeremy@intentsolutions.io?subject=Enterprise%20Sponsorship%20Inquiry",
+      "url": "mailto:andrew@stokedautomation.com?subject=Enterprise%20Sponsorship%20Inquiry",
       "seller": {
         "@type": "Person",
-        "name": "Jeremy Longshore",
-        "url": "https://github.com/jeremylongshore"
+        "name": "Andrew Nixdorf",
+        "url": "https://github.com/AndroidNextdoor"
       },
       "category": "Software Support",
       "itemOffered": {
@@ -176,7 +176,7 @@ const seo = {
         "name": "Claude Code Plugins Enterprise Access",
         "provider": {
           "@type": "Person",
-          "name": "Jeremy Longshore"
+          "name": "Andrew Nixdorf"
         }
       }
     }
@@ -219,7 +219,7 @@ const seo = {
       "name": "Do you offer annual pricing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! Contact jeremy@intentsolutions.io for 20% discount on annual commitments."
+        "text": "Yes! Contact andrew@stokedautomation.com for 20% discount on annual commitments."
       }
     },
     {
@@ -256,22 +256,22 @@ const seo = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Claude Code Plugins",
-  "url": "https://claudecodeplugins.io",
-  "logo": "https://claudecodeplugins.io/images/logo.png",
+  "url": "https://stokedautomations.com",
+  "logo": "https://stokedautomations.com/images/logo.png",
   "description": "The definitive marketplace for professional Claude Code plugins. 228+ open source plugins across 15 categories.",
   "founder": {
     "@type": "Person",
-    "name": "Jeremy Longshore",
-    "url": "https://github.com/jeremylongshore"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor"
   },
   "foundingDate": "2025",
   "sameAs": [
-    "https://github.com/jeremylongshore/claude-code-plugins",
+    "https://github.com/AndroidNextdoor/stoked-automations",
     "https://github.com/sponsors/jeremylongshore"
   ],
   "contactPoint": {
     "@type": "ContactPoint",
-    "email": "jeremy@intentsolutions.io",
+    "email": "andrew@stokedautomation.com",
     "contactType": "Enterprise Sales",
     "availableLanguage": "English"
   }
@@ -342,7 +342,7 @@ ecosystem while gaining early access to cutting-edge developer productivity tool
 
 **Tertiary CTA (Bottom of page):**
 ```html
-<a href="mailto:jeremy@intentsolutions.io?subject=Enterprise%20Sponsorship" class="cta-tertiary">
+<a href="mailto:andrew@stokedautomation.com?subject=Enterprise%20Sponsorship" class="cta-tertiary">
   Enterprise Inquiry - Custom Solutions Available
 </a>
 ```
@@ -380,7 +380,7 @@ ecosystem while gaining early access to cutting-edge developer productivity tool
 - Subheadline: "GitHub Sponsors from $5/mo"
 - Visual: Plugin count badge + GitHub Sponsors logo
 - CTA: "Become a Sponsor Today"
-- Brand: claudecodeplugins.io logo
+- Brand: stokedautomation.com logo
 
 ### Twitter Card Image (1200x675px)
 **File:** `/public/images/sponsor-twitter-card.png`

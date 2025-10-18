@@ -265,7 +265,7 @@ Total: 220 plugins across 14 categories
 
 ### Add Marketplace
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 ### Install Plugins
@@ -411,8 +411,8 @@ Built with Claude Code and powered by:
 
 ## Contact
 
-- **Repository:** https://github.com/jeremylongshore/claude-code-plugins
-- **Author:** Jeremy Longshore
+- **Repository:** https://github.com/AndroidNextdoor/stoked-automations
+- **Author:** Andrew Nixdorf
 - **Email:** [email protected]
 - **Status:** Active Development
 - **Version:** 1.1.0

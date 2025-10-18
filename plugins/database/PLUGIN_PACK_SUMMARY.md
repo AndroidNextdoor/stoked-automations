@@ -293,7 +293,7 @@ Users can install the entire pack or individual plugins:
 
 ```bash
 # Add marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install individual plugins
 /plugin install database-migration-manager@claude-code-plugins-plus

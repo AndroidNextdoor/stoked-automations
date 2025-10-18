@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Scan APIs for security vulnerabilities and OWASP API Top 10",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": ["security", "api", "owasp", "vulnerability"]
 }

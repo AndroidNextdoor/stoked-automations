@@ -4,10 +4,10 @@
   "description": "Monitor large crypto transactions and whale wallet movements in real-time",
   "author": {
     "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.ai",
+    "email": "jeremy@intentsolutions.io",
     "url": "https://intentsolutions.ai"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": ["whale", "alert", "monitor", "large", "transactions"]
 }

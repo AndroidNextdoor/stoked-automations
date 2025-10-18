@@ -11,10 +11,10 @@
     "reliability"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/performance/sla-sli-tracker",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/sla-sli-tracker",
   "license": "MIT",
   "installation": "/plugin install sla-sli-tracker@claude@claude-code-plugins-plus",
   "features": [],

@@ -225,7 +225,7 @@ plugins/ai-agency/
 ### Installation Commands
 ```bash
 # Add marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install all automation platforms
 /plugin install n8n-workflow-designer@claude-code-plugins-plus

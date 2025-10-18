@@ -15,7 +15,7 @@
 
 ```bash
 # Add this marketplace to Claude Code
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install the plugin
 /plugin install git-commit-smart@claude-code-plugins-plus
@@ -161,8 +161,8 @@ Contributions welcome! See [CONTRIBUTING.md](../../../CONTRIBUTING.md) for guide
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- **Issues**: [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 
 ---
 

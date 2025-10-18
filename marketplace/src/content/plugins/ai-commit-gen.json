@@ -3,8 +3,8 @@
   "description": "AI-powered commit message generator that analyzes your git diff and creates perfect conventional commit messages instantly. Never write commit messages manually again - get 3 AI-generated options in seconds.",
   "version": "1.0.0",
   "author": {
-    "name": "Jeremy Longshore",
-    "url": "https://github.com/jeremylongshore"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor"
   },
   "category": "devops",
   "keywords": [
@@ -20,7 +20,7 @@
     "conventional"
   ],
   "featured": true,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "installation": "/plugin install ai-commit-gen@claude@claude-code-plugins-plus",
   "features": [

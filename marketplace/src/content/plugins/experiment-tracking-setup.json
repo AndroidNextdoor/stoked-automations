@@ -11,10 +11,10 @@
     "mlops"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/ai-ml/experiment-tracking-setup",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/experiment-tracking-setup",
   "license": "MIT",
   "installation": "/plugin install experiment-tracking-setup@claude@claude-code-plugins-plus",
   "features": [],

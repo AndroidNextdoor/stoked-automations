@@ -24,7 +24,7 @@ Complete installation instructions for the Fullstack Starter Pack Claude Code pl
 
 ```bash
 # Add the Claude Code Plugins marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 ### Step 2: Install Pack
@@ -55,7 +55,7 @@ Ask Claude: "Help me design a React component architecture"
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/jeremylongshore/claude-code-plugins.git
+git clone https://github.com/AndroidNextdoor/stoked-automations.git
 cd claude-code-plugins/products/fullstack-starter-pack
 ```
 
@@ -73,7 +73,7 @@ For plugin development or customization:
 
 ```bash
 # Clone repository
-git clone https://github.com/jeremylongshore/claude-code-plugins.git
+git clone https://github.com/AndroidNextdoor/stoked-automations.git
 cd claude-code-plugins/products/fullstack-starter-pack
 
 # Create symbolic link

@@ -9,7 +9,7 @@ Claude Code plugins are packages that extend Claude Code functionality with cust
 ### Add This Marketplace
 
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 > Upgrading from an older install? Remove the original slug first with `/plugin marketplace remove claude-code-plugins`, then run the add command above to register the new `claude-code-plugins-plus` marketplace.

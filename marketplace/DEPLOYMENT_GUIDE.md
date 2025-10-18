@@ -51,7 +51,7 @@ The repository is already configured for GitHub Pages deployment.
 **Automatic Deployment**:
 1. Push changes to `main` branch
 2. GitHub Actions will automatically build and deploy
-3. Site will be live at: `https://claudecodeplugins.io/`
+3. Site will be live at: `https://stokedautomations.com/`
 
 **Manual Deployment**:
 ```bash
@@ -198,7 +198,7 @@ Add these DNS records with your domain provider:
 ```
 Type: CNAME
 Name: plugins
-Value: jeremylongshore.github.io
+Value: AndroidNextdoor.github.io
 ```
 
 ### 3. Update astro.config.mjs
@@ -297,7 +297,7 @@ When adding new plugins, update these files:
 
 ## Support
 
-- **GitHub Issues**: https://github.com/jeremylongshore/claude-code-plugins/issues
+- **GitHub Issues**: https://github.com/AndroidNextdoor/stoked-automations/issues
 - **Discord**: https://discord.com/invite/6PPFFzqPDZ (#claude-code channel)
 - **Documentation**: https://docs.claude.com/en/docs/claude-code/plugins
 
@@ -316,7 +316,7 @@ When adding new plugins, update these files:
 ---
 
 **Deployment Status**: READY
-**Live URL**: `https://claudecodeplugins.io/`
+**Live URL**: `https://stokedautomations.com/`
 **Last Build**: 2025-10-11
 **Build Time**: ~1.6s
 **Total Size**: 2.5MB

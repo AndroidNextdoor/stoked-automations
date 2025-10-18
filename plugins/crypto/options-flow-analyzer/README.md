@@ -356,7 +356,7 @@ MIT License - See LICENSE file
 
 ## Support
 
-- GitHub Issues: [Report bugs](https://github.com/jeremylongshore/claude-code-plugins/issues)
+- GitHub Issues: [Report bugs](https://github.com/AndroidNextdoor/stoked-automations/issues)
 - Discord: Claude Code community
 - Documentation: [API docs](https://docs.claude-code-plugins.com)
 

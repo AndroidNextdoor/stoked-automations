@@ -12,10 +12,10 @@
     "rewards"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/crypto/staking-rewards-optimizer",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/staking-rewards-optimizer",
   "license": "MIT",
   "installation": "/plugin install staking-rewards-optimizer@claude@claude-code-plugins-plus",
   "features": [],

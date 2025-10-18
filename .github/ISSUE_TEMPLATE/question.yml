@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        💡 **Tip**: For discussions, use [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions) instead.
+        💡 **Tip**: For discussions, use [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions) instead.
 
   - type: textarea
     id: question

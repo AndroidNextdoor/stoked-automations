@@ -49,9 +49,9 @@ Want this prioritized? [Sponsor the project](https://github.com/sponsors/jeremyl
 
 Watch this repo to be notified when this plugin is released:
 
-[![Watch Releases](https://img.shields.io/github/watchers/jeremylongshore/claude-code-plugins?style=social)](https://github.com/jeremylongshore/claude-code-plugins/subscription)
+[![Watch Releases](https://img.shields.io/github/watchers/AndroidNextdoor/stoked-automations?style=social)](https://github.com/AndroidNextdoor/stoked-automations/subscription)
 
 ---
 
 **Part of the [Skill Enhancers](../) collection**
-[View all available plugins →](https://claudecodeplugins.io/skill-enhancers)
+[View all available plugins →](https://stokedautomations.com/skill-enhancers)

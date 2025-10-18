@@ -178,7 +178,7 @@ ROI: Pays for itself with 1-2 videos
 
 - **Documentation**: See `/documentation` folder
 - **Examples**: See `/documentation/EXAMPLES.md`
-- **Issues**: [GitHub Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
+- **Issues**: [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
 - **Discord**: [Claude Code Community](https://discord.com/invite/6PPFFzqPDZ)
 
 ## 📄 License
@@ -187,9 +187,9 @@ MIT License - See [LICENSE](LICENSE) file
 
 ## 🙏 Credits
 
-Created by [Jeremy Longshore](https://github.com/jeremylongshore)
+Created by [Andrew Nixdorf](https://github.com/jeremylongshore)
 
-Part of the [Claude Code Plugin Marketplace](https://github.com/jeremylongshore/claude-code-plugins)
+Part of the [Claude Code Plugin Marketplace](https://github.com/AndroidNextdoor/stoked-automations)
 
 ---
 

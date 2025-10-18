@@ -16,17 +16,17 @@ Discover Skill Enhancer plugins that extend Claude's AI capabilities with automa
 
 ### Canonical URL
 ```html
-<link rel="canonical" href="https://claudecodeplugins.io/categories/skill-enhancers" />
+<link rel="canonical" href="https://stokedautomations.com/categories/skill-enhancers" />
 ```
 
 ### Open Graph Tags
 ```html
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://claudecodeplugins.io/categories/skill-enhancers" />
+<meta property="og:url" content="https://stokedautomations.com/categories/skill-enhancers" />
 <meta property="og:title" content="Skill Enhancers - AI Automation Plugins for Claude Code Tools" />
 <meta property="og:description" content="Discover Skill Enhancer plugins that extend Claude's AI capabilities with automation. Convert research to GitHub issues, Slack digests, and production code." />
-<meta property="og:image" content="https://claudecodeplugins.io/images/skill-enhancers-og-image.png" />
+<meta property="og:image" content="https://stokedautomations.com/images/skill-enhancers-og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:site_name" content="Claude Code Plugins" />
@@ -39,10 +39,10 @@ Discover Skill Enhancer plugins that extend Claude's AI capabilities with automa
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@jeremylongshore" />
 <meta name="twitter:creator" content="@jeremylongshore" />
-<meta name="twitter:url" content="https://claudecodeplugins.io/categories/skill-enhancers" />
+<meta name="twitter:url" content="https://stokedautomations.com/categories/skill-enhancers" />
 <meta name="twitter:title" content="Skill Enhancers - AI Automation Plugins for Claude Code" />
 <meta name="twitter:description" content="Extend Claude's AI capabilities with Skill Enhancer automation plugins. Research to GitHub, Slack digests, production code generation." />
-<meta name="twitter:image" content="https://claudecodeplugins.io/images/skill-enhancers-twitter-card.png" />
+<meta name="twitter:image" content="https://stokedautomations.com/images/skill-enhancers-twitter-card.png" />
 <meta name="twitter:image:alt" content="Claude Code Skill Enhancers - AI automation plugins for developer workflows" />
 ```
 
@@ -51,11 +51,11 @@ Discover Skill Enhancer plugins that extend Claude's AI capabilities with automa
 <!-- Additional SEO -->
 <meta name="keywords" content="Claude Skill Enhancers, AI automation plugins, Claude Code extensions, web search to GitHub, research automation, AI developer tools, Claude AI plugins, workflow automation" />
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="author" content="Jeremy Longshore" />
+<meta name="author" content="Andrew Nixdorf" />
 <meta name="theme-color" content="#8b5cf6" />
 
 <!-- Language -->
-<link rel="alternate" hreflang="en" href="https://claudecodeplugins.io/categories/skill-enhancers" />
+<link rel="alternate" hreflang="en" href="https://stokedautomations.com/categories/skill-enhancers" />
 
 <!-- Breadcrumb -->
 <script type="application/ld+json">
@@ -67,19 +67,19 @@ Discover Skill Enhancer plugins that extend Claude's AI capabilities with automa
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://claudecodeplugins.io"
+      "item": "https://stokedautomations.com"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Categories",
-      "item": "https://claudecodeplugins.io/categories"
+      "item": "https://stokedautomations.com/categories"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Skill Enhancers",
-      "item": "https://claudecodeplugins.io/categories/skill-enhancers"
+      "item": "https://stokedautomations.com/categories/skill-enhancers"
     }
   ]
 }
@@ -94,12 +94,12 @@ import Layout from '../../layouts/Layout.astro';
 const seo = {
   title: "Skill Enhancers - AI Automation Plugins for Claude Code Tools",
   description: "Discover Skill Enhancer plugins that extend Claude's AI capabilities with automation. Convert research to GitHub issues, Slack digests, and production code.",
-  canonical: "https://claudecodeplugins.io/categories/skill-enhancers",
+  canonical: "https://stokedautomations.com/categories/skill-enhancers",
   keywords: "Claude Skill Enhancers, AI automation plugins, Claude Code extensions, web search to GitHub, research automation, AI developer tools, Claude AI plugins, workflow automation",
-  ogImage: "https://claudecodeplugins.io/images/skill-enhancers-og-image.png",
-  twitterImage: "https://claudecodeplugins.io/images/skill-enhancers-twitter-card.png",
+  ogImage: "https://stokedautomations.com/images/skill-enhancers-og-image.png",
+  twitterImage: "https://stokedautomations.com/images/skill-enhancers-twitter-card.png",
   twitterCard: "summary_large_image",
-  author: "Jeremy Longshore",
+  author: "Andrew Nixdorf",
   type: "website",
   category: "skill-enhancers"
 };
@@ -115,7 +115,7 @@ const seo = {
   "@type": "CollectionPage",
   "name": "Skill Enhancers - Claude Code Plugins",
   "description": "AI automation plugins that extend Claude's Skills with workflow automation. Convert research to actionable outputs like GitHub issues, Slack digests, and production code.",
-  "url": "https://claudecodeplugins.io/categories/skill-enhancers",
+  "url": "https://stokedautomations.com/categories/skill-enhancers",
   "mainEntity": {
     "@type": "ItemList",
     "name": "Skill Enhancer Plugins",
@@ -132,7 +132,7 @@ const seo = {
           "price": "0",
           "priceCurrency": "USD"
         },
-        "url": "https://claudecodeplugins.io/plugins/web-to-github-issue"
+        "url": "https://stokedautomations.com/plugins/web-to-github-issue"
       },
       {
         "@type": "SoftwareApplication",
@@ -148,7 +148,7 @@ const seo = {
           "availability": "https://schema.org/InStock",
           "eligibleCustomerType": "Pro Sponsors"
         },
-        "url": "https://claudecodeplugins.io/plugins/search-to-slack"
+        "url": "https://stokedautomations.com/plugins/search-to-slack"
       },
       {
         "@type": "SoftwareApplication",
@@ -164,7 +164,7 @@ const seo = {
           "availability": "https://schema.org/InStock",
           "eligibleCustomerType": "Pro Sponsors"
         },
-        "url": "https://claudecodeplugins.io/plugins/file-to-code"
+        "url": "https://stokedautomations.com/plugins/file-to-code"
       },
       {
         "@type": "SoftwareApplication",
@@ -180,7 +180,7 @@ const seo = {
           "availability": "https://schema.org/InStock",
           "eligibleCustomerType": "Pro Sponsors"
         },
-        "url": "https://claudecodeplugins.io/plugins/calendar-to-workflow"
+        "url": "https://stokedautomations.com/plugins/calendar-to-workflow"
       },
       {
         "@type": "SoftwareApplication",
@@ -196,7 +196,7 @@ const seo = {
           "availability": "https://schema.org/InStock",
           "eligibleCustomerType": "Enterprise Sponsors"
         },
-        "url": "https://claudecodeplugins.io/plugins/research-to-deploy"
+        "url": "https://stokedautomations.com/plugins/research-to-deploy"
       }
     ]
   },
@@ -421,7 +421,7 @@ required.
 
 ### Tertiary CTA (Custom Development)
 ```html
-<a href="mailto:jeremy@intentsolutions.io?subject=Custom%20Skill%20Enhancer" class="cta-tertiary">
+<a href="mailto:andrew@stokedautomation.com?subject=Custom%20Skill%20Enhancer" class="cta-tertiary">
   Enterprise: Build Custom Skill Enhancers →
 </a>
 ```

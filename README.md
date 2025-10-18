@@ -1,16 +1,18 @@
 # Claude Code Plugins
 
 [![Version](https://img.shields.io/badge/version-1.1.0-brightgreen)](CHANGELOG.md)
-[![Plugins](https://img.shields.io/badge/plugins-236-blue)](https://github.com/jeremylongshore/claude-code-plugins)
+[![Plugins](https://img.shields.io/badge/plugins-236-blue)](https://github.com/AndroidNextdoor/stoked-automations)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-164%20plugins-orange?logo=sparkles)](CHANGELOG.md#110---2025-10-17)
-[![Skill Enhancers](https://img.shields.io/badge/NEW-Skill%20Enhancers-blueviolet?logo=sparkles)](https://github.com/jeremylongshore/claude-code-plugins/tree/main/plugins/skill-enhancers)
-[![GitHub Stars](https://img.shields.io/github/stars/jeremylongshore/claude-code-plugins?style=social)](https://github.com/jeremylongshore/claude-code-plugins)
+[![Skill Enhancers](https://img.shields.io/badge/NEW-Skill%20Enhancers-blueviolet?logo=sparkles)](https://github.com/AndroidNextdoor/stoked-automations/tree/main/plugins/skill-enhancers)
+[![GitHub Stars](https://img.shields.io/github/stars/AndroidNextdoor/stoked-automations?style=social)](https://github.com/AndroidNextdoor/stoked-automations)
 
 **236 production-ready Claude Code plugins for automation, development, and AI workflows.**
 🎉 **NEW in v1.1.0:** 164 plugins now have **Agent Skills** that activate automatically!
 
+> **Note:** This is a fork of [jeremylongshore/claude-code-plugins](https://github.com/jeremylongshore/claude-code-plugins) with modifications and additions by Andrew Nixdorf. Original work by Jeremy Longshore is licensed under MIT.
+
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install devops-automation-pack@claude-code-plugins-plus
 ```
 
@@ -46,14 +48,14 @@
 
 **Install a plugin:**
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install devops-automation-pack@claude-code-plugins-plus
 ```
 
 > Already using an older install? Run `/plugin marketplace remove claude-code-plugins` and re-add with the command above to switch to the new `claude-code-plugins-plus` slug. Existing plugins keep working either way.
 
 **Browse the catalog:**
-Visit **[Claude Code Plugins Marketplace](https://claudecodeplugins.io/)** (CLI slug `claude-code-plugins-plus`) or explore [`plugins/`](./plugins/)
+Visit **[Claude Code Plugins Marketplace](https://stokedautomations.com/)** (CLI slug `claude-code-plugins-plus`) or explore [`plugins/`](./plugins/)
 
 **Learn to build:**
 See [Learning Paths](#-learning-paths) for step-by-step guides
@@ -135,7 +137,7 @@ See [Learning Paths](#-learning-paths) for step-by-step guides
 
 ```
 1. DISCOVERY (Marketplace)
-   └─ You browse claudecodeplugins.io
+   └─ You browse stokedautomation.com
    └─ Find "ansible-playbook-creator"
    └─ Install: /plugin install ansible-playbook-creator@claude-code-plugins-plus
 
@@ -600,7 +602,7 @@ Share custom workflows across your organization:
     "claude-code-plugins": {
       "source": {
         "source": "github",
-        "repo": "jeremylongshore/claude-code-plugins"
+        "repo": "AndroidNextdoor/stoked-automations"
       }
     }
   },
@@ -707,8 +709,8 @@ All templates are in the [`templates/`](templates/) directory with complete exam
 ### Community
 
 - [Claude Developers Discord](https://discord.com/invite/6PPFFzqPDZ) - 40,000+ members
-- [Report Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
-- [Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- [Report Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
+- [Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) - Curated resources
 
 ### Other Marketplaces
@@ -771,31 +773,31 @@ MIT License - See [LICENSE](LICENSE) file for details.
 Join the conversation and connect with other plugin developers and users!
 
 ### Discussions
-- **[General Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)** - Community hub for all things plugins
-- **[Announcements](https://github.com/jeremylongshore/claude-code-plugins/discussions/categories/announcements)** - Stay updated with the latest releases
-- **[Ideas](https://github.com/jeremylongshore/claude-code-plugins/discussions/categories/ideas)** - Suggest new plugins or features
-- **[Q&A](https://github.com/jeremylongshore/claude-code-plugins/discussions/categories/q-a)** - Get help from the community
-- **[Show and Tell](https://github.com/jeremylongshore/claude-code-plugins/discussions/categories/show-and-tell)** - Share what you've built!
+- **[General Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)** - Community hub for all things plugins
+- **[Announcements](https://github.com/AndroidNextdoor/stoked-automations/discussions/categories/announcements)** - Stay updated with the latest releases
+- **[Ideas](https://github.com/AndroidNextdoor/stoked-automations/discussions/categories/ideas)** - Suggest new plugins or features
+- **[Q&A](https://github.com/AndroidNextdoor/stoked-automations/discussions/categories/q-a)** - Get help from the community
+- **[Show and Tell](https://github.com/AndroidNextdoor/stoked-automations/discussions/categories/show-and-tell)** - Share what you've built!
 
 ### Other Channels
 - **[Discord](https://discord.com/invite/6PPFFzqPDZ)** - Claude Code Community (#claude-code channel)
-- **[Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)** - Report bugs or request features
-- **[Pull Requests](https://github.com/jeremylongshore/claude-code-plugins/pulls)** - Contribute your own plugins
+- **[Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)** - Report bugs or request features
+- **[Pull Requests](https://github.com/AndroidNextdoor/stoked-automations/pulls)** - Contribute your own plugins
 
 ---
 
 ## Get Help
 
-- **Questions?** - [Open a discussion](https://github.com/jeremylongshore/claude-code-plugins/discussions/categories/q-a)
-- **Found a bug?** - [Report an issue](https://github.com/jeremylongshore/claude-code-plugins/issues)
-- **Have an idea?** - [Share in Ideas](https://github.com/jeremylongshore/claude-code-plugins/discussions/categories/ideas)
+- **Questions?** - [Open a discussion](https://github.com/AndroidNextdoor/stoked-automations/discussions/categories/q-a)
+- **Found a bug?** - [Report an issue](https://github.com/AndroidNextdoor/stoked-automations/issues)
+- **Have an idea?** - [Share in Ideas](https://github.com/AndroidNextdoor/stoked-automations/discussions/categories/ideas)
 - **Want to chat?** - [Join our Discord](https://discord.com/invite/6PPFFzqPDZ)
 
 ---
 
 <div align="center">
 
-**[Star this repo](https://github.com/jeremylongshore/claude-code-plugins)** if you find it useful!
+**[Star this repo](https://github.com/AndroidNextdoor/stoked-automations)** if you find it useful!
 
 Made with dedication by the Claude Code community
 

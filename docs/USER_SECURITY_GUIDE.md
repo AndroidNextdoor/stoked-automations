@@ -58,7 +58,7 @@ Every plugin in this marketplace has a trust level:
 
 ```bash
 # View plugin files on GitHub
-https://github.com/jeremylongshore/claude-code-plugins/tree/main/plugins/[plugin-name]
+https://github.com/AndroidNextdoor/stoked-automations/tree/main/plugins/[plugin-name]
 
 # Look for:
 1. commands/*.md - What commands does it run?
@@ -290,7 +290,7 @@ env | grep -i "key\|token\|secret"
 **Help protect other users - report security issues:**
 
 ```markdown
-Go to: https://github.com/jeremylongshore/claude-code-plugins/issues/new
+Go to: https://github.com/AndroidNextdoor/stoked-automations/issues/new
 
 Title: [SECURITY] Malicious behavior in [plugin-name]
 
@@ -330,7 +330,7 @@ Description:
 
 ## 🔗 Additional Resources
 
-- **Report Security Issues**: [GitHub Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
+- **Report Security Issues**: [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
 - **Marketplace Security Policy**: [SECURITY.md](../SECURITY.md)
 - **Plugin Developer Guidelines**: [CONTRIBUTING.md](../CONTRIBUTING.md)
 - **Claude Code Official Docs**: https://docs.claude.com/en/docs/claude-code/security

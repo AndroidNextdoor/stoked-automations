@@ -16,24 +16,24 @@ Free Claude Code plugin that converts AI research into formatted GitHub issues a
 
 ### Canonical URL
 ```html
-<link rel="canonical" href="https://claudecodeplugins.io/plugins/web-to-github-issue" />
+<link rel="canonical" href="https://stokedautomations.com/plugins/web-to-github-issue" />
 ```
 
 ### Open Graph Tags
 ```html
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://claudecodeplugins.io/plugins/web-to-github-issue" />
+<meta property="og:url" content="https://stokedautomations.com/plugins/web-to-github-issue" />
 <meta property="og:title" content="Web to GitHub Issue - Claude AI Research Automation Plugin" />
 <meta property="og:description" content="Free Claude Code plugin that converts AI research into formatted GitHub issues automatically. Save 95% time creating tickets with sources and action items." />
-<meta property="og:image" content="https://claudecodeplugins.io/images/plugins/web-to-github-issue-og.png" />
+<meta property="og:image" content="https://stokedautomations.com/images/plugins/web-to-github-issue-og.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:site_name" content="Claude Code Plugins" />
 <meta property="og:locale" content="en_US" />
 <meta property="article:published_time" content="2025-10-16T00:00:00Z" />
 <meta property="article:modified_time" content="2025-10-16T00:00:00Z" />
-<meta property="article:author" content="Jeremy Longshore" />
+<meta property="article:author" content="Andrew Nixdorf" />
 <meta property="article:section" content="Skill Enhancers" />
 <meta property="article:tag" content="automation" />
 <meta property="article:tag" content="GitHub" />
@@ -46,10 +46,10 @@ Free Claude Code plugin that converts AI research into formatted GitHub issues a
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@jeremylongshore" />
 <meta name="twitter:creator" content="@jeremylongshore" />
-<meta name="twitter:url" content="https://claudecodeplugins.io/plugins/web-to-github-issue" />
+<meta name="twitter:url" content="https://stokedautomations.com/plugins/web-to-github-issue" />
 <meta name="twitter:title" content="Web to GitHub Issue - Claude AI Research Automation" />
 <meta name="twitter:description" content="Free plugin: Claude research → GitHub issues automatically. Save 15 min per ticket with formatted sources and action items." />
-<meta name="twitter:image" content="https://claudecodeplugins.io/images/plugins/web-to-github-issue-twitter.png" />
+<meta name="twitter:image" content="https://stokedautomations.com/images/plugins/web-to-github-issue-twitter.png" />
 <meta name="twitter:image:alt" content="Web to GitHub Issue plugin demo showing Claude research converted to formatted GitHub issue" />
 ```
 
@@ -58,11 +58,11 @@ Free Claude Code plugin that converts AI research into formatted GitHub issues a
 <!-- Additional SEO -->
 <meta name="keywords" content="Claude GitHub automation, AI research to GitHub, automated GitHub issues, Claude Code plugin, web search to ticket, research automation, developer productivity, GitHub issue creator" />
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="author" content="Jeremy Longshore" />
+<meta name="author" content="Andrew Nixdorf" />
 <meta name="theme-color" content="#8b5cf6" />
 
 <!-- Language -->
-<link rel="alternate" hreflang="en" href="https://claudecodeplugins.io/plugins/web-to-github-issue" />
+<link rel="alternate" hreflang="en" href="https://stokedautomations.com/plugins/web-to-github-issue" />
 
 <!-- Software Application -->
 <meta itemprop="name" content="Web to GitHub Issue" />
@@ -82,12 +82,12 @@ import PluginLayout from '../../../layouts/PluginLayout.astro';
 const seo = {
   title: "Web to GitHub Issue - Claude AI Research Automation Plugin",
   description: "Free Claude Code plugin that converts AI research into formatted GitHub issues automatically. Save 95% time creating tickets with sources and action items.",
-  canonical: "https://claudecodeplugins.io/plugins/web-to-github-issue",
+  canonical: "https://stokedautomations.com/plugins/web-to-github-issue",
   keywords: "Claude GitHub automation, AI research to GitHub, automated GitHub issues, Claude Code plugin, web search to ticket, research automation, developer productivity, GitHub issue creator",
-  ogImage: "https://claudecodeplugins.io/images/plugins/web-to-github-issue-og.png",
-  twitterImage: "https://claudecodeplugins.io/images/plugins/web-to-github-issue-twitter.png",
+  ogImage: "https://stokedautomations.com/images/plugins/web-to-github-issue-og.png",
+  twitterImage: "https://stokedautomations.com/images/plugins/web-to-github-issue-twitter.png",
   twitterCard: "summary_large_image",
-  author: "Jeremy Longshore",
+  author: "Andrew Nixdorf",
   type: "article",
   category: "skill-enhancers",
   publishedTime: "2025-10-16T00:00:00Z",
@@ -121,20 +121,20 @@ const plugin = {
   "dateModified": "2025-10-16",
   "author": {
     "@type": "Person",
-    "name": "Jeremy Longshore",
-    "url": "https://github.com/jeremylongshore"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Claude Code Plugins",
-    "url": "https://claudecodeplugins.io"
+    "url": "https://stokedautomations.com"
   },
   "offers": {
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "USD",
     "availability": "https://schema.org/InStock",
-    "url": "https://claudecodeplugins.io/plugins/web-to-github-issue"
+    "url": "https://stokedautomations.com/plugins/web-to-github-issue"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -143,8 +143,8 @@ const plugin = {
     "bestRating": "5",
     "worstRating": "1"
   },
-  "screenshot": "https://claudecodeplugins.io/images/plugins/web-to-github-issue-screenshot.png",
-  "downloadUrl": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/plugins/skill-enhancers/web-to-github-issue",
+  "screenshot": "https://stokedautomations.com/images/plugins/web-to-github-issue-screenshot.png",
+  "downloadUrl": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/plugins/skill-enhancers/web-to-github-issue",
   "installUrl": "claudecode://install/web-to-github-issue@claude-code-plugins-plus",
   "featureList": [
     "Automatic research extraction from Claude web_search Skill",
@@ -160,7 +160,7 @@ const plugin = {
   "requirements": "Claude Code CLI, GitHub Personal Access Token with repo scope, Node.js 18+",
   "softwareHelp": {
     "@type": "WebPage",
-    "url": "https://claudecodeplugins.io/docs/web-to-github-issue"
+    "url": "https://stokedautomations.com/docs/web-to-github-issue"
   },
   "applicationSubCategory": "Automation, Productivity, Research Tools",
   "keywords": "GitHub automation, Claude AI, research to issue, developer productivity, ticket automation, web search automation",
@@ -176,7 +176,7 @@ const plugin = {
   "@type": "HowTo",
   "name": "How to Install Web to GitHub Issue Plugin",
   "description": "Step-by-step guide to install and configure the Web to GitHub Issue Claude Code plugin",
-  "image": "https://claudecodeplugins.io/images/plugins/web-to-github-issue-install.png",
+  "image": "https://stokedautomations.com/images/plugins/web-to-github-issue-install.png",
   "estimatedCost": {
     "@type": "MonetaryAmount",
     "currency": "USD",
@@ -207,7 +207,7 @@ const plugin = {
       "text": "Add the Claude Code Plugins marketplace to your CLI",
       "itemListElement": {
         "@type": "HowToDirection",
-        "text": "/plugin marketplace add jeremylongshore/claude-code-plugins"
+        "text": "/plugin marketplace add AndroidNextdoor/stoked-automations"
       }
     },
     {
@@ -320,25 +320,25 @@ const plugin = {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://claudecodeplugins.io"
+      "item": "https://stokedautomations.com"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Plugins",
-      "item": "https://claudecodeplugins.io/plugins"
+      "item": "https://stokedautomations.com/plugins"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Skill Enhancers",
-      "item": "https://claudecodeplugins.io/categories/skill-enhancers"
+      "item": "https://stokedautomations.com/categories/skill-enhancers"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Web to GitHub Issue",
-      "item": "https://claudecodeplugins.io/plugins/web-to-github-issue"
+      "item": "https://stokedautomations.com/plugins/web-to-github-issue"
     }
   ]
 }
@@ -594,7 +594,7 @@ New to Claude Code? Read our [getting started guide](#) first.
 ## Structured Data Testing
 
 ### Google Rich Results Test
-**URL to Test:** `https://claudecodeplugins.io/plugins/web-to-github-issue`
+**URL to Test:** `https://stokedautomations.com/plugins/web-to-github-issue`
 
 **Expected Rich Results:**
 - ✅ SoftwareApplication card with price ($0)

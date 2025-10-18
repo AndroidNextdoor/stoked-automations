@@ -11,10 +11,10 @@
     "devops"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": true,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/devops/docker-compose-generator",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/docker-compose-generator",
   "license": "MIT",
   "installation": "/plugin install docker-compose-generator@claude@claude-code-plugins-plus",
   "features": [],

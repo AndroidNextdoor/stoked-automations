@@ -9,10 +9,10 @@
     "diff"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/database/database-diff-tool",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-diff-tool",
   "license": "MIT",
   "installation": "/plugin install database-diff-tool@claude@claude-code-plugins-plus",
   "features": [],

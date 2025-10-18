@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://claudecodeplugins.io',
+  site: 'https://stokedautomations.com',
   base: '/',
   build: {
     assets: '_astro',

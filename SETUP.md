@@ -67,7 +67,7 @@ git commit -m "Initial commit: Claude Code Plugin Marketplace
 cd /home/jeremy/projects/claude-code-plugins
 
 # Add remote origin
-git remote add origin https://github.com/jeremylongshore/claude-code-plugins.git
+git remote add origin https://github.com/AndroidNextdoor/stoked-automations.git
 
 # Rename branch to main
 git branch -M main
@@ -94,13 +94,13 @@ After pushing, configure your repository on GitHub:
 
 4. **Set Description**: "The comprehensive marketplace and learning hub for Claude Code plugins"
 
-5. **Add Website**: `https://github.com/jeremylongshore/claude-code-plugins`
+5. **Add Website**: `https://github.com/AndroidNextdoor/stoked-automations`
 
 ### Step 6: Test the Marketplace
 
 ```bash
 # Test installing from your new marketplace
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # If you previously added this marketplace, remove the old slug first:
 # /plugin marketplace remove claude-code-plugins

@@ -17,7 +17,7 @@ Make.com (formerly Integromat) is a powerful visual automation platform:
 ## Installation
 
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install make-scenario-builder
 ```
 
@@ -261,7 +261,7 @@ Store data → Process → Retrieve → Continue workflow
 - **Make.com Documentation:** [make.com/en/help](https://www.make.com/en/help)
 - **Make Academy:** Free training courses
 - **Community Forum:** [community.make.com](https://community.make.com)
-- **Plugin Issues:** [GitHub Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
+- **Plugin Issues:** [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
 
 ## License
 
@@ -277,6 +277,6 @@ Contributions welcome! Submit PRs with:
 
 ---
 
-**Part of [Claude Code Plugin Hub](https://github.com/jeremylongshore/claude-code-plugins)**
+**Part of [Claude Code Plugin Hub](https://github.com/AndroidNextdoor/stoked-automations)**
 
 Perfect for agencies and businesses that want powerful automation with a visual, no-code interface.

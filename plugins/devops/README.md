@@ -202,13 +202,13 @@ All plugins are licensed under MIT License. See individual plugin directories fo
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/jeremylongshore/claude-code-plugins/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- **Issues**: [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - **Discord**: [Claude Code Discord](https://discord.com/invite/6PPFFzqPDZ)
 
 ---
 
 **Total Plugins**: 25
 **Category**: DevOps Infrastructure
-**Maintainer**: Jeremy Longshore ([@jeremylongshore](https://github.com/jeremylongshore))
+**Maintainer**: Andrew Nixdorf ([@jeremylongshore](https://github.com/jeremylongshore))
 **Last Updated**: October 2025

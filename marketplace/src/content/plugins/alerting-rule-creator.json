@@ -10,10 +10,10 @@
     "observability"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/performance/alerting-rule-creator",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/alerting-rule-creator",
   "license": "MIT",
   "installation": "/plugin install alerting-rule-creator@claude@claude-code-plugins-plus",
   "features": [],

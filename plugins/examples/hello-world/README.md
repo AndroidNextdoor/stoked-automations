@@ -5,7 +5,7 @@ A simple example plugin demonstrating basic slash commands.
 ## Installation
 
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 /plugin install hello-world@claude-code-plugins-plus
 ```
 

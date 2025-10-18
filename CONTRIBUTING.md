@@ -348,7 +348,7 @@ function process_file() {
 Need help contributing?
 
 - ** Discord**: [Claude Developers](https://discord.com/invite/6PPFFzqPDZ)
-- ** Discussions**: [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- ** Discussions**: [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - ** Email**: [email protected]
 
 ##  Recognition
@@ -363,7 +363,7 @@ Contributors are recognized in several ways:
 ### Contributor Spotlight
 
 - @cdnsteve — Added the featured Sugar plugin (autonomous AI development)
-  - PR: https://github.com/jeremylongshore/claude-code-plugins/pull/8
+  - PR: https://github.com/AndroidNextdoor/stoked-automations/pull/8
   - Repo: https://github.com/cdnsteve/sugar
 
 ##  License

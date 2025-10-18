@@ -6,7 +6,7 @@ Get started with the Claude Code Security & Compliance Plugin Pack in 5 minutes.
 
 ```bash
 # Add the marketplace (if not already added)
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install individual plugins
 /plugin install vulnerability-scanner@claude-code-plugins-plus
@@ -245,7 +245,7 @@ cat README.md
 /plugin marketplace list
 
 # Add marketplace if missing
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 ### False positives?

@@ -4,7 +4,7 @@ type: command
 description: Generate reusable prompt templates with variables and best practices
 category: ai
 version: 1.0.0
-author: Jeremy Longshore
+author: Andrew Nixdorf
 shortcut: ptg
 estimated_time: 2-5 minutes
 ---

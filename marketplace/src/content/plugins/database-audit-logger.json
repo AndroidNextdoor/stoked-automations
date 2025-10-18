@@ -9,10 +9,10 @@
     "audit"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/database/database-audit-logger",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-audit-logger",
   "license": "MIT",
   "installation": "/plugin install database-audit-logger@claude@claude-code-plugins-plus",
   "features": [],

@@ -4,10 +4,10 @@
   "description": "Scan for top market movers - gainers, losers, volume spikes, and unusual activity",
   "author": {
     "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.ai",
+    "email": "jeremy@intentsolutions.io",
     "url": "https://intentsolutions.ai"
   },
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": [
     "market",

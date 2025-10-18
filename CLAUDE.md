@@ -7,10 +7,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This is **the comprehensive marketplace and learning hub for Claude Code plugins**. It serves as both a distribution platform for plugins and an educational resource for plugin developers.
 
 **Repository Stats:**
-- 226 marketplace plugins across 14 categories
+- 236 marketplace plugins across 15 categories
 - 221 AI instruction plugins (markdown-based templates)
-- 5 MCP server plugins (TypeScript/Node.js executables with 21 tools)
-- Live marketplace at https://claudecodeplugins.io/
+- 6 MCP server plugins (TypeScript/Node.js executables with 21 tools)
+- 164 plugins with Agent Skills (automatic activation)
+- Live marketplace at https://stokedautomations.com/
 - Monorepo using pnpm workspaces
 
 ## Critical Architecture Understanding
@@ -224,13 +225,21 @@ model: sonnet  # or opus, haiku
 ---
 ```
 
-### MCP Server Plugins (5 plugins)
+### MCP Server Plugins (6 plugins)
 
 - TypeScript/Node.js applications
 - Run as separate processes
 - Build with `@modelcontextprotocol/sdk`
 - Compiled to JavaScript in `dist/`
 - Each provides 3-6 MCP tools
+
+**Current MCP plugins:**
+- `project-health-auditor` - Code health analysis (4 tools)
+- `conversational-api-debugger` - REST API debugging (4 tools)
+- `domain-memory-agent` - Knowledge base with semantic search (6 tools)
+- `design-to-code` - Convert Figma/screenshots to code (3 tools)
+- `workflow-orchestrator` - DAG-based automation (4 tools)
+- `ai-experiment-logger` - ML experiment tracking
 
 **MCP plugin structure:**
 ```
@@ -271,7 +280,12 @@ find . -type f -name "*.sh" -exec chmod +x {} \;
 
 ### Plugin Categories
 
-Valid categories: `productivity`, `security`, `testing`, `deployment`, `documentation`, `analysis`, `integration`, `ai`, `devops`, `debugging`, `code-quality`, `design`, `example`, `api-development`, `database`, `crypto`, `performance`, `ai-ml`, `other`
+Valid categories: `productivity`, `security`, `testing`, `deployment`, `documentation`, `analysis`, `integration`, `ai`, `devops`, `debugging`, `code-quality`, `design`, `example`, `api-development`, `database`, `crypto`, `performance`, `ai-ml`, `ai-agency`, `skill-enhancers`, `finance`, `other`
+
+**Category descriptions:**
+- `ai-agency` - Automation platforms (n8n, Make, Zapier) and business tools
+- `skill-enhancers` - Extend Claude's built-in Skills (web_search, web_fetch) with automation
+- `finance` - Financial analysis and trading tools
 
 ### Versioning
 
@@ -301,7 +315,7 @@ Follow semantic versioning (MAJOR.MINOR.PATCH):
 
 2. **`.github/workflows/deploy-marketplace.yml`** (deploys to GitHub Pages)
    - Builds Astro site (`cd marketplace && npm run build`)
-   - Deploys to https://claudecodeplugins.io/
+   - Deploys to https://stokedautomations.com/
 
 3. **`.github/workflows/release.yml`** (version tagging)
    - Creates GitHub releases with changelog
@@ -427,6 +441,36 @@ model: sonnet
 Detailed instructions for Claude...
 ```
 
+### Agent Skills Format (NEW)
+
+Agent Skills are placed in `skills/skill-adapter/SKILL.md`:
+
+```markdown
+---
+name: Skill Name
+description: |
+  What this skill does and when it activates.
+  Include trigger phrases users might say.
+---
+
+## How It Works
+1. Step-by-step explanation of the skill's workflow
+
+## When to Use This Skill
+- Use case 1
+- Use case 2
+
+## Examples
+User: "Example user request"
+Skill activates → Expected outcome
+```
+
+**Key differences from commands:**
+- Skills activate automatically based on context (no `/command` needed)
+- Description should include trigger phrases
+- Focus on teaching Claude WHEN and HOW to use the plugin
+- One skill per plugin (comprehensive instruction manual)
+
 ### Hooks Format
 
 ```json
@@ -476,7 +520,7 @@ Users install plugins from this marketplace:
 
 ```bash
 # Add marketplace (GitHub shorthand):
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install plugins:
 /plugin install plugin-name@claude-code-plugins-plus
@@ -487,8 +531,8 @@ Users install plugins from this marketplace:
 ### Marketplace Slug
 
 - **Marketplace name:** `claude-code-plugins-plus`
-- **GitHub repo:** `jeremylongshore/claude-code-plugins`
-- **Live site:** https://claudecodeplugins.io/
+- **GitHub repo:** `AndroidNextdoor/stoked-automations`
+- **Live site:** https://stokedautomations.com/
 
 ## Important Context
 
@@ -504,12 +548,13 @@ There is no monetization mechanism for Claude Code plugins. All plugins are free
 
 Claude Code plugins are in public beta. Features and best practices evolve. This marketplace stays updated with latest changes.
 
-### Two Plugin Types Coexist
+### Three Plugin Types Coexist
 
 - **AI Instruction Plugins:** Guide Claude's behavior through markdown templates (221 plugins)
-- **MCP Server Plugins:** Execute TypeScript/Node.js code in separate processes (5 plugins)
+- **MCP Server Plugins:** Execute TypeScript/Node.js code in separate processes (6 plugins)
+- **Agent Skills:** Model-invoked capabilities that activate automatically based on context (164 plugins have skills)
 
-Both are valid and fully functional approaches.
+All three types are valid and fully functional approaches. Many plugins combine multiple types (e.g., commands + agent skills).
 
 ## Resources
 
@@ -520,8 +565,8 @@ Both are valid and fully functional approaches.
 
 ### Community
 - **Discord:** https://discord.com/invite/6PPFFzqPDZ (#claude-code channel)
-- **GitHub Issues:** https://github.com/jeremylongshore/claude-code-plugins/issues
-- **GitHub Discussions:** https://github.com/jeremylongshore/claude-code-plugins/discussions
+- **GitHub Issues:** https://github.com/AndroidNextdoor/stoked-automations/issues
+- **GitHub Discussions:** https://github.com/AndroidNextdoor/stoked-automations/discussions
 
 ### This Repository
 - **CONTRIBUTING.md** - Submission guidelines
@@ -549,5 +594,5 @@ When working in this repository:
 ---
 
 **Last Updated:** October 2025
-**Repository Version:** 1.0.39 (226 plugins)
+**Repository Version:** 1.1.0 (236 plugins)
 **Status:** Active, accepting community contributions

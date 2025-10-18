@@ -4,11 +4,11 @@
   "description": "Ultimate plugin management toolkit with 5 auto-invoked Skills for creating, validating, auditing, and managing plugins in the claude-code-plugins marketplace",
   "author": {
     "name": "Claude Code Plugins",
-    "email": "plugins@claudecodeplugins.io",
-    "url": "https://claudecodeplugins.io"
+    "email": "plugins@stokedautomation.com",
+    "url": "https://stokedautomations.com"
   },
-  "homepage": "https://github.com/jeremylongshore/claude-code-plugins",
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "homepage": "https://github.com/AndroidNextdoor/stoked-automations",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "keywords": [
     "skills",

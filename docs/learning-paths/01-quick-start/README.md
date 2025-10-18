@@ -25,7 +25,7 @@
 First, add this plugin marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
 > Already added this marketplace before October 2025? Run `/plugin marketplace remove claude-code-plugins` first so Claude registers the new `claude-code-plugins-plus` slug.
@@ -222,7 +222,7 @@ ls -la ~/.claude/plugins/<plugin-name>/
 
 ### Need help?
 - 📚 [Official Documentation](https://docs.claude.com/en/docs/claude-code/plugins)
-- 💬 [GitHub Discussions](https://github.com/jeremylongshore/claude-code-plugins/discussions)
+- 💬 [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 - 🗨️ [Discord Community](https://discord.com/invite/6PPFFzqPDZ) (#claude-code channel)
 
 ---
@@ -247,7 +247,7 @@ You've successfully:
 → [Use Case Paths](../use-cases/) (domain-specific)
 
 **Just want to use more plugins?**
-→ [Browse the Marketplace](https://claudecodeplugins.io/)
+→ [Browse the Marketplace](https://stokedautomations.com/)
 
 ---
 

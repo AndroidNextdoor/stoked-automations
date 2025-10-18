@@ -2,8 +2,8 @@
 
 **Generated**: October 11, 2025
 **Marketplace Version**: v1.1.0
-**Repository**: https://github.com/jeremylongshore/claude-code-plugins
-**Live Site**: https://claudecodeplugins.io/
+**Repository**: https://github.com/AndroidNextdoor/stoked-automations
+**Live Site**: https://stokedautomations.com/
 
 ---
 
@@ -38,7 +38,7 @@ We have successfully positioned ourselves as **THE first-mover marketplace for C
 
 **Status**: ALL 20 PLUGINS DEPLOYED AND ACCESSIBLE
 
-Verified plugins on https://claudecodeplugins.io/:
+Verified plugins on https://stokedautomations.com/:
 
 **Plugin Packs (4)**:
 1. ai-ml-engineering-pack
@@ -207,14 +207,14 @@ Installation:
 ### GitHub Repository
 
 **Status**: Fully deployed and operational
-**URL**: https://github.com/jeremylongshore/claude-code-plugins
+**URL**: https://github.com/AndroidNextdoor/stoked-automations
 **Version**: v1.1.0
 **Last Commit**: October 11, 2025
 
 ### GitHub Pages
 
 **Status**: Live and accessible
-**URL**: https://claudecodeplugins.io/
+**URL**: https://stokedautomations.com/
 **Build System**: Astro 5.14.4 with automated GitHub Actions deployment
 **Performance**: Fast loading, optimized static site
 
@@ -274,7 +274,7 @@ Installation:
 **Simplified Commands**:
 ```bash
 # Add marketplace (one time)
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install any pack (single command)
 /plugin install devops-automation-pack@claude-code-plugins-plus
@@ -434,6 +434,6 @@ We have successfully established ourselves as the **definitive first-mover marke
 ---
 
 **Report Generated**: October 11, 2025
-**Repository**: https://github.com/jeremylongshore/claude-code-plugins
-**Live Marketplace**: https://claudecodeplugins.io/
+**Repository**: https://github.com/AndroidNextdoor/stoked-automations
+**Live Marketplace**: https://stokedautomations.com/
 **Version**: v1.1.0

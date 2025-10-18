@@ -3,8 +3,8 @@
   "description": "Open-source investment research terminal integration - comprehensive equity analysis, crypto tracking, macro indicators, portfolio optimization, and AI-powered financial insights using OpenBB Platform. Transform Claude Code into a professional Bloomberg Terminal alternative.",
   "version": "1.0.0",
   "author": {
-    "name": "Jeremy Longshore",
-    "url": "https://github.com/jeremylongshore"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor"
   },
   "category": "other",
   "keywords": [
@@ -28,7 +28,7 @@
     "financial-data"
   ],
   "featured": true,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
   "installation": "/plugin install openbb-terminal@claude@claude-code-plugins-plus",
   "features": [

@@ -11,10 +11,10 @@
     "normalization"
   ],
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
-  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/./plugins/database/database-schema-designer",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-schema-designer",
   "license": "MIT",
   "installation": "/plugin install database-schema-designer@claude@claude-code-plugins-plus",
   "features": [],

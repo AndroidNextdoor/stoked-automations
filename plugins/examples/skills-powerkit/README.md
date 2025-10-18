@@ -146,7 +146,7 @@ This plugin is **optimized for claude-code-plugins** workflow:
 
 ```bash
 # Add marketplace (if not already added)
-/plugin marketplace add jeremylongshore/claude-code-plugins
+/plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install Skills Powerkit
 /plugin install skills-powerkit@claude-code-plugins-plus
@@ -408,7 +408,7 @@ Say: "Bump to minor and update marketplace"
 
 Found a bug or want to improve Skills Powerkit?
 
-**Report issues:** https://github.com/jeremylongshore/claude-code-plugins/issues
+**Report issues:** https://github.com/AndroidNextdoor/stoked-automations/issues
 
 **Improve skills:** Fork, enhance SKILL.md files, submit PR
 
