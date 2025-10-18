@@ -98,6 +98,34 @@ For team-wide plugin distribution, add to repository `.claude/settings.json`:
 
 When team members trust the folder, plugins install automatically.
 
+## Development Environment Setup
+
+If you're contributing to the marketplace or generating Agent Skills with AI:
+
+### Gemini API Key (for AI skill generation)
+
+Add to your `~/.zshrc` or `~/.bashrc`:
+
+```bash
+export GEMINI_API_KEY='your-gemini-api-key-here'
+```
+
+**Get your API key:**
+1. Visit https://aistudio.google.com/app/apikey
+2. Create a new API key
+3. Add it to your shell configuration file
+
+**Usage:**
+```bash
+# Generate Agent Skills for plugins
+python3 scripts/generate-skills-gemini.py plugin-name
+
+# With rate limiting (60 second delay between calls)
+python3 scripts/generate-skills-gemini.py plugin1 plugin2 plugin3
+```
+
+**Note:** The script uses ultra-conservative rate limiting (60s between calls) to prevent quota exhaustion on Gemini's free tier. See [scripts/GEMINI_RATE_LIMITS.md](../scripts/GEMINI_RATE_LIMITS.md) for details.
+
 ## Next Steps
 
 - [Create your own plugin](creating-plugins.md)
