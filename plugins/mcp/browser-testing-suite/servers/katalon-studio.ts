@@ -62,6 +62,7 @@ const RunTestSchema = z.object({
 });
 
 const GenerateKeywordSchema = z.object({
+  projectPath: z.string(),
   keywordName: z.string(),
   description: z.string(),
   parameters: z.array(z.object({
@@ -282,6 +283,10 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         inputSchema: {
           type: 'object',
           properties: {
+            projectPath: {
+              type: 'string',
+              description: 'Project path',
+            },
             keywordName: {
               type: 'string',
               description: 'Name of the custom keyword',
@@ -307,7 +312,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
               description: 'Groovy code implementation',
             },
           },
-          required: ['keywordName', 'description', 'parameters', 'implementation'],
+          required: ['projectPath', 'keywordName', 'description', 'parameters', 'implementation'],
         },
       },
       {
