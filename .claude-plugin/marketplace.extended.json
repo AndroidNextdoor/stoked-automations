@@ -329,6 +329,33 @@
       "mcpTools": 4
     },
     {
+      "name": "context7",
+      "source": "./plugins/mcp/context7",
+      "description": "Up-to-date code documentation for LLMs - fetches current, version-specific docs and code examples from Context7 database",
+      "version": "1.0.0",
+      "category": "ai-ml",
+      "keywords": [
+        "mcp",
+        "documentation",
+        "code-examples",
+        "library-docs",
+        "api-reference",
+        "context-management",
+        "up-to-date-docs"
+      ],
+      "author": {
+        "name": "Upstash",
+        "url": "https://upstash.com"
+      },
+      "featured": false,
+      "mcpTools": 2,
+      "repository": "https://github.com/upstash/context7",
+      "pricing": {
+        "model": "freemium",
+        "description": "Free tier available, paid plans for higher usage"
+      }
+    },
+    {
       "name": "hello-world",
       "source": "./plugins/examples/hello-world",
       "description": "Simple example plugin demonstrating basic slash commands",

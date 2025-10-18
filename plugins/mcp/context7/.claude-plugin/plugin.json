@@ -1,0 +1,33 @@
+{
+  "name": "context7",
+  "version": "1.0.0",
+  "description": "Up-to-date code documentation for LLMs - fetches current, version-specific docs and code examples from Context7's documentation database",
+  "category": "ai-ml",
+  "keywords": [
+    "documentation",
+    "code-examples",
+    "library-docs",
+    "api-reference",
+    "mcp-server",
+    "context-management",
+    "up-to-date-docs"
+  ],
+  "author": {
+    "name": "Upstash",
+    "url": "https://upstash.com"
+  },
+  "repository": "https://github.com/upstash/context7",
+  "license": "MIT",
+  "pricing": {
+    "model": "freemium",
+    "description": "Free tier available with API key from context7.com, paid plans for higher usage"
+  },
+  "prerequisites": {
+    "description": "Requires Node.js 18+ and Context7 API key",
+    "steps": [
+      "Install Node.js 18 or higher",
+      "Get API key from https://context7.com",
+      "Set CONTEXT7_API_KEY environment variable"
+    ]
+  }
+}

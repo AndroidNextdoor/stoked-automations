@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "metadata": {
+        "description": "Context7 MCP server for up-to-date code documentation",
+        "documentation": "https://github.com/upstash/context7",
+        "version": "1.0.21",
+        "tools": [
+          {
+            "name": "resolve_library",
+            "description": "Resolves a general library name into a Context7-compatible library ID"
+          },
+          {
+            "name": "fetch_documentation",
+            "description": "Fetches documentation for a library using a Context7-compatible library ID"
+          }
+        ]
+      }
+    }
+  }
+}
