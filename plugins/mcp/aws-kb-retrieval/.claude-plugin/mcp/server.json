@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "aws-kb-retrieval": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@aws/amazon-bedrock-knowledge-base-retrieval-server"
+      ],
+      "env": {
+        "AWS_REGION": "${AWS_REGION}",
+        "AWS_ACCESS_KEY_ID": "${AWS_ACCESS_KEY_ID}",
+        "AWS_SECRET_ACCESS_KEY": "${AWS_SECRET_ACCESS_KEY}"
+      },
+      "metadata": {
+        "description": "AWS Bedrock Knowledge Base retrieval MCP server",
+        "documentation": "https://github.com/awslabs/mcp-server-aws-kb-retrieval",
+        "tools": [
+          {
+            "name": "retrieve",
+            "description": "Retrieve relevant documents from AWS Bedrock Knowledge Base using semantic search"
+          },
+          {
+            "name": "retrieve_and_generate",
+            "description": "Retrieve documents and generate responses using AWS Bedrock models (RAG)"
+          }
+        ]
+      }
+    }
+  }
+}

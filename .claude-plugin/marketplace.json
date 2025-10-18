@@ -349,6 +349,28 @@
       "repository": "https://github.com/oraios/serena"
     },
     {
+      "name": "aws-kb-retrieval",
+      "source": "./plugins/mcp/aws-kb-retrieval",
+      "description": "AWS Bedrock Knowledge Base retrieval and RAG capabilities. Enterprise-grade semantic search with vector embeddings and AWS-managed knowledge bases.",
+      "version": "1.0.0",
+      "category": "ai-ml",
+      "keywords": [
+        "aws",
+        "bedrock",
+        "knowledge-base",
+        "rag",
+        "retrieval",
+        "semantic-search",
+        "vector-embeddings",
+        "enterprise-ai"
+      ],
+      "author": {
+        "name": "AWS Labs",
+        "url": "https://github.com/awslabs"
+      },
+      "repository": "https://github.com/awslabs/mcp-server-aws-kb-retrieval"
+    },
+    {
       "name": "hello-world",
       "source": "./plugins/examples/hello-world",
       "description": "Simple example plugin demonstrating basic slash commands",

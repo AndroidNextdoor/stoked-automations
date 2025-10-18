@@ -1,0 +1,34 @@
+{
+  "name": "aws-kb-retrieval",
+  "version": "1.0.0",
+  "description": "AWS Bedrock Knowledge Base retrieval and RAG capabilities. Query AWS-managed knowledge bases with semantic search, vector embeddings, and enterprise-grade document retrieval.",
+  "category": "ai-ml",
+  "keywords": [
+    "aws",
+    "bedrock",
+    "knowledge-base",
+    "rag",
+    "retrieval",
+    "semantic-search",
+    "vector-embeddings",
+    "mcp-server",
+    "enterprise-ai",
+    "document-retrieval"
+  ],
+  "author": {
+    "name": "AWS Labs",
+    "url": "https://github.com/awslabs"
+  },
+  "repository": "https://github.com/awslabs/mcp-server-aws-kb-retrieval",
+  "license": "MIT-0",
+  "prerequisites": {
+    "description": "Requires Node.js 18+, AWS credentials, and an AWS Bedrock Knowledge Base",
+    "steps": [
+      "Install Node.js 18 or higher",
+      "Configure AWS credentials (aws configure or environment variables)",
+      "Create AWS Bedrock Knowledge Base in your AWS account",
+      "Note your Knowledge Base ID and AWS region",
+      "Set AWS_REGION environment variable"
+    ]
+  }
+}
