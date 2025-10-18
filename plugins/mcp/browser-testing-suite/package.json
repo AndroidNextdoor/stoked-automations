@@ -1,16 +1,20 @@
 {
   "name": "@stoked-automations/browser-testing-suite",
   "version": "1.0.0",
-  "description": "MCP servers for Playwright automation and Chrome DevTools Protocol",
+  "description": "Complete browser testing toolkit with 5 MCP servers (Playwright, Selenium, Cypress, Katalon, Chrome DevTools) and 4 expert Agent Skills",
   "type": "module",
   "main": "dist/servers/playwright-automation.js",
   "scripts": {
     "dev:playwright": "tsx watch servers/playwright-automation.ts",
+    "dev:selenium": "tsx watch servers/selenium-webdriver.ts",
+    "dev:cypress": "tsx watch servers/cypress-runner.ts",
+    "dev:katalon": "tsx watch servers/katalon-studio.ts",
     "dev:devtools": "tsx watch servers/chrome-devtools.ts",
     "build": "tsc",
     "test": "vitest",
     "test:ci": "vitest run",
     "test:e2e": "playwright test",
+    "test:cypress": "cypress run",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },
@@ -18,17 +22,25 @@
     "claude-code",
     "mcp",
     "playwright",
+    "selenium",
+    "cypress",
+    "katalon",
     "chrome-devtools",
     "cdp",
     "browser-testing",
     "e2e",
-    "automation"
+    "component-testing",
+    "api-testing",
+    "automation",
+    "agent-skills"
   ],
   "author": "Andrew Nixdorf",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.7.0",
     "playwright": "^1.48.0",
+    "selenium-webdriver": "^4.27.0",
+    "cypress": "^13.18.0",
     "chrome-remote-interface": "^0.33.2",
     "puppeteer-core": "^23.10.1",
     "zod": "^3.23.0"
@@ -36,6 +48,7 @@
   "devDependencies": {
     "@playwright/test": "^1.48.0",
     "@types/node": "^20.19.21",
+    "@types/selenium-webdriver": "^4.1.28",
     "eslint": "^9.0.0",
     "tsx": "^4.16.0",
     "typescript": "^5.5.0",

@@ -1,9 +1,9 @@
 {
   "name": "browser-testing-suite",
   "version": "1.0.0",
-  "description": "Comprehensive browser testing with Playwright automation and Chrome DevTools Protocol - combine E2E tests, performance profiling, network analysis, and visual regression in one MCP server",
+  "description": "Complete browser testing toolkit with 5 MCP servers (Playwright, Chrome DevTools, Cypress, Selenium, Katalon) and 4 expert Agent Skills for comprehensive E2E, API, component, and performance testing",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
@@ -11,10 +11,15 @@
   "keywords": [
     "testing",
     "playwright",
+    "selenium",
+    "cypress",
+    "katalon",
     "chrome-devtools",
     "cdp",
     "e2e",
     "browser-automation",
+    "component-testing",
+    "api-testing",
     "performance",
     "network-analysis",
     "visual-regression",
@@ -24,7 +29,10 @@
   "mcp": {
     "servers": [
       "servers/playwright-automation.ts",
-      "servers/chrome-devtools.ts"
+      "servers/chrome-devtools.ts",
+      "servers/cypress-runner.ts",
+      "servers/selenium-webdriver.ts",
+      "servers/katalon-studio.ts"
     ]
   }
 }

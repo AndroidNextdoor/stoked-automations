@@ -197,20 +197,26 @@
     {
       "name": "browser-testing-suite",
       "source": "./plugins/mcp/browser-testing-suite",
-      "description": "Comprehensive browser testing with Playwright automation and Chrome DevTools Protocol - combine E2E tests, performance profiling, network analysis, and visual regression in one MCP server",
+      "description": "Complete browser testing toolkit with 5 MCP servers (Playwright, Chrome DevTools, Cypress, Selenium, Katalon) and 4 expert Agent Skills for comprehensive E2E, API, component, and performance testing",
       "version": "1.0.0",
       "category": "testing",
       "keywords": [
         "mcp",
         "testing",
         "playwright",
+        "selenium",
+        "cypress",
+        "katalon",
         "chrome-devtools",
         "cdp",
         "e2e",
+        "component-testing",
+        "api-testing",
         "browser-automation",
         "performance",
         "network-analysis",
         "visual-regression",
+        "page-object-model",
         "agent-skills"
       ],
       "author": {
