@@ -2,13 +2,24 @@
 """
 Simple Gemini API Skills Generator
 Uses Google Gemini API (not Vertex AI) - just needs an API key
+
+Rate Limiting:
+- 60 second delay between API calls (very conservative)
+- 3 retry attempts with exponential backoff
+- Handles 429 quota errors gracefully
 """
 
 import json
 import os
 import sys
+import time
 from pathlib import Path
 import google.generativeai as genai
+
+# Rate limiting configuration
+RATE_LIMIT_DELAY = 60  # 60 seconds between API calls (ultra conservative)
+MAX_RETRIES = 3
+RETRY_DELAY = 10  # Start with 10 seconds, doubles each retry
 
 def read_plugin_context(plugin_path):
     """Read plugin files to understand what it does"""
@@ -80,24 +91,56 @@ PLUGIN FILES:
 
 Generate a complete SKILL.md file with YAML frontmatter (name and description only), overview, how it works, when to use, examples, and best practices. Keep under 500 lines total."""
 
-    response = model.generate_content(prompt)
-    content = response.text
+    # Retry loop with exponential backoff
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = model.generate_content(prompt)
+            content = response.text
 
-    # Strip markdown code fences if present
-    content = content.strip()
-    if content.startswith('```'):
-        lines = content.split('\n')
-        lines = lines[1:]
-        if lines and lines[-1].strip() == '```':
-            lines = lines[:-1]
-        content = '\n'.join(lines).strip()
+            # Strip markdown code fences if present
+            content = content.strip()
+            if content.startswith('```'):
+                lines = content.split('\n')
+                lines = lines[1:]
+                if lines and lines[-1].strip() == '```':
+                    lines = lines[:-1]
+                content = '\n'.join(lines).strip()
 
-    return content
+            return content
+
+        except Exception as e:
+            error_msg = str(e)
+
+            # Check if it's a quota error (429)
+            if '429' in error_msg or 'quota' in error_msg.lower() or 'rate limit' in error_msg.lower():
+                retry_delay = RETRY_DELAY * (2 ** attempt)  # Exponential backoff
+                print(f"  ⚠️  Quota exceeded (attempt {attempt + 1}/{MAX_RETRIES})")
+
+                if attempt < MAX_RETRIES - 1:
+                    print(f"  ⏳ Waiting {retry_delay} seconds before retry...")
+                    time.sleep(retry_delay)
+                    continue
+                else:
+                    print(f"  ❌ Max retries reached. Quota still exceeded.")
+                    raise Exception(f"Quota exceeded after {MAX_RETRIES} attempts")
+            else:
+                # Non-quota error, raise immediately
+                raise e
+
+    return None
 
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 generate-skills-gemini.py <plugin-name> [<plugin-name2> ...]")
+        print("\nExamples:")
+        print("  python3 generate-skills-gemini.py project-health-auditor")
+        print("  python3 generate-skills-gemini.py plugin1 plugin2 plugin3")
+        print("\nRate Limiting:")
+        print(f"  - {RATE_LIMIT_DELAY} second delay between API calls (very conservative)")
+        print(f"  - {MAX_RETRIES} retry attempts with exponential backoff")
+        print(f"  - Handles 429 quota errors gracefully")
         print("\nRequires GEMINI_API_KEY environment variable")
+        print("  Set it with: export GEMINI_API_KEY='your-api-key'")
         sys.exit(1)
 
     api_key = os.environ.get('GEMINI_API_KEY')
@@ -114,9 +157,15 @@ def main():
         marketplace = json.load(f)
 
     plugin_names = sys.argv[1:]
+    total_plugins = len(plugin_names)
 
-    for plugin_name in plugin_names:
-        print(f"\n🎯 Generating skill for: {plugin_name}")
+    print(f"\n⚙️  Rate Limiting Configuration:")
+    print(f"   - Delay between calls: {RATE_LIMIT_DELAY} seconds")
+    print(f"   - Max retries per plugin: {MAX_RETRIES}")
+    print(f"   - Estimated time: ~{(total_plugins * RATE_LIMIT_DELAY) / 60:.1f} minutes\n")
+
+    for idx, plugin_name in enumerate(plugin_names, 1):
+        print(f"\n🎯 [{idx}/{total_plugins}] Generating skill for: {plugin_name}")
 
         plugin = next((p for p in marketplace['plugins'] if p['name'] == plugin_name), None)
         if not plugin:
@@ -134,15 +183,21 @@ def main():
             print(f"  🤖 Generating with Gemini API...")
             skill_content = generate_skill(plugin_name, plugin_path, api_key)
 
-            skill_file.parent.mkdir(parents=True, exist_ok=True)
-            skill_file.write_text(skill_content)
+            if skill_content:
+                skill_file.parent.mkdir(parents=True, exist_ok=True)
+                skill_file.write_text(skill_content)
 
-            line_count = len(skill_content.split('\n'))
-            char_count = len(skill_content)
-            print(f"  ✅ Created SKILL.md ({char_count} chars, {line_count} lines)")
+                line_count = len(skill_content.split('\n'))
+                char_count = len(skill_content)
+                print(f"  ✅ Created SKILL.md ({char_count} chars, {line_count} lines)")
 
         except Exception as e:
             print(f"  ❌ Error: {e}")
+
+        # Rate limiting: wait between API calls (except for last plugin)
+        if idx < total_plugins:
+            print(f"  ⏳ Rate limiting: waiting {RATE_LIMIT_DELAY} seconds before next plugin...")
+            time.sleep(RATE_LIMIT_DELAY)
 
 if __name__ == '__main__':
     main()
