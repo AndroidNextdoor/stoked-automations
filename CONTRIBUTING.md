@@ -1,4 +1,4 @@
-# Contributing to Claude Code Plugins
+# Contributing to Stoked Automations
 
 Thank you for your interest in contributing! This marketplace thrives on community contributions. Whether you're submitting a plugin, improving documentation, or reporting bugs, your help makes this resource better for everyone.
 
@@ -389,7 +389,7 @@ Before submitting, verify:
 
 ---
 
-**Thank you for contributing to Claude Code Plugins!** 
+**Thank you for contributing to Stoked Automations!** 
 
 Your contributions help build a vibrant ecosystem that benefits the entire community.
 

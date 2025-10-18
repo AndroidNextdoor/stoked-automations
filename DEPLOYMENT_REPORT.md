@@ -1,5 +1,5 @@
 # Deployment Configuration Report
-**Project:** Claude Code Plugins Marketplace
+**Project:** Stoked Automations Marketplace
 **Domain:** stokedautomation.com
 **Date:** 2025-10-16
 **Status:** ✅ READY FOR DEPLOYMENT

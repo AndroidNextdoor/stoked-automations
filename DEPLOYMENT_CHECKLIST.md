@@ -185,7 +185,7 @@ openssl s_client -connect stokedautomation.com:443 -servername stokedautomation.
 - [ ] Favicon displays
 
 ### 3. SEO & Metadata
-- [ ] Page title is correct: "Claude Code Plugins Marketplace - 227 Plugins"
+- [ ] Page title is correct: "Stoked Automations Marketplace - 227 Plugins"
 - [ ] Meta description is present
 - [ ] Open Graph tags are correct (check with https://www.opengraph.xyz/)
 - [ ] Twitter card tags are correct

@@ -1,6 +1,6 @@
 # Security Policy
 
-**Claude Code Plugins Marketplace Security Framework**
+**Stoked Automations Marketplace Security Framework**
 
 This marketplace takes security seriously. With 225+ plugins and growing community contributions, we've implemented multiple layers of security validation.
 

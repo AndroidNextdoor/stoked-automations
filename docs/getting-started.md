@@ -1,8 +1,8 @@
-# Getting Started with Claude Code Plugins
+# Getting Started with Stoked Automations
 
 ## What Are Plugins?
 
-Claude Code plugins are packages that extend Claude Code functionality with custom commands, specialized agents, hooks, and MCP servers.
+Stoked Automations are packages that extend Claude Code functionality with custom commands, specialized agents, hooks, and MCP servers.
 
 ## Installation
 

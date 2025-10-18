@@ -1,4 +1,4 @@
-# 🚀 Claude Code Plugins Hub v1.0.38
+# 🚀 Stoked Automations Hub v1.0.38
 
 ## 🎯 Release Highlights
 

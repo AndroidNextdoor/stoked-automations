@@ -1,4 +1,4 @@
-# Claude Code Plugins
+# Stoked Automations
 
 [![Version](https://img.shields.io/badge/version-1.1.0-brightgreen)](CHANGELOG.md)
 [![Plugins](https://img.shields.io/badge/plugins-236-blue)](https://github.com/AndroidNextdoor/stoked-automations)
@@ -6,7 +6,7 @@
 [![Skill Enhancers](https://img.shields.io/badge/NEW-Skill%20Enhancers-blueviolet?logo=sparkles)](https://github.com/AndroidNextdoor/stoked-automations/tree/main/plugins/skill-enhancers)
 [![GitHub Stars](https://img.shields.io/github/stars/AndroidNextdoor/stoked-automations?style=social)](https://github.com/AndroidNextdoor/stoked-automations)
 
-**236 production-ready Claude Code plugins for automation, development, and AI workflows.**
+**236 production-ready Stoked Automations for automation, development, and AI workflows.**
 🎉 **NEW in v1.1.0:** 164 plugins now have **Agent Skills** that activate automatically!
 
 > **Note:** This is a fork of [jeremylongshore/claude-code-plugins](https://github.com/jeremylongshore/claude-code-plugins) with modifications and additions by Andrew Nixdorf. Original work by Jeremy Longshore is licensed under MIT.
@@ -55,7 +55,7 @@
 > Already using an older install? Run `/plugin marketplace remove claude-code-plugins` and re-add with the command above to switch to the new `stoked-automations` slug. Existing plugins keep working either way.
 
 **Browse the catalog:**
-Visit **[Claude Code Plugins Marketplace](https://stokedautomations.com/)** (CLI slug `stoked-automations`) or explore [`plugins/`](./plugins/)
+Visit **[Stoked Automations Marketplace](https://stokedautomations.com/)** (CLI slug `stoked-automations`) or explore [`plugins/`](./plugins/)
 
 **Learn to build:**
 See [Learning Paths](#-learning-paths) for step-by-step guides
@@ -83,7 +83,7 @@ See [Learning Paths](#-learning-paths) for step-by-step guides
   <summary><strong>🎓 Learning Paths</strong> (click to expand)</summary>
 
   
-  **New to Claude Code plugins?** Follow structured paths:
+  **New to Stoked Automations?** Follow structured paths:
 
   | Path | Duration | Best For |
   |------|----------|----------|
@@ -342,9 +342,9 @@ All three types are **fully functional** but operate through different mechanism
 
 ---
 
-## What Are Claude Code Plugins?
+## What Are Stoked Automations?
 
-Claude Code plugins extend Claude's capabilities through two approaches:
+Stoked Automations extend Claude's capabilities through two approaches:
 
 ### Plugin Components:
 - **Slash Commands** - Custom shortcuts that trigger Claude actions or templates
@@ -356,7 +356,7 @@ Claude Code plugins extend Claude's capabilities through two approaches:
 - **AI Instruction Plugins**: Work by providing Claude with detailed guidance, templates, and patterns to follow (majority of plugins)
 - **MCP Server Plugins**: Run actual TypeScript/JavaScript code in separate processes that Claude can call (5 plugins)
 
-Both types are valid Claude Code plugins - they just operate through different mechanisms.
+Both types are valid Stoked Automations - they just operate through different mechanisms.
 
 **Released**: October 2025 (Public Beta)
 **Official Docs**: https://docs.claude.com/en/docs/claude-code/plugins
@@ -669,15 +669,15 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ### Not on GitHub Marketplace
 
-**Claude Code plugins do NOT use GitHub Marketplace.** They operate in a completely separate ecosystem using JSON-based marketplace catalogs hosted in Git repositories. This repository IS a Claude Code plugin marketplace.
+**Stoked Automations do NOT use GitHub Marketplace.** They operate in a completely separate ecosystem using JSON-based marketplace catalogs hosted in Git repositories. This repository IS a Claude Code plugin marketplace.
 
 ### No Built-in Monetization
 
-**There is currently no monetization mechanism** for Claude Code plugins. All plugins in the ecosystem are free and open-source. See [Monetization Alternatives](docs/monetization-alternatives.md) for external revenue strategies.
+**There is currently no monetization mechanism** for Stoked Automations. All plugins in the ecosystem are free and open-source. See [Monetization Alternatives](docs/monetization-alternatives.md) for external revenue strategies.
 
 ### Beta Status
 
-Claude Code plugins are in **public beta** (October 2025). Features and best practices may evolve. This marketplace will stay updated with the latest changes.
+Stoked Automations are in **public beta** (October 2025). Features and best practices may evolve. This marketplace will stay updated with the latest changes.
 
 ---
 
@@ -735,7 +735,7 @@ All templates are in the [`templates/`](templates/) directory with complete exam
 
 ## Our Mission
 
-To be **THE definitive resource** for Claude Code plugins by:
+To be **THE definitive resource** for Stoked Automations by:
 
 1. **Educating** - Clear examples showing how plugins work
 2. **Curating** - High-quality plugins you can trust

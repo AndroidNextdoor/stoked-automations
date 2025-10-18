@@ -29,7 +29,7 @@
 
 ### Core Concept
 
-**Claude Code plugins are instructions, not code** (for most plugins). They tell Claude **how** to do things using markdown files.
+**Stoked Automations are instructions, not code** (for most plugins). They tell Claude **how** to do things using markdown files.
 
 **Official Docs**: [Plugin Architecture](https://docs.claude.com/en/docs/claude-code/plugins#architecture)
 

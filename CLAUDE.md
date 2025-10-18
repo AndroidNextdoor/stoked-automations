@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is **the comprehensive marketplace and learning hub for Claude Code plugins**. It serves as both a distribution platform for plugins and an educational resource for plugin developers.
+This is **the comprehensive marketplace and learning hub for Stoked Automations**. It serves as both a distribution platform for plugins and an educational resource for plugin developers.
 
 **Repository Stats:**
 - 236 marketplace plugins across 15 categories
@@ -538,15 +538,15 @@ Users install plugins from this marketplace:
 
 ### NOT GitHub Marketplace
 
-Claude Code plugins use their own ecosystem with JSON-based marketplace catalogs. This repository IS a Claude Code plugin marketplace, not related to GitHub's marketplace for Actions/Apps.
+Stoked Automations use their own ecosystem with JSON-based marketplace catalogs. This repository IS a Claude Code plugin marketplace, not related to GitHub's marketplace for Actions/Apps.
 
 ### No Built-in Monetization
 
-There is no monetization mechanism for Claude Code plugins. All plugins are free and open-source. External revenue strategies exist (consulting, support, premium versions).
+There is no monetization mechanism for Stoked Automations. All plugins are free and open-source. External revenue strategies exist (consulting, support, premium versions).
 
 ### Beta Status (October 2025)
 
-Claude Code plugins are in public beta. Features and best practices evolve. This marketplace stays updated with latest changes.
+Stoked Automations are in public beta. Features and best practices evolve. This marketplace stays updated with latest changes.
 
 ### Three Plugin Types Coexist
 

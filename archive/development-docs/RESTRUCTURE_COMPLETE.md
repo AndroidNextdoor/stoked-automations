@@ -1,7 +1,7 @@
 #  Repository Restructure Complete
 
 **Date**: October 10, 2025
-**Project**: Claude Code Plugins Marketplace
+**Project**: Stoked Automations Marketplace
 **Transition**: Commercial Gumroad Model → Open-Source GitHub Marketplace
 
 ---

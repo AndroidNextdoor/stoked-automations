@@ -1,4 +1,4 @@
-# Setup Instructions for Claude Code Plugins Repository
+# Setup Instructions for Stoked Automations Repository
 
 ##  Current Status
 
@@ -56,7 +56,7 @@ git commit -m "Initial commit: Claude Code Plugin Marketplace
 
 1. Go to **GitHub**: https://github.com/new
 2. **Repository name**: `claude-code-plugins`
-3. **Description**: `The comprehensive marketplace and learning hub for Claude Code plugins`
+3. **Description**: `The comprehensive marketplace and learning hub for Stoked Automations`
 4. **Visibility**: Public
 5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
 6. Click **Create repository**
@@ -92,7 +92,7 @@ After pushing, configure your repository on GitHub:
 
 3. **Enable Issues** (Should be enabled by default)
 
-4. **Set Description**: "The comprehensive marketplace and learning hub for Claude Code plugins"
+4. **Set Description**: "The comprehensive marketplace and learning hub for Stoked Automations"
 
 5. **Add Website**: `https://github.com/AndroidNextdoor/stoked-automations`
 

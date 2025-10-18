@@ -1,4 +1,4 @@
-# SEO Implementation Guide - Claude Code Plugins
+# SEO Implementation Guide - Stoked Automations
 
 **Created:** 2025-10-16
 **Status:** Ready for Implementation
@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-This guide provides complete SEO optimization for three critical pages in the Claude Code Plugins marketplace:
+This guide provides complete SEO optimization for three critical pages in the Stoked Automations marketplace:
 
 1. **Sponsor Page** (`/sponsor`) - GitHub Sponsors monetization
 2. **Skill Enhancers Category** (`/categories/skill-enhancers`) - New plugin category showcase

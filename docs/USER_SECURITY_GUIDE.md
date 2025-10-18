@@ -1,6 +1,6 @@
 # User Security Guide
 
-**How to Safely Use Claude Code Plugins**
+**How to Safely Use Stoked Automations**
 
 This guide helps you evaluate plugins before installation and protect yourself from potential security risks.
 

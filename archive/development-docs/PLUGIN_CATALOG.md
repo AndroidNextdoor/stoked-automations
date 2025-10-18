@@ -1,4 +1,4 @@
-# Claude Code Plugins - Complete Catalog
+# Stoked Automations - Complete Catalog
 
 **Date:** October 11, 2025
 **Status:** 200+ Plugin Mission - COMPLETE

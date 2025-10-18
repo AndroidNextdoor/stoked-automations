@@ -1,6 +1,6 @@
 # Release Checklist
 
-Use this checklist for all future releases of the Claude Code Plugins Marketplace.
+Use this checklist for all future releases of the Stoked Automations Marketplace.
 
 ---
 

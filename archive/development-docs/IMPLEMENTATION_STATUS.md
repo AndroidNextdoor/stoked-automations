@@ -92,7 +92,7 @@ These are NOT traditional code implementations but **instruction templates** for
 - Code that works outside of Claude
 
 **NO** if users understand:
-- These are Claude Code plugins (AI instruction sets)
+- These are Stoked Automations (AI instruction sets)
 - They work by augmenting Claude's behavior
 - The "code" is often instructions for the AI, not machine code
 

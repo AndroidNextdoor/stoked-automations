@@ -1,6 +1,6 @@
 # 🚀 DevOps Engineer Learning Path
 
-**Goal**: Master DevOps automation with Claude Code plugins from basic Git workflows to full infrastructure automation.
+**Goal**: Master DevOps automation with Stoked Automations from basic Git workflows to full infrastructure automation.
 
 **Time**: 4-6 hours total
 **Difficulty**: Beginner → Advanced

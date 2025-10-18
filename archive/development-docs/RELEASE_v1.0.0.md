@@ -150,7 +150,7 @@ git tag -a v1.0.0 -m "Release v1.0.0: Open-Source Plugin Marketplace Launch
 
 ##  Initial Public Release
 
-This release marks the launch of the Claude Code Plugins Marketplace
+This release marks the launch of the Stoked Automations Marketplace
 as an open-source community-driven platform.
 
 ### Highlights
@@ -357,7 +357,7 @@ After pushing and creating the release:
 ```
  Launching the Claude Code Plugin Marketplace!
 
-The first open-source marketplace for Claude Code plugins.
+The first open-source marketplace for Stoked Automations.
 
  Featured: git-commit-smart
 Never write commit messages again. AI analyzes your changes and generates perfect conventional commits.
@@ -374,7 +374,7 @@ Install:
 ```
  Big announcement: I'm launching the Claude Code Plugin Marketplace!
 
-After Anthropic released Claude Code plugins last week, I saw an opportunity to build THE destination for production-ready plugins and educational resources.
+After Anthropic released Stoked Automations last week, I saw an opportunity to build THE destination for production-ready plugins and educational resources.
 
 What makes this marketplace special:
 
@@ -393,7 +393,7 @@ What makes this marketplace special:
 - Accepting contributions
 - GitHub Sponsors supported
 
-First-mover advantage means we're establishing the quality standards for Claude Code plugins.
+First-mover advantage means we're establishing the quality standards for Stoked Automations.
 
 Check it out: https://github.com/AndroidNextdoor/stoked-automations
 

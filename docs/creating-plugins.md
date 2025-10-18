@@ -1,4 +1,4 @@
-# Creating Claude Code Plugins
+# Creating Stoked Automations
 
 ## Quick Start
 
