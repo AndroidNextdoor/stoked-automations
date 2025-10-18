@@ -1,0 +1,32 @@
+{
+  "name": "serena",
+  "version": "1.0.0",
+  "description": "AI-powered memory and context management system with semantic search, project-specific prompts, and intelligent codebase understanding",
+  "category": "ai-ml",
+  "keywords": [
+    "memory-management",
+    "semantic-search",
+    "context-management",
+    "prompts",
+    "mcp-server",
+    "codebase-understanding",
+    "project-memory",
+    "ai-assistant"
+  ],
+  "author": {
+    "name": "Oraios",
+    "url": "https://github.com/oraios"
+  },
+  "repository": "https://github.com/oraios/serena",
+  "license": "MIT",
+  "prerequisites": {
+    "description": "Requires Python 3.8+, uv package manager, and optional language servers for enhanced code understanding",
+    "steps": [
+      "Install Python 3.8 or higher",
+      "Install uv package manager: curl -LsSf https://astral.sh/uv/install.sh | sh",
+      "Optional: Install typescript-language-server for TS/JS support",
+      "Optional: Install pyright for Python support",
+      "Create config at ~/.serena/serena_config.yml"
+    ]
+  }
+}

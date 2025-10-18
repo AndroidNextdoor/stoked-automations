@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "serena": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/oraios/serena",
+        "serena",
+        "start-mcp-server"
+      ],
+      "metadata": {
+        "description": "Serena MCP server for memory management and semantic search",
+        "documentation": "https://github.com/oraios/serena",
+        "tools": [
+          {
+            "name": "create_memory",
+            "description": "Store new memories with semantic search capabilities"
+          },
+          {
+            "name": "search_memories",
+            "description": "Search stored memories using semantic similarity"
+          },
+          {
+            "name": "get_project_context",
+            "description": "Retrieve project-specific context and memories"
+          },
+          {
+            "name": "create_prompt",
+            "description": "Generate optimized prompts based on project context"
+          },
+          {
+            "name": "analyze_codebase",
+            "description": "Analyze codebase structure using language servers"
+          }
+        ]
+      }
+    }
+  }
+}

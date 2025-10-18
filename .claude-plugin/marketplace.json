@@ -328,6 +328,27 @@
       "repository": "https://github.com/upstash/context7"
     },
     {
+      "name": "serena",
+      "source": "./plugins/mcp/serena",
+      "description": "AI-powered memory and context management with semantic search, project-specific prompts, and codebase understanding via language servers",
+      "version": "1.0.0",
+      "category": "ai-ml",
+      "keywords": [
+        "mcp",
+        "memory-management",
+        "semantic-search",
+        "context-management",
+        "prompts",
+        "codebase-understanding",
+        "language-servers"
+      ],
+      "author": {
+        "name": "Oraios",
+        "url": "https://github.com/oraios"
+      },
+      "repository": "https://github.com/oraios/serena"
+    },
+    {
       "name": "hello-world",
       "source": "./plugins/examples/hello-world",
       "description": "Simple example plugin demonstrating basic slash commands",
