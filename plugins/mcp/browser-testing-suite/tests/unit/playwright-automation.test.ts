@@ -68,7 +68,7 @@ describe('Playwright Automation Server - Unit Tests', () => {
   });
 
   describe('Element Interaction', () => {
-    beforeAll(async () => {
+    beforeEach(async () => {
       await page.goto('https://example.com');
     });
 
@@ -81,11 +81,15 @@ describe('Playwright Automation Server - Unit Tests', () => {
     it('should type text into inputs', async () => {
       // Create a test input dynamically
       await page.evaluate(() => {
-        const input = document.createElement('input');
-        input.id = 'test-input';
-        document.body.appendChild(input);
+        return new Promise((resolve) => {
+          const input = document.createElement('input');
+          input.id = 'test-input';
+          document.body.appendChild(input);
+          resolve(undefined);
+        });
       });
 
+      await page.waitForSelector('#test-input');
       await page.type('#test-input', 'Hello World');
       const value = await page.inputValue('#test-input');
       expect(value).toBe('Hello World');
@@ -93,11 +97,15 @@ describe('Playwright Automation Server - Unit Tests', () => {
 
     it('should type with delay', async () => {
       await page.evaluate(() => {
-        const input = document.createElement('input');
-        input.id = 'delayed-input';
-        document.body.appendChild(input);
+        return new Promise((resolve) => {
+          const input = document.createElement('input');
+          input.id = 'delayed-input';
+          document.body.appendChild(input);
+          resolve(undefined);
+        });
       });
 
+      await page.waitForSelector('#delayed-input');
       const startTime = Date.now();
       await page.type('#delayed-input', 'ABC', { delay: 50 });
       const elapsed = Date.now() - startTime;
@@ -149,7 +157,7 @@ describe('Playwright Automation Server - Unit Tests', () => {
     });
 
     it('should pass arguments to evaluation', async () => {
-      const result = await page.evaluate((x, y) => x + y, 10, 20);
+      const result = await page.evaluate(({ x, y }) => x + y, { x: 10, y: 20 });
       expect(result).toBe(30);
     });
   });

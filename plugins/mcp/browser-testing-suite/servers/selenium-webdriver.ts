@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 /**
+ *
  * Selenium WebDriver MCP Server
  * Provides Selenium automation tools with Grid support, cross-browser testing, and advanced interactions
  */
