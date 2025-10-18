@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeAll, afterAll, vi } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll, beforeEach } from 'vitest';
 import { chromium, Browser, Page } from 'playwright';
 
 /**
@@ -49,12 +49,12 @@ describe('Playwright Automation Server - Unit Tests', () => {
 
   describe('Navigation', () => {
     it('should navigate to a URL', async () => {
-      await page.goto('https://example.com');
-      expect(page.url()).toBe('https://example.com/');
+      await page.goto('https://stokedautomations.com');
+      expect(page.url()).toBe('https://stokedautomations.com/');
     });
 
     it('should wait for load event', async () => {
-      const response = await page.goto('https://example.com', {
+      const response = await page.goto('https://stokedautomations.com', {
         waitUntil: 'load',
       });
       expect(response?.status()).toBe(200);
@@ -62,14 +62,14 @@ describe('Playwright Automation Server - Unit Tests', () => {
 
     it('should respect timeout parameter', async () => {
       await expect(
-        page.goto('https://example.com', { timeout: 5000 })
+        page.goto('https://stokedautomations.com', { timeout: 5000 })
       ).resolves.toBeDefined();
     });
   });
 
   describe('Element Interaction', () => {
     beforeEach(async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
     });
 
     it('should click elements', async () => {
@@ -117,20 +117,20 @@ describe('Playwright Automation Server - Unit Tests', () => {
 
   describe('Screenshots', () => {
     it('should capture full page screenshot', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       const screenshot = await page.screenshot({ fullPage: true });
       expect(screenshot).toBeInstanceOf(Buffer);
       expect(screenshot.length).toBeGreaterThan(0);
     });
 
     it('should capture viewport screenshot', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       const screenshot = await page.screenshot({ fullPage: false });
       expect(screenshot).toBeInstanceOf(Buffer);
     });
 
     it('should support different image formats', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
 
       const pngScreenshot = await page.screenshot({ type: 'png' });
       const jpegScreenshot = await page.screenshot({ type: 'jpeg' });
@@ -142,11 +142,11 @@ describe('Playwright Automation Server - Unit Tests', () => {
 
   describe('JavaScript Evaluation', () => {
     it('should evaluate JavaScript in page context', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       const result = await page.evaluate(() => {
         return document.title;
       });
-      expect(result).toBe('Example Domain');
+      expect(result).toContain('Stoked');
     });
 
     it('should return evaluation results', async () => {
@@ -164,21 +164,21 @@ describe('Playwright Automation Server - Unit Tests', () => {
 
   describe('Wait for Selector', () => {
     it('should wait for selector to be visible', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       await expect(
         page.waitForSelector('h1', { state: 'visible', timeout: 5000 })
       ).resolves.toBeDefined();
     });
 
     it('should wait for selector to be attached', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       await expect(
         page.waitForSelector('body', { state: 'attached' })
       ).resolves.toBeDefined();
     });
 
     it('should timeout when selector not found', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       await expect(
         page.waitForSelector('#nonexistent', { timeout: 1000 })
       ).rejects.toThrow();
@@ -187,22 +187,22 @@ describe('Playwright Automation Server - Unit Tests', () => {
 
   describe('Page Content', () => {
     it('should get HTML content', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       const content = await page.content();
       expect(content).toContain('<!DOCTYPE html>');
-      expect(content).toContain('<title>Example Domain</title>');
+      expect(content).toContain('Stoked');
     });
 
     it('should get page title', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       const title = await page.title();
-      expect(title).toBe('Example Domain');
+      expect(title).toContain('Stoked');
     });
   });
 
   describe('PDF Generation', () => {
     it('should generate PDF', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       const pdf = await page.pdf({ format: 'A4' });
       expect(pdf).toBeInstanceOf(Buffer);
       expect(pdf.length).toBeGreaterThan(0);
@@ -211,7 +211,7 @@ describe('Playwright Automation Server - Unit Tests', () => {
     });
 
     it('should generate PDF with custom format', async () => {
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       const pdf = await page.pdf({
         format: 'Letter',
         printBackground: true,
@@ -228,10 +228,10 @@ describe('Playwright Automation Server - Unit Tests', () => {
         requests.push(request.url());
       });
 
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
 
       expect(requests.length).toBeGreaterThan(0);
-      expect(requests[0]).toContain('example.com');
+      expect(requests[0]).toContain('stokedautomations.com');
     });
 
     it('should capture response details', async () => {
@@ -244,7 +244,7 @@ describe('Playwright Automation Server - Unit Tests', () => {
         });
       });
 
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
 
       expect(responses.length).toBeGreaterThan(0);
       expect(responses[0].status).toBe(200);
@@ -259,7 +259,7 @@ describe('Playwright Automation Server - Unit Tests', () => {
       page.on('response', handler);
       page.removeListener('response', handler);
 
-      await page.goto('https://example.com');
+      await page.goto('https://stokedautomations.com');
       expect(responses.length).toBe(0);
     });
   });
