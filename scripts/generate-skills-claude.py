@@ -20,6 +20,8 @@ import os
 import sys
 import time
 import threading
+import sqlite3
+from datetime import datetime
 from pathlib import Path
 from anthropic import Anthropic
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -49,6 +51,40 @@ class RateLimiter:
             self.last_request_time = time.time()
 
 rate_limiter = RateLimiter(MIN_REQUEST_INTERVAL)
+
+# Database logging
+DB_LOCK = threading.Lock()
+
+def log_to_database(repo_root, plugin_name, plugin_category, plugin_path, status,
+                   char_count=None, line_count=None, error_message=None,
+                   generation_time=None, skill_content=None):
+    """Log skill generation to database"""
+    db_path = repo_root / 'backups' / 'skills-audit' / 'skills_generation.db'
+
+    # Skip if database doesn't exist
+    if not db_path.exists():
+        return
+
+    with DB_LOCK:
+        try:
+            conn = sqlite3.connect(str(db_path))
+            cursor = conn.cursor()
+
+            timestamp = datetime.utcnow().isoformat()
+
+            cursor.execute("""
+                INSERT INTO skill_generations
+                (timestamp, plugin_name, plugin_category, plugin_path, status,
+                 char_count, line_count, error_message, generation_time_seconds, skill_content)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (timestamp, plugin_name, plugin_category, str(plugin_path), status,
+                  char_count, line_count, error_message, generation_time, skill_content))
+
+            conn.commit()
+            conn.close()
+        except Exception as e:
+            # Don't fail the whole process if DB logging fails
+            print(f"  ⚠️  Database logging failed: {e}")
 
 def read_plugin_context(plugin_path):
     """Read plugin files to understand what it does"""
@@ -231,10 +267,21 @@ def process_plugin(plugin_info, api_key, repo_root, completed_count, total_plugi
     plugin_path = repo_root / plugin_data['source'].lstrip('./')
     skill_file = plugin_path / 'skills' / 'skill-adapter' / 'SKILL.md'
 
+    # Get plugin category from plugin.json
+    try:
+        plugin_json_path = plugin_path / '.claude-plugin' / 'plugin.json'
+        with open(plugin_json_path, 'r') as f:
+            plugin_json = json.load(f)
+        plugin_category = plugin_json.get('category', 'unknown')
+    except:
+        plugin_category = 'unknown'
+
     # Skip if already exists
     if skill_file.exists():
         print(f"  ⏭️  {plugin_name}: SKILL.md already exists")
         return {'status': 'skipped', 'plugin': plugin_name}
+
+    start_time = time.time()
 
     try:
         print(f"  🤖 {plugin_name}: Generating with Claude API...")
@@ -246,10 +293,39 @@ def process_plugin(plugin_info, api_key, repo_root, completed_count, total_plugi
 
             line_count = len(skill_content.split('\n'))
             char_count = len(skill_content)
+            generation_time = time.time() - start_time
+
+            # Log success to database
+            log_to_database(
+                repo_root=repo_root,
+                plugin_name=plugin_name,
+                plugin_category=plugin_category,
+                plugin_path=plugin_path,
+                status='SUCCESS',
+                char_count=char_count,
+                line_count=line_count,
+                generation_time=generation_time,
+                skill_content=skill_content
+            )
+
             print(f"  ✅ {plugin_name}: Created SKILL.md ({char_count} chars, {line_count} lines)")
             return {'status': 'success', 'plugin': plugin_name, 'chars': char_count, 'lines': line_count}
 
     except Exception as e:
+        generation_time = time.time() - start_time
+        error_message = str(e)
+
+        # Log error to database
+        log_to_database(
+            repo_root=repo_root,
+            plugin_name=plugin_name,
+            plugin_category=plugin_category,
+            plugin_path=plugin_path,
+            status='ERROR',
+            error_message=error_message,
+            generation_time=generation_time
+        )
+
         print(f"  ❌ {plugin_name}: Error - {e}")
         return {'status': 'error', 'plugin': plugin_name, 'error': str(e)}
 
