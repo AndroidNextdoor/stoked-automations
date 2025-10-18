@@ -92,7 +92,15 @@ def log_generation(plugin_name: str, plugin_category: str, plugin_path: str,
                   status: str, char_count: int = None, line_count: int = None,
                   error_message: str = None, generation_time: float = None,
                   skill_content: str = None):
-    """Log skill generation attempt to database"""
+    """
+    Log skill generation attempt to database
+
+    NOTE: Stores absolute paths. When the codebase is moved to a new machine,
+    run scripts/update-skills-db-paths.sh to fix paths:
+      ./scripts/update-skills-db-paths.sh backups/skills-audit/skills_generation.db $(pwd)
+
+    FUTURE: Consider storing relative paths: str(plugin_path.relative_to(repo_root))
+    """
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
@@ -105,7 +113,7 @@ def log_generation(plugin_name: str, plugin_category: str, plugin_path: str,
         datetime.now().isoformat(),
         plugin_name,
         plugin_category,
-        str(plugin_path),  # Convert Path to string for SQLite
+        str(plugin_path),  # Convert Path to string for SQLite (absolute path)
         status,
         char_count,
         line_count,
