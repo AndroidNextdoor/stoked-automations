@@ -1,8 +1,8 @@
 ## [1.1.0] - 2025-10-17
 
-### 🎉 Major Feature: Agent Skills Now Available on 164 Plugins!
+### 🎉 Major Feature: Agent Skills Now Available on 170 Plugins!
 
-**GAME CHANGING UPDATE:** We've equipped 164 plugins with intelligent Agent Skills that automatically activate based on your context and needs!
+**GAME CHANGING UPDATE:** We've equipped 170 plugins with intelligent Agent Skills that automatically activate based on your context and needs!
 
 ### 🤖 What Are Agent Skills?
 

@@ -7,12 +7,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This is **the comprehensive marketplace and learning hub for Stoked Automations**. It serves as both a distribution platform for plugins and an educational resource for plugin developers.
 
 **Repository Stats:**
-- 236 marketplace plugins across 15 categories
-- 221 AI instruction plugins (markdown-based templates)
+- 231 total plugins across 15 categories
+- 170 plugins with Agent Skills (automatic activation)
 - 6 MCP server plugins (TypeScript/Node.js executables with 21 tools)
-- 164 plugins with Agent Skills (automatic activation)
 - Live marketplace at https://stokedautomations.com/
 - Monorepo using pnpm workspaces
+
+**Note:** Plugin counts are centrally managed in `.claude-plugin/stats.json`
 
 ## Critical Architecture Understanding
 
@@ -209,12 +210,12 @@ jq '.plugins[] | select(.name == "your-plugin")' .claude-plugin/marketplace.json
 
 ## Plugin Architecture Details
 
-### AI Instruction Plugins (221 plugins)
+### Plugin Types
 
-- Markdown files with YAML frontmatter
-- Work through Claude's interpretation
-- No external code execution
-- Categories: api-development, ai-ml, security, devops, crypto, database, testing, performance, productivity, ai-agency
+**All Plugins (231 total):**
+- Markdown-based instruction plugins (commands, agents)
+- MCP server plugins (TypeScript/Node.js executables)
+- Categories: api-development, ai-ml, security, devops, crypto, database, testing, performance, productivity, ai-agency, etc.
 
 **Required frontmatter for commands/agents:**
 ```yaml
@@ -548,13 +549,15 @@ There is no monetization mechanism for Stoked Automations. All plugins are free 
 
 Stoked Automations are in public beta. Features and best practices evolve. This marketplace stays updated with latest changes.
 
-### Three Plugin Types Coexist
+### Plugin Component Types
 
-- **AI Instruction Plugins:** Guide Claude's behavior through markdown templates (221 plugins)
-- **MCP Server Plugins:** Execute TypeScript/Node.js code in separate processes (6 plugins)
-- **Agent Skills:** Model-invoked capabilities that activate automatically based on context (164 plugins have skills)
+- **Commands & Agents:** Markdown instruction files that guide Claude's behavior (majority of 231 plugins)
+- **MCP Servers:** TypeScript/Node.js executables running as separate processes (6 plugins)
+- **Agent Skills:** Automatic activation based on conversation context (170 plugins have skills)
 
-All three types are valid and fully functional approaches. Many plugins combine multiple types (e.g., commands + agent skills).
+All types are valid and fully functional. Many plugins combine multiple components (e.g., commands + agent skills).
+
+**Current stats:** See `.claude-plugin/stats.json` for accurate counts.
 
 ## Resources
 
@@ -594,5 +597,6 @@ When working in this repository:
 ---
 
 **Last Updated:** October 2025
-**Repository Version:** 1.1.0 (236 plugins)
+**Repository Version:** 1.1.0 (231 plugins, 170 with Agent Skills)
 **Status:** Active, accepting community contributions
+**Stats Source:** `.claude-plugin/stats.json`

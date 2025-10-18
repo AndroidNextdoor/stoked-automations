@@ -72,7 +72,8 @@ const { totalPlugins, totalCategories } = Astro.props;
     transform: translateX(-50%);
     width: 100%;
     height: 100%;
-    background: radial-gradient(ellipse at top, rgba(16, 185, 129, 0.15) 0%, transparent 70%);
+    background: radial-gradient(1200px 800px at 80% -20%, rgba(237, 143, 58, 0.12), transparent 60%),
+                radial-gradient(900px 700px at -10% 10%, rgba(210, 180, 140, 0.08), transparent 50%);
     pointer-events: none;
   }
 
@@ -118,7 +119,7 @@ const { totalPlugins, totalCategories } = Astro.props;
   .stat-number {
     font-size: 2.5rem;
     font-weight: 900;
-    background: linear-gradient(135deg, var(--green-400) 0%, var(--green-300) 100%);
+    background: linear-gradient(135deg, #e97101 0%, #ed8f3a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -167,8 +168,8 @@ const { totalPlugins, totalCategories } = Astro.props;
   }
 
   .install-code-wrapper:hover {
-    border-color: var(--green-500);
-    box-shadow: 0 0 0 1px var(--green-500);
+    border-color: #e97101;
+    box-shadow: 0 0 0 1px #e97101;
   }
 
   .install-code {
@@ -186,14 +187,14 @@ const { totalPlugins, totalCategories } = Astro.props;
     background: transparent;
     border: none;
     padding: 0;
-    color: var(--green-400);
+    color: #ed8f3a;
     font-size: 0.875rem;
   }
 
   .copy-btn {
     flex-shrink: 0;
-    background: var(--green-500);
-    color: var(--slate-950);
+    background: #e97101;
+    color: #ffffff;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
@@ -205,9 +206,9 @@ const { totalPlugins, totalCategories } = Astro.props;
   }
 
   .copy-btn:hover {
-    background: var(--green-400);
+    background: #ed8f3a;
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    box-shadow: 0 4px 12px rgba(233, 113, 1, 0.3);
   }
 
   .copy-btn:active {
@@ -223,22 +224,22 @@ const { totalPlugins, totalCategories } = Astro.props;
   }
 
   .install-note code {
-    background: rgba(148, 163, 184, 0.12);
-    color: var(--green-300);
+    background: rgba(233, 113, 1, 0.12);
+    color: #ed8f3a;
     padding: 0.15rem 0.4rem;
     border-radius: 0.35rem;
     font-size: 0.8rem;
   }
 
   .intent-note a {
-    color: var(--green-300);
+    color: #ed8f3a;
     font-weight: 600;
     text-decoration: none;
-    border-bottom: 1px solid rgba(45, 212, 191, 0.4);
+    border-bottom: 1px solid rgba(237, 143, 58, 0.4);
   }
 
   .intent-note a:hover {
-    border-bottom-color: rgba(45, 212, 191, 0.8);
+    border-bottom-color: rgba(237, 143, 58, 0.8);
   }
 
   @media (max-width: 640px) {

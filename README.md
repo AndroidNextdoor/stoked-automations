@@ -1,13 +1,13 @@
 # Stoked Automations
 
 [![Version](https://img.shields.io/badge/version-1.1.0-brightgreen)](CHANGELOG.md)
-[![Plugins](https://img.shields.io/badge/plugins-236-blue)](https://github.com/AndroidNextdoor/stoked-automations)
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-164%20plugins-orange?logo=sparkles)](CHANGELOG.md#110---2025-10-17)
+[![Plugins](https://img.shields.io/badge/plugins-231-blue)](https://github.com/AndroidNextdoor/stoked-automations)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-170%20plugins-orange?logo=sparkles)](CHANGELOG.md#110---2025-10-17)
 [![Skill Enhancers](https://img.shields.io/badge/NEW-Skill%20Enhancers-blueviolet?logo=sparkles)](https://github.com/AndroidNextdoor/stoked-automations/tree/main/plugins/skill-enhancers)
 [![GitHub Stars](https://img.shields.io/github/stars/AndroidNextdoor/stoked-automations?style=social)](https://github.com/AndroidNextdoor/stoked-automations)
 
-**236 production-ready Stoked Automations for automation, development, and AI workflows.**
-🎉 **NEW in v1.1.0:** 164 plugins now have **Agent Skills** that activate automatically!
+**231 production-ready Stoked Automations for automation, development, and AI workflows.**
+🎉 **NEW in v1.1.0:** 170 plugins now have **Agent Skills** that activate automatically!
 
 > **Note:** This is a fork of [jeremylongshore/claude-code-plugins](https://github.com/jeremylongshore/claude-code-plugins) with modifications and additions by Andrew Nixdorf. Original work by Jeremy Longshore is licensed under MIT.
 
@@ -24,7 +24,7 @@
 
 ### 🤖 Agent Skills Now Available!
 
-**164 plugins equipped with intelligent Agent Skills** that automatically activate based on your conversation context. No commands to remember - just describe what you need and the right plugins activate automatically!
+**170 plugins equipped with intelligent Agent Skills** that automatically activate based on your conversation context. No commands to remember - just describe what you need and the right plugins activate automatically!
 
 **How It Works:**
 - You mention: "I need to backup my database"
@@ -243,11 +243,11 @@ Example: `web-to-github-issue` - Research → GitHub tickets
 
 This marketplace contains **three types of extensions** that work differently:
 
-### 1. AI Instruction Plugins (97% of marketplace)
+### 1. Instruction Plugins (97% of marketplace)
 - **What they are**: Markdown instructions that guide Claude's behavior
 - **How they work**: Tell Claude HOW to perform tasks using its built-in capabilities
 - **Examples**: DevOps pack, Security pack, API development tools
-- **Count**: ~221 plugins
+- **Count**: 225 plugins (231 total - 6 MCP)
 - **No external code execution** - work entirely through Claude's interpretation
 
 ### 2. MCP Server Plugins (2% of marketplace)
