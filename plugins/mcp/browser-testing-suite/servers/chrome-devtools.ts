@@ -3,6 +3,10 @@
 /**
  * Chrome DevTools Protocol MCP Server
  * Provides performance profiling, network analysis, coverage reports, and debugging via CDP
+ *
+ * Uses full Puppeteer with bundled Chromium (~300MB) for zero-configuration browser automation.
+ * No Chrome installation required - Chromium is downloaded automatically with the plugin.
+ * Advanced users can override with executablePath to use their own Chrome installation.
  */
 
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
@@ -11,7 +15,7 @@ import {
   CallToolRequestSchema,
   ListToolsRequestSchema,
 } from '@modelcontextprotocol/sdk/types.js';
-import puppeteer, { Browser, Page, Protocol } from 'puppeteer-core';
+import puppeteer, { Browser, Page, Protocol } from 'puppeteer';
 import { z } from 'zod';
 
 // Validation schemas
@@ -85,13 +89,13 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
     tools: [
       {
         name: 'connect_chrome',
-        description: 'Connect to Chrome/Chromium with DevTools Protocol',
+        description: 'Connect to Chrome/Chromium with DevTools Protocol. Uses bundled Chromium by default (no installation needed). Optionally specify executablePath to use system Chrome.',
         inputSchema: {
           type: 'object',
           properties: {
             executablePath: {
               type: 'string',
-              description: 'Path to Chrome executable (optional)',
+              description: 'Optional: Path to Chrome executable. If not provided, uses bundled Chromium (~300MB included with plugin)',
             },
             headless: { type: 'boolean', default: true },
             devtools: { type: 'boolean', default: false },
@@ -257,8 +261,10 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           await browser.close();
         }
 
+        // Launch browser - uses bundled Chromium by default if executablePath not provided
+        // Bundled Chromium (~300MB) is included with full Puppeteer for zero-config setup
         browser = await puppeteer.launch({
-          executablePath: params.executablePath,
+          executablePath: params.executablePath, // Optional: override to use system Chrome
           headless: params.headless,
           devtools: params.devtools,
           args: ['--no-sandbox', '--disable-setuid-sandbox'],
