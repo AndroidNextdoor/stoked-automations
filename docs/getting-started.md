@@ -102,29 +102,51 @@ When team members trust the folder, plugins install automatically.
 
 If you're contributing to the marketplace or generating Agent Skills with AI:
 
-### Gemini API Key (for AI skill generation)
+### Claude API Key (for AI skill generation) - **RECOMMENDED**
 
 Add to your `~/.zshrc` or `~/.bashrc`:
 
 ```bash
-export GEMINI_API_KEY='your-gemini-api-key-here'
+export ANTHROPIC_API_KEY='your-claude-api-key-here'
 ```
 
 **Get your API key:**
-1. Visit https://aistudio.google.com/app/apikey
+1. Visit https://console.anthropic.com/settings/keys
 2. Create a new API key
 3. Add it to your shell configuration file
 
 **Usage:**
 ```bash
-# Generate Agent Skills for plugins
-python3 scripts/generate-skills-gemini.py plugin-name
+# Generate Agent Skills for plugins (recommended - best quality)
+python3 scripts/generate-skills-claude.py plugin-name
 
-# With rate limiting (60 second delay between calls)
-python3 scripts/generate-skills-gemini.py plugin1 plugin2 plugin3
+# Batch generation with rate limiting (30 second delay)
+python3 scripts/generate-skills-claude.py plugin1 plugin2 plugin3
 ```
 
-**Note:** The script uses ultra-conservative rate limiting (60s between calls) to prevent quota exhaustion on Gemini's free tier. See [scripts/GEMINI_RATE_LIMITS.md](../scripts/GEMINI_RATE_LIMITS.md) for details.
+**Benefits:**
+- Higher quality skill generation
+- Better rate limits (1000+ RPM on paid tiers)
+- More consistent output formatting
+- Official Anthropic tool
+
+### Alternative: Gemini API Key
+
+If you prefer Google's Gemini API:
+
+```bash
+export GEMINI_API_KEY='your-gemini-api-key-here'
+```
+
+**Get your API key:** https://aistudio.google.com/app/apikey
+
+**Usage:**
+```bash
+# Generate with Gemini (60 second delay - conservative for free tier)
+python3 scripts/generate-skills-gemini.py plugin-name
+```
+
+**Note:** Gemini script uses ultra-conservative rate limiting (60s between calls) for free tier. Claude is recommended for better throughput and quality.
 
 ## Next Steps
 
