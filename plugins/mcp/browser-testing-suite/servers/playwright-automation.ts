@@ -462,12 +462,13 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           networkLogs = [];
           page.on('response', async (response) => {
             const request = response.request();
-            const timing = response.timing();
+            // Get response timing information
+            const timing = await response.finished();
             networkLogs.push({
               url: request.url(),
               method: request.method(),
               status: response.status(),
-              timing: timing?.responseEnd || 0,
+              timing: timing ? Date.now() : 0,
             });
           });
         } else {
