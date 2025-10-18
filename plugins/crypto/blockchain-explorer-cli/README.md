@@ -5,7 +5,7 @@ Command-line blockchain explorer for analyzing transactions, addresses, smart co
 ## Installation
 
 ```bash
-/plugin install blockchain-explorer-cli@claude-code-plugins-plus
+/plugin install blockchain-explorer-cli@stoked-automations
 ```
 
 ## Usage

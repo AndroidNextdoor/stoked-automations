@@ -19,7 +19,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/mempool-analyzer",
   "license": "MIT",
-  "installation": "/plugin install mempool-analyzer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install mempool-analyzer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/dependency-checker",
   "license": "MIT",
-  "installation": "/plugin install dependency-checker@claude@claude-code-plugins-plus",
+  "installation": "/plugin install dependency-checker@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/regression-test-tracker",
   "license": "MIT",
-  "installation": "/plugin install regression-test-tracker@claude@claude-code-plugins-plus",
+  "installation": "/plugin install regression-test-tracker@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -5,7 +5,7 @@ Optimize hyperparameters using grid/random/bayesian search
 ## Installation
 
 ```bash
-/plugin install hyperparameter-tuner@claude-code-plugins-plus
+/plugin install hyperparameter-tuner@stoked-automations
 ```
 
 ## Usage

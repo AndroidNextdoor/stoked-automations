@@ -15,7 +15,7 @@ Browser-based E2E test automation with Playwright, Cypress, and Selenium support
 ## Installation
 
 ```bash
-/plugin install e2e-test-framework@claude-code-plugins-plus
+/plugin install e2e-test-framework@stoked-automations
 ```
 
 ## Usage

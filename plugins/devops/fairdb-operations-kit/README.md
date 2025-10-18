@@ -19,7 +19,7 @@ FairDB is a managed PostgreSQL-as-a-Service platform built on Contabo VPS infras
 ## Installation
 
 ```bash
-/plugin install fairdb-operations-kit@claude-code-plugins-plus
+/plugin install fairdb-operations-kit@stoked-automations
 ```
 
 ## Commands

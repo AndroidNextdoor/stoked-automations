@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/recommendation-engine",
   "license": "MIT",
-  "installation": "/plugin install recommendation-engine@claude@claude-code-plugins-plus",
+  "installation": "/plugin install recommendation-engine@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

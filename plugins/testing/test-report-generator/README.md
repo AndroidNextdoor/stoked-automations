@@ -4,7 +4,7 @@ Generate comprehensive test reports with coverage, trends, and stakeholder-frien
 
 ## Installation
 ```bash
-/plugin install test-report-generator@claude-code-plugins-plus
+/plugin install test-report-generator@stoked-automations
 ```
 
 ## Usage

@@ -84,7 +84,7 @@ marketplaceData.plugins.forEach(plugin => {
     featured: plugin.featured || false,
     repository: plugin.repository || `https://github.com/AndroidNextdoor/stoked-automations/tree/main/${plugin.source}`,
     license: plugin.license || 'MIT',
-    installation: `/plugin install ${plugin.name}@claude-code-plugins-plus`,
+    installation: `/plugin install ${plugin.name}@stoked-automations`,
     features: plugin.features || [],
     requirements: plugin.requirements || [],
     screenshots: plugin.screenshots || []

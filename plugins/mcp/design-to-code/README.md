@@ -15,7 +15,7 @@ Transform design files into React, Svelte, or Vue components with built-in acces
 ##  Installation
 
 ```bash
-/plugin install design-to-code@claude-code-plugins-plus
+/plugin install design-to-code@stoked-automations
 ```
 
 ##  3 MCP Tools

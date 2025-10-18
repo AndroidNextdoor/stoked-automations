@@ -5,7 +5,7 @@ Generate production-ready RESTful APIs from schema definitions with proper routi
 ## Installation
 
 ```bash
-/plugin install rest-api-generator@claude-code-plugins-plus
+/plugin install rest-api-generator@stoked-automations
 ```
 
 ## Usage

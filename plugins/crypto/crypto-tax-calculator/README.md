@@ -13,7 +13,7 @@ Calculate cryptocurrency taxes with support for multiple accounting methods and 
 ## Installation
 
 ```bash
-/plugin install crypto-tax-calculator@claude-code-plugins-plus
+/plugin install crypto-tax-calculator@stoked-automations
 ```
 
 ## Commands

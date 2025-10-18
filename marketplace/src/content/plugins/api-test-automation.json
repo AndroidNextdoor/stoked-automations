@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/api-test-automation",
   "license": "MIT",
-  "installation": "/plugin install api-test-automation@claude@claude-code-plugins-plus",
+  "installation": "/plugin install api-test-automation@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -5,7 +5,7 @@ Detect performance regressions early in your CI/CD pipeline.
 ## Installation
 
 ```bash
-/plugin install performance-regression-detector@claude-code-plugins-plus
+/plugin install performance-regression-detector@stoked-automations
 ```
 
 ## Usage

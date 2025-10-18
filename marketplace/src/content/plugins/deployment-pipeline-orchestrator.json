@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/deployment-pipeline-orchestrator",
   "license": "MIT",
-  "installation": "/plugin install deployment-pipeline-orchestrator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install deployment-pipeline-orchestrator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

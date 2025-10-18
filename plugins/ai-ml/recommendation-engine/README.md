@@ -5,7 +5,7 @@ Build recommendation systems and engines
 ## Installation
 
 ```bash
-/plugin install recommendation-engine@claude-code-plugins-plus
+/plugin install recommendation-engine@stoked-automations
 ```
 
 ## Usage

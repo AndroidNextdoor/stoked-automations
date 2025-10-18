@@ -14,7 +14,7 @@ Track and run regression tests to ensure new changes don't break existing functi
 ## Installation
 
 ```bash
-/plugin install regression-test-tracker@claude-code-plugins-plus
+/plugin install regression-test-tracker@stoked-automations
 ```
 
 ## Usage

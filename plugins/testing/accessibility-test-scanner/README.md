@@ -5,7 +5,7 @@ A11y compliance testing with WCAG 2.1/2.2 validation, screen reader compatibilit
 ## Installation
 
 ```bash
-/plugin install accessibility-test-scanner@claude-code-plugins-plus
+/plugin install accessibility-test-scanner@stoked-automations
 ```
 
 ## Usage

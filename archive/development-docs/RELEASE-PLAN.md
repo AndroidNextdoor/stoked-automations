@@ -215,7 +215,7 @@ sequenceDiagram
     Actions->>Pages: Deploy dist/ to GitHub Pages
     Pages->>User: Serve at jeremylongshore.github.io
     User->>User: /plugin marketplace add AndroidNextdoor/stoked-automations
-    User->>User: /plugin install project-health-auditor@claude-code-plugins-plus
+    User->>User: /plugin install project-health-auditor@stoked-automations
 ```
 
 ### GitHub Actions Workflow
@@ -385,11 +385,11 @@ curl -I https://stokedautomations.com/
 
 ```bash
 # In Claude Code, test each plugin:
-/plugin install project-health-auditor@claude-code-plugins-plus
-/plugin install conversational-api-debugger@claude-code-plugins-plus
-/plugin install domain-memory-agent@claude-code-plugins-plus
-/plugin install design-to-code@claude-code-plugins-plus
-/plugin install workflow-orchestrator@claude-code-plugins-plus
+/plugin install project-health-auditor@stoked-automations
+/plugin install conversational-api-debugger@stoked-automations
+/plugin install domain-memory-agent@stoked-automations
+/plugin install design-to-code@stoked-automations
+/plugin install workflow-orchestrator@stoked-automations
 
 # Verify installations
 /plugin list

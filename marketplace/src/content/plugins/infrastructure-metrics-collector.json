@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/infrastructure-metrics-collector",
   "license": "MIT",
-  "installation": "/plugin install infrastructure-metrics-collector@claude@claude-code-plugins-plus",
+  "installation": "/plugin install infrastructure-metrics-collector@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

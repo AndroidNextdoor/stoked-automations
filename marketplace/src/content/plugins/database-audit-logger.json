@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-audit-logger",
   "license": "MIT",
-  "installation": "/plugin install database-audit-logger@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-audit-logger@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

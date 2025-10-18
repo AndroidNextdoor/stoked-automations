@@ -183,7 +183,7 @@ Each generated JSON file includes:
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/category/plugin-name",
   "license": "MIT",
-  "installation": "/plugin install plugin-name@claude-code-plugins-plus",
+  "installation": "/plugin install plugin-name@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

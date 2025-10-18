@@ -15,7 +15,7 @@ Automate complex multi-step workflows with dependency management, parallel execu
 ##  Installation
 
 ```bash
-/plugin install workflow-orchestrator@claude-code-plugins-plus
+/plugin install workflow-orchestrator@stoked-automations
 ```
 
 ##  4 MCP Tools

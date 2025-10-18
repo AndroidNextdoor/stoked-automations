@@ -14,7 +14,7 @@ Advanced mempool analysis for MEV opportunities, pending transaction monitoring,
 ## Installation
 
 ```bash
-/plugin install mempool-analyzer@claude-code-plugins-plus
+/plugin install mempool-analyzer@stoked-automations
 ```
 
 ## Usage

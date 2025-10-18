@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/nft-rarity-analyzer",
   "license": "MIT",
-  "installation": "/plugin install nft-rarity-analyzer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install nft-rarity-analyzer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

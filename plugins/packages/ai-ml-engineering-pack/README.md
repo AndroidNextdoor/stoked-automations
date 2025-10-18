@@ -41,7 +41,7 @@ Master prompt engineering, LLM integration, RAG systems, and AI safety with 12 s
 claude plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install AI/ML Engineering Pack
-claude plugin install ai-ml-engineering-pack@claude-code-plugins-plus
+claude plugin install ai-ml-engineering-pack@stoked-automations
 
 # Verify installation
 claude plugin list

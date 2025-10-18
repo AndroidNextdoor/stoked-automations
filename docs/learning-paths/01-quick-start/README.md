@@ -44,7 +44,7 @@ First, add this plugin marketplace to Claude Code:
 Let's start with the simplest plugin - `hello-world`:
 
 ```bash
-/plugin install hello-world@claude-code-plugins-plus
+/plugin install hello-world@stoked-automations
 ```
 
 **What's happening?**
@@ -55,7 +55,7 @@ Let's start with the simplest plugin - `hello-world`:
 **Verify Installation**:
 ```bash
 /plugin list
-# You should see: hello-world@claude-code-plugins-plus
+# You should see: hello-world@stoked-automations
 ```
 
 ---
@@ -98,7 +98,7 @@ Next steps:
 Now install a production-ready plugin:
 
 ```bash
-/plugin install git-commit-smart@claude-code-plugins-plus
+/plugin install git-commit-smart@stoked-automations
 ```
 
 **Use it to create a smart commit**:
@@ -132,7 +132,7 @@ Install a complete plugin pack for your domain:
 
 ### For DevOps Engineers:
 ```bash
-/plugin install devops-automation-pack@claude-code-plugins-plus
+/plugin install devops-automation-pack@stoked-automations
 ```
 
 This gives you 25 plugins:
@@ -144,7 +144,7 @@ This gives you 25 plugins:
 
 ### For Security Professionals:
 ```bash
-/plugin install security-pro-pack@claude-code-plugins-plus
+/plugin install security-pro-pack@stoked-automations
 ```
 
 This gives you 10 plugins:
@@ -255,19 +255,19 @@ You've successfully:
 
 ```bash
 # Improve code formatting
-/plugin install formatter@claude-code-plugins-plus
+/plugin install formatter@stoked-automations
 # Use: Automatically formats code on tool use
 
 # Professional commits
-/plugin install git-commit-smart@claude-code-plugins-plus
+/plugin install git-commit-smart@stoked-automations
 # Use: /commit-smart
 
 # Overnight development automation
-/plugin install overnight-dev@claude-code-plugins-plus
+/plugin install overnight-dev@stoked-automations
 # Use: /overnight-setup
 
 # Project health analysis
-/plugin install project-health-auditor@claude-code-plugins-plus
+/plugin install project-health-auditor@stoked-automations
 # Use: Analyze code complexity and health
 ```
 

@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/examples/hello-world",
   "license": "MIT",
-  "installation": "/plugin install hello-world@claude@claude-code-plugins-plus",
+  "installation": "/plugin install hello-world@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

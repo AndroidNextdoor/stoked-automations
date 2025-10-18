@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/time-series-forecaster",
   "license": "MIT",
-  "installation": "/plugin install time-series-forecaster@claude@claude-code-plugins-plus",
+  "installation": "/plugin install time-series-forecaster@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -5,7 +5,7 @@ Computer vision image processing and analysis
 ## Installation
 
 ```bash
-/plugin install computer-vision-processor@claude-code-plugins-plus
+/plugin install computer-vision-processor@stoked-automations
 ```
 
 ## Usage

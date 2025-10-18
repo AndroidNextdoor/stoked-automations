@@ -151,16 +151,16 @@ This testing suite provides complete test automation coverage from unit tests to
 Install individual plugins:
 
 ```bash
-/plugin install unit-test-generator@claude-code-plugins-plus
-/plugin install integration-test-runner@claude-code-plugins-plus
-/plugin install api-test-automation@claude-code-plugins-plus
-/plugin install performance-test-suite@claude-code-plugins-plus
-/plugin install security-test-scanner@claude-code-plugins-plus
-/plugin install e2e-test-framework@claude-code-plugins-plus
-/plugin install test-coverage-analyzer@claude-code-plugins-plus
-/plugin install mutation-test-runner@claude-code-plugins-plus
-/plugin install regression-test-tracker@claude-code-plugins-plus
-/plugin install test-data-generator@claude-code-plugins-plus
+/plugin install unit-test-generator@stoked-automations
+/plugin install integration-test-runner@stoked-automations
+/plugin install api-test-automation@stoked-automations
+/plugin install performance-test-suite@stoked-automations
+/plugin install security-test-scanner@stoked-automations
+/plugin install e2e-test-framework@stoked-automations
+/plugin install test-coverage-analyzer@stoked-automations
+/plugin install mutation-test-runner@stoked-automations
+/plugin install regression-test-tracker@stoked-automations
+/plugin install test-data-generator@stoked-automations
 ```
 
 ## Quick Reference

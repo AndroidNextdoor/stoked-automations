@@ -5,7 +5,7 @@ Generate ORM models from database schemas or create database schemas from models
 ## Installation
 
 ```bash
-/plugin install orm-code-generator@claude-code-plugins-plus
+/plugin install orm-code-generator@stoked-automations
 ```
 
 ## Usage

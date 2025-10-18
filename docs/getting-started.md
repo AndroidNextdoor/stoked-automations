@@ -28,7 +28,7 @@ This opens an interactive menu where you can:
 ### Install Specific Plugin
 
 ```bash
-/plugin install plugin-name@claude-code-plugins-plus
+/plugin install plugin-name@stoked-automations
 ```
 
 ### List Installed Plugins

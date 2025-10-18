@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/helm-chart-generator",
   "license": "MIT",
-  "installation": "/plugin install helm-chart-generator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install helm-chart-generator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

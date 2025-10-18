@@ -13,7 +13,7 @@ Find and analyze arbitrage opportunities across centralized and decentralized ex
 ## Installation
 
 ```bash
-/plugin install arbitrage-opportunity-finder@claude-code-plugins-plus
+/plugin install arbitrage-opportunity-finder@stoked-automations
 ```
 
 ## Commands

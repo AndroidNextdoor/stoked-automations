@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/resource-usage-tracker",
   "license": "MIT",
-  "installation": "/plugin install resource-usage-tracker@claude@claude-code-plugins-plus",
+  "installation": "/plugin install resource-usage-tracker@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

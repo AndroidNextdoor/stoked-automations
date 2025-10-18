@@ -106,7 +106,7 @@ After pushing, configure your repository on GitHub:
 # /plugin marketplace remove claude-code-plugins
 
 # Try installing a plugin
-/plugin install hello-world@claude-code-plugins-plus
+/plugin install hello-world@stoked-automations
 
 # Test the command
 /hello

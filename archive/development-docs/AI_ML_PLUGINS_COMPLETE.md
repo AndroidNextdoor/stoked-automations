@@ -203,19 +203,19 @@ Install individual plugins:
 
 ```bash
 # Model training
-/plugin install ml-model-trainer@claude-code-plugins-plus
+/plugin install ml-model-trainer@stoked-automations
 
 # Data preprocessing
-/plugin install data-preprocessing-pipeline@claude-code-plugins-plus
+/plugin install data-preprocessing-pipeline@stoked-automations
 
 # NLP
-/plugin install nlp-text-analyzer@claude-code-plugins-plus
+/plugin install nlp-text-analyzer@stoked-automations
 
 # MLOps
-/plugin install model-deployment-helper@claude-code-plugins-plus
+/plugin install model-deployment-helper@stoked-automations
 
 # Ethics
-/plugin install ai-ethics-validator@claude-code-plugins-plus
+/plugin install ai-ethics-validator@stoked-automations
 ```
 
 ## Usage Examples

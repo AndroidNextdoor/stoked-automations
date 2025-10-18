@@ -32,7 +32,7 @@ Comprehensive backtesting framework for trading strategies with historical data 
 ## Installation
 
 ```bash
-/plugin install trading-strategy-backtester@claude-code-plugins-plus
+/plugin install trading-strategy-backtester@stoked-automations
 ```
 
 ## Usage

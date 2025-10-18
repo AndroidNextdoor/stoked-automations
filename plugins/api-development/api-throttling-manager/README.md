@@ -5,7 +5,7 @@ Manage API throttling with dynamic rate limits and quota management.
 ## Installation
 
 ```bash
-/plugin install api-throttling-manager@claude-code-plugins-plus
+/plugin install api-throttling-manager@stoked-automations
 ```
 
 ## Usage

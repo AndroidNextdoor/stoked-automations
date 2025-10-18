@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/alerting-rule-creator",
   "license": "MIT",
-  "installation": "/plugin install alerting-rule-creator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install alerting-rule-creator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

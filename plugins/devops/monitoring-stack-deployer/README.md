@@ -5,7 +5,7 @@ Deploy monitoring stacks (Prometheus, Grafana, Datadog)
 ## Installation
 
 ```bash
-/plugin install monitoring-stack-deployer@claude-code-plugins-plus
+/plugin install monitoring-stack-deployer@stoked-automations
 ```
 
 ## Usage

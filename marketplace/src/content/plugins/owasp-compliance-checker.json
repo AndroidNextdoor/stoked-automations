@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/owasp-compliance-checker",
   "license": "MIT",
-  "installation": "/plugin install owasp-compliance-checker@claude@claude-code-plugins-plus",
+  "installation": "/plugin install owasp-compliance-checker@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

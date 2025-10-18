@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-connection-pooler",
   "license": "MIT",
-  "installation": "/plugin install database-connection-pooler@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-connection-pooler@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

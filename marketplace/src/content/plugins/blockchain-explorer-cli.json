@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/blockchain-explorer-cli",
   "license": "MIT",
-  "installation": "/plugin install blockchain-explorer-cli@claude@claude-code-plugins-plus",
+  "installation": "/plugin install blockchain-explorer-cli@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

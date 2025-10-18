@@ -27,7 +27,7 @@ Transform Claude Code into a powerful investment research terminal using OpenBB'
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install OpenBB Terminal plugin
-/plugin install openbb-terminal@claude-code-plugins-plus
+/plugin install openbb-terminal@stoked-automations
 ```
 
 ### Prerequisites

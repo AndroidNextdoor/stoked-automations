@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/log-aggregation-setup",
   "license": "MIT",
-  "installation": "/plugin install log-aggregation-setup@claude@claude-code-plugins-plus",
+  "installation": "/plugin install log-aggregation-setup@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

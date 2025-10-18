@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-transaction-monitor",
   "license": "MIT",
-  "installation": "/plugin install database-transaction-monitor@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-transaction-monitor@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

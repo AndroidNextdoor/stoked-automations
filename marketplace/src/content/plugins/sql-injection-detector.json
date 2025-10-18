@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/sql-injection-detector",
   "license": "MIT",
-  "installation": "/plugin install sql-injection-detector@claude@claude-code-plugins-plus",
+  "installation": "/plugin install sql-injection-detector@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

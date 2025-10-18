@@ -41,7 +41,7 @@ Real-time market price tracking across crypto, stocks, forex, and commodities wi
 ## Installation
 
 ```bash
-/plugin install market-price-tracker@claude-code-plugins-plus
+/plugin install market-price-tracker@stoked-automations
 ```
 
 ## Usage

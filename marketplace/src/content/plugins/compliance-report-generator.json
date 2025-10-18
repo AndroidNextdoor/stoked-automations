@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/compliance-report-generator",
   "license": "MIT",
-  "installation": "/plugin install compliance-report-generator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install compliance-report-generator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

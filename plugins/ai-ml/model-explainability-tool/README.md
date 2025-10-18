@@ -5,7 +5,7 @@ Model interpretability and explainability
 ## Installation
 
 ```bash
-/plugin install model-explainability-tool@claude-code-plugins-plus
+/plugin install model-explainability-tool@stoked-automations
 ```
 
 ## Usage

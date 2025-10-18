@@ -12,11 +12,11 @@
 
 | Pack Name | Plugins | Components | Install |
 |-----------|---------|------------|---------|
-| **DevOps Automation Pack** | 25 | 20 commands, 5 agents | `/plugin install devops-automation-pack@claude-code-plugins-plus` |
-| **Security Pro Pack** | 10 | 5 commands, 5 agents | `/plugin install security-pro-pack@claude-code-plugins-plus` |
-| **Fullstack Starter Pack** | 15 | 9 commands, 6 agents | `/plugin install fullstack-starter-pack@claude-code-plugins-plus` |
-| **AI/ML Engineering Pack** | 12 | 4 commands, 8 agents | `/plugin install ai-ml-engineering-pack@claude-code-plugins-plus` |
-| **Skills Powerkit** | 1 | 5 Agent Skills, 1 command | `/plugin install skills-powerkit@claude-code-plugins-plus` |
+| **DevOps Automation Pack** | 25 | 20 commands, 5 agents | `/plugin install devops-automation-pack@stoked-automations` |
+| **Security Pro Pack** | 10 | 5 commands, 5 agents | `/plugin install security-pro-pack@stoked-automations` |
+| **Fullstack Starter Pack** | 15 | 9 commands, 6 agents | `/plugin install fullstack-starter-pack@stoked-automations` |
+| **AI/ML Engineering Pack** | 12 | 4 commands, 8 agents | `/plugin install ai-ml-engineering-pack@stoked-automations` |
+| **Skills Powerkit** | 1 | 5 Agent Skills, 1 command | `/plugin install skills-powerkit@stoked-automations` |
 
 ---
 

@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/wallet-portfolio-tracker",
   "license": "MIT",
-  "installation": "/plugin install wallet-portfolio-tracker@claude@claude-code-plugins-plus",
+  "installation": "/plugin install wallet-portfolio-tracker@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

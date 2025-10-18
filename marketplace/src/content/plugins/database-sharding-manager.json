@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-sharding-manager",
   "license": "MIT",
-  "installation": "/plugin install database-sharding-manager@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-sharding-manager@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

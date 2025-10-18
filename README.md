@@ -13,7 +13,7 @@
 
 ```bash
 /plugin marketplace add AndroidNextdoor/stoked-automations
-/plugin install devops-automation-pack@claude-code-plugins-plus
+/plugin install devops-automation-pack@stoked-automations
 ```
 
 💖 **[Sponsor this project](docs/sponsor/)** - Get early access, premium plugins, and priority support
@@ -49,7 +49,7 @@
 **Install a plugin:**
 ```bash
 /plugin marketplace add AndroidNextdoor/stoked-automations
-/plugin install devops-automation-pack@claude-code-plugins-plus
+/plugin install devops-automation-pack@stoked-automations
 ```
 
 > Already using an older install? Run `/plugin marketplace remove claude-code-plugins` and re-add with the command above to switch to the new `claude-code-plugins-plus` slug. Existing plugins keep working either way.
@@ -113,7 +113,7 @@ See [Learning Paths](#-learning-paths) for step-by-step guides
 - ✅ Done - zero thinking from you
 
 ```bash
-/plugin install pi-pathfinder@claude-code-plugins-plus
+/plugin install pi-pathfinder@stoked-automations
 
 # Then just say what you want:
 "Check my code for security issues"
@@ -139,7 +139,7 @@ See [Learning Paths](#-learning-paths) for step-by-step guides
 1. DISCOVERY (Marketplace)
    └─ You browse stokedautomation.com
    └─ Find "ansible-playbook-creator"
-   └─ Install: /plugin install ansible-playbook-creator@claude-code-plugins-plus
+   └─ Install: /plugin install ansible-playbook-creator@stoked-automations
 
 2. INSTALLATION (Files Copied)
    └─ Plugin files copied to your machine
@@ -227,7 +227,7 @@ Skill activates → Generates playbook → Ready to deploy
 - 🔢 Version Bumper - Auto-handles versions
 
 ```bash
-/plugin install skills-powerkit@claude-code-plugins-plus
+/plugin install skills-powerkit@stoked-automations
 ```
 
 ### Skill Enhancers - Automation for Claude's Skills
@@ -288,10 +288,10 @@ All three types are **fully functional** but operate through different mechanism
 
 ```bash
 # Install any pack
-/plugin install devops-automation-pack@claude-code-plugins-plus
-/plugin install security-pro-pack@claude-code-plugins-plus
-/plugin install fullstack-starter-pack@claude-code-plugins-plus
-/plugin install ai-ml-engineering-pack@claude-code-plugins-plus
+/plugin install devops-automation-pack@stoked-automations
+/plugin install security-pro-pack@stoked-automations
+/plugin install fullstack-starter-pack@stoked-automations
+/plugin install ai-ml-engineering-pack@stoked-automations
 ```
 
 ---
@@ -304,11 +304,11 @@ All three types are **fully functional** but operate through different mechanism
 
 | Plugin | Description | Tools | Code Size | Install |
 |--------|-------------|-------|-----------|---------|
-| **project-health-auditor** | Code health analysis: complexity + churn + tests | 4 | 13KB TS | `/plugin install project-health-auditor@claude-code-plugins-plus` |
-| **conversational-api-debugger** | Debug REST APIs with OpenAPI specs and HTTP logs | 4 | 26KB JS | `/plugin install conversational-api-debugger@claude-code-plugins-plus` |
-| **domain-memory-agent** | Knowledge base with TF-IDF semantic search | 6 | Compiled | `/plugin install domain-memory-agent@claude-code-plugins-plus` |
-| **design-to-code** | Convert Figma/screenshots to React/Svelte/Vue | 3 | Compiled | `/plugin install design-to-code@claude-code-plugins-plus` |
-| **workflow-orchestrator** | DAG-based workflow automation | 4 | Compiled | `/plugin install workflow-orchestrator@claude-code-plugins-plus` |
+| **project-health-auditor** | Code health analysis: complexity + churn + tests | 4 | 13KB TS | `/plugin install project-health-auditor@stoked-automations` |
+| **conversational-api-debugger** | Debug REST APIs with OpenAPI specs and HTTP logs | 4 | 26KB JS | `/plugin install conversational-api-debugger@stoked-automations` |
+| **domain-memory-agent** | Knowledge base with TF-IDF semantic search | 6 | Compiled | `/plugin install domain-memory-agent@stoked-automations` |
+| **design-to-code** | Convert Figma/screenshots to React/Svelte/Vue | 3 | Compiled | `/plugin install design-to-code@stoked-automations` |
+| **workflow-orchestrator** | DAG-based workflow automation | 4 | Compiled | `/plugin install workflow-orchestrator@stoked-automations` |
 
 [View MCP Server Documentation →](./MCP-SERVERS-STATUS.md)
 
@@ -318,27 +318,27 @@ All three types are **fully functional** but operate through different mechanism
 
 | Plugin | Description | Type | Install |
 |--------|-------------|------|---------|
-| **n8n-workflow-designer** | n8n workflow JSON templates | Templates | `/plugin install n8n-workflow-designer@claude-code-plugins-plus` |
-| **make-scenario-builder** | Make.com scenario configurations | Templates | `/plugin install make-scenario-builder@claude-code-plugins-plus` |
-| **zapier-zap-builder** | Zapier automation templates | Templates | `/plugin install zapier-zap-builder@claude-code-plugins-plus` |
-| **discovery-questionnaire** | Client discovery question sets | Templates | `/plugin install discovery-questionnaire@claude-code-plugins-plus` |
-| **sow-generator** | Statement of Work templates | Templates | `/plugin install sow-generator@claude-code-plugins-plus` |
-| **roi-calculator** | ROI calculation formulas | Templates | `/plugin install roi-calculator@claude-code-plugins-plus` |
+| **n8n-workflow-designer** | n8n workflow JSON templates | Templates | `/plugin install n8n-workflow-designer@stoked-automations` |
+| **make-scenario-builder** | Make.com scenario configurations | Templates | `/plugin install make-scenario-builder@stoked-automations` |
+| **zapier-zap-builder** | Zapier automation templates | Templates | `/plugin install zapier-zap-builder@stoked-automations` |
+| **discovery-questionnaire** | Client discovery question sets | Templates | `/plugin install discovery-questionnaire@stoked-automations` |
+| **sow-generator** | Statement of Work templates | Templates | `/plugin install sow-generator@stoked-automations` |
+| **roi-calculator** | ROI calculation formulas | Templates | `/plugin install roi-calculator@stoked-automations` |
 
 ### Production Plugins (2 plugins)
 
 | Plugin | Description | Install |
 |--------|-------------|---------|
-| **git-commit-smart** | AI-powered conventional commit messages | `/plugin install git-commit-smart@claude-code-plugins-plus` |
-| **overnight-dev** | Autonomous overnight development with TDD enforcement | `/plugin install overnight-dev@claude-code-plugins-plus` |
+| **git-commit-smart** | AI-powered conventional commit messages | `/plugin install git-commit-smart@stoked-automations` |
+| **overnight-dev** | Autonomous overnight development with TDD enforcement | `/plugin install overnight-dev@stoked-automations` |
 
 ### Example Plugins (3 plugins)
 
 | Plugin | Description | Install |
 |--------|-------------|---------|
-| **hello-world** | Simple greeting command - perfect for learning | `/plugin install hello-world@claude-code-plugins-plus` |
-| **formatter** | Auto-formats code after edits using hooks | `/plugin install formatter@claude-code-plugins-plus` |
-| **security-agent** | Expert security agent for vulnerability detection | `/plugin install security-agent@claude-code-plugins-plus` |
+| **hello-world** | Simple greeting command - perfect for learning | `/plugin install hello-world@stoked-automations` |
+| **formatter** | Auto-formats code after edits using hooks | `/plugin install formatter@stoked-automations` |
+| **security-agent** | Expert security agent for vulnerability detection | `/plugin install security-agent@stoked-automations` |
 
 ---
 
@@ -370,7 +370,7 @@ Both types are valid Claude Code plugins - they just operate through different m
 **Identify technical debt hot spots with multi-dimensional analysis**
 
 ```bash
-/plugin install project-health-auditor@claude-code-plugins-plus
+/plugin install project-health-auditor@stoked-automations
 /analyze /path/to/repo  # Comprehensive analysis workflow
 ```
 
@@ -389,7 +389,7 @@ Both types are valid Claude Code plugins - they just operate through different m
 **Debug REST API failures using OpenAPI specs and HTTP logs**
 
 ```bash
-/plugin install conversational-api-debugger@claude-code-plugins-plus
+/plugin install conversational-api-debugger@stoked-automations
 /debug-api  # Guided debugging workflow
 ```
 
@@ -408,7 +408,7 @@ Both types are valid Claude Code plugins - they just operate through different m
 **Knowledge base with TF-IDF semantic search (no ML dependencies)**
 
 ```bash
-/plugin install domain-memory-agent@claude-code-plugins-plus
+/plugin install domain-memory-agent@stoked-automations
 ```
 
 **What it does**:
@@ -428,7 +428,7 @@ Both types are valid Claude Code plugins - they just operate through different m
 **Convert Figma designs and screenshots into production-ready code**
 
 ```bash
-/plugin install design-to-code@claude-code-plugins-plus
+/plugin install design-to-code@stoked-automations
 ```
 
 **What it does**:
@@ -446,7 +446,7 @@ Both types are valid Claude Code plugins - they just operate through different m
 **DAG-based workflow automation with parallel execution**
 
 ```bash
-/plugin install workflow-orchestrator@claude-code-plugins-plus
+/plugin install workflow-orchestrator@stoked-automations
 ```
 
 **What it does**:
@@ -486,7 +486,7 @@ Both types are valid Claude Code plugins - they just operate through different m
 - Deployment automation and monitoring
 
 ```bash
-/plugin install devops-automation-pack@claude-code-plugins-plus
+/plugin install devops-automation-pack@stoked-automations
 ```
 
 ---
@@ -511,7 +511,7 @@ Both types are valid Claude Code plugins - they just operate through different m
 - API security and infrastructure hardening
 
 ```bash
-/plugin install security-pro-pack@claude-code-plugins-plus
+/plugin install security-pro-pack@stoked-automations
 ```
 
 ---
@@ -538,7 +538,7 @@ Both types are valid Claude Code plugins - they just operate through different m
 **Perfect for**: Bootcamp grads, junior developers, rapid prototyping
 
 ```bash
-/plugin install fullstack-starter-pack@claude-code-plugins-plus
+/plugin install fullstack-starter-pack@stoked-automations
 ```
 
 ---
@@ -565,7 +565,7 @@ Both types are valid Claude Code plugins - they just operate through different m
 **Requirements**: Claude Code CLI, Anthropic or OpenAI API key
 
 ```bash
-/plugin install ai-ml-engineering-pack@claude-code-plugins-plus
+/plugin install ai-ml-engineering-pack@stoked-automations
 ```
 
 ---
@@ -576,18 +576,18 @@ Both types are valid Claude Code plugins - they just operate through different m
 
 ```bash
 # Analyze your codebase health
-/plugin install project-health-auditor@claude-code-plugins-plus
+/plugin install project-health-auditor@stoked-automations
 /analyze /path/to/repo
 
 # Debug API failures
-/plugin install conversational-api-debugger@claude-code-plugins-plus
+/plugin install conversational-api-debugger@stoked-automations
 /debug-api
 
 # Build a knowledge base
-/plugin install domain-memory-agent@claude-code-plugins-plus
+/plugin install domain-memory-agent@stoked-automations
 
 # Never write commit messages again
-/plugin install git-commit-smart@claude-code-plugins-plus
+/plugin install git-commit-smart@stoked-automations
 /gc
 ```
 
@@ -607,8 +607,8 @@ Share custom workflows across your organization:
     }
   },
   "enabledPlugins": {
-    "project-health-auditor@claude-code-plugins-plus": true,
-    "conversational-api-debugger@claude-code-plugins-plus": true
+    "project-health-auditor@stoked-automations": true,
+    "conversational-api-debugger@stoked-automations": true
   }
 }
 ```

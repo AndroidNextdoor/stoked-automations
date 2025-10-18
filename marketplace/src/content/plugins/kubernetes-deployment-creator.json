@@ -16,7 +16,7 @@
   "featured": true,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/kubernetes-deployment-creator",
   "license": "MIT",
-  "installation": "/plugin install kubernetes-deployment-creator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install kubernetes-deployment-creator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

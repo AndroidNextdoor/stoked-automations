@@ -5,7 +5,7 @@ Scan APIs for OWASP API Security Top 10 vulnerabilities with remediation guidanc
 ## Installation
 
 ```bash
-/plugin install api-security-scanner@claude-code-plugins-plus
+/plugin install api-security-scanner@stoked-automations
 ```
 
 ## Usage

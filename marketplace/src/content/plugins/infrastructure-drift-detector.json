@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/infrastructure-drift-detector",
   "license": "MIT",
-  "installation": "/plugin install infrastructure-drift-detector@claude@claude-code-plugins-plus",
+  "installation": "/plugin install infrastructure-drift-detector@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

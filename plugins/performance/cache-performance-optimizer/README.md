@@ -5,7 +5,7 @@ Optimize caching strategies for improved application performance.
 ## Installation
 
 ```bash
-/plugin install cache-performance-optimizer@claude-code-plugins-plus
+/plugin install cache-performance-optimizer@stoked-automations
 ```
 
 ## Usage

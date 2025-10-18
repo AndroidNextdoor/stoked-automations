@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/webhook-handler-creator",
   "license": "MIT",
-  "installation": "/plugin install webhook-handler-creator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install webhook-handler-creator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

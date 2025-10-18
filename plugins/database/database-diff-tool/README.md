@@ -5,7 +5,7 @@ Database plugin for database-diff-tool
 ## Installation
 
 ```bash
-/plugin install database-diff-tool@claude-code-plugins-plus
+/plugin install database-diff-tool@stoked-automations
 ```
 
 ## Usage

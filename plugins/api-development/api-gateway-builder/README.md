@@ -5,7 +5,7 @@ Build API gateways with routing, authentication, rate limiting, and microservice
 ## Installation
 
 ```bash
-/plugin install api-gateway-builder@claude-code-plugins-plus
+/plugin install api-gateway-builder@stoked-automations
 ```
 
 ## Usage

@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/synthetic-monitoring-setup",
   "license": "MIT",
-  "installation": "/plugin install synthetic-monitoring-setup@claude@claude-code-plugins-plus",
+  "installation": "/plugin install synthetic-monitoring-setup@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

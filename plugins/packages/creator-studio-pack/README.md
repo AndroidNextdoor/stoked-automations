@@ -63,7 +63,7 @@ AFTER: "My builds generate content automatically as I work"
 
 ```bash
 # Install the pack
-/plugin install creator-studio-pack@claude-code-plugins-plus
+/plugin install creator-studio-pack@stoked-automations
 
 # Verify installation
 /plugin list

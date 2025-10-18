@@ -63,7 +63,7 @@
       "description": "Export all data to CSV format"
     }
   ],
-  "installation": "/plugin install ai-experiment-logger@claude@claude-code-plugins-plus",
+  "installation": "/plugin install ai-experiment-logger@claude@stoked-automations",
   "usage": {
     "mcp": "Use MCP tools like log_experiment, list_experiments, get_statistics in Claude Code",
     "web": "Run 'npm run web' to start web dashboard at http://localhost:3000"

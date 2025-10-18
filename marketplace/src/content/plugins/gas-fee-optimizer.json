@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/gas-fee-optimizer",
   "license": "MIT",
-  "installation": "/plugin install gas-fee-optimizer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install gas-fee-optimizer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

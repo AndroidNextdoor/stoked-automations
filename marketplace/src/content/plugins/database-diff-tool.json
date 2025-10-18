@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-diff-tool",
   "license": "MIT",
-  "installation": "/plugin install database-diff-tool@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-diff-tool@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -5,7 +5,7 @@ Manage environment configurations and secrets across deployments
 ## Installation
 
 ```bash
-/plugin install environment-config-manager@claude-code-plugins-plus
+/plugin install environment-config-manager@stoked-automations
 ```
 
 ## Usage

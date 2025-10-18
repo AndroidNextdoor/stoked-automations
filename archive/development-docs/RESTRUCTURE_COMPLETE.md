@@ -277,7 +277,7 @@ claude-code-plugins/
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install flagship plugin
-/plugin install git-commit-smart@claude-code-plugins-plus
+/plugin install git-commit-smart@stoked-automations
 
 # Use it!
 git add .

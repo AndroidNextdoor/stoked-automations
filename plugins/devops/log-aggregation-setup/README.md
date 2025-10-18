@@ -5,7 +5,7 @@ Set up log aggregation (ELK, Loki, Splunk)
 ## Installation
 
 ```bash
-/plugin install log-aggregation-setup@claude-code-plugins-plus
+/plugin install log-aggregation-setup@stoked-automations
 ```
 
 ## Usage

@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-backup-automator",
   "license": "MIT",
-  "installation": "/plugin install database-backup-automator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-backup-automator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

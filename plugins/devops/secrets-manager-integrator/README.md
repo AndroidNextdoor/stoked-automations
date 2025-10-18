@@ -5,7 +5,7 @@ Integrate with secrets managers (Vault, AWS Secrets Manager, etc)
 ## Installation
 
 ```bash
-/plugin install secrets-manager-integrator@claude-code-plugins-plus
+/plugin install secrets-manager-integrator@stoked-automations
 ```
 
 ## Usage

@@ -5,7 +5,7 @@ Manage container registries (ECR, GCR, Harbor)
 ## Installation
 
 ```bash
-/plugin install container-registry-manager@claude-code-plugins-plus
+/plugin install container-registry-manager@stoked-automations
 ```
 
 ## Usage

@@ -5,7 +5,7 @@ Deploy ML models to production
 ## Installation
 
 ```bash
-/plugin install model-deployment-helper@claude-code-plugins-plus
+/plugin install model-deployment-helper@stoked-automations
 ```
 
 ## Usage

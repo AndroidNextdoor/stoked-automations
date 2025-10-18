@@ -5,7 +5,7 @@ Monitor and optimize CPU usage in your application.
 ## Installation
 
 ```bash
-/plugin install cpu-usage-monitor@claude-code-plugins-plus
+/plugin install cpu-usage-monitor@stoked-automations
 ```
 
 ## Usage

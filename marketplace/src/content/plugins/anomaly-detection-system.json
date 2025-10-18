@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/anomaly-detection-system",
   "license": "MIT",
-  "installation": "/plugin install anomaly-detection-system@claude@claude-code-plugins-plus",
+  "installation": "/plugin install anomaly-detection-system@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

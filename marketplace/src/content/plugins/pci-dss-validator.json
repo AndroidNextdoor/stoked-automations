@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/pci-dss-validator",
   "license": "MIT",
-  "installation": "/plugin install pci-dss-validator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install pci-dss-validator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

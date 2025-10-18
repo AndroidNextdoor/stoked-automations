@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/orm-code-generator",
   "license": "MIT",
-  "installation": "/plugin install orm-code-generator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install orm-code-generator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -44,13 +44,13 @@ Comprehensive collection of 25 security and compliance plugins for Claude Code, 
 Install individual plugins:
 ```bash
 /plugin marketplace add AndroidNextdoor/stoked-automations
-/plugin install vulnerability-scanner@claude-code-plugins-plus
-/plugin install secret-scanner@claude-code-plugins-plus
+/plugin install vulnerability-scanner@stoked-automations
+/plugin install secret-scanner@stoked-automations
 ```
 
 Or install the entire security pack (coming soon):
 ```bash
-/plugin install security-pack@claude-code-plugins-plus
+/plugin install security-pack@stoked-automations
 ```
 
 ## Common Workflows

@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/cache-performance-optimizer",
   "license": "MIT",
-  "installation": "/plugin install cache-performance-optimizer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install cache-performance-optimizer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

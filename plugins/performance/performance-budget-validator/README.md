@@ -5,7 +5,7 @@ Create and validate performance budgets to prevent regressions.
 ## Installation
 
 ```bash
-/plugin install performance-budget-validator@claude-code-plugins-plus
+/plugin install performance-budget-validator@stoked-automations
 ```
 
 ## Usage

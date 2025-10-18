@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-schema-validator",
   "license": "MIT",
-  "installation": "/plugin install api-schema-validator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install api-schema-validator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

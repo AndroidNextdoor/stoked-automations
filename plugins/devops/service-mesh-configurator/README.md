@@ -5,7 +5,7 @@ Configure service mesh (Istio, Linkerd) for microservices
 ## Installation
 
 ```bash
-/plugin install service-mesh-configurator@claude-code-plugins-plus
+/plugin install service-mesh-configurator@stoked-automations
 ```
 
 ## Usage

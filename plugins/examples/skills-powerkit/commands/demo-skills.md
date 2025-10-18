@@ -245,7 +245,7 @@ Claude will automatically use the right skill!
 ## Installation
 
 ```bash
-/plugin install skills-powerkit@claude-code-plugins-plus
+/plugin install skills-powerkit@stoked-automations
 ```
 
 Once installed, all 5 skills are active and auto-invoke when relevant.

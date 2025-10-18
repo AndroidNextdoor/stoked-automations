@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/performance-optimization-advisor",
   "license": "MIT",
-  "installation": "/plugin install performance-optimization-advisor@claude@claude-code-plugins-plus",
+  "installation": "/plugin install performance-optimization-advisor@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

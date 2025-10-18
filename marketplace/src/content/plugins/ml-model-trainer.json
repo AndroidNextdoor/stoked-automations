@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/ml-model-trainer",
   "license": "MIT",
-  "installation": "/plugin install ml-model-trainer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install ml-model-trainer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

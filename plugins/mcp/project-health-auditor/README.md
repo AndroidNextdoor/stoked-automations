@@ -40,7 +40,7 @@ Analyze local repositories for code health, complexity, test coverage gaps, and 
 
 ```bash
 # Install the plugin
-/plugin install project-health-auditor@claude-code-plugins-plus
+/plugin install project-health-auditor@stoked-automations
 
 # The MCP server will be automatically available
 ```

@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/container-security-scanner",
   "license": "MIT",
-  "installation": "/plugin install container-security-scanner@claude@claude-code-plugins-plus",
+  "installation": "/plugin install container-security-scanner@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

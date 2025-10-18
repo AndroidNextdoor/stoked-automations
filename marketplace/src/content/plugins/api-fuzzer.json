@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/api-fuzzer",
   "license": "MIT",
-  "installation": "/plugin install api-fuzzer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install api-fuzzer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

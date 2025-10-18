@@ -14,7 +14,7 @@ Assist with security incident response, investigation, and remediation following
 ## Installation
 
 ```bash
-/plugin install security-incident-responder@claude-code-plugins-plus
+/plugin install security-incident-responder@stoked-automations
 ```
 
 ## Usage

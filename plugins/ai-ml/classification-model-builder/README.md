@@ -5,7 +5,7 @@ Build classification models
 ## Installation
 
 ```bash
-/plugin install classification-model-builder@claude-code-plugins-plus
+/plugin install classification-model-builder@stoked-automations
 ```
 
 ## Usage

@@ -54,7 +54,7 @@ claude plugin marketplace add AndroidNextdoor/stoked-automations
 Install the complete pack with all 12 plugins:
 
 ```bash
-claude plugin install ai-ml-engineering-pack@claude-code-plugins-plus
+claude plugin install ai-ml-engineering-pack@stoked-automations
 ```
 
 This installs:
@@ -248,7 +248,7 @@ claude plugin update ai-ml-engineering-pack
 
 # Or reinstall
 claude plugin uninstall ai-ml-engineering-pack
-claude plugin install ai-ml-engineering-pack@claude-code-plugins-plus
+claude plugin install ai-ml-engineering-pack@stoked-automations
 ```
 
 ## Troubleshooting

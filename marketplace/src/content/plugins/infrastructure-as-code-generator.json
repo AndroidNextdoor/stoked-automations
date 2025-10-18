@@ -17,7 +17,7 @@
   "featured": true,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/infrastructure-as-code-generator",
   "license": "MIT",
-  "installation": "/plugin install infrastructure-as-code-generator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install infrastructure-as-code-generator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

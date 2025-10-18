@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/ansible-playbook-creator",
   "license": "MIT",
-  "installation": "/plugin install ansible-playbook-creator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install ansible-playbook-creator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

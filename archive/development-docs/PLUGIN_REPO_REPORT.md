@@ -238,11 +238,11 @@ mcp/
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install a plugin pack
-/plugin install devops-automation-pack@claude-code-plugins-plus
+/plugin install devops-automation-pack@stoked-automations
 
 # Install individual plugins
-/plugin install project-health-auditor@claude-code-plugins-plus
-/plugin install git-commit-smart@claude-code-plugins-plus
+/plugin install project-health-auditor@stoked-automations
+/plugin install git-commit-smart@stoked-automations
 ```
 
 ### Example Invocations

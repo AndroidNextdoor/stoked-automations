@@ -18,7 +18,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/defi-yield-optimizer",
   "license": "MIT",
-  "installation": "/plugin install defi-yield-optimizer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install defi-yield-optimizer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

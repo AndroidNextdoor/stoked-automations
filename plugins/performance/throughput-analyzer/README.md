@@ -5,7 +5,7 @@ Analyze and optimize system throughput for maximum capacity.
 ## Installation
 
 ```bash
-/plugin install throughput-analyzer@claude-code-plugins-plus
+/plugin install throughput-analyzer@stoked-automations
 ```
 
 ## Usage

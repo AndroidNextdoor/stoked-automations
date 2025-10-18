@@ -20,7 +20,7 @@
   "featured": true,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/devops-automation-pack",
   "license": "MIT",
-  "installation": "/plugin install devops-automation-pack@claude@claude-code-plugins-plus",
+  "installation": "/plugin install devops-automation-pack@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

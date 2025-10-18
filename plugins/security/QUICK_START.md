@@ -9,9 +9,9 @@ Get started with the Claude Code Security & Compliance Plugin Pack in 5 minutes.
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install individual plugins
-/plugin install vulnerability-scanner@claude-code-plugins-plus
-/plugin install secret-scanner@claude-code-plugins-plus
-/plugin install dependency-checker@claude-code-plugins-plus
+/plugin install vulnerability-scanner@stoked-automations
+/plugin install secret-scanner@stoked-automations
+/plugin install dependency-checker@stoked-automations
 ```
 
 ## Your First Security Scan (1 minute)

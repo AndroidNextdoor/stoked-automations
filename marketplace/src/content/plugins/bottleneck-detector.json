@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/bottleneck-detector",
   "license": "MIT",
-  "installation": "/plugin install bottleneck-detector@claude@claude-code-plugins-plus",
+  "installation": "/plugin install bottleneck-detector@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

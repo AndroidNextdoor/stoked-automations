@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/data-validation-engine",
   "license": "MIT",
-  "installation": "/plugin install data-validation-engine@claude@claude-code-plugins-plus",
+  "installation": "/plugin install data-validation-engine@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

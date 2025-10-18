@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-index-advisor",
   "license": "MIT",
-  "installation": "/plugin install database-index-advisor@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-index-advisor@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

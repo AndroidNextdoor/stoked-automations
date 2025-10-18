@@ -5,7 +5,7 @@ Sentiment analysis on text data
 ## Installation
 
 ```bash
-/plugin install sentiment-analysis-tool@claude-code-plugins-plus
+/plugin install sentiment-analysis-tool@stoked-automations
 ```
 
 ## Usage

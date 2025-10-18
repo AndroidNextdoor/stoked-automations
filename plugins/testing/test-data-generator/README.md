@@ -15,7 +15,7 @@ Generate realistic test data including users, products, orders, and custom schem
 ## Installation
 
 ```bash
-/plugin install test-data-generator@claude-code-plugins-plus
+/plugin install test-data-generator@stoked-automations
 ```
 
 ## Usage

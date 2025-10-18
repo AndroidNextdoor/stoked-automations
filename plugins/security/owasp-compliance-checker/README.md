@@ -14,7 +14,7 @@ Comprehensive OWASP Top 10 2021 compliance checking with detailed gap analysis a
 ## Installation
 
 ```bash
-/plugin install owasp-compliance-checker@claude-code-plugins-plus
+/plugin install owasp-compliance-checker@stoked-automations
 ```
 
 ## Usage

@@ -5,7 +5,7 @@ Database plugin for database-sharding-manager
 ## Installation
 
 ```bash
-/plugin install database-sharding-manager@claude-code-plugins-plus
+/plugin install database-sharding-manager@stoked-automations
 ```
 
 ## Usage

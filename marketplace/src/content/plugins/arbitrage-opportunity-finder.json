@@ -20,7 +20,7 @@
   "featured": true,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/arbitrage-opportunity-finder",
   "license": "MIT",
-  "installation": "/plugin install arbitrage-opportunity-finder@claude@claude-code-plugins-plus",
+  "installation": "/plugin install arbitrage-opportunity-finder@claude@stoked-automations",
   "features": [
     "Multi-exchange arbitrage scanning (100+ CEX/DEX)",
     "Flash loan arbitrage opportunity detection",

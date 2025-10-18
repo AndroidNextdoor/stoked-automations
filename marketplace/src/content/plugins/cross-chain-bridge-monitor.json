@@ -19,7 +19,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/cross-chain-bridge-monitor",
   "license": "MIT",
-  "installation": "/plugin install cross-chain-bridge-monitor@claude@claude-code-plugins-plus",
+  "installation": "/plugin install cross-chain-bridge-monitor@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

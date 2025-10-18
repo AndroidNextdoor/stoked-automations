@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/performance-regression-detector",
   "license": "MIT",
-  "installation": "/plugin install performance-regression-detector@claude@claude-code-plugins-plus",
+  "installation": "/plugin install performance-regression-detector@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

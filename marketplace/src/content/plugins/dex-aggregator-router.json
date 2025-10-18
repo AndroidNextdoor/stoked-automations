@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/dex-aggregator-router",
   "license": "MIT",
-  "installation": "/plugin install dex-aggregator-router@claude@claude-code-plugins-plus",
+  "installation": "/plugin install dex-aggregator-router@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

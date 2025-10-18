@@ -18,7 +18,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/database-test-manager",
   "license": "MIT",
-  "installation": "/plugin install database-test-manager@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-test-manager@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

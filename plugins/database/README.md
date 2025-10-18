@@ -45,9 +45,9 @@ A comprehensive collection of 25 database and backend plugins for Claude Code, c
 
 Install individual plugins:
 ```bash
-/plugin install database-migration-manager@claude-code-plugins-plus
-/plugin install sql-query-optimizer@claude-code-plugins-plus
-/plugin install orm-code-generator@claude-code-plugins-plus
+/plugin install database-migration-manager@stoked-automations
+/plugin install sql-query-optimizer@stoked-automations
+/plugin install orm-code-generator@stoked-automations
 ```
 
 ## Quick Reference

@@ -5,7 +5,7 @@ Database plugin for database-recovery-manager
 ## Installation
 
 ```bash
-/plugin install database-recovery-manager@claude-code-plugins-plus
+/plugin install database-recovery-manager@stoked-automations
 ```
 
 ## Usage

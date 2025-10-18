@@ -5,7 +5,7 @@ Configure load balancers (ALB, NLB, Nginx, HAProxy)
 ## Installation
 
 ```bash
-/plugin install load-balancer-configurator@claude-code-plugins-plus
+/plugin install load-balancer-configurator@stoked-automations
 ```
 
 ## Usage

@@ -51,20 +51,20 @@ A comprehensive collection of 25 DevOps infrastructure plugins for Claude Code, 
 
 ```bash
 # Container orchestration
-/plugin install docker-compose-generator@claude-code-plugins-plus
-/plugin install kubernetes-deployment-creator@claude-code-plugins-plus
+/plugin install docker-compose-generator@stoked-automations
+/plugin install kubernetes-deployment-creator@stoked-automations
 
 # CI/CD
-/plugin install ci-cd-pipeline-builder@claude-code-plugins-plus
-/plugin install deployment-pipeline-orchestrator@claude-code-plugins-plus
+/plugin install ci-cd-pipeline-builder@stoked-automations
+/plugin install deployment-pipeline-orchestrator@stoked-automations
 
 # Infrastructure as Code
-/plugin install infrastructure-as-code-generator@claude-code-plugins-plus
-/plugin install terraform-module-builder@claude-code-plugins-plus
+/plugin install infrastructure-as-code-generator@stoked-automations
+/plugin install terraform-module-builder@stoked-automations
 
 # Security
-/plugin install container-security-scanner@claude-code-plugins-plus
-/plugin install compliance-checker@claude-code-plugins-plus
+/plugin install container-security-scanner@stoked-automations
+/plugin install compliance-checker@stoked-automations
 
 # And more... (see full list above)
 ```
@@ -73,7 +73,7 @@ A comprehensive collection of 25 DevOps infrastructure plugins for Claude Code, 
 
 ```bash
 # Install the complete DevOps Automation Pack
-/plugin install devops-automation-pack@claude-code-plugins-plus
+/plugin install devops-automation-pack@stoked-automations
 ```
 
 ## Usage Examples

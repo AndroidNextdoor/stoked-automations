@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/data-seeder-generator",
   "license": "MIT",
-  "installation": "/plugin install data-seeder-generator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install data-seeder-generator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

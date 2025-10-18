@@ -46,8 +46,8 @@ This directory contains 25 specialized plugins for machine learning, data scienc
 All plugins can be installed from the claude-code-plugins-plus marketplace:
 
 ```bash
-/plugin install ml-model-trainer@claude-code-plugins-plus
-/plugin install data-preprocessing-pipeline@claude-code-plugins-plus
+/plugin install ml-model-trainer@stoked-automations
+/plugin install data-preprocessing-pipeline@stoked-automations
 # ... etc
 ```
 

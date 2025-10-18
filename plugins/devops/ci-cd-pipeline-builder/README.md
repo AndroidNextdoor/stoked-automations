@@ -5,7 +5,7 @@ Build production-ready CI/CD pipelines for multiple platforms.
 ## Installation
 
 ```bash
-/plugin install ci-cd-pipeline-builder@claude-code-plugins-plus
+/plugin install ci-cd-pipeline-builder@stoked-automations
 ```
 
 ## Usage

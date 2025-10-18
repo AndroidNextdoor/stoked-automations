@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/security-misconfiguration-finder",
   "license": "MIT",
-  "installation": "/plugin install security-misconfiguration-finder@claude@claude-code-plugins-plus",
+  "installation": "/plugin install security-misconfiguration-finder@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/nlp-text-analyzer",
   "license": "MIT",
-  "installation": "/plugin install nlp-text-analyzer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install nlp-text-analyzer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

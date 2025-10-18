@@ -13,7 +13,7 @@ Validate test suite effectiveness through mutation testing - introducing code ch
 ## Installation
 
 ```bash
-/plugin install mutation-test-runner@claude-code-plugins-plus
+/plugin install mutation-test-runner@stoked-automations
 ```
 
 ## Usage

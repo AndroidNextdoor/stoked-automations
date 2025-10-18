@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/security-incident-responder",
   "license": "MIT",
-  "installation": "/plugin install security-incident-responder@claude@claude-code-plugins-plus",
+  "installation": "/plugin install security-incident-responder@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

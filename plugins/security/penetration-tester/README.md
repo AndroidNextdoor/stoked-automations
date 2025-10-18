@@ -13,7 +13,7 @@ Automated penetration testing for web applications with comprehensive OWASP Top 
 ## Installation
 
 ```bash
-/plugin install penetration-tester@claude-code-plugins-plus
+/plugin install penetration-tester@stoked-automations
 ```
 
 ## Usage

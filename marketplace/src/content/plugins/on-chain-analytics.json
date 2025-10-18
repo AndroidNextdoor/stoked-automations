@@ -21,7 +21,7 @@
   "featured": true,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/on-chain-analytics",
   "license": "MIT",
-  "installation": "/plugin install on-chain-analytics@claude@claude-code-plugins-plus",
+  "installation": "/plugin install on-chain-analytics@claude@stoked-automations",
   "features": [
     "Multi-chain analytics (15+ blockchains supported)",
     "Real-time whale movement tracking",

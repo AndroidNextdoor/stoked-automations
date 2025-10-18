@@ -5,7 +5,7 @@ Generate production-ready Docker Compose configurations.
 ## Installation
 
 ```bash
-/plugin install docker-compose-generator@claude-code-plugins-plus
+/plugin install docker-compose-generator@stoked-automations
 ```
 
 ## Usage

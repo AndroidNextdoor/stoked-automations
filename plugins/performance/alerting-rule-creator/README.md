@@ -5,7 +5,7 @@ Create comprehensive alerting rules for proactive performance monitoring.
 ## Installation
 
 ```bash
-/plugin install alerting-rule-creator@claude-code-plugins-plus
+/plugin install alerting-rule-creator@stoked-automations
 ```
 
 ## Usage

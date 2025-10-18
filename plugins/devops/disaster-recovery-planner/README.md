@@ -5,7 +5,7 @@ Plan and implement disaster recovery procedures
 ## Installation
 
 ```bash
-/plugin install disaster-recovery-planner@claude-code-plugins-plus
+/plugin install disaster-recovery-planner@stoked-automations
 ```
 
 ## Usage

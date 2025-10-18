@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-cache-layer",
   "license": "MIT",
-  "installation": "/plugin install database-cache-layer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-cache-layer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

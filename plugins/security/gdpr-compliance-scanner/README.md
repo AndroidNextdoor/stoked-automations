@@ -14,7 +14,7 @@ Scan applications and data systems for GDPR compliance with comprehensive checks
 ## Installation
 
 ```bash
-/plugin install gdpr-compliance-scanner@claude-code-plugins-plus
+/plugin install gdpr-compliance-scanner@stoked-automations
 ```
 
 ## Usage

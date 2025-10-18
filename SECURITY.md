@@ -334,7 +334,7 @@ Contributors who report valid security issues:
 **1. Plugin Audit**
 ```bash
 # Review plugin before installation
-/plugin inspect plugin-name@claude-code-plugins-plus
+/plugin inspect plugin-name@stoked-automations
 
 # Check what a plugin does
 cat ~/.claude/plugins/plugin-name/commands/*.md

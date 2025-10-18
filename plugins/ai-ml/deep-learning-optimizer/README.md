@@ -5,7 +5,7 @@ Deep learning optimization techniques
 ## Installation
 
 ```bash
-/plugin install deep-learning-optimizer@claude-code-plugins-plus
+/plugin install deep-learning-optimizer@stoked-automations
 ```
 
 ## Usage

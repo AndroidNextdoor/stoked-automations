@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/options-flow-analyzer",
   "license": "MIT",
-  "installation": "/plugin install options-flow-analyzer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install options-flow-analyzer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

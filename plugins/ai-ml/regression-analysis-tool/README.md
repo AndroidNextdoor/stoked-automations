@@ -5,7 +5,7 @@ Regression analysis and modeling
 ## Installation
 
 ```bash
-/plugin install regression-analysis-tool@claude-code-plugins-plus
+/plugin install regression-analysis-tool@stoked-automations
 ```
 
 ## Usage

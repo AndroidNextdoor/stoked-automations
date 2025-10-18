@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/feature-engineering-toolkit",
   "license": "MIT",
-  "installation": "/plugin install feature-engineering-toolkit@claude@claude-code-plugins-plus",
+  "installation": "/plugin install feature-engineering-toolkit@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

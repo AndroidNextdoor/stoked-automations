@@ -5,7 +5,7 @@ Database plugin for database-cache-layer
 ## Installation
 
 ```bash
-/plugin install database-cache-layer@claude-code-plugins-plus
+/plugin install database-cache-layer@stoked-automations
 ```
 
 ## Usage

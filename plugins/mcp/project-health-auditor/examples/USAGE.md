@@ -6,7 +6,7 @@ This guide shows how to use the **project-health-auditor** MCP server.
 
 ```bash
 # Install the plugin
-/plugin install project-health-auditor@claude-code-plugins-plus
+/plugin install project-health-auditor@stoked-automations
 ```
 
 ## Using MCP Tools Directly

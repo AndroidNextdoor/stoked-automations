@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/penetration-tester",
   "license": "MIT",
-  "installation": "/plugin install penetration-tester@claude@claude-code-plugins-plus",
+  "installation": "/plugin install penetration-tester@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

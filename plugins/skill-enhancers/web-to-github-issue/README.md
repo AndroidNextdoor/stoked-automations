@@ -70,7 +70,7 @@ claude: "research Stripe payment features, create feature request ticket"
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install plugin
-/plugin install web-to-github-issue@claude-code-plugins-plus
+/plugin install web-to-github-issue@stoked-automations
 ```
 
 ### Configure

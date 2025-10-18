@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-batch-processor",
   "license": "MIT",
-  "installation": "/plugin install api-batch-processor@claude@claude-code-plugins-plus",
+  "installation": "/plugin install api-batch-processor@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

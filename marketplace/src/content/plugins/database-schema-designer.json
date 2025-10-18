@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-schema-designer",
   "license": "MIT",
-  "installation": "/plugin install database-schema-designer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-schema-designer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-orchestrator",
   "license": "MIT",
-  "installation": "/plugin install test-orchestrator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install test-orchestrator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

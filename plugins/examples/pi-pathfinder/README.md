@@ -132,11 +132,11 @@ Done.
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install PI Pathfinder  
-/plugin install pi-pathfinder@claude-code-plugins-plus
+/plugin install pi-pathfinder@stoked-automations
 
 # Install plugins you want (as many as you want)
-/plugin install devops-automation-pack@claude-code-plugins-plus
-/plugin install security-toolkit@claude-code-plugins-plus
+/plugin install devops-automation-pack@stoked-automations
+/plugin install security-toolkit@stoked-automations
 # Install 10, 50, or all 228 - doesn't matter
 
 # Just talk normally

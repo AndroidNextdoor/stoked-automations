@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/computer-vision-processor",
   "license": "MIT",
-  "installation": "/plugin install computer-vision-processor@claude@claude-code-plugins-plus",
+  "installation": "/plugin install computer-vision-processor@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/security-headers-analyzer",
   "license": "MIT",
-  "installation": "/plugin install security-headers-analyzer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install security-headers-analyzer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

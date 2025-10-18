@@ -14,7 +14,7 @@ Build powerful automations on the top 3 platforms:
 The most powerful open-source automation platform. Create complex workflows with loops, branching, and custom code.
 
 ```bash
-/plugin install n8n-workflow-designer@claude-code-plugins-plus
+/plugin install n8n-workflow-designer@stoked-automations
 ```
 
 **Why n8n?**
@@ -32,7 +32,7 @@ The most powerful open-source automation platform. Create complex workflows with
 Visual automation design for Make.com (formerly Integromat). Perfect for no-code teams.
 
 ```bash
-/plugin install make-scenario-builder@claude-code-plugins-plus
+/plugin install make-scenario-builder@stoked-automations
 ```
 
 **Why Make?**
@@ -50,7 +50,7 @@ Visual automation design for Make.com (formerly Integromat). Perfect for no-code
 Multi-step Zapier automation with filters, paths, and formatters. Easiest for beginners.
 
 ```bash
-/plugin install zapier-zap-builder@claude-code-plugins-plus
+/plugin install zapier-zap-builder@stoked-automations
 ```
 
 **Why Zapier?**
@@ -72,7 +72,7 @@ Professional tools for client acquisition and delivery:
 Create customized discovery questionnaires for client projects.
 
 ```bash
-/plugin install discovery-questionnaire@claude-code-plugins-plus
+/plugin install discovery-questionnaire@stoked-automations
 ```
 
 **Features:**
@@ -89,7 +89,7 @@ Create customized discovery questionnaires for client projects.
 Generate professional Statements of Work for AI automation projects.
 
 ```bash
-/plugin install sow-generator@claude-code-plugins-plus
+/plugin install sow-generator@stoked-automations
 ```
 
 **Features:**
@@ -107,7 +107,7 @@ Generate professional Statements of Work for AI automation projects.
 Calculate and present compelling ROI for automation projects.
 
 ```bash
-/plugin install roi-calculator@claude-code-plugins-plus
+/plugin install roi-calculator@stoked-automations
 ```
 
 **Features:**
@@ -131,14 +131,14 @@ Calculate and present compelling ROI for automation projects.
 ### 2. Install Plugins
 ```bash
 # Get all 3 automation platforms
-/plugin install n8n-workflow-designer@claude-code-plugins-plus
-/plugin install make-scenario-builder@claude-code-plugins-plus
-/plugin install zapier-zap-builder@claude-code-plugins-plus
+/plugin install n8n-workflow-designer@stoked-automations
+/plugin install make-scenario-builder@stoked-automations
+/plugin install zapier-zap-builder@stoked-automations
 
 # Get business tools
-/plugin install discovery-questionnaire@claude-code-plugins-plus
-/plugin install sow-generator@claude-code-plugins-plus
-/plugin install roi-calculator@claude-code-plugins-plus
+/plugin install discovery-questionnaire@stoked-automations
+/plugin install sow-generator@stoked-automations
+/plugin install roi-calculator@stoked-automations
 ```
 
 ### 3. Start Using
@@ -354,9 +354,9 @@ MIT License - Use freely in your agency
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install the essentials
-/plugin install n8n-workflow-designer@claude-code-plugins-plus
-/plugin install discovery-questionnaire@claude-code-plugins-plus
-/plugin install roi-calculator@claude-code-plugins-plus
+/plugin install n8n-workflow-designer@stoked-automations
+/plugin install discovery-questionnaire@stoked-automations
+/plugin install roi-calculator@stoked-automations
 
 # Start building better automations faster
 /n8n create workflow

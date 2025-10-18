@@ -5,7 +5,7 @@ Collect comprehensive infrastructure performance metrics.
 ## Installation
 
 ```bash
-/plugin install infrastructure-metrics-collector@claude-code-plugins-plus
+/plugin install infrastructure-metrics-collector@stoked-automations
 ```
 
 ## Usage

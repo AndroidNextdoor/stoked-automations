@@ -523,9 +523,9 @@ Users install plugins from this marketplace:
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install plugins:
-/plugin install plugin-name@claude-code-plugins-plus
-/plugin install devops-automation-pack@claude-code-plugins-plus
-/plugin install project-health-auditor@claude-code-plugins-plus
+/plugin install plugin-name@stoked-automations
+/plugin install devops-automation-pack@stoked-automations
+/plugin install project-health-auditor@stoked-automations
 ```
 
 ### Marketplace Slug

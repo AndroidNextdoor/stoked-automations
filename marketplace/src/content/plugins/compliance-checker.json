@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/compliance-checker",
   "license": "MIT",
-  "installation": "/plugin install compliance-checker@claude@claude-code-plugins-plus",
+  "installation": "/plugin install compliance-checker@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

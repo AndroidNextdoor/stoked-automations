@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/browser-compatibility-tester",
   "license": "MIT",
-  "installation": "/plugin install browser-compatibility-tester@claude@claude-code-plugins-plus",
+  "installation": "/plugin install browser-compatibility-tester@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

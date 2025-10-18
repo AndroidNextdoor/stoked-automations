@@ -5,7 +5,7 @@ Split datasets for training, validation, and testing
 ## Installation
 
 ```bash
-/plugin install dataset-splitter@claude-code-plugins-plus
+/plugin install dataset-splitter@stoked-automations
 ```
 
 ## Usage

@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/network-policy-manager",
   "license": "MIT",
-  "installation": "/plugin install network-policy-manager@claude@claude-code-plugins-plus",
+  "installation": "/plugin install network-policy-manager@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

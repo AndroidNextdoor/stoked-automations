@@ -5,7 +5,7 @@ Analyze and optimize SQL queries for better performance with index suggestions a
 ## Installation
 
 ```bash
-/plugin install sql-query-optimizer@claude-code-plugins-plus
+/plugin install sql-query-optimizer@stoked-automations
 ```
 
 ## Usage

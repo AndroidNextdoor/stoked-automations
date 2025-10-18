@@ -13,7 +13,7 @@ Analyze and validate HTTP security headers to protect against common web vulnera
 ## Installation
 
 ```bash
-/plugin install security-headers-analyzer@claude-code-plugins-plus
+/plugin install security-headers-analyzer@stoked-automations
 ```
 
 ## Usage

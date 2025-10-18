@@ -18,7 +18,7 @@
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install the plugin
-/plugin install git-commit-smart@claude-code-plugins-plus
+/plugin install git-commit-smart@stoked-automations
 ```
 
 ## Usage

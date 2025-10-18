@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/ssl-certificate-manager",
   "license": "MIT",
-  "installation": "/plugin install ssl-certificate-manager@claude@claude-code-plugins-plus",
+  "installation": "/plugin install ssl-certificate-manager@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

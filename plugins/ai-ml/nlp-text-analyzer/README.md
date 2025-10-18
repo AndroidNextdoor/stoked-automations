@@ -5,7 +5,7 @@ Natural language processing and text analysis
 ## Installation
 
 ```bash
-/plugin install nlp-text-analyzer@claude-code-plugins-plus
+/plugin install nlp-text-analyzer@stoked-automations
 ```
 
 ## Usage

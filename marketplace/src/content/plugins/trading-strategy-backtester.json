@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/trading-strategy-backtester",
   "license": "MIT",
-  "installation": "/plugin install trading-strategy-backtester@claude@claude-code-plugins-plus",
+  "installation": "/plugin install trading-strategy-backtester@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

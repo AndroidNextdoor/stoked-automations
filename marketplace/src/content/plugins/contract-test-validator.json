@@ -18,7 +18,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/contract-test-validator",
   "license": "MIT",
-  "installation": "/plugin install contract-test-validator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install contract-test-validator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

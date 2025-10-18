@@ -5,7 +5,7 @@ Manage database replication and high availability.
 ## Installation
 
 ```bash
-/plugin install database-replication-manager@claude-code-plugins-plus
+/plugin install database-replication-manager@stoked-automations
 ```
 
 ## Usage

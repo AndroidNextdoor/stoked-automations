@@ -15,7 +15,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/capacity-planning-analyzer",
   "license": "MIT",
-  "installation": "/plugin install capacity-planning-analyzer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install capacity-planning-analyzer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/terraform-module-builder",
   "license": "MIT",
-  "installation": "/plugin install terraform-module-builder@claude@claude-code-plugins-plus",
+  "installation": "/plugin install terraform-module-builder@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

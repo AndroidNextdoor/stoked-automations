@@ -5,7 +5,7 @@ Optimize staking rewards across multiple protocols and blockchains to maximize y
 ## Installation
 
 ```bash
-/plugin install staking-rewards-optimizer@claude-code-plugins-plus
+/plugin install staking-rewards-optimizer@stoked-automations
 ```
 
 ## Usage

@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/input-validation-scanner",
   "license": "MIT",
-  "installation": "/plugin install input-validation-scanner@claude@claude-code-plugins-plus",
+  "installation": "/plugin install input-validation-scanner@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

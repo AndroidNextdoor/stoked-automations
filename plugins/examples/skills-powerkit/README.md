@@ -149,7 +149,7 @@ This plugin is **optimized for claude-code-plugins** workflow:
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install Skills Powerkit
-/plugin install skills-powerkit@claude-code-plugins-plus
+/plugin install skills-powerkit@stoked-automations
 ```
 
 **That's it!** All 5 skills are now active in this repository.
@@ -442,7 +442,7 @@ MIT License - See [LICENSE](LICENSE) file
 **Ready to supercharge your plugin development workflow?**
 
 ```bash
-/plugin install skills-powerkit@claude-code-plugins-plus
+/plugin install skills-powerkit@stoked-automations
 ```
 
 Then just start working on plugins - the skills will help automatically! 🚀

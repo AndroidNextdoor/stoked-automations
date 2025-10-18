@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/encryption-tool",
   "license": "MIT",
-  "installation": "/plugin install encryption-tool@claude@claude-code-plugins-plus",
+  "installation": "/plugin install encryption-tool@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

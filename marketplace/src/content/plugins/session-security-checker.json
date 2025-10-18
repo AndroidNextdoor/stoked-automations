@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/session-security-checker",
   "license": "MIT",
-  "installation": "/plugin install session-security-checker@claude@claude-code-plugins-plus",
+  "installation": "/plugin install session-security-checker@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

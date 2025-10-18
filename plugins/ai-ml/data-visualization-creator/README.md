@@ -5,7 +5,7 @@ Create data visualizations and plots
 ## Installation
 
 ```bash
-/plugin install data-visualization-creator@claude-code-plugins-plus
+/plugin install data-visualization-creator@stoked-automations
 ```
 
 ## Usage

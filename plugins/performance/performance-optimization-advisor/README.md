@@ -5,7 +5,7 @@ Get comprehensive, prioritized performance optimization recommendations.
 ## Installation
 
 ```bash
-/plugin install performance-optimization-advisor@claude-code-plugins-plus
+/plugin install performance-optimization-advisor@stoked-automations
 ```
 
 ## Usage

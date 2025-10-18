@@ -16,7 +16,7 @@ Automated security vulnerability testing covering OWASP Top 10, SQL injection, X
 ## Installation
 
 ```bash
-/plugin install security-test-scanner@claude-code-plugins-plus
+/plugin install security-test-scanner@stoked-automations
 ```
 
 ## Usage

@@ -18,7 +18,7 @@
   "featured": true,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/workflow-orchestrator",
   "license": "MIT",
-  "installation": "/plugin install workflow-orchestrator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install workflow-orchestrator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

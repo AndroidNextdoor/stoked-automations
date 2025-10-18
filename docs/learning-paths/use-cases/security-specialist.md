@@ -39,8 +39,8 @@ graph LR
 
 ### Install Security Tools
 ```bash
-/plugin install security-pro-pack@claude-code-plugins-plus
-/plugin install security-agent@claude-code-plugins-plus
+/plugin install security-pro-pack@stoked-automations
+/plugin install security-agent@stoked-automations
 ```
 
 **Security Pro Pack includes**:

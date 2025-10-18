@@ -149,11 +149,11 @@
 Each plugin can be installed via Claude Code:
 
 ```bash
-/plugin install project-health-auditor@claude-code-plugins-plus
-/plugin install conversational-api-debugger@claude-code-plugins-plus
-/plugin install domain-memory-agent@claude-code-plugins-plus
-/plugin install design-to-code@claude-code-plugins-plus
-/plugin install workflow-orchestrator@claude-code-plugins-plus
+/plugin install project-health-auditor@stoked-automations
+/plugin install conversational-api-debugger@stoked-automations
+/plugin install domain-memory-agent@stoked-automations
+/plugin install design-to-code@stoked-automations
+/plugin install workflow-orchestrator@stoked-automations
 ```
 
 ### Testing MCP Servers Locally

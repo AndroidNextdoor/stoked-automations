@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/classification-model-builder",
   "license": "MIT",
-  "installation": "/plugin install classification-model-builder@claude@claude-code-plugins-plus",
+  "installation": "/plugin install classification-model-builder@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -5,7 +5,7 @@ Aggregate and centralize performance metrics for comprehensive visibility.
 ## Installation
 
 ```bash
-/plugin install metrics-aggregator@claude-code-plugins-plus
+/plugin install metrics-aggregator@stoked-automations
 ```
 
 ## Usage

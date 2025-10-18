@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/e2e-test-framework",
   "license": "MIT",
-  "installation": "/plugin install e2e-test-framework@claude@claude-code-plugins-plus",
+  "installation": "/plugin install e2e-test-framework@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

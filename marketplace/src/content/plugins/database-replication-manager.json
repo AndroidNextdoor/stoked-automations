@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-replication-manager",
   "license": "MIT",
-  "installation": "/plugin install database-replication-manager@claude@claude-code-plugins-plus",
+  "installation": "/plugin install database-replication-manager@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

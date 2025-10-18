@@ -19,7 +19,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/mobile-app-tester",
   "license": "MIT",
-  "installation": "/plugin install mobile-app-tester@claude@claude-code-plugins-plus",
+  "installation": "/plugin install mobile-app-tester@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

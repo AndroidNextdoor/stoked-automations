@@ -5,7 +5,7 @@ Create and execute load tests for performance validation.
 ## Installation
 
 ```bash
-/plugin install load-test-runner@claude-code-plugins-plus
+/plugin install load-test-runner@stoked-automations
 ```
 
 ## Usage

@@ -17,7 +17,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-agency/discovery-questionnaire",
   "license": "MIT",
-  "installation": "/plugin install discovery-questionnaire@claude@claude-code-plugins-plus",
+  "installation": "/plugin install discovery-questionnaire@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -18,7 +18,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/visual-regression-tester",
   "license": "MIT",
-  "installation": "/plugin install visual-regression-tester@claude@claude-code-plugins-plus",
+  "installation": "/plugin install visual-regression-tester@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

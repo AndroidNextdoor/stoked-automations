@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/smoke-test-runner",
   "license": "MIT",
-  "installation": "/plugin install smoke-test-runner@claude@claude-code-plugins-plus",
+  "installation": "/plugin install smoke-test-runner@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

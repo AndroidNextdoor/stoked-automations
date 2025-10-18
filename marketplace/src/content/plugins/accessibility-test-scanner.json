@@ -18,7 +18,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/accessibility-test-scanner",
   "license": "MIT",
-  "installation": "/plugin install accessibility-test-scanner@claude@claude-code-plugins-plus",
+  "installation": "/plugin install accessibility-test-scanner@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -5,7 +5,7 @@ Detect and resolve performance bottlenecks across your application stack.
 ## Installation
 
 ```bash
-/plugin install bottleneck-detector@claude-code-plugins-plus
+/plugin install bottleneck-detector@stoked-automations
 ```
 
 ## Usage

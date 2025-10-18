@@ -5,7 +5,7 @@ Validate API responses against JSON Schema, OpenAPI specs, and custom rules.
 ## Installation
 
 ```bash
-/plugin install api-response-validator@claude-code-plugins-plus
+/plugin install api-response-validator@stoked-automations
 ```
 
 ## Usage

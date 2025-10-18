@@ -98,12 +98,12 @@ Users can install individual plugins:
 
 ```bash
 /plugin marketplace add AndroidNextdoor/stoked-automations
-/plugin install staking-rewards-optimizer@claude-code-plugins-plus
-/plugin install nft-rarity-analyzer@claude-code-plugins-plus
-/plugin install gas-fee-optimizer@claude-code-plugins-plus
-/plugin install dex-aggregator-router@claude-code-plugins-plus
-/plugin install crypto-signal-generator@claude-code-plugins-plus
-/plugin install blockchain-explorer-cli@claude-code-plugins-plus
+/plugin install staking-rewards-optimizer@stoked-automations
+/plugin install nft-rarity-analyzer@stoked-automations
+/plugin install gas-fee-optimizer@stoked-automations
+/plugin install dex-aggregator-router@stoked-automations
+/plugin install crypto-signal-generator@stoked-automations
+/plugin install blockchain-explorer-cli@stoked-automations
 ```
 
 ## Plugin Categories

@@ -296,9 +296,9 @@ Users can install the entire pack or individual plugins:
 /plugin marketplace add AndroidNextdoor/stoked-automations
 
 # Install individual plugins
-/plugin install database-migration-manager@claude-code-plugins-plus
-/plugin install sql-query-optimizer@claude-code-plugins-plus
-/plugin install orm-code-generator@claude-code-plugins-plus
+/plugin install database-migration-manager@stoked-automations
+/plugin install sql-query-optimizer@stoked-automations
+/plugin install orm-code-generator@stoked-automations
 
 # Or install by category as needed
 ```

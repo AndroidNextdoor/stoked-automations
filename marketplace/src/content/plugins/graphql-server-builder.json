@@ -17,7 +17,7 @@
   "featured": true,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/graphql-server-builder",
   "license": "MIT",
-  "installation": "/plugin install graphql-server-builder@claude@claude-code-plugins-plus",
+  "installation": "/plugin install graphql-server-builder@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

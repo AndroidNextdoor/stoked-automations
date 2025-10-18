@@ -5,7 +5,7 @@ Build and configure neural network architectures
 ## Installation
 
 ```bash
-/plugin install neural-network-builder@claude-code-plugins-plus
+/plugin install neural-network-builder@stoked-automations
 ```
 
 ## Usage

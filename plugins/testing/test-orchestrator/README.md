@@ -4,7 +4,7 @@ Orchestrate complex test workflows with dependencies, parallel execution, and sm
 
 ## Installation
 ```bash
-/plugin install test-orchestrator@claude-code-plugins-plus
+/plugin install test-orchestrator@stoked-automations
 ```
 
 ## Usage

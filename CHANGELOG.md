@@ -174,7 +174,7 @@ Renamed for clarity and impact. "PI" is clean, memorable, and people know it's i
 **Updates:**
 - Plugin name: `plugin-orchestrator` → `pi-pathfinder`
 - Directory: `plugins/examples/plugin-orchestrator/` → `plugins/examples/pi-pathfinder/`
-- Install command: `/plugin install pi-pathfinder@claude-code-plugins-plus`
+- Install command: `/plugin install pi-pathfinder@stoked-automations`
 - All documentation updated with new name
 - Marketplace catalogs updated
 - Website updated with PI Pathfinder branding
@@ -230,7 +230,7 @@ PI Pathfinder automatically picks the best plugin for your task, extracts its sk
 
 **Installation:**
 ```bash
-/plugin install pi-pathfinder@claude-code-plugins-plus
+/plugin install pi-pathfinder@stoked-automations
 ```
 
 **Technical Details:**
@@ -810,7 +810,7 @@ claude: "research PostgreSQL indexing and create a ticket"
     - 🏷️ Smart priority detection (urgent/normal)
     - ✅ Actionable checklists for implementation
     - 🔗 Preserved source links
-  - **Install:** `/plugin install web-to-github-issue@claude-code-plugins-plus`
+  - **Install:** `/plugin install web-to-github-issue@stoked-automations`
 
 ---
 
@@ -909,7 +909,7 @@ Special recognition to:
   - 🔍 **Plugin Auditor** - Auto-audits for security and quality
   - 🔢 **Version Bumper** - Auto-handles semantic version updates
 
-  **Install:** `/plugin install skills-powerkit@claude-code-plugins-plus`
+  **Install:** `/plugin install skills-powerkit@stoked-automations`
 
 ---
 
@@ -1928,9 +1928,9 @@ This release brings **advanced AI-powered plugins** to the marketplace, focusing
 
 ```bash
 # New plugins
-/plugin install ai-sdk-agents@claude-code-plugins-plus
-/plugin install ai-commit-gen@claude-code-plugins-plus
-/plugin install travel-assistant@claude-code-plugins-plus
+/plugin install ai-sdk-agents@stoked-automations
+/plugin install ai-commit-gen@stoked-automations
+/plugin install travel-assistant@stoked-automations
 
 # Update existing installations
 /plugin update --all
@@ -2196,7 +2196,7 @@ TOTAL:        220 plugins
 /plugin list --marketplace claude-code-plugins-plus
 
 # Install new plugins
-/plugin install <plugin-name>@claude-code-plugins-plus
+/plugin install <plugin-name>@stoked-automations
 ```
 
 ---
@@ -2496,7 +2496,7 @@ All quality work (validation systems, templates, production plugin) was preserve
 
 **Repository**: https://github.com/AndroidNextdoor/stoked-automations
 **Installation**: `/plugin marketplace add AndroidNextdoor/stoked-automations`
-**Flagship Plugin**: `/plugin install git-commit-smart@claude-code-plugins-plus`
+**Flagship Plugin**: `/plugin install git-commit-smart@stoked-automations`
 ## [1.0.38] - 2025-10-15
 
 ### 🎯 Release Highlights

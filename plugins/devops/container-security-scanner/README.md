@@ -5,7 +5,7 @@ Scan containers for vulnerabilities using Trivy, Snyk, and other security tools
 ## Installation
 
 ```bash
-/plugin install container-security-scanner@claude-code-plugins-plus
+/plugin install container-security-scanner@stoked-automations
 ```
 
 ## Usage

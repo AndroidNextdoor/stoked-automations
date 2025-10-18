@@ -19,7 +19,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-doubles-generator",
   "license": "MIT",
-  "installation": "/plugin install test-doubles-generator@claude@claude-code-plugins-plus",
+  "installation": "/plugin install test-doubles-generator@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -16,7 +16,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/sql-query-optimizer",
   "license": "MIT",
-  "installation": "/plugin install sql-query-optimizer@claude@claude-code-plugins-plus",
+  "installation": "/plugin install sql-query-optimizer@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

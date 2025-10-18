@@ -145,7 +145,7 @@ const plugin = {
   },
   "screenshot": "https://stokedautomations.com/images/plugins/web-to-github-issue-screenshot.png",
   "downloadUrl": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/plugins/skill-enhancers/web-to-github-issue",
-  "installUrl": "claudecode://install/web-to-github-issue@claude-code-plugins-plus",
+  "installUrl": "claudecode://install/web-to-github-issue@stoked-automations",
   "featureList": [
     "Automatic research extraction from Claude web_search Skill",
     "Smart GitHub issue formatting with markdown",
@@ -217,7 +217,7 @@ const plugin = {
       "text": "Install the web-to-github-issue plugin from the marketplace",
       "itemListElement": {
         "@type": "HowToDirection",
-        "text": "/plugin install web-to-github-issue@claude-code-plugins-plus"
+        "text": "/plugin install web-to-github-issue@stoked-automations"
       }
     },
     {

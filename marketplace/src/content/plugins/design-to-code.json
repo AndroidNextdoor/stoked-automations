@@ -19,7 +19,7 @@
   "featured": true,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/design-to-code",
   "license": "MIT",
-  "installation": "/plugin install design-to-code@claude@claude-code-plugins-plus",
+  "installation": "/plugin install design-to-code@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []

@@ -14,7 +14,7 @@
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/data-privacy-scanner",
   "license": "MIT",
-  "installation": "/plugin install data-privacy-scanner@claude@claude-code-plugins-plus",
+  "installation": "/plugin install data-privacy-scanner@claude@stoked-automations",
   "features": [],
   "requirements": [],
   "screenshots": []
