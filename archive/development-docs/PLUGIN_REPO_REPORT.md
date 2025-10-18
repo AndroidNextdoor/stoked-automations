@@ -2,7 +2,7 @@
 
 Generated: 2025-10-11
 Repository: `AndroidNextdoor/stoked-automations`
-Location: `/home/jeremy/projects/claude-code-plugins`
+Location: `~/Projects/stoked-automations`
 
 ---
 

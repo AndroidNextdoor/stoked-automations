@@ -27,7 +27,7 @@ EMOJI_PATTERN = re.compile(
 )
 
 # Base directory
-BASE_DIR = Path("/home/jeremy/projects/claude-code-plugins")
+BASE_DIR = Path("~/Projects/stoked-automations")
 
 # File extensions to process
 EXTENSIONS = {'.md', '.astro', '.ts', '.tsx', '.js', '.jsx', '.html', '.css', '.json', '.yml', '.yaml', '.txt'}

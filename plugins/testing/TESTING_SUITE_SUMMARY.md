@@ -1,7 +1,7 @@
 # Testing Suite - Complete Implementation Summary
 
 **Date**: October 11, 2025
-**Location**: `/home/jeremy/projects/claude-code-plugins/plugins/testing/`
+**Location**: `~/Projects/stoked-automations/plugins/testing/`
 **Total Plugins**: 10
 **Status**:  Complete
 
@@ -309,7 +309,7 @@ Auto-activate based on context:
 ## Next Steps
 
 To add these plugins to the main marketplace catalog, update:
-`/home/jeremy/projects/claude-code-plugins/.claude-plugin/marketplace.json`
+`~/Projects/stoked-automations/.claude-plugin/marketplace.json`
 
 Add entries for each of the 10 testing plugins with:
 - name

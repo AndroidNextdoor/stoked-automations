@@ -97,7 +97,7 @@ sub process_file {
 }
 
 # Find all files to process
-my $base_dir = '/home/jeremy/projects/claude-code-plugins';
+my $base_dir = '~/Projects/stoked-automations';
 find(\&process_file, $base_dir);
 
 print "\n=== EMOJI REMOVAL COMPLETE ===\n";

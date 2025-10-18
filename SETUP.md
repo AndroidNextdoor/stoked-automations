@@ -16,7 +16,7 @@ Your repository structure has been created successfully with:
 ### Step 1: Make Scripts Executable
 
 ```bash
-cd /home/jeremy/projects/claude-code-plugins
+cd ~/Projects/stoked-automations
 
 # Make all shell scripts executable
 find . -type f -name "*.sh" -exec chmod +x {} \;
@@ -28,7 +28,7 @@ find . -type f -name "*.sh" -ls
 ### Step 2: Initialize Git Repository
 
 ```bash
-cd /home/jeremy/projects/claude-code-plugins
+cd ~/Projects/stoked-automations
 
 # Initialize git
 git init
@@ -64,7 +64,7 @@ git commit -m "Initial commit: Claude Code Plugin Marketplace
 ### Step 4: Push to GitHub
 
 ```bash
-cd /home/jeremy/projects/claude-code-plugins
+cd ~/Projects/stoked-automations
 
 # Add remote origin
 git remote add origin https://github.com/AndroidNextdoor/stoked-automations.git

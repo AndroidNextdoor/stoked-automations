@@ -38,7 +38,7 @@
 ### Step 1: Make Scripts Executable
 
 ```bash
-cd /home/jeremy/projects/claude-code-plugins
+cd ~/Projects/stoked-automations
 
 # Make validation scripts executable
 chmod +x scripts/check-frontmatter.py

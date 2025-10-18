@@ -61,21 +61,21 @@ remove_emojis() {
 echo "Processing markdown files..."
 while IFS= read -r file; do
     remove_emojis "$file"
-done < <(find /home/jeremy/projects/claude-code-plugins -name "*.md" -type f)
+done < <(find ~/Projects/stoked-automations -name "*.md" -type f)
 
 # Process all Astro files
 echo ""
 echo "Processing Astro files..."
 while IFS= read -r file; do
     remove_emojis "$file"
-done < <(find /home/jeremy/projects/claude-code-plugins/marketplace -name "*.astro" -type f)
+done < <(find ~/Projects/stoked-automations/marketplace -name "*.astro" -type f)
 
 # Process all TypeScript/JavaScript files
 echo ""
 echo "Processing TypeScript/JavaScript files..."
 while IFS= read -r file; do
     remove_emojis "$file"
-done < <(find /home/jeremy/projects/claude-code-plugins -name "*.ts" -o -name "*.tsx" -o -name "*.js" -o -name "*.jsx" -type f)
+done < <(find ~/Projects/stoked-automations -name "*.ts" -o -name "*.tsx" -o -name "*.js" -o -name "*.jsx" -type f)
 
 echo ""
 echo "=== EMOJI REMOVAL COMPLETE ==="

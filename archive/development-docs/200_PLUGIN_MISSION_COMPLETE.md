@@ -1,7 +1,7 @@
 # 200 PLUGIN MISSION - COMPLETE 
 
 **Date:** October 11, 2025
-**Repository:** `/home/jeremy/projects/claude-code-plugins/`
+**Repository:** `~/Projects/stoked-automations/`
 **Status:** MISSION ACCOMPLISHED - 220+ Plugins Created
 
 ## Mission Summary

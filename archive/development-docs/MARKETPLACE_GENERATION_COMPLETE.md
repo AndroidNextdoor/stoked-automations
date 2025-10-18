@@ -214,7 +214,7 @@ Source path categories mapped to Astro schema categories:
 
 ## Generation Script
 
-**Location:** `/home/jeremy/projects/claude-code-plugins/marketplace/generate-missing-plugins.cjs`
+**Location:** `~/Projects/stoked-automations/marketplace/generate-missing-plugins.cjs`
 
 **Features:**
 - Reads from `.claude-plugin/marketplace.json`
