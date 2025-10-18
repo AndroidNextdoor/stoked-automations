@@ -1,8 +1,15 @@
 ---
-description: DESCRIPTION_PLACEHOLDER
-shortcut: SHORTCUT_PLACEHOLDER
+description: Check session management security and configuration
+shortcut: ssc
 ---
 
-# TITLE_PLACEHOLDER
+# Session Security Checker
 
-CONTENT_PLACEHOLDER
+Audit session management implementations for security vulnerabilities.
+
+## Output
+
+- Session security audit
+- Configuration recommendations
+- Vulnerability assessment
+- Secure session management guide

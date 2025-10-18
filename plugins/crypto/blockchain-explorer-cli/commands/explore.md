@@ -1,6 +1,6 @@
 ---
 description: Explore blockchain transactions, addresses, and contracts
-shortcut: explore
+shortcut: expl
 ---
 
 # Blockchain Explorer CLI

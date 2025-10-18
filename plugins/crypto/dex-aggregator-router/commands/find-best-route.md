@@ -1,6 +1,6 @@
 ---
 description: Find optimal DEX routing for token swaps
-shortcut: route
+shortcut: rout
 ---
 
 # DEX Aggregator Router

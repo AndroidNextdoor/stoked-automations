@@ -1,6 +1,6 @@
 ---
 description: Generate authentication boilerplate with JWT, OAuth, and session support
-shortcut: as
+shortcut: aus
 category: backend
 difficulty: intermediate
 estimated_time: 5-10 minutes
@@ -35,10 +35,10 @@ Generates complete authentication boilerplate including JWT, OAuth (Google/GitHu
 /auth-setup jwt
 
 # Shortcut
-/as oauth --providers google,github
+/aus oauth --providers google,github
 
 # With specific features
-/as jwt --features email-verification,password-reset,2fa
+/aus jwt --features email-verification,password-reset,2fa
 ```
 
 ---

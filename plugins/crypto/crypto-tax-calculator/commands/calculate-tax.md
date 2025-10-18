@@ -1,5 +1,5 @@
 ---
-description: Calculate cryptocurrency taxes with multi-jurisdiction support, cost basis tracking, and automated IRS Form 8949 generation
+description: Calculate cryptocurrency taxes with multi-jurisdiction support, cost basis...
 shortcut: ct
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: Backtest trading strategies with historical data and comprehensive performance analysis
+description: Backtest trading strategies with historical data and comprehensive...
 shortcut: bs
 ---
 

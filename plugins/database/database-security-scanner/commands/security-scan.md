@@ -1,6 +1,6 @@
 ---
-description: Comprehensive database security scanner with OWASP compliance checks, vulnerability detection, and automated remediation
-shortcut: security-scan
+description: Comprehensive database security scanner with OWASP compliance checks,...
+shortcut: scan
 ---
 
 # Database Security Scanner

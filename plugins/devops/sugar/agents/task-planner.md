@@ -1,8 +1,9 @@
 ---
 name: task-planner
-description: Strategic task planning and breakdown specialist for complex development work
+description: Strategic task planning and breakdown specialist for development
 type: specialist
 expertise: ["strategic-planning", "task-decomposition", "requirements-analysis", "architecture-planning"]
+capabilities: ["strategic-planning", "task-decomposition", "requirements-analysis", "architecture-planning"]
 ---
 
 # Task Planner Agent

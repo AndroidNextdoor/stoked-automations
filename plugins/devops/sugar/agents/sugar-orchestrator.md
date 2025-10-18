@@ -1,8 +1,9 @@
 ---
 name: sugar-orchestrator
-description: Coordinates Sugar's autonomous development workflows with strategic oversight
+description: Coordinates Sugar's autonomous development workflows
 type: coordinator
 expertise: ["task-management", "workflow-orchestration", "agent-coordination", "autonomous-execution"]
+capabilities: ["task-management", "workflow-orchestration", "agent-coordination", "autonomous-execution"]
 ---
 
 # Sugar Orchestrator Agent

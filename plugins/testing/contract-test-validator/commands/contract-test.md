@@ -1,6 +1,6 @@
 ---
 description: Validate API contracts with consumer-driven testing and OpenAPI validation
-shortcut: ct
+shortcut: ctv
 ---
 
 # Contract Test Validator

@@ -1,6 +1,6 @@
 ---
 description: Generate comprehensive database documentation from existing schemas
-shortcut: dbdocs
+shortcut: dbdc
 ---
 
 # Database Documentation Generator

@@ -1,8 +1,15 @@
 ---
-description: DESCRIPTION_PLACEHOLDER
-shortcut: SHORTCUT_PLACEHOLDER
+description: Scan for input validation vulnerabilities and weaknesses
+shortcut: ivs
 ---
 
-# TITLE_PLACEHOLDER
+# Input Validation Scanner
 
-CONTENT_PLACEHOLDER
+Scan applications for inadequate input validation that could lead to security vulnerabilities.
+
+## Output
+
+- Input validation audit report
+- Vulnerability locations
+- Validation rule recommendations
+- Secure input handling examples

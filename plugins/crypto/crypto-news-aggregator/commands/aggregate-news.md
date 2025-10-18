@@ -1,5 +1,5 @@
 ---
-description: Aggregate crypto news with sentiment analysis and market impact scoring from 50+ sources
+description: Aggregate crypto news with sentiment analysis and market impact scoring from...
 shortcut: an
 ---
 

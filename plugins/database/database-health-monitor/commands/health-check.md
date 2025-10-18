@@ -1,6 +1,6 @@
 ---
-description: Monitor database health with real-time metrics, predictive alerts, and automated remediation
-shortcut: health-check
+description: Monitor database health with real-time metrics, predictive alerts, and...
+shortcut: hlth
 ---
 
 # Database Health Monitor

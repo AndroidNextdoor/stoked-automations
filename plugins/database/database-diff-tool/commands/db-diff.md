@@ -1,6 +1,6 @@
 ---
-description: Compare database schemas and generate safe migration scripts with rollback support
-shortcut: db-diff
+description: Compare database schemas and generate safe migration scripts with rollback...
+shortcut: diff
 ---
 
 # Database Diff Tool

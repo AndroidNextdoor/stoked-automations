@@ -1,6 +1,6 @@
 ---
 description: Design and implement table partitioning strategies for massive datasets
-shortcut: partition
+shortcut: prtn
 ---
 
 # Database Partition Manager

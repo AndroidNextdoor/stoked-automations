@@ -1,5 +1,5 @@
 ---
-description: Analyze entire crypto portfolio with allocation, risk metrics, and rebalancing suggestions
+description: Analyze entire crypto portfolio with allocation, risk metrics, and...
 shortcut: pa
 ---
 

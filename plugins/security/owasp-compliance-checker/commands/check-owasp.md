@@ -1,8 +1,15 @@
 ---
-description: DESCRIPTION_PLACEHOLDER
-shortcut: SHORTCUT_PLACEHOLDER
+description: Check compliance with OWASP Top 10 security risks
+shortcut: occ
 ---
 
-# TITLE_PLACEHOLDER
+# OWASP Compliance Checker
 
-CONTENT_PLACEHOLDER
+Check applications against OWASP Top 10 security vulnerabilities.
+
+## Output
+
+- OWASP Top 10 assessment
+- Vulnerability findings
+- Risk prioritization
+- Remediation guide

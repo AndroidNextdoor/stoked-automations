@@ -1,5 +1,5 @@
 ---
-description: Track crypto wallets across multiple chains with real-time balance and transaction monitoring
+description: Track crypto wallets across multiple chains with real-time balance and...
 shortcut: tw
 ---
 

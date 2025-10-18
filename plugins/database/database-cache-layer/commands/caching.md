@@ -1,6 +1,6 @@
 ---
-description: Implement multi-tier database caching with Redis, in-memory, and CDN layers for 10-100x performance improvement
-shortcut: caching
+description: Implement multi-tier database caching with Redis, in-memory, and CDN layers...
+shortcut: cach
 ---
 
 # Database Cache Layer

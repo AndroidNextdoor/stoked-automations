@@ -1,6 +1,6 @@
 ---
-description: Monitor database transactions with real-time alerting for performance and lock issues
-shortcut: txn-monitor
+description: Monitor database transactions with real-time performance alerts
+shortcut: txn
 ---
 
 # Database Transaction Monitor

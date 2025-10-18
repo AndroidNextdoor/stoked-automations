@@ -1,6 +1,6 @@
 ---
-description: Comprehensive database replication management with streaming replication, failover automation, and lag monitoring
-shortcut: replication
+description: Comprehensive database replication management with streaming replication,...
+shortcut: repl
 ---
 
 # Database Replication Manager

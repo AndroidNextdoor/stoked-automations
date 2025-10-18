@@ -1,6 +1,6 @@
 ---
 description: Analyze query patterns and recommend optimal database indexes
-shortcut: index-advisor
+shortcut: idx
 ---
 
 # Database Index Advisor

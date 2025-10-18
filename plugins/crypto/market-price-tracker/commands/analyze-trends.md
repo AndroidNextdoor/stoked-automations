@@ -1,5 +1,5 @@
 ---
-description: Analyze price trends with technical indicators, pattern recognition, and market structure analysis
+description: Analyze price trends with technical indicators, pattern recognition, and...
 shortcut: at
 ---
 

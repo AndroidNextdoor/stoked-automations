@@ -1,6 +1,6 @@
 ---
 description: Detect and resolve database deadlocks with automated monitoring
-shortcut: deadlock
+shortcut: ddl
 ---
 
 # Database Deadlock Detector

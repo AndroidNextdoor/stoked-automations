@@ -1,6 +1,6 @@
 ---
 description: Implement disaster recovery and point-in-time recovery strategies
-shortcut: recovery
+shortcut: rec
 ---
 
 # Database Recovery Manager

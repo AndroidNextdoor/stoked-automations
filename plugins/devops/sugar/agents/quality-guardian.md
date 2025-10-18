@@ -3,6 +3,7 @@ name: quality-guardian
 description: Code quality, testing, and validation enforcement specialist
 type: specialist
 expertise: ["code-quality", "testing", "validation", "security-review", "best-practices"]
+capabilities: ["code-quality", "testing", "validation", "security-review", "best-practices"]
 ---
 
 # Quality Guardian Agent

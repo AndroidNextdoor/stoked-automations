@@ -1,6 +1,6 @@
 ---
 description: Generate trading signals from technical indicators
-shortcut: signal
+shortcut: sig
 ---
 
 # Crypto Signal Generator

@@ -1,8 +1,15 @@
 ---
-description: DESCRIPTION_PLACEHOLDER
-shortcut: SHORTCUT_PLACEHOLDER
+description: Manage SSL/TLS certificates and monitor expiration
+shortcut: scm
 ---
 
-# TITLE_PLACEHOLDER
+# SSL Certificate Manager
 
-CONTENT_PLACEHOLDER
+Manage SSL/TLS certificates with automated renewal and expiration monitoring.
+
+## Output
+
+- Certificate inventory
+- Expiration monitoring dashboard
+- Automated renewal scripts
+- Certificate health reports

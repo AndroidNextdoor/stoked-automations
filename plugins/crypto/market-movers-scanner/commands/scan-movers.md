@@ -1,5 +1,5 @@
 ---
-description: Scan for top market movers across crypto, stocks, and forex with real-time updates
+description: Scan for top market movers across crypto, stocks, and forex with real-time...
 shortcut: sm
 ---
 

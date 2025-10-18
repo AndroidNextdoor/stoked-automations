@@ -1,6 +1,6 @@
 ---
 description: Analyze and optimize staking rewards across protocols
-shortcut: stake
+shortcut: stk
 ---
 
 # Optimize Staking Rewards

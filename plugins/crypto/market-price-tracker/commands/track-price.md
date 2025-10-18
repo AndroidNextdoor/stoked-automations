@@ -1,6 +1,6 @@
 ---
-description: Track real-time prices across crypto, stocks, forex, and commodities with multi-source feeds
-shortcut: tp
+description: Track real-time prices across crypto, stocks, forex, and commodities with...
+shortcut: mpt
 ---
 
 # Track Market Price

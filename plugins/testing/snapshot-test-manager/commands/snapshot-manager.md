@@ -1,6 +1,6 @@
 ---
 description: Manage snapshot tests with intelligent diff analysis and updates
-shortcut: sm
+shortcut: stm
 ---
 
 # Snapshot Test Manager

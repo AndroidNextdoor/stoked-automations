@@ -1,8 +1,15 @@
 ---
-description: DESCRIPTION_PLACEHOLDER
-shortcut: SHORTCUT_PLACEHOLDER
+description: Scan for GDPR compliance issues and data protection requirements
+shortcut: gcs
 ---
 
-# TITLE_PLACEHOLDER
+# GDPR Compliance Scanner
 
-CONTENT_PLACEHOLDER
+Scan applications and data handling for GDPR compliance requirements.
+
+## Output
+
+- GDPR compliance assessment
+- Data protection audit
+- Privacy rights implementation
+- Remediation roadmap

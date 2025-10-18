@@ -1,8 +1,15 @@
 ---
-description: DESCRIPTION_PLACEHOLDER
-shortcut: SHORTCUT_PLACEHOLDER
+description: Validate CORS policies for security best practices
+shortcut: cpv
 ---
 
-# TITLE_PLACEHOLDER
+# CORS Policy Validator
 
-CONTENT_PLACEHOLDER
+Validate Cross-Origin Resource Sharing (CORS) policies for security issues.
+
+## Output
+
+- CORS configuration analysis
+- Security vulnerability assessment
+- Policy recommendations
+- Secure CORS examples

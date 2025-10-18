@@ -1,0 +1,86 @@
+# Serena Project Configuration for Stoked Automations
+
+name: "Stoked Automations"
+description: "Claude Code plugins marketplace - 234 plugins across 15 categories"
+
+# Context and modes
+context: ide-assistant
+modes:
+  - interactive
+  - editing
+  - no-onboarding
+
+# Project-specific prompts
+custom_prompts:
+  - role: system
+    content: |
+      You are an expert in:
+      - Claude Code plugin development and architecture
+      - MCP (Model Context Protocol) server implementation
+      - Marketplace management and plugin distribution
+      - TypeScript/Node.js for MCP plugins
+      - Markdown-based command and agent plugins
+
+  - role: context
+    content: |
+      Project: Stoked Automations Marketplace
+      - 234 total plugins across 15 categories
+      - 170 plugins with Agent Skills (automatic activation)
+      - 9 MCP server plugins (TypeScript/Node.js executables)
+      - Two-catalog system: marketplace.extended.json (source) and marketplace.json (generated)
+      - Monorepo using pnpm workspaces
+      - Live site: https://stokedautomations.com/
+
+# Language servers for this project
+language_servers:
+  typescript:
+    enabled: true
+    command: typescript-language-server
+    args: ["--stdio"]
+    include_patterns: ["plugins/mcp/**/*.ts", "marketplace/**/*.ts"]
+
+  javascript:
+    enabled: true
+    command: typescript-language-server
+    args: ["--stdio"]
+    include_patterns: ["marketplace/**/*.js", "scripts/**/*.js"]
+
+  python:
+    enabled: true
+    command: pyright-langserver
+    args: ["--stdio"]
+    include_patterns: ["scripts/**/*.py"]
+
+# Memory configuration
+memory:
+  storage_path: .serena/memories
+  project_specific: true
+  auto_save: true
+  categories:
+    - plugin-architecture
+    - mcp-servers
+    - marketplace-sync
+    - validation-rules
+    - best-practices
+
+# File watching
+file_watching:
+  enabled: true
+  watch_patterns:
+    - "plugins/**/*.md"
+    - "plugins/**/*.json"
+    - "plugins/mcp/**/*.ts"
+    - ".claude-plugin/marketplace*.json"
+  ignore_patterns:
+    - "**/node_modules/**"
+    - "**/dist/**"
+    - "**/.git/**"
+
+# Search preferences for this project
+search:
+  similarity_threshold: 0.6
+  max_results: 20
+  prioritize_patterns:
+    - "plugins/*/README.md"
+    - "plugins/*/.claude-plugin/plugin.json"
+    - "plugins/mcp/*/src/**/*.ts"

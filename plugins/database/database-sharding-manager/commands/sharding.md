@@ -1,6 +1,6 @@
 ---
 description: Implement horizontal database sharding for massive scale applications
-shortcut: sharding
+shortcut: shrd
 ---
 
 # Database Sharding Manager

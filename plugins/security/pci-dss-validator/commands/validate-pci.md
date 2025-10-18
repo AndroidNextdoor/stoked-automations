@@ -1,8 +1,15 @@
 ---
-description: DESCRIPTION_PLACEHOLDER
-shortcut: SHORTCUT_PLACEHOLDER
+description: Validate PCI DSS compliance for payment card processing
+shortcut: pci
 ---
 
-# TITLE_PLACEHOLDER
+# PCI DSS Validator
 
-CONTENT_PLACEHOLDER
+Validate payment card processing systems for PCI DSS compliance.
+
+## Output
+
+- PCI DSS compliance report
+- Security control assessment
+- Cardholder data protection audit
+- Compliance gap analysis

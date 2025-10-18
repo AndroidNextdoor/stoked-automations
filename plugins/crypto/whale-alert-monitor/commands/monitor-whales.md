@@ -1,5 +1,5 @@
 ---
-description: Monitor whale transactions in real-time with market impact analysis and automated alerting
+description: Monitor whale transactions in real-time with market impact analysis and...
 shortcut: mw
 ---
 

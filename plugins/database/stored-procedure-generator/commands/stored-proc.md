@@ -1,6 +1,6 @@
 ---
 description: Generate production-ready stored procedures and database functions
-shortcut: stored-proc
+shortcut: proc
 ---
 
 # Stored Procedure Generator

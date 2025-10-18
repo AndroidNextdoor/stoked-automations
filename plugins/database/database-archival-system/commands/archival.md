@@ -1,6 +1,6 @@
 ---
-description: Archive old database records with automated retention policies and cold storage integration
-shortcut: archival
+description: Archive old database records with automated retention policies and cold...
+shortcut: arc
 ---
 
 # Database Archival System

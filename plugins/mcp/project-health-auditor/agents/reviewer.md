@@ -1,5 +1,5 @@
 ---
-description: Code health reviewer specialist - suggests high-impact refactors based on metrics
+description: Code health reviewer - suggests high-impact refactors based on metrics
 capabilities: ["complexity-analysis", "churn-analysis", "test-coverage", "prioritization", "recommendations"]
 ---
 

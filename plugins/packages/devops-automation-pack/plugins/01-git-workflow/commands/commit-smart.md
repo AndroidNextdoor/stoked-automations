@@ -1,6 +1,6 @@
 ---
 description: Generate conventional commits with AI-powered messages
-shortcut: gc
+shortcut: gcom
 category: git
 difficulty: beginner
 estimated_time: 30 seconds
