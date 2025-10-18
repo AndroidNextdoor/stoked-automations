@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Scan codebase for exposed secrets, API keys, passwords, and sensitive credentials",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

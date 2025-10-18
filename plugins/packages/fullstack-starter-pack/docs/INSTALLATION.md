@@ -263,7 +263,7 @@ npm install -g dotenv-cli  # Environment variable management
 /plugin uninstall fullstack-starter-pack
 
 # Remove marketplace (optional)
-/plugin marketplace remove claude-code-plugins-plus
+/plugin marketplace remove stoked-automations
 ```
 
 ---

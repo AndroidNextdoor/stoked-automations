@@ -52,10 +52,10 @@
 /plugin install devops-automation-pack@stoked-automations
 ```
 
-> Already using an older install? Run `/plugin marketplace remove claude-code-plugins` and re-add with the command above to switch to the new `claude-code-plugins-plus` slug. Existing plugins keep working either way.
+> Already using an older install? Run `/plugin marketplace remove claude-code-plugins` and re-add with the command above to switch to the new `stoked-automations` slug. Existing plugins keep working either way.
 
 **Browse the catalog:**
-Visit **[Claude Code Plugins Marketplace](https://stokedautomations.com/)** (CLI slug `claude-code-plugins-plus`) or explore [`plugins/`](./plugins/)
+Visit **[Claude Code Plugins Marketplace](https://stokedautomations.com/)** (CLI slug `stoked-automations`) or explore [`plugins/`](./plugins/)
 
 **Learn to build:**
 See [Learning Paths](#-learning-paths) for step-by-step guides

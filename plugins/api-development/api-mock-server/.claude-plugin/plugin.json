@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Create mock API servers from OpenAPI specs for testing",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

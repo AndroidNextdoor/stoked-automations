@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Complete operations kit for FairDB PostgreSQL as a Service - VPS setup, PostgreSQL management, customer provisioning, monitoring, and backup automation",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "andrew@stokedautomation.com"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

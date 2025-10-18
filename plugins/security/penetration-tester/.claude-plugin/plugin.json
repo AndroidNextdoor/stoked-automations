@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Automated penetration testing for web applications with OWASP Top 10 coverage",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

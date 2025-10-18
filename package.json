@@ -1,8 +1,8 @@
 {
-  "name": "claude-code-plugins-monorepo",
+  "name": "stoked-automations",
   "version": "1.0.43",
   "private": true,
-  "description": "Claude Code plugins workspace - simple plugins + MCP servers",
+  "description": "Stoked Automations Workspace - skills + plugins + MCP servers",
   "scripts": {
     "dev": "pnpm --filter '*' dev --parallel",
     "build": "pnpm --filter '*' build",
@@ -14,6 +14,7 @@
   "keywords": [
     "claude-code",
     "plugins",
+    "skills",
     "mcp",
     "monorepo"
   ],

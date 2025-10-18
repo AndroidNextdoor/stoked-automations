@@ -209,7 +209,7 @@ I can automatically fix:
 **For claude-code-plugins repo:**
 - Validates against `.claude-plugin/marketplace.extended.json`
 - Checks category folder matches catalog entry
-- Ensures marketplace slug is `claude-code-plugins-plus`
+- Ensures marketplace slug is `stoked-automations`
 - Validates against other plugins (no duplicates)
 - Checks compliance with CLAUDE.md standards
 

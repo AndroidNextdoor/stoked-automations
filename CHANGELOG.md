@@ -1112,7 +1112,7 @@ Issue [#13](https://github.com/AndroidNextdoor/stoked-automations/issues/13) sho
 - New `npm run sync-marketplace` command (backed by `scripts/sync-marketplace.cjs`) gives maintainers a one-step workflow to refresh the CLI-safe catalog.
 - CI guard runs the sync script on every PR, failing fast if someone forgets to regenerate the CLI catalog.
 
-**Migration Note:** Marketplace installs prior to 2025-10-15 still work, but run `/plugin marketplace remove claude-code-plugins` followed by `/plugin marketplace add AndroidNextdoor/stoked-automations` to pick up the new `claude-code-plugins-plus` slug and avoid conflicts with Anthropic’s catalog.
+**Migration Note:** Marketplace installs prior to 2025-10-15 still work, but run `/plugin marketplace remove claude-code-plugins` followed by `/plugin marketplace add AndroidNextdoor/stoked-automations` to pick up the new `stoked-automations` slug and avoid conflicts with Anthropic’s catalog.
 
 ---
 
@@ -1519,7 +1519,7 @@ Browse 225 plugins • Install instantly • Contribute your own
 **Installation:**
 ```bash
 # Users - no action needed
-/plugin marketplace update claude-code-plugins-plus
+/plugin marketplace update stoked-automations
 
 # Plugin developers - review security requirements
 cat SECURITY.md
@@ -2190,10 +2190,10 @@ TOTAL:        220 plugins
 **Marketplace Updates:**
 ```bash
 # Update your local marketplace reference
-/plugin marketplace update claude-code-plugins-plus
+/plugin marketplace update stoked-automations
 
 # Browse new plugins
-/plugin list --marketplace claude-code-plugins-plus
+/plugin list --marketplace stoked-automations
 
 # Install new plugins
 /plugin install <plugin-name>@stoked-automations

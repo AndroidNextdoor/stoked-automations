@@ -9,7 +9,7 @@
     "test": "vitest"
   },
   "keywords": ["mcp", "figma", "design", "code-generation", "components", "a11y"],
-  "author": { "name": "Intent Solutions", "url": "https://intentsolutions.io" },
+  "author": { "name": "Stoked Automation", "url": "https://stokedautomations.com" },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.7.0",

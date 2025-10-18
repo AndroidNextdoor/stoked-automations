@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Migrate APIs between versions with backward compatibility",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

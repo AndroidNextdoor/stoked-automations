@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Implement event-driven APIs with message queues and event streaming",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

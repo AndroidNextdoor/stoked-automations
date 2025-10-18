@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Generate API contracts for consumer-driven contract testing",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

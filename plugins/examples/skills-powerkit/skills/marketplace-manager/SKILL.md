@@ -265,7 +265,7 @@ git commit -m "feat: Add new-plugin to marketplace"
 ## Repository-Specific Features
 
 **For claude-code-plugins repo:**
-- Manages `claude-code-plugins-plus` marketplace
+- Manages `stoked-automations` marketplace
 - Handles both extended and CLI catalogs
 - Validates against repository structure
 - Checks plugin count accuracy

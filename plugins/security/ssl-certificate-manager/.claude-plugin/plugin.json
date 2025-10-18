@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Manage and monitor SSL/TLS certificates",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

@@ -1,0 +1,30 @@
+{
+  "name": "browser-testing-suite",
+  "version": "1.0.0",
+  "description": "Comprehensive browser testing with Playwright automation and Chrome DevTools Protocol - combine E2E tests, performance profiling, network analysis, and visual regression in one MCP server",
+  "author": {
+    "name": "Jeremy Longshore",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "playwright",
+    "chrome-devtools",
+    "cdp",
+    "e2e",
+    "browser-automation",
+    "performance",
+    "network-analysis",
+    "visual-regression",
+    "mcp",
+    "agent-skills"
+  ],
+  "mcp": {
+    "servers": [
+      "servers/playwright-automation.ts",
+      "servers/chrome-devtools.ts"
+    ]
+  }
+}

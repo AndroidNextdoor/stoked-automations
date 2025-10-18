@@ -158,7 +158,7 @@ After creation:
 
 **For claude-code-plugins repo:**
 - Follows exact directory structure
-- Uses correct marketplace slug (`claude-code-plugins-plus`)
+- Uses correct marketplace slug (`stoked-automations`)
 - Includes proper LICENSE file
 - Adds to correct category folder
 - Validates against existing plugins

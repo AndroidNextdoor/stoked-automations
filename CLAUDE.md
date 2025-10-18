@@ -530,7 +530,7 @@ Users install plugins from this marketplace:
 
 ### Marketplace Slug
 
-- **Marketplace name:** `claude-code-plugins-plus`
+- **Marketplace name:** `stoked-automations`
 - **GitHub repo:** `AndroidNextdoor/stoked-automations`
 - **Live site:** https://stokedautomations.com/
 

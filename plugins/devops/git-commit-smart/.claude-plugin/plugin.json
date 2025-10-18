@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "AI-powered conventional commit message generator with smart analysis",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

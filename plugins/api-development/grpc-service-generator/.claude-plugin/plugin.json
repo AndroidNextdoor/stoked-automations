@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Generate gRPC services with Protocol Buffers and streaming support",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

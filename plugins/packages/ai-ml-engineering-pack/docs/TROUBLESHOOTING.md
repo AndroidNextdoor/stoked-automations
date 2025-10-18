@@ -24,7 +24,7 @@ Common issues and solutions when using the AI/ML Engineering Pack.
 **Symptoms:**
 ```bash
 claude plugin install ai-ml-engineering-pack@stoked-automations
-Error: Plugin 'ai-ml-engineering-pack' not found in marketplace 'claude-code-plugins-plus'
+Error: Plugin 'ai-ml-engineering-pack' not found in marketplace 'stoked-automations'
 ```
 
 **Solutions:**
@@ -42,7 +42,7 @@ claude plugin marketplace add AndroidNextdoor/stoked-automations
 
 3. **Update marketplace index:**
 ```bash
-claude plugin marketplace update claude-code-plugins-plus
+claude plugin marketplace update stoked-automations
 ```
 
 4. **Check Claude Code version:**

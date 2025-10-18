@@ -28,7 +28,7 @@ First, add this plugin marketplace to Claude Code:
 /plugin marketplace add AndroidNextdoor/stoked-automations
 ```
 
-> Already added this marketplace before October 2025? Run `/plugin marketplace remove claude-code-plugins` first so Claude registers the new `claude-code-plugins-plus` slug.
+> Already added this marketplace before October 2025? Run `/plugin marketplace remove claude-code-plugins` first so Claude registers the new `stoked-automations` slug.
 
 **What just happened?**
 - Claude Code connected to this GitHub repository
@@ -208,7 +208,7 @@ This gives you 10 plugins:
 ### Plugin not found?
 ```bash
 # Refresh marketplace cache
-/plugin marketplace update claude-code-plugins-plus
+/plugin marketplace update stoked-automations
 ```
 
 ### Command not working?

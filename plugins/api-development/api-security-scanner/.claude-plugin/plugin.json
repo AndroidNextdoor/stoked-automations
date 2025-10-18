@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Scan APIs for security vulnerabilities and OWASP API Top 10",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

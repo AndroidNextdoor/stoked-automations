@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Multi-agent orchestration with AI SDK v5 - handoffs, routing, and coordination for any AI provider (OpenAI, Anthropic, Google)",
   "author": {
-    "name": "Andrew Nixdorf",
+    "name": "Jeremy Longshore",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

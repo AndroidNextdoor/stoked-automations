@@ -71,7 +71,7 @@ my-plugin/
 **2. Slash Commands** (`commands/*.md`)
 - Triggered with `/command-name`
 - Contain instructions for Claude
-- Must have YAML frontmatter
+- Must have YAML formatting
 
 **3. AI Agents** (`agents/*.md`)
 - Specialized AI personas

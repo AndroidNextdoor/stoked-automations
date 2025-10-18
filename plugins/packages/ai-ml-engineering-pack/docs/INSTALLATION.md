@@ -43,7 +43,7 @@ claude --version
 
 ### 2. Add Plugin Marketplace
 
-Add the claude-code-plugins-plus marketplace (if not already added):
+Add the stoked-automations marketplace (if not already added):
 
 ```bash
 claude plugin marketplace add AndroidNextdoor/stoked-automations

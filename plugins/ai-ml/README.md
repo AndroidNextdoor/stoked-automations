@@ -43,7 +43,7 @@ This directory contains 25 specialized plugins for machine learning, data scienc
 
 ## Installation
 
-All plugins can be installed from the claude-code-plugins-plus marketplace:
+All plugins can be installed from the stoked-automations marketplace:
 
 ```bash
 /plugin install ml-model-trainer@stoked-automations
