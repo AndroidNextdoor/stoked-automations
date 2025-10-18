@@ -72,6 +72,13 @@ def log_to_database(repo_root, plugin_name, plugin_category, plugin_path, status
 
             timestamp = datetime.utcnow().isoformat()
 
+            # If this is a SUCCESS, delete any previous ERROR records for this plugin
+            if status == 'SUCCESS':
+                cursor.execute("""
+                    DELETE FROM skill_generations
+                    WHERE plugin_name = ? AND status = 'ERROR'
+                """, (plugin_name,))
+
             cursor.execute("""
                 INSERT INTO skill_generations
                 (timestamp, plugin_name, plugin_category, plugin_path, status,
