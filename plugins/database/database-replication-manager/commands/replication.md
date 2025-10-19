@@ -95,8 +95,8 @@ The command generates:
 set -e
 
 # Configuration
-PRIMARY_HOST="${PRIMARY_HOST:-primary.example.com}"
-REPLICA_HOST="${REPLICA_HOST:-replica.example.com}"
+PRIMARY_HOST="${PRIMARY_HOST:-primary.stokedautomations.com}"
+REPLICA_HOST="${REPLICA_HOST:-replica.stokedautomations.com}"
 REPLICATION_USER="${REPLICATION_USER:-replicator}"
 REPLICATION_PASSWORD="${REPLICATION_PASSWORD:-changeme}"
 POSTGRES_DATA_DIR="/var/lib/postgresql/14/main"

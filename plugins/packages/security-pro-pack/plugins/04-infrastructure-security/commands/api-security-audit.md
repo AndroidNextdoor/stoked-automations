@@ -61,24 +61,24 @@ Performs comprehensive security audit of REST and GraphQL APIs, checking for OWA
 
 ```bash
 # Audit REST API
-/api-security-audit https://api.example.com
+/api-security-audit https://api.stokedautomations.com
 
 # Audit GraphQL API
-/api-security-audit https://api.example.com/graphql --type graphql
+/api-security-audit https://api.stokedautomations.com/graphql --type graphql
 
 # Audit with authentication
-/api-security-audit https://api.example.com --auth "Bearer TOKEN"
+/api-security-audit https://api.stokedautomations.com --auth "Bearer TOKEN"
 
 # Audit specific endpoints
-/api-security-audit https://api.example.com/users --endpoints /users,/orders
+/api-security-audit https://api.stokedautomations.com/users --endpoints /users,/orders
 
 # Generate detailed report
-/api-security-audit https://api.example.com --output api-security-report.md
+/api-security-audit https://api.stokedautomations.com --output api-security-report.md
 ```
 
 **Shortcut:**
 ```bash
-/asa https://api.example.com  # Quick audit
+/asa https://api.stokedautomations.com  # Quick audit
 ```
 
 ---
@@ -153,7 +153,7 @@ app.get('/api/orders/:id', authenticate, async (req, res) => {
 ```bash
 # Brute force login (no rate limiting)
 for password in $(cat passwords.txt); do
-  curl -X POST https://api.example.com/login \
+  curl -X POST https://api.stokedautomations.com/login \
     -d "username=admin&password=$password"
 done
 ```
@@ -233,7 +233,7 @@ app.patch('/api/users/:id', async (req, res) => {
 ```bash
 # Exhaust API resources
 while true; do
-  curl https://api.example.com/expensive-operation &
+  curl https://api.stokedautomations.com/expensive-operation &
 done
 # Launch thousands of requests, exhaust server resources
 ```
@@ -276,7 +276,7 @@ app.use((req, res, next) => {
 ```bash
 # Regular user token
 curl -H "Authorization: Bearer USER_TOKEN" \
-  https://api.example.com/admin/delete-user/456
+  https://api.stokedautomations.com/admin/delete-user/456
 # Should return 403 Forbidden, but if vulnerable, executes!
 ```
 
@@ -311,7 +311,7 @@ app.delete('/admin/delete-user/:id', authenticate, requireAdmin, async (req, res
 ```bash
 # Purchase limited item repeatedly (no rate limit)
 for i in {1..1000}; do
-  curl -X POST https://api.example.com/purchase \
+  curl -X POST https://api.stokedautomations.com/purchase \
     -d "item_id=limited_edition_sneakers&quantity=1" &
 done
 # Buys entire stock, legitimate customers can't purchase
@@ -356,7 +356,7 @@ app.post('/purchase', authenticate, async (req, res) => {
 # Intended use: Fetch profile picture from URL
 POST /api/upload-from-url
 {
-  "url": "https://example.com/profile.jpg"
+  "url": "https://stokedautomations.com/profile.jpg"
 }
 
 # Attack: Access internal resources
@@ -395,7 +395,7 @@ app.post('/api/upload-from-url', async (req, res) => {
   }
 
   // Allowlist domains
-  const allowedDomains = ['cdn.example.com', 'images.example.com']
+  const allowedDomains = ['cdn.stokedautomations.com', 'images.stokedautomations.com']
   if (!allowedDomains.includes(parsed.hostname)) {
     return res.status(403).json({ error: 'Domain not allowed' })
   }
@@ -567,12 +567,12 @@ const server = new ApolloServer({
 ## Example: Full Audit Report
 
 ```bash
-$ /api-security-audit https://api.example.com
+$ /api-security-audit https://api.stokedautomations.com
 
  API Security Audit
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- API: https://api.example.com
+ API: https://api.stokedautomations.com
  Type: REST API
  Audit Date: 2025-10-10
 ⏱️  Duration: 18 minutes

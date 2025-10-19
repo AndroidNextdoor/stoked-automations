@@ -31,7 +31,7 @@ This skill activates when you need to:
 
 ### Example 1: Comprehensive SQL Injection Testing
 
-User request: "Test https://example.com/login for SQL injection vulnerabilities"
+User request: "Test https://stokedautomations.com/login for SQL injection vulnerabilities"
 
 The skill will:
 1. **Static Analysis** - Scan codebase for vulnerable SQL query patterns

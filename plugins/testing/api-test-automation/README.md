@@ -138,7 +138,7 @@ async function loginUser(email, password) {
 
 async function createTestUser(role = 'user') {
   const user = {
-    email: `test-${Date.now()}@example.com`,
+    email: `test-${Date.now()}@stokedautomations.com`,
     password: 'test123',
     role
   };
@@ -153,7 +153,7 @@ async function createTestUser(role = 'user') {
 // Factory functions for test data
 const userFactory = {
   valid: () => ({
-    email: `user-${Date.now()}@example.com`,
+    email: `user-${Date.now()}@stokedautomations.com`,
     name: 'Test User',
     password: 'securePassword123'
   }),

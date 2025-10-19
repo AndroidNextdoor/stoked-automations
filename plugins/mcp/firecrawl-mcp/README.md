@@ -101,7 +101,7 @@ Completely exit and restart Claude Code for the MCP server to activate.
 ### Scrape a Single Page
 
 ```
-Scrape the content from https://example.com and convert it to markdown
+Scrape the content from https://stokedautomations.com and convert it to markdown
 ```
 
 Returns:
@@ -113,7 +113,7 @@ Returns:
 ### Crawl an Entire Website
 
 ```
-Crawl https://docs.example.com and extract all documentation pages
+Crawl https://docs.stokedautomations.com and extract all documentation pages
 ```
 
 Returns:
@@ -125,7 +125,7 @@ Returns:
 ### Generate Website Sitemap
 
 ```
-Map the structure of https://example.com
+Map the structure of https://stokedautomations.com
 ```
 
 Returns:
@@ -137,7 +137,7 @@ Returns:
 ### Extract Structured Data
 
 ```
-Extract product information from https://shop.example.com/product/123
+Extract product information from https://shop.stokedautomations.com/product/123
 ```
 
 Returns:
@@ -150,9 +150,9 @@ Returns:
 
 ```
 Scrape these URLs in parallel:
-- https://example.com/page1
-- https://example.com/page2
-- https://example.com/page3
+- https://stokedautomations.com/page1
+- https://stokedautomations.com/page2
+- https://stokedautomations.com/page3
 ```
 
 Returns:
@@ -269,7 +269,7 @@ Claude will:
 ### Example 5: Product Catalog Extraction
 
 ```
-User: "Extract all products from https://shop.example.com/catalog"
+User: "Extract all products from https://shop.stokedautomations.com/catalog"
 
 Claude will:
 1. Use mcp__firecrawl__crawl_website to find all product pages
@@ -342,7 +342,7 @@ Claude will:
 ```javascript
 // Example: Scrape with custom selectors
 {
-  "url": "https://example.com",
+  "url": "https://stokedautomations.com",
   "includeSelectors": [".article-content"],
   "excludeSelectors": [".ads", ".sidebar"],
   "waitFor": 3000  // Wait for JS to load
@@ -354,7 +354,7 @@ Claude will:
 ```javascript
 // Example: Respectful crawling
 {
-  "url": "https://example.com",
+  "url": "https://stokedautomations.com",
   "maxPages": 100,
   "crawlDelay": 1000,  // 1 second between requests
   "maxDepth": 3
@@ -366,7 +366,7 @@ Claude will:
 ```javascript
 // Example: Extract with schema
 {
-  "url": "https://shop.example.com/product",
+  "url": "https://shop.stokedautomations.com/product",
   "schema": {
     "name": "string",
     "price": "number",

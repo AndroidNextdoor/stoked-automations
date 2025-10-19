@@ -1517,7 +1517,7 @@ alerts:
   smtp_port: 587
   smtp_user: "${SMTP_USER}"
   smtp_password: "${SMTP_PASSWORD}"
-  alert_recipients: ["alerts@example.com"]
+  alert_recipients: ["alerts@stokedautomations.com"]
 
   # Slack webhook
   slack_webhook_url: "${SLACK_WEBHOOK_URL}"

@@ -47,7 +47,7 @@ ingest_logs({
     {
       timestamp: "2025-10-10T12:00:00Z",
       method: "POST",
-      url: "https://api.example.com/users",
+      url: "https://api.stokedautomations.com/users",
       statusCode: 400,
       requestBody: { "name": "John" },
       responseBody: { "error": "Missing required field: email" }

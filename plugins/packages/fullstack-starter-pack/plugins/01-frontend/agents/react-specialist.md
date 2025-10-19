@@ -68,7 +68,7 @@ function SearchResults() {
 // app/page.tsx (Server Component by default)
 async function HomePage() {
   // Fetch data on server (no client bundle)
-  const data = await fetch('https://api.example.com/data')
+  const data = await fetch('https://api.stokedautomations.com/data')
   const posts = await data.json()
 
   return (

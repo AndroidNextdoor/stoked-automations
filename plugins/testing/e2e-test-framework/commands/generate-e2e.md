@@ -72,7 +72,7 @@ import { test, expect } from '@playwright/test';
 test.describe('User Registration Flow', () => {
   test('should complete full registration workflow', async ({ page }) => {
     // Navigate to signup
-    await page.goto('https://example.com/signup');
+    await page.goto('https://stokedautomations.com/signup');
 
     // Fill registration form
     await page.fill('[name="email"]', '[email protected]');
@@ -91,7 +91,7 @@ test.describe('User Registration Flow', () => {
   });
 
   test('should show validation errors for invalid data', async ({ page }) => {
-    await page.goto('https://example.com/signup');
+    await page.goto('https://stokedautomations.com/signup');
 
     // Submit empty form
     await page.click('button[type="submit"]');
@@ -105,7 +105,7 @@ test.describe('User Registration Flow', () => {
 test.describe('E-commerce Purchase Flow', () => {
   test.beforeEach(async ({ page }) => {
     // Login before each test
-    await page.goto('https://example.com/login');
+    await page.goto('https://stokedautomations.com/login');
     await page.fill('[name="email"]', '[email protected]');
     await page.fill('[name="password"]', 'password123');
     await page.click('button[type="submit"]');
@@ -114,7 +114,7 @@ test.describe('E-commerce Purchase Flow', () => {
 
   test('should complete product purchase', async ({ page }) => {
     // Browse products
-    await page.goto('https://example.com/products');
+    await page.goto('https://stokedautomations.com/products');
     await page.click('text=Add to Cart').first();
 
     // Verify cart badge

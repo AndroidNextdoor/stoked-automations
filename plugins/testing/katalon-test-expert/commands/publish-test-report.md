@@ -601,7 +601,7 @@ The test failed due to an expired bearer token. The token lifetime (49 seconds) 
 {
   "request": {
     "method": "GET",
-    "url": "https://api.example.com/quotes/689afe8cedf7e",
+    "url": "https://api.stokedautomations.com/quotes/689afe8cedf7e",
     "headers": {
       "Authorization": "Bearer eyJraWQi..."
     }

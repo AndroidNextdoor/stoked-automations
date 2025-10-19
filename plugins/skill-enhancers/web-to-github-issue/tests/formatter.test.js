@@ -12,16 +12,16 @@ describe('formatIssueBody', () => {
       sources: [
         {
           title: 'Testing Guide',
-          url: 'https://example.com/guide',
+          url: 'https://stokedautomations.com/guide',
           snippet: 'Comprehensive testing guide',
-          domain: 'example.com',
+          domain: 'stokedautomations.com',
           relevance: 0.95,
         },
       ],
       keyPoints: [
         {
           text: 'You should always write unit tests',
-          source: 'https://example.com/guide',
+          source: 'https://stokedautomations.com/guide',
           sourceTitle: 'Testing Guide',
         },
       ],
@@ -32,7 +32,7 @@ describe('formatIssueBody', () => {
     sources: [
       {
         title: 'Testing Guide',
-        url: 'https://example.com/guide',
+        url: 'https://stokedautomations.com/guide',
       },
     ],
     generatedAt: '2024-01-15T12:00:00Z',
@@ -126,7 +126,7 @@ describe('formatIssueBody', () => {
 
       expect(body).toContain('## Key Findings');
       expect(body).toContain('You should always write unit tests');
-      expect(body).toContain('[Testing Guide](https://example.com/guide)');
+      expect(body).toContain('[Testing Guide](https://stokedautomations.com/guide)');
     });
 
     it('should handle multiple key points', () => {
@@ -137,12 +137,12 @@ describe('formatIssueBody', () => {
           keyPoints: [
             {
               text: 'First point',
-              source: 'https://example.com/1',
+              source: 'https://stokedautomations.com/1',
               sourceTitle: 'Source 1',
             },
             {
               text: 'Second point',
-              source: 'https://example.com/2',
+              source: 'https://stokedautomations.com/2',
               sourceTitle: 'Source 2',
             },
           ],
@@ -153,8 +153,8 @@ describe('formatIssueBody', () => {
 
       expect(body).toContain('First point');
       expect(body).toContain('Second point');
-      expect(body).toContain('[Source 1](https://example.com/1)');
-      expect(body).toContain('[Source 2](https://example.com/2)');
+      expect(body).toContain('[Source 1](https://stokedautomations.com/1)');
+      expect(body).toContain('[Source 2](https://stokedautomations.com/2)');
     });
 
     it('should omit key findings section when no key points', () => {
@@ -240,9 +240,9 @@ describe('formatIssueBody', () => {
       const body = formatIssueBody(baseData);
 
       expect(body).toContain('## Sources');
-      expect(body).toContain('### [Testing Guide](https://example.com/guide)');
+      expect(body).toContain('### [Testing Guide](https://stokedautomations.com/guide)');
       expect(body).toContain('Comprehensive testing guide');
-      expect(body).toContain('*Source: example.com*');
+      expect(body).toContain('*Source: stokedautomations.com*');
     });
 
     it('should handle multiple sources', () => {
@@ -253,13 +253,13 @@ describe('formatIssueBody', () => {
           sources: [
             {
               title: 'Guide 1',
-              url: 'https://example.com/1',
+              url: 'https://stokedautomations.com/1',
               snippet: 'First guide',
-              domain: 'example.com',
+              domain: 'stokedautomations.com',
             },
             {
               title: 'Guide 2',
-              url: 'https://example.com/2',
+              url: 'https://stokedautomations.com/2',
               snippet: 'Second guide',
               domain: 'other.com',
             },
@@ -269,8 +269,8 @@ describe('formatIssueBody', () => {
 
       const body = formatIssueBody(multiSourceData);
 
-      expect(body).toContain('[Guide 1](https://example.com/1)');
-      expect(body).toContain('[Guide 2](https://example.com/2)');
+      expect(body).toContain('[Guide 1](https://stokedautomations.com/1)');
+      expect(body).toContain('[Guide 2](https://stokedautomations.com/2)');
       expect(body).toContain('First guide');
       expect(body).toContain('Second guide');
     });
@@ -283,8 +283,8 @@ describe('formatIssueBody', () => {
           sources: [
             {
               title: 'Guide',
-              url: 'https://example.com',
-              domain: 'example.com',
+              url: 'https://stokedautomations.com',
+              domain: 'stokedautomations.com',
             },
           ],
         },
@@ -292,8 +292,8 @@ describe('formatIssueBody', () => {
 
       const body = formatIssueBody(noSnippetData);
 
-      expect(body).toContain('[Guide](https://example.com)');
-      expect(body).toContain('*Source: example.com*');
+      expect(body).toContain('[Guide](https://stokedautomations.com)');
+      expect(body).toContain('*Source: stokedautomations.com*');
     });
 
     it('should separate sources with horizontal rules', () => {
@@ -304,15 +304,15 @@ describe('formatIssueBody', () => {
           sources: [
             {
               title: 'Guide 1',
-              url: 'https://example.com/1',
+              url: 'https://stokedautomations.com/1',
               snippet: 'First',
-              domain: 'example.com',
+              domain: 'stokedautomations.com',
             },
             {
               title: 'Guide 2',
-              url: 'https://example.com/2',
+              url: 'https://stokedautomations.com/2',
               snippet: 'Second',
-              domain: 'example.com',
+              domain: 'stokedautomations.com',
             },
           ],
         },
@@ -395,9 +395,9 @@ describe('formatIssueBody', () => {
           sources: [
             {
               title: 'Guide',
-              url: 'https://example.com/page?param=value&other=123',
+              url: 'https://stokedautomations.com/page?param=value&other=123',
               snippet: 'Test',
-              domain: 'example.com',
+              domain: 'stokedautomations.com',
             },
           ],
         },
@@ -406,7 +406,7 @@ describe('formatIssueBody', () => {
       const body = formatIssueBody(specialUrlData);
 
       expect(body).toContain(
-        '[Guide](https://example.com/page?param=value&other=123)'
+        '[Guide](https://stokedautomations.com/page?param=value&other=123)'
       );
     });
   });

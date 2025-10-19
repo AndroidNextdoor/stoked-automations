@@ -190,11 +190,11 @@ Once installed, Serena automatically activates when you:
 
 ### Memory Management
 ```
-User: "Remember that our API endpoint is https://api.example.com"
+User: "Remember that our API endpoint is https://api.stokedautomations.com"
 Serena: [Stores memory with semantic indexing]
 
 User: "What's our API endpoint?"
-Serena: [Searches memories] "Your API endpoint is https://api.example.com"
+Serena: [Searches memories] "Your API endpoint is https://api.stokedautomations.com"
 ```
 
 ### Project Context

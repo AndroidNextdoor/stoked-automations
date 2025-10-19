@@ -157,7 +157,7 @@ export let options = {
 
 export default function () {
   // Login
-  let loginRes = http.post('https://api.example.com/auth/login', {
+  let loginRes = http.post('https://api.stokedautomations.com/auth/login', {
     email: '[email protected]',
     password: 'test123',
   });
@@ -170,7 +170,7 @@ export default function () {
   const token = loginRes.json('token');
 
   // Get user list
-  let usersRes = http.get('https://api.example.com/users', {
+  let usersRes = http.get('https://api.stokedautomations.com/users', {
     headers: { Authorization: `Bearer ${token}` },
   });
 
@@ -209,7 +209,7 @@ class WebsiteUser(HttpUser):
     @task(1)  # Weight 1 (less frequent)
     def create_user(self):
         self.client.post("/users", json={
-            "email": f"user-{time.time()}@example.com",
+            "email": f"user-{time.time()}@stokedautomations.com",
             "name": "Test User"
         }, headers={
             "Authorization": f"Bearer {self.token}"

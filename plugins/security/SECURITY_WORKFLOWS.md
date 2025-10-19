@@ -167,7 +167,7 @@ This guide provides comprehensive security testing workflows that combine:
 7. Automated Vulnerability Scanning
    → Use mcp__kali-server__vulnerability_scan
    → Tool: nikto
-   → Target: https://example.com
+   → Target: https://stokedautomations.com
    → Detect: OWASP Top 10, configuration issues
 
 8. SQL Injection Testing
@@ -228,7 +228,7 @@ This guide provides comprehensive security testing workflows that combine:
 ```
 SECURITY ASSESSMENT SUMMARY
 ===========================
-Target: https://example.com
+Target: https://stokedautomations.com
 Date: 2025-10-18
 Duration: 55 minutes
 Tester: Stoked Automations Security Suite
@@ -590,8 +590,8 @@ mcp__kali-server__run_metasploit --module exploit/...
 
 ```bash
 # 1. API Discovery
-mcp__kali-server__web_enumeration --target https://api.example.com
-mcp__kali-server__curl_request --target https://api.example.com/swagger.json
+mcp__kali-server__web_enumeration --target https://api.stokedautomations.com
+mcp__kali-server__curl_request --target https://api.stokedautomations.com/swagger.json
 
 # 2. Authentication Testing
 /plugin authentication-validator --focus api
@@ -769,7 +769,7 @@ ${finding.references.join('\n')}
 
 ```bash
 # 1. Initial vulnerability detection
-/plugin vulnerability-scanner --target https://example.com
+/plugin vulnerability-scanner --target https://stokedautomations.com
 # Result: 12 vulnerabilities found
 
 # 2. Create Jira tickets

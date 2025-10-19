@@ -127,7 +127,7 @@ Evidence:
 
 ```bash
 # Audit all API endpoints for similar issues
-/asa https://api.example.com --focus authorization
+/asa https://api.stokedautomations.com --focus authorization
 
 # Findings:
 # - 12 endpoints vulnerable to IDOR
@@ -437,7 +437,7 @@ Identified Risks:
 
 ```bash
 # Audit API endpoints
-/asa https://staging-api.example.com --output api-audit-report.md
+/asa https://staging-api.stokedautomations.com --output api-audit-report.md
 
 # Findings (OWASP API Security Top 10):
 # API1 - Broken Object Level Authorization: 3 endpoints vulnerable
@@ -542,7 +542,7 @@ Identified Threats:
 # Include security requirements in docs
 
 # Final security scan
-/asa https://api.example.com --comprehensive
+/asa https://api.stokedautomations.com --comprehensive
 
 # Result:  All OWASP API Top 10 vulnerabilities addressed
 ```

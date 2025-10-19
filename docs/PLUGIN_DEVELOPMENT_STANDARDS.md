@@ -128,7 +128,7 @@ plugin-name/
   "keywords": ["keyword1", "keyword2", "keyword3"],
   "author": {
     "name": "Author Name",
-    "email": "email@example.com"
+    "email": "email@stokedautomations.com"
   },
   "repository": "https://github.com/owner/repo",
   "license": "MIT"

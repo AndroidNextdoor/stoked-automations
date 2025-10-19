@@ -616,9 +616,9 @@ Track: accuracy, retrieval time, cost per query
 - AI Safety Best Practices (20 min)
 
 ### Blog Posts
-- [Reduce LLM Costs by 90%](https://example.com/reduce-llm-costs)
-- [Building RAG Systems That Actually Work](https://example.com/rag-systems)
-- [Comprehensive Guide to AI Safety](https://example.com/ai-safety)
+- [Reduce LLM Costs by 90%](https://stokedautomations.com/reduce-llm-costs)
+- [Building RAG Systems That Actually Work](https://stokedautomations.com/rag-systems)
+- [Comprehensive Guide to AI Safety](https://stokedautomations.com/ai-safety)
 
 ### Community
 - [Discord](https://discord.com/invite/6PPFFzqPDZ) - #claude-code channel

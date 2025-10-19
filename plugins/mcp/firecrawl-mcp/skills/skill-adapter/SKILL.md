@@ -116,7 +116,7 @@ The skill will:
 
 ### Example 5: E-commerce Product Catalog
 
-User request: "Extract all products from https://shop.example.com/catalog including names, prices, and descriptions"
+User request: "Extract all products from https://shop.stokedautomations.com/catalog including names, prices, and descriptions"
 
 The skill will:
 1. **Catalog Discovery** - Use `mcp__firecrawl__map_website` to find all product pages

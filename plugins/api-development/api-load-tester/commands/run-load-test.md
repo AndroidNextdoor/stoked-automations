@@ -100,7 +100,7 @@ export const options = {
 };
 
 export default function () {
-  const res = http.get('https://api.example.com/v1/products');
+  const res = http.get('https://api.stokedautomations.com/v1/products');
   check(res, {
     'status is 200': (r) => r.status === 200,
     'response time < 200ms': (r) => r.timings.duration < 200,
@@ -112,7 +112,7 @@ export default function () {
 **Artillery config** (`artillery.yml`):
 ```yaml
 config:
-  target: 'https://api.example.com'
+  target: 'https://api.stokedautomations.com'
   phases:
     - duration: 60
       arrivalRate: 10
@@ -192,7 +192,7 @@ Create actionable reports with findings and optimization suggestions:
 ## Test Configuration
 - Duration: 10 minutes
 - Virtual Users: 100
-- Target: https://api.example.com/v1/products
+- Target: https://api.stokedautomations.com/v1/products
 
 ## Results Summary
 - Total Requests: 10,000
@@ -305,7 +305,7 @@ export const options = {
 
 export default function () {
   // Test parameters
-  const baseUrl = 'https://api.example.com';
+  const baseUrl = 'https://api.stokedautomations.com';
   const params = {
     headers: {
       'Content-Type': 'application/json',
@@ -363,7 +363,7 @@ Test API breaking point with gradual load increase until failure:
 ```yaml
 # stress-test.yml
 config:
-  target: 'https://api.example.com'
+  target: 'https://api.stokedautomations.com'
   phases:
     # Gradual ramp-up to find breaking point
     - duration: 60
@@ -446,7 +446,7 @@ scenarios:
       - post:
           url: "/v1/auth/login"
           json:
-            email: "test@example.com"
+            email: "test@stokedautomations.com"
             password: "password123"
           expect:
             - statusCode: 200
@@ -544,7 +544,7 @@ class ApiLoadSimulation extends Simulation {
 
   // HTTP protocol configuration
   val httpProtocol = http
-    .baseUrl("https://api.example.com")
+    .baseUrl("https://api.stokedautomations.com")
     .acceptHeader("application/json")
     .authorizationHeader("Bearer ${accessToken}")
     .userAgentHeader("Gatling Load Test")

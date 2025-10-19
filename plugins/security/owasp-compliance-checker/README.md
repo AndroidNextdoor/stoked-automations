@@ -237,7 +237,7 @@ app.get('/fetch', async (req, res) => {
 
 // Secure: URL validation
 app.get('/fetch', async (req, res) => {
-    const allowedDomains = ['api.example.com', 'cdn.example.com'];
+    const allowedDomains = ['api.stokedautomations.com', 'cdn.stokedautomations.com'];
     const url = new URL(req.query.url);
 
     if (!allowedDomains.includes(url.hostname)) {

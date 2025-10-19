@@ -164,7 +164,7 @@ docker ps
 
 **Symptoms:**
 ```bash
-$ /asa https://api.example.com
+$ /asa https://api.stokedautomations.com
 Error: Connection refused
 ```
 
@@ -173,15 +173,15 @@ Error: Connection refused
 **Solution:**
 ```bash
 # Step 1: Verify API is accessible
-curl https://api.example.com/health
+curl https://api.stokedautomations.com/health
 # Should return 200 OK
 
 # Step 2: Check network connectivity
-ping api.example.com
+ping api.stokedautomations.com
 
 # Step 3: Verify firewall not blocking
 # If behind corporate firewall, use --proxy flag
-/asa https://api.example.com --proxy http://proxy.corp.com:8080
+/asa https://api.stokedautomations.com --proxy http://proxy.corp.com:8080
 
 # Step 4: For local development
 /asa http://localhost:3000  # Use http://, not https://
@@ -313,7 +313,7 @@ docker pull aquasec/trivy:latest
 
 **Symptoms:**
 ```bash
-$ /asa https://api.example.com
+$ /asa https://api.stokedautomations.com
 Error: 429 Too Many Requests
 ```
 
@@ -322,13 +322,13 @@ Error: 429 Too Many Requests
 **Solution:**
 ```bash
 # Use slower scan mode
-/asa https://api.example.com --slow
+/asa https://api.stokedautomations.com --slow
 
 # Scan specific endpoints only
-/asa https://api.example.com --endpoints /users,/orders
+/asa https://api.stokedautomations.com --endpoints /users,/orders
 
 # Add authentication (may have higher limits)
-/asa https://api.example.com --auth "Bearer YOUR_TOKEN"
+/asa https://api.stokedautomations.com --auth "Bearer YOUR_TOKEN"
 ```
 
 ---
@@ -345,7 +345,7 @@ Error: SSL certificate verification failed
 **Solution:**
 ```bash
 # For development/staging with self-signed certs
-/asa https://staging-api.example.com --insecure
+/asa https://staging-api.stokedautomations.com --insecure
 
 # ️ WARNING: Never use --insecure for production audits!
 

@@ -34,7 +34,7 @@ The skill will:
 
 ### Example 2: Checking CORS Headers for an API Endpoint
 
-User request: "Check CORS headers for the API endpoint at `https://example.com/api`"
+User request: "Check CORS headers for the API endpoint at `https://stokedautomations.com/api`"
 
 The skill will:
 1. Fetch the CORS headers from the specified API endpoint.

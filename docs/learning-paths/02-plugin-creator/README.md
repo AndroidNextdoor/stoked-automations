@@ -60,7 +60,7 @@ my-plugin/
   "description": "Clear one-line description",
   "author": {
     "name": "Your Name",
-    "email": "your.email@example.com"
+    "email": "your.email@stokedautomations.com"
   },
   "repository": "https://github.com/username/repo",
   "license": "MIT",
@@ -114,7 +114,7 @@ Edit `.claude-plugin/plugin.json`:
   "description": "My first Claude Code plugin for learning",
   "author": {
     "name": "Your Name",
-    "email": "you@example.com"
+    "email": "you@stokedautomations.com"
   },
   "repository": "https://github.com/yourusername/my-first-plugin",
   "license": "MIT",
@@ -470,7 +470,7 @@ EOF
      "keywords": ["learning", "example"],
      "author": {
        "name": "Your Name",
-       "email": "you@example.com"
+       "email": "you@stokedautomations.com"
      }
    }
    ```
@@ -504,7 +504,7 @@ cat > .claude-plugin/marketplace.json << 'EOF'
   "name": "my-marketplace",
   "owner": {
     "name": "Your Name",
-    "email": "you@example.com"
+    "email": "you@stokedautomations.com"
   },
   "plugins": [
     {

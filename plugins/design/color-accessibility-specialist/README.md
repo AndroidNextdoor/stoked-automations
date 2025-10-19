@@ -83,12 +83,12 @@ This plugin provides an **AI color specialist** that combines visual analysis, m
 /color-expert
 
 # Analyze a live website
-/analyze-colors https://example.com
+/analyze-colors https://stokedautomations.com
 ```
 
 **Output:**
 ```
-🎨 COLOR ANALYSIS REPORT: example.com
+🎨 COLOR ANALYSIS REPORT: stokedautomations.com
 
 === SCREENSHOT CAPTURED ===
 Full-page screenshot saved → analyzing visual colors...

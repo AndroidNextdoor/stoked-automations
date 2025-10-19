@@ -126,7 +126,7 @@ This will:
     {
       "timestamp": "2025-09-24T16:52:13.278Z",
       "method": "GET",
-      "url": "https://api.example.com/quotes/123",
+      "url": "https://api.stokedautomations.com/quotes/123",
       "status": 401,
       "duration_ms": 473,
       "request_headers": {
@@ -197,7 +197,7 @@ This will:
     "os": "Windows 10",
     "screen_resolution": "1920x1080",
     "duration_seconds": 127,
-    "page_url": "https://app.example.com/rating-worksheet",
+    "page_url": "https://app.stokedautomations.com/rating-worksheet",
     "user_agent": "Mozilla/5.0..."
   }
 }
@@ -465,7 +465,7 @@ Scraped data is saved as structured JSON:
     "average_response_time_ms": 250,
     "slowest_requests": [
       {
-        "url": "https://api.example.com/quotes/123",
+        "url": "https://api.stokedautomations.com/quotes/123",
         "duration_ms": 473,
         "status": 401
       }

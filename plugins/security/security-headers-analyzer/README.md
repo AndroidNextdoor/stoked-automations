@@ -64,7 +64,7 @@ Analyze and validate HTTP security headers to protect against common web vulnera
 ```
 SECURITY HEADERS ANALYSIS
 =========================
-Domain: https://example.com
+Domain: https://stokedautomations.com
 Grade: C (Needs Improvement)
 Score: 65/100
 

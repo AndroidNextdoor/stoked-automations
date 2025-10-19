@@ -65,7 +65,7 @@ claude mcp add chrome-devtools npx chrome-devtools-mcp@latest
 ```bash
 # Performance audit
 /mcp chrome-devtools launch
-/mcp chrome-devtools navigate url="https://example.com"
+/mcp chrome-devtools navigate url="https://stokedautomations.com"
 /mcp chrome-devtools performance_trace
 /mcp chrome-devtools get_network_requests
 /mcp chrome-devtools screenshot path="./page.png"

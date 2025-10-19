@@ -113,10 +113,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - app.example.com
+    - app.stokedautomations.com
     secretName: app-tls
   rules:
-  - host: app.example.com
+  - host: app.stokedautomations.com
     http:
       paths:
       - path: /

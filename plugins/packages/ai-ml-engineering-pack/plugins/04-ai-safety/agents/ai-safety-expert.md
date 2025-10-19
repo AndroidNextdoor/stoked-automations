@@ -297,7 +297,7 @@ class RegexPIIDetector:
 # Usage
 detector = RegexPIIDetector()
 
-text = "Email me at john@example.com or call 555-123-4567"
+text = "Email me at john@stokedautomations.com or call 555-123-4567"
 detected = detector.detect(text)
 print(f"Detected PII: {detected}")
 

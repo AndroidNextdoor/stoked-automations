@@ -177,7 +177,7 @@ describe('API Fuzz Testing', () => {
         try {
           const response = await axios.post(`${API_BASE}/api/users`, {
             name: input,
-            email: 'test@example.com',
+            email: 'test@stokedautomations.com',
           }, { validateStatus: () => true }); // Accept all status codes
 
           // Should not crash (500) or hang
@@ -220,7 +220,7 @@ describe('API Fuzz Testing', () => {
         const response = await axios.post(`${API_BASE}/api/users`, {
           age: input,
           name: 'Test User',
-          email: 'test@example.com',
+          email: 'test@stokedautomations.com',
         }, { validateStatus: () => true });
 
         expect(response.status).not.toBe(500);
@@ -236,7 +236,7 @@ describe('API Fuzz Testing', () => {
         const response = await axios.post(`${API_BASE}/api/users`, {
           metadata: input,
           name: 'Test',
-          email: 'test@example.com',
+          email: 'test@stokedautomations.com',
         }, { validateStatus: () => true });
 
         expect(response.status).not.toBe(500);
@@ -354,7 +354,7 @@ class TestAPIFuzzing:
         for input_value in FuzzInputGenerator.string_mutations():
             response = requests.post(
                 f"{API_BASE}/api/users",
-                json={"name": input_value, "email": "test@example.com"},
+                json={"name": input_value, "email": "test@stokedautomations.com"},
                 timeout=5
             )
 
@@ -392,7 +392,7 @@ class TestAPIFuzzing:
                 f"{API_BASE}/api/users",
                 json={
                     "name": "Test User",
-                    "email": "test@example.com",
+                    "email": "test@stokedautomations.com",
                     "age": value
                 },
                 timeout=5

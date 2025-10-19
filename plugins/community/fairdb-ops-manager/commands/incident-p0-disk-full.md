@@ -242,7 +242,7 @@ THRESHOLD=80
 USAGE=$(df -h /var/lib/postgresql | awk 'NR==2 {print $5}' | sed 's/%//')
 
 if [ "$USAGE" -gt "$THRESHOLD" ]; then
-    echo "WARNING: Disk usage at ${USAGE}%" | mail -s "FairDB Disk Warning" your-email@example.com
+    echo "WARNING: Disk usage at ${USAGE}%" | mail -s "FairDB Disk Warning" your-email@stokedautomations.com
 fi
 ```
 

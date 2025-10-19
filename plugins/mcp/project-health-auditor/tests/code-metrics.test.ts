@@ -57,7 +57,7 @@ describe('example', () => {
   try {
     execSync('git init', { cwd: testRepoPath, stdio: 'ignore' });
     execSync('git config user.name "Test User"', { cwd: testRepoPath, stdio: 'ignore' });
-    execSync('git config user.email "test@example.com"', { cwd: testRepoPath, stdio: 'ignore' });
+    execSync('git config user.email "test@stokedautomations.com"', { cwd: testRepoPath, stdio: 'ignore' });
     execSync('git add .', { cwd: testRepoPath, stdio: 'ignore' });
     execSync('git commit -m "Initial commit"', { cwd: testRepoPath, stdio: 'ignore' });
 

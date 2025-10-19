@@ -113,7 +113,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: staging
-      url: https://staging.example.com
+      url: https://staging.stokedautomations.com
     steps:
       - name: Deploy to Kubernetes
         run: |
@@ -127,7 +127,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: production
-      url: https://example.com
+      url: https://stokedautomations.com
     steps:
       - name: Deploy to Kubernetes
         run: |
@@ -198,7 +198,7 @@ deploy:production:
     - main
   environment:
     name: production
-    url: https://example.com
+    url: https://stokedautomations.com
 ```
 
 ## When Invoked

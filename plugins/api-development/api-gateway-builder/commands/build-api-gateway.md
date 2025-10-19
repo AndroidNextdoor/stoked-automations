@@ -385,7 +385,7 @@ services:
       - name: cors
         config:
           origins:
-            - https://app.example.com
+            - https://app.stokedautomations.com
           methods:
             - GET
             - POST

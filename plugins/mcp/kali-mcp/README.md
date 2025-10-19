@@ -402,8 +402,8 @@ User: "Scan 10.10.10.5 for all TCP ports"
 ### Example 2: Web Directory Discovery
 
 ```
-User: "Find hidden directories on https://example.com"
-→ Executes: gobuster dir -u https://example.com -w /usr/share/wordlists/dirb/common.txt
+User: "Find hidden directories on https://stokedautomations.com"
+→ Executes: gobuster dir -u https://stokedautomations.com -w /usr/share/wordlists/dirb/common.txt
 → Returns: Discovered paths, status codes, sizes
 ```
 

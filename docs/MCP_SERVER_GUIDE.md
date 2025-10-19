@@ -816,7 +816,7 @@ Different configs for dev/staging/prod:
 ```bash
 # ~/.bashrc
 if [[ "$ENV" == "production" ]]; then
-  export KALI_API_URL="https://prod-kali.example.com"
+  export KALI_API_URL="https://prod-kali.stokedautomations.com"
 else
   export KALI_API_URL="http://localhost:8000"
 fi

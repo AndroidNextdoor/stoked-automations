@@ -794,7 +794,7 @@ tester.addEndpoint('POST', '/users', [
     name: 'Create user with v1 format',
     payload: {
       name: 'John Doe',
-      email: 'john@example.com'
+      email: 'john@stokedautomations.com'
     },
     expectedStatus: 201
   },
@@ -802,7 +802,7 @@ tester.addEndpoint('POST', '/users', [
     name: 'Create user with v2 format',
     payload: {
       displayName: 'John Doe',
-      email: 'john@example.com',
+      email: 'john@stokedautomations.com',
       profile: {
         bio: 'Developer'
       }
@@ -837,7 +837,7 @@ tester.runCompatibilityTests()
 - `url-path`: Version in URL path (/v1/)
 - `header`: Version in Accept header
 - `query`: Version in query parameter
-- `subdomain`: Version in subdomain (v1.api.example.com)
+- `subdomain`: Version in subdomain (v1.api.stokedautomations.com)
 
 **Deprecation Policies**
 - `aggressive`: 3-month deprecation cycle

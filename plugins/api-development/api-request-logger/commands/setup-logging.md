@@ -451,7 +451,7 @@ async def get_user(user_id: int):
     logger.info("Fetching user", user_id=user_id)
     try:
         # Simulate user fetch
-        user = {"id": user_id, "email": "user@example.com", "ssn": "123-45-6789"}
+        user = {"id": user_id, "email": "user@stokedautomations.com", "ssn": "123-45-6789"}
         logger.info("User fetched successfully", user_id=user_id)
         return redact_pii(user)
     except Exception as e:
@@ -625,7 +625,7 @@ volumes:
 **PII Redaction Strategies**
 - **Pattern matching**: Regex for emails, SSNs, credit cards
 - **Key-based**: Redact specific field names (password, token)
-- **Partial redaction**: Keep domain for emails (***@example.com)
+- **Partial redaction**: Keep domain for emails (***@stokedautomations.com)
 - **Tokenization**: Replace with consistent token for analysis
 
 ## Best Practices

@@ -84,7 +84,7 @@ Add to your `claude_desktop_config.json`:
 
 ```bash
 # Generate Page Object Model and tests
-/mcp cypress generate_test url="https://example.com/login"
+/mcp cypress generate_test url="https://stokedautomations.com/login"
 ```
 
 Output:
@@ -165,7 +165,7 @@ describe('Login Tests', () => {
 // cypress.config.js
 module.exports = {
   e2e: {
-    baseUrl: 'https://example.com',
+    baseUrl: 'https://stokedautomations.com',
     viewportWidth: 1280,
     viewportHeight: 720,
     video: true,

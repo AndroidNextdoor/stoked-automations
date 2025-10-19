@@ -96,7 +96,7 @@ Playwright MCP uses **accessibility tree snapshots** instead of screenshots:
 ```bash
 # Launch browser and take screenshot
 /mcp playwright launch_browser browserType="chromium" headless=true
-/mcp playwright navigate url="https://example.com"
+/mcp playwright navigate url="https://stokedautomations.com"
 /mcp playwright screenshot path="./example.png" fullPage=true
 ```
 
@@ -114,7 +114,7 @@ Playwright MCP uses **accessibility tree snapshots** instead of screenshots:
 ```bash
 # Complete E2E test
 /mcp playwright launch_browser
-/mcp playwright navigate url="https://app.example.com/login"
+/mcp playwright navigate url="https://app.stokedautomations.com/login"
 /mcp playwright type selector="#username" text="testuser"
 /mcp playwright type selector="#password" text="testpass"
 /mcp playwright click selector="button.login"
@@ -127,7 +127,7 @@ Playwright MCP uses **accessibility tree snapshots** instead of screenshots:
 ```bash
 # Enable network recording
 /mcp playwright network_recording enable=true
-/mcp playwright navigate url="https://example.com"
+/mcp playwright navigate url="https://stokedautomations.com"
 /mcp playwright get_network_logs
 ```
 
@@ -185,7 +185,7 @@ Playwright MCP uses **accessibility tree snapshots** instead of screenshots:
 
 ```json
 {
-  "url": "https://example.com",
+  "url": "https://stokedautomations.com",
   "waitUntil": "networkidle",  // load, domcontentloaded, networkidle
   "timeout": 30000             // 30 seconds
 }
@@ -246,7 +246,7 @@ navigate({ url: "https://slow-site.com", timeout: 60000 })
 ```bash
 # Enable BEFORE navigating
 /mcp playwright network_recording enable=true
-/mcp playwright navigate url="https://example.com"
+/mcp playwright navigate url="https://stokedautomations.com"
 ```
 
 ---

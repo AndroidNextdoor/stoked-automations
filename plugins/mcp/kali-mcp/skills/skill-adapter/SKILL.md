@@ -183,7 +183,7 @@ The skill will:
 
 ### Example 6: CTF Web Challenge
 
-User request: "I'm solving a CTF challenge at http://ctf.example.com:8080. The homepage has a login form. Help me enumerate and exploit it."
+User request: "I'm solving a CTF challenge at http://ctf.stokedautomations.com:8080. The homepage has a login form. Help me enumerate and exploit it."
 
 The skill will:
 1. **Reconnaissance**:

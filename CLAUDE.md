@@ -212,7 +212,7 @@ mkdir -p plugins/community/your-plugin/agents    # If using agents
       "keywords": ["keyword1", "keyword2"],
       "author": {
         "name": "Your Name",
-        "email": "your.email@example.com"
+        "email": "your.email@stokedautomations.com"
       }
     }
   ]
@@ -485,7 +485,7 @@ plugin-name/
   "description": "Clear description",
   "author": {
     "name": "Author Name",
-    "email": "author@example.com"
+    "email": "author@stokedautomations.com"
   },
   "repository": "https://github.com/username/repo",
   "license": "MIT",

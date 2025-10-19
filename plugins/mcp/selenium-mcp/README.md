@@ -61,7 +61,7 @@ npx -y @angiejones/mcp-selenium
 ```bash
 # Basic automation
 /mcp selenium launch_driver browser="chrome" headless=true
-/mcp selenium navigate url="https://example.com"
+/mcp selenium navigate url="https://stokedautomations.com"
 /mcp selenium find_element selector="css=#email"
 /mcp selenium type element_id="..." text="[email protected]"
 /mcp selenium click element_id="..."

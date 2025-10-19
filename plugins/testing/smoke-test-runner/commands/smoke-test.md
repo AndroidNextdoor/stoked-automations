@@ -47,7 +47,7 @@ describe('Smoke Tests - Critical Path', () => {
 
   describe('System Health', () => {
     it('API is responding', async () => {
-      const response = await fetch('https://api.example.com/health');
+      const response = await fetch('https://api.stokedautomations.com/health');
       expect(response.status).toBe(200);
     }, timeout);
 
@@ -83,7 +83,7 @@ describe('Smoke Tests - Critical Path', () => {
 
   describe('Core Features', () => {
     it('Homepage loads', async () => {
-      const response = await fetch('https://example.com');
+      const response = await fetch('https://stokedautomations.com');
       expect(response.status).toBe(200);
       expect(await response.text()).toContain('<title>');
     }, timeout);

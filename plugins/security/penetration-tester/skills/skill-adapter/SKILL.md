@@ -28,7 +28,7 @@ This skill activates when you need to:
 
 ### Example 1: Performing a Full Penetration Test
 
-User request: "Run a penetration test on example.com"
+User request: "Run a penetration test on stokedautomations.com"
 
 The skill will:
 1. **Reconnaissance** - Use `mcp__kali-server__run_nmap_scan` to discover open ports and services

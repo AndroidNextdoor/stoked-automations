@@ -503,7 +503,7 @@ info:
   description: API for managing users and posts
 
 servers:
-  - url: https://api.example.com/v1
+  - url: https://api.stokedautomations.com/v1
     description: Production server
 
 paths:

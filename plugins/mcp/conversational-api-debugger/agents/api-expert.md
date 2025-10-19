@@ -107,7 +107,7 @@ Your request only included "name".
 ###  Test Command
 
 ```
-curl -X POST "https://api.example.com/users" \
+curl -X POST "https://api.stokedautomations.com/users" \
   -H "Content-Type: application/json" \
   -d '{
     "name": "John Doe",
@@ -253,7 +253,7 @@ This means you must include a Bearer token in the Authorization header.
 
  TEST COMMAND
 
-curl -X GET "https://api.example.com/protected-resource" \
+curl -X GET "https://api.stokedautomations.com/protected-resource" \
   -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 
  EXPECTED RESPONSE

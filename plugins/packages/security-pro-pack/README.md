@@ -59,7 +59,7 @@ claude plugin install security-pro-pack
 /dss nginx:latest
 
 # Audit an API
-/asa https://api.example.com
+/asa https://api.stokedautomations.com
 
 # Get OWASP Top 10 analysis
 # In Claude Code session:

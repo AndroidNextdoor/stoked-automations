@@ -240,10 +240,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - webapp.example.com
+    - webapp.stokedautomations.com
     secretName: webapp-tls
   rules:
-  - host: webapp.example.com
+  - host: webapp.stokedautomations.com
     http:
       paths:
       - path: /

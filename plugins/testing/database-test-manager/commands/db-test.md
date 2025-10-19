@@ -197,7 +197,7 @@ describe('Query Performance', () => {
     const start = performance.now();
 
     await prisma.user.findMany({
-      where: { email: { contains: '@example.com' } }
+      where: { email: { contains: '@stokedautomations.com' } }
     });
 
     const duration = performance.now() - start;
@@ -208,7 +208,7 @@ describe('Query Performance', () => {
   it('should use proper indexes', async () => {
     const explain = await prisma.$queryRaw`
       EXPLAIN ANALYZE
-      SELECT * FROM users WHERE email LIKE '%@example.com%'
+      SELECT * FROM users WHERE email LIKE '%@stokedautomations.com%'
     `;
 
     expect(explain).toContain('Index Scan');

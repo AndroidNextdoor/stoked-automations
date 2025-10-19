@@ -704,7 +704,7 @@ Update marketplace.json:
   "keywords": ["mcp", "code-analysis", "tools"],
   "author": {
     "name": "Your Name",
-    "email": "you@example.com"
+    "email": "you@stokedautomations.com"
   }
 }
 ```

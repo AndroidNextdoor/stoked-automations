@@ -138,7 +138,7 @@ Research compiled from 5 sources on 10/16/2025.
   - Source: [Use The Index, Luke](https://use-the-index-luke.com)
 
 - Index maintenance overhead increases with write-heavy workloads
-  - Source: [Database Performance Blog](https://example.com/perf)
+  - Source: [Database Performance Blog](https://stokedautomations.com/perf)
 
 ## Related Topics
 

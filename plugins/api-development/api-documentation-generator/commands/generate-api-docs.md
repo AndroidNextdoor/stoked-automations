@@ -605,9 +605,9 @@ class APIDocumentationGenerator {
             type: 'oauth2',
             flows: {
               authorizationCode: {
-                authorizationUrl: 'https://auth.example.com/oauth/authorize',
-                tokenUrl: 'https://auth.example.com/oauth/token',
-                refreshUrl: 'https://auth.example.com/oauth/refresh',
+                authorizationUrl: 'https://auth.stokedautomations.com/oauth/authorize',
+                tokenUrl: 'https://auth.stokedautomations.com/oauth/token',
+                refreshUrl: 'https://auth.stokedautomations.com/oauth/refresh',
                 scopes: {
                   read: 'Read access',
                   write: 'Write access',
@@ -969,14 +969,14 @@ const docGenerator = new APIDocumentationGenerator(app, {
   version: '2.0.0',
   description: 'Complete e-commerce platform API with user management, products, and orders',
   servers: [
-    { url: 'https://api.example.com/v2', description: 'Production' },
-    { url: 'https://staging-api.example.com/v2', description: 'Staging' },
+    { url: 'https://api.stokedautomations.com/v2', description: 'Production' },
+    { url: 'https://staging-api.stokedautomations.com/v2', description: 'Staging' },
     { url: 'http://localhost:3000', description: 'Development' }
   ],
   contact: {
     name: 'API Support',
-    email: 'api@example.com',
-    url: 'https://support.example.com'
+    email: 'api@stokedautomations.com',
+    url: 'https://support.stokedautomations.com'
   }
 });
 
@@ -1162,7 +1162,7 @@ class OpenAPIEnhancer:
         samples = []
 
         # cURL example
-        curl_sample = f"curl -X {method.upper()} '{self.app.servers[0]['url'] if hasattr(self.app, 'servers') else 'https://api.example.com'}{path}'"
+        curl_sample = f"curl -X {method.upper()} '{self.app.servers[0]['url'] if hasattr(self.app, 'servers') else 'https://api.stokedautomations.com'}{path}'"
         if method in ["post", "put", "patch"]:
             curl_sample += """ \\
   -H 'Content-Type: application/json' \\
@@ -1183,7 +1183,7 @@ class OpenAPIEnhancer:
         # Python example
         python_sample = f"""import requests
 
-url = "https://api.example.com{path}"
+url = "https://api.stokedautomations.com{path}"
 headers = {{
     "Authorization": "Bearer YOUR_TOKEN",
     "Content-Type": "application/json"
@@ -1214,7 +1214,7 @@ print(response.json())"""
 
 const config = {{
   method: '{method}',
-  url: 'https://api.example.com{path}',
+  url: 'https://api.stokedautomations.com{path}',
   headers: {{
     'Authorization': 'Bearer YOUR_TOKEN',
     'Content-Type': 'application/json'
@@ -1256,7 +1256,7 @@ import (
 )
 
 func main() {{
-    url := "https://api.example.com{path}"
+    url := "https://api.stokedautomations.com{path}"
 
 """
 
@@ -1316,9 +1316,9 @@ func main() {{
                 "type": "oauth2",
                 "flows": {
                     "authorizationCode": {
-                        "authorizationUrl": "https://auth.example.com/oauth/authorize",
-                        "tokenUrl": "https://auth.example.com/oauth/token",
-                        "refreshUrl": "https://auth.example.com/oauth/refresh",
+                        "authorizationUrl": "https://auth.stokedautomations.com/oauth/authorize",
+                        "tokenUrl": "https://auth.stokedautomations.com/oauth/token",
+                        "refreshUrl": "https://auth.stokedautomations.com/oauth/refresh",
                         "scopes": {
                             "read": "Read access to protected resources",
                             "write": "Write access to protected resources",
@@ -1326,7 +1326,7 @@ func main() {{
                         }
                     },
                     "clientCredentials": {
-                        "tokenUrl": "https://auth.example.com/oauth/token",
+                        "tokenUrl": "https://auth.stokedautomations.com/oauth/token",
                         "scopes": {
                             "api": "API access"
                         }
@@ -1345,7 +1345,7 @@ func main() {{
         """Add server variables for environment switching"""
         spec["servers"] = [
             {
-                "url": "https://{environment}.api.example.com/{version}",
+                "url": "https://{environment}.api.stokedautomations.com/{version}",
                 "description": "API Server",
                 "variables": {
                     "environment": {
@@ -1395,12 +1395,12 @@ func main() {{
         prop_format = prop.get("format", "")
 
         examples = {
-            ("string", "email"): "user@example.com",
+            ("string", "email"): "user@stokedautomations.com",
             ("string", "date"): "2024-01-15",
             ("string", "date-time"): "2024-01-15T10:30:00Z",
             ("string", "uuid"): "550e8400-e29b-41d4-a716-446655440000",
-            ("string", "uri"): "https://example.com/resource",
-            ("string", "hostname"): "api.example.com",
+            ("string", "uri"): "https://stokedautomations.com/resource",
+            ("string", "hostname"): "api.stokedautomations.com",
             ("string", "ipv4"): "192.168.1.1",
             ("string", "ipv6"): "2001:0db8:85a3:0000:0000:8a2e:0370:7334",
             ("integer", ""): 42,
@@ -1420,7 +1420,7 @@ func main() {{
                 "description": "Authentication and authorization endpoints",
                 "externalDocs": {
                     "description": "Authentication guide",
-                    "url": "https://docs.example.com/auth"
+                    "url": "https://docs.stokedautomations.com/auth"
                 }
             },
             {
@@ -1428,7 +1428,7 @@ func main() {{
                 "description": "User management operations",
                 "externalDocs": {
                     "description": "User API documentation",
-                    "url": "https://docs.example.com/users"
+                    "url": "https://docs.stokedautomations.com/users"
                 }
             },
             {
@@ -1436,7 +1436,7 @@ func main() {{
                 "description": "Product catalog management",
                 "externalDocs": {
                     "description": "Product API documentation",
-                    "url": "https://docs.example.com/products"
+                    "url": "https://docs.stokedautomations.com/products"
                 }
             },
             {
@@ -1444,7 +1444,7 @@ func main() {{
                 "description": "Order processing and management",
                 "externalDocs": {
                     "description": "Order API documentation",
-                    "url": "https://docs.example.com/orders"
+                    "url": "https://docs.stokedautomations.com/orders"
                 }
             }
         ]
@@ -1501,7 +1501,7 @@ func main() {{
             },
             "servers": {
                 "production": {
-                    "url": "wss://api.example.com",
+                    "url": "wss://api.stokedautomations.com",
                     "protocol": "ws",
                     "description": "Production WebSocket server"
                 }
@@ -1579,7 +1579,7 @@ import requests
 
 # Example API call
 response = requests.get(
-    "https://api.example.com/endpoint",
+    "https://api.stokedautomations.com/endpoint",
     headers={{"Authorization": "Bearer YOUR_TOKEN"}}
 )
 print(response.json())
@@ -1591,7 +1591,7 @@ See the OpenAPI specification for detailed authentication information.
 
 ## Support
 
-{spec['info'].get('contact', {}).get('email', 'support@example.com')}
+{spec['info'].get('contact', {}).get('email', 'support@stokedautomations.com')}
 """
 
         with open(output_path / "README.md", "w") as f:

@@ -222,7 +222,7 @@ When the user requests an n8n workflow, analyze their requirements and create a 
   "nodes": [
     {
       "parameters": {
-        "url": "https://example.com/feed.xml",
+        "url": "https://stokedautomations.com/feed.xml",
         "options": {}
       },
       "id": "1",

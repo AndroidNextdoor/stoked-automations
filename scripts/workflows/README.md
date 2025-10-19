@@ -62,7 +62,7 @@ Comprehensive security scanning with historical vulnerability tracking.
 ./security-scan-workflow.sh https://stokedautomations.com full
 
 # Quick scan for CI/CD
-./security-scan-workflow.sh staging.example.com quick
+./security-scan-workflow.sh staging.stokedautomations.com quick
 ```
 
 **Output:**

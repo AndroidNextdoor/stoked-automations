@@ -604,7 +604,7 @@ if __name__ == "__main__":
     validator = PostgreSQLBackupValidator(
         s3_bucket="my-db-backups",
         test_db_config={
-            'host': 'test-db.example.com',
+            'host': 'test-db.stokedautomations.com',
             'user': 'postgres',
             'password': 'password',
             'database': 'validation_test'

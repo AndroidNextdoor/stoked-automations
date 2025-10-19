@@ -152,7 +152,7 @@ Some plugins support additional configuration via environment variables:
 export CLAUDE_API_AUTH_TOKEN="your-test-api-token"
 
 # Docker security scan custom registry
-export DOCKER_REGISTRY="registry.example.com"
+export DOCKER_REGISTRY="registry.stokedautomations.com"
 
 # Compliance docs organization name
 export COMPLIANCE_ORG_NAME="YourCompany Inc"

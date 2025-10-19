@@ -512,10 +512,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - api.example.com
+    - api.stokedautomations.com
     secretName: api-tls
   rules:
-  - host: api.example.com
+  - host: api.stokedautomations.com
     http:
       paths:
       - path: /
