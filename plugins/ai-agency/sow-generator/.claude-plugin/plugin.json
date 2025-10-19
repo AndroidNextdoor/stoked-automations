@@ -1,13 +1,26 @@
 {
   "name": "sow-generator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Generate professional Statements of Work for AI projects",
   "author": {
-    "name": "Claude Code Plugin Hub",
-    "url": "https://github.com/AndroidNextdoor/stoked-automations"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor/stoked-automations",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "categories": ["ai-agency", "sales", "business", "legal"],
-  "keywords": ["sow", "statement of work", "contract", "proposal", "agency", "ai-agency"]
+  "categories": [
+    "ai-agency",
+    "sales",
+    "business",
+    "legal"
+  ],
+  "keywords": [
+    "sow",
+    "statement of work",
+    "contract",
+    "proposal",
+    "agency",
+    "ai-agency"
+  ]
 }

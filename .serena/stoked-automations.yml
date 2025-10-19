@@ -1,0 +1,335 @@
+# Serena Configuration for Stoked Automations
+# Repository-level memory and context management
+# Author: Andrew Nixdorf <andrew@stokedautomation.com>
+# Version: 2025.0.0
+
+name: "Stoked Automations"
+description: "Claude Code plugin marketplace with 231 plugins across 15 categories, comprehensive development workflows, and integrated MCP servers"
+version: "2025.0.0"
+
+# Memory organization categories
+memory_categories:
+  - security_findings      # Kali MCP scan results, vulnerability reports
+  - test_results          # Playwright, unit tests, integration tests
+  - code_reviews          # PR reviews, architecture reviews
+  - ml_experiments        # AI experiment logger results
+  - health_audits         # Project health auditor metrics
+  - architecture_decisions # ADRs, design patterns, technical choices
+  - mode_contexts         # Development mode histories
+  - workflow_executions   # Automated workflow results
+  - plugin_usage          # Plugin installation, usage patterns
+  - deployment_history    # Deployment logs, issues, rollbacks
+
+# Repository metadata for context
+metadata:
+  author:
+    name: "Andrew Nixdorf"
+    email: "andrew@stokedautomation.com"
+  repository: "AndroidNextdoor/stoked-automations"
+  primary_language: "TypeScript"
+  frameworks:
+    - "Astro 5.14.5"
+    - "React 18"
+    - "Tailwind CSS 4"
+  versioning_scheme: "JetBrains (YYYY.MAJOR.MINOR)"
+  current_version: "2025.0.0"
+  license: "MIT"
+
+# Design system for UI-related context
+design_system:
+  color_palette: "warm_earth_tones"
+  primary_colors:
+    - "#e97101"  # Primary brand orange
+    - "#f8f4ed"  # Light cream/beige
+    - "#2d1f0f"  # Deep brown
+  font_family: "IBM Plex Mono"
+
+# Custom prompts for different development contexts
+custom_prompts:
+
+  # PR Review Mode
+  code_review:
+    role: system
+    content: |
+      You are reviewing code in the Stoked Automations repository.
+      This repository contains 231 Claude Code plugins across 15 categories.
+
+      CRITICAL CONTEXT:
+      - Author: Andrew Nixdorf (andrew@stokedautomation.com)
+      - Versioning: JetBrains style (2025.0.0)
+      - Design: Warm earth tones (tan, beige, orange, brown)
+      - License: MIT
+
+      Recent Security Context:
+      {{ serena.search("security findings last 7 days", max_results=5) }}
+
+      Recent Test Failures:
+      {{ serena.search("test failures unresolved", max_results=3) }}
+
+      Review Focus Areas:
+      1. Plugin architecture best practices (MCP integration patterns)
+      2. Security considerations (OWASP Top 10, injection attacks)
+      3. Test coverage for new features (aim for 80%+)
+      4. Documentation completeness (README, plugin.json)
+      5. Consistency with repository standards
+
+      Common Issues to Check:
+      - Plugin.json has correct author (Andrew Nixdorf)
+      - Version follows JetBrains pattern
+      - All shell scripts are executable (chmod +x)
+      - No hardcoded secrets or API keys
+      - marketplace.extended.json synced with marketplace.json
+
+  # Feature Development Mode
+  feature_development:
+    role: system
+    content: |
+      You are developing a feature for Stoked Automations.
+
+      Repository Standards:
+      - JetBrains versioning (YYYY.MAJOR.MINOR)
+      - Author: Andrew Nixdorf (andrew@stokedautomation.com)
+      - License: MIT
+      - Color palette: Warm earth tones (tan, beige, orange, brown)
+      - Font: IBM Plex Mono
+
+      Architectural Patterns:
+      {{ serena.search("architecture patterns established", max_results=5) }}
+
+      Similar Features:
+      {{ serena.search("features similar to " + feature_name, max_results=3) }}
+
+      Development Checklist:
+      1. Follow established architecture patterns
+      2. Write tests first (TDD when possible)
+      3. Update documentation (README, CLAUDE.md)
+      4. Run validation: ./scripts/validate-all.sh
+      5. Check marketplace sync if plugins affected
+      6. Ensure warm color palette in UI changes
+      7. Add memory to Serena after completion
+
+  # Security Audit Mode
+  security_audit:
+    role: system
+    content: |
+      You are conducting a security audit for Stoked Automations.
+
+      Historical Vulnerabilities:
+      {{ serena.search("vulnerabilities fixed", max_results=10) }}
+
+      Current Threat Landscape:
+      {{ serena.search("security trends 2025", max_results=5) }}
+
+      Common Vulnerability Patterns in Repository:
+      - SQL injection in API endpoints
+      - XSS in user-generated content
+      - Path traversal in file operations
+      - Command injection in shell script generation
+      - Insecure deserialization
+
+      Security Checklist:
+      1. Input validation on all user inputs
+      2. Output sanitization (XSS prevention)
+      3. Parameterized queries (SQL injection prevention)
+      4. Secrets management (environment variables)
+      5. Dependency vulnerability scanning
+      6. Shell command safety (avoid eval, exec)
+      7. File permission checks (755 for dirs, 644 for files, 755 for scripts)
+
+      Tools Available:
+      - Kali MCP: nmap, sqlmap, nikto, metasploit
+      - Security Auditor agent from code-review-ai
+      - Static analysis tools
+
+  # Testing Mode
+  testing:
+    role: system
+    content: |
+      You are writing tests for Stoked Automations.
+
+      Test Philosophy:
+      - TDD when possible (write failing test first)
+      - Aim for 80%+ coverage on critical paths
+      - Integration tests for MCP servers
+      - E2E tests for marketplace website
+
+      Recent Test Failures:
+      {{ serena.search("test failures last 7 days", max_results=5) }}
+
+      Test Patterns in Repository:
+      {{ serena.search("successful test patterns", max_results=5) }}
+
+      Testing Stack:
+      - Unit Tests: Jest, Vitest
+      - E2E Tests: Playwright
+      - MCP Tests: Custom test harness
+      - Security Tests: Kali MCP
+
+      Test Writing Checklist:
+      1. Test file name matches source (*.test.ts, *.spec.ts)
+      2. Descriptive test names (it should...)
+      3. Arrange-Act-Assert pattern
+      4. Mock external dependencies
+      5. Clean up after tests (afterEach)
+      6. Store failure patterns in Serena
+
+  # Documentation Mode
+  documentation:
+    role: system
+    content: |
+      You are writing documentation for Stoked Automations.
+
+      Documentation Standards:
+      - README.md required for all plugins
+      - CLAUDE.md for repository instructions
+      - MODE_SYSTEM_GUIDE.md for mode documentation
+      - Architecture diagrams using Mermaid
+
+      Recent Architectural Decisions:
+      {{ serena.search("architecture decisions", max_results=5) }}
+
+      Documentation Structure:
+      1. Overview (what it does)
+      2. Prerequisites (what you need)
+      3. Installation (step-by-step)
+      4. Configuration (with examples)
+      5. Usage (common patterns)
+      6. Troubleshooting (common issues)
+      7. Resources (links to related docs)
+
+      Documentation Checklist:
+      - Clear examples with code blocks
+      - Screenshots/diagrams where helpful
+      - Troubleshooting section with solutions
+      - Links to related documentation
+      - Version information
+      - Author attribution (Andrew Nixdorf)
+
+# Language server integration for code analysis
+language_servers:
+  typescript:
+    enabled: true
+    command: "typescript-language-server"
+    args: ["--stdio"]
+    file_patterns:
+      - "marketplace/src/**/*.ts"
+      - "marketplace/src/**/*.tsx"
+      - "plugins/mcp/**/*.ts"
+      - "scripts/**/*.ts"
+
+  python:
+    enabled: true
+    command: "pyright-langserver"
+    args: ["--stdio"]
+    file_patterns:
+      - "scripts/**/*.py"
+      - "plugins/mcp/**/*.py"
+
+  bash:
+    enabled: false  # Enable when bash LSP available
+    file_patterns:
+      - "scripts/**/*.sh"
+      - "scripts/modes/**/*.sh"
+
+# Semantic search configuration
+search:
+  similarity_threshold: 0.65  # Lower = broader matches
+  max_results: 15
+  time_decay_factor: 0.9      # Recent memories weighted 90% higher
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+
+# Auto-tagging rules based on file patterns
+auto_tags:
+  - pattern: "**/test*.{ts,tsx,js,jsx}"
+    tags: ["testing", "unit-tests"]
+
+  - pattern: "**/e2e/**/*"
+    tags: ["testing", "e2e", "playwright"]
+
+  - pattern: "**/security/**/*"
+    tags: ["security"]
+
+  - pattern: "**/mcp/**/*"
+    tags: ["mcp", "integration"]
+
+  - pattern: "scripts/modes/**/*"
+    tags: ["modes", "workflow"]
+
+  - pattern: "plugins/**/*"
+    tags: ["plugin"]
+
+  - pattern: "marketplace/**/*"
+    tags: ["marketplace", "website"]
+
+  - pattern: "**/*.md"
+    tags: ["documentation"]
+
+# Memory retention policy
+retention:
+  default_ttl: 90  # days
+  categories:
+    security_findings: 365    # Keep security data longer
+    architecture_decisions: -1  # Keep forever
+    test_results: 30          # Keep test results 30 days
+    workflow_executions: 60   # Keep workflow logs 60 days
+
+# Integration settings for MCP servers
+integrations:
+
+  kali_mcp:
+    enabled: true
+    auto_store_results: true
+    result_categories: ["security_findings"]
+    tags: ["security", "vulnerability", "scan"]
+
+  browser_testing_suite:
+    enabled: true
+    auto_store_results: true
+    result_categories: ["test_results"]
+    tags: ["testing", "e2e", "browser"]
+    store_screenshots: true
+
+  ai_experiment_logger:
+    enabled: true
+    auto_store_results: true
+    result_categories: ["ml_experiments"]
+    tags: ["ml", "experiment", "model"]
+
+  project_health_auditor:
+    enabled: true
+    auto_store_results: true
+    result_categories: ["health_audits"]
+    tags: ["health", "metrics", "quality"]
+    frequency: "daily"
+
+  workflow_orchestrator:
+    enabled: true
+    auto_store_results: true
+    result_categories: ["workflow_executions"]
+    tags: ["workflow", "automation"]
+
+# Notification settings for important events
+notifications:
+  critical_security_finding:
+    enabled: true
+    severity: ["critical", "high"]
+    notify_on: "slack"  # Future: integrate with Slack
+
+  repeated_test_failure:
+    enabled: true
+    threshold: 3  # Alert after 3 consecutive failures
+    notify_on: "memory"  # Store as high-priority memory
+
+  health_score_drop:
+    enabled: true
+    threshold: 10  # Alert if score drops 10+ points
+    notify_on: "memory"
+
+# Export settings for sharing context
+export:
+  formats: ["json", "markdown", "yaml"]
+  include_private: false  # Don't export sensitive memories
+  categories_to_export:
+    - "architecture_decisions"
+    - "test_patterns"
+    - "coding_standards"

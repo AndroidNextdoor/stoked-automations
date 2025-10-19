@@ -1,12 +1,19 @@
 {
   "name": "ai-experiment-logger",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Track and analyze AI experiments with a web dashboard and MCP tools",
   "author": {
-    "name": "Claude Code Plugins",
-    "email": "plugins@example.com"
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["ai", "experiments", "logging", "analytics", "dashboard", "mcp"]
+  "keywords": [
+    "ai",
+    "experiments",
+    "logging",
+    "analytics",
+    "dashboard",
+    "mcp"
+  ]
 }

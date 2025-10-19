@@ -1,6 +1,6 @@
 {
   "name": "creator-studio-pack",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Complete plugin suite for builder-filmmakers: Build products AND create viral videos explaining them. 20 plugins covering documentation, video production, content strategy, and workflow optimization.",
   "keywords": [
     "video",
@@ -21,8 +21,8 @@
     "analytics"
   ],
   "author": {
-    "name": "Jeremy Longshore",
-    "email": "jeremylongshore@gmail.com"
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",

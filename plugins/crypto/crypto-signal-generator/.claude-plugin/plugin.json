@@ -1,9 +1,9 @@
 {
   "name": "crypto-signal-generator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Generate trading signals from technical indicators and market analysis",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

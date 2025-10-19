@@ -1,0 +1,22 @@
+{
+  "name": "git-jira-workflow",
+  "version": "2025.0.0",
+  "description": "Enterprise GitLab Flow with Jira integration - automates branch creation, commit validation, and Jira status updates using Atlassian MCP",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "gitlab",
+    "jira",
+    "workflow",
+    "branching",
+    "atlassian",
+    "mcp",
+    "skill-enhancer",
+    "automation"
+  ]
+}

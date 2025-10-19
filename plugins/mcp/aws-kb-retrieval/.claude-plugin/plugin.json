@@ -1,6 +1,6 @@
 {
   "name": "aws-kb-retrieval",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "AWS Bedrock Knowledge Base retrieval and RAG capabilities. Query AWS-managed knowledge bases with semantic search, vector embeddings, and enterprise-grade document retrieval.",
   "category": "ai-ml",
   "keywords": [
@@ -16,8 +16,9 @@
     "document-retrieval"
   ],
   "author": {
-    "name": "AWS Labs",
-    "url": "https://github.com/awslabs"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/awslabs",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/awslabs/mcp-server-aws-kb-retrieval",
   "license": "MIT-0",

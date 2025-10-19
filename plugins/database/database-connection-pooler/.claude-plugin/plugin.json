@@ -1,9 +1,9 @@
 {
   "name": "database-connection-pooler",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Implement and optimize database connection pooling for improved performance and resource management",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

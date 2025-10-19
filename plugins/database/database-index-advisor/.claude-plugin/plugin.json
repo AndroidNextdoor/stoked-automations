@@ -1,9 +1,9 @@
 {
   "name": "database-index-advisor",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Analyze query patterns and recommend optimal database indexes with impact analysis",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

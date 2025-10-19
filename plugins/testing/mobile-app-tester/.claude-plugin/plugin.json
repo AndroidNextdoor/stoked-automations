@@ -1,9 +1,9 @@
 {
   "name": "mobile-app-tester",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Mobile app test automation with Appium, Detox, XCUITest - test iOS and Android apps",
   "author": {
-    "name": "Claude Code Plugin Hub",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

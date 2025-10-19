@@ -1,9 +1,9 @@
 {
   "name": "blockchain-explorer-cli",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Command-line blockchain explorer for transactions, addresses, and contracts",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

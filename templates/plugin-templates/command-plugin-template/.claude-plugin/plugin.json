@@ -1,0 +1,25 @@
+{
+  "name": "{{PLUGIN_NAME}}",
+  "version": "1.0.0",
+  "description": "{{PLUGIN_DESCRIPTION}}",
+  "category": "{{CATEGORY}}",
+  "keywords": [
+    "{{KEYWORD1}}",
+    "{{KEYWORD2}}",
+    "{{KEYWORD3}}"
+  ],
+  "author": {
+    "name": "{{AUTHOR_NAME}}",
+    "email": "{{AUTHOR_EMAIL}}",
+    "url": "{{AUTHOR_URL}}"
+  },
+  "repository": "https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}/tree/main/plugins/{{CATEGORY}}/{{PLUGIN_NAME}}",
+  "license": "MIT",
+  "prerequisites": {
+    "description": "{{PREREQUISITES_DESCRIPTION}}",
+    "steps": [
+      "{{PREREQUISITE_STEP_1}}",
+      "{{PREREQUISITE_STEP_2}}"
+    ]
+  }
+}

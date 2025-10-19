@@ -58,7 +58,7 @@ Add to your Claude Code MCP configuration file (`~/.claude/mcp_config.json`):
     "ai-experiment-logger": {
       "command": "node",
       "args": [
-        "/absolute/path/to/plugins/mcp/ai-experiment-logger/dist/index.js"
+        "$HOME/Projects/stoked-automation/plugins/mcp/ai-experiment-logger/dist/index.js"
       ]
     }
   }

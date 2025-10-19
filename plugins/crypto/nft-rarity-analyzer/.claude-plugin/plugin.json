@@ -1,9 +1,9 @@
 {
   "name": "nft-rarity-analyzer",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Analyze NFT rarity scores and valuations across collections",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

@@ -1,0 +1,65 @@
+{
+  "mcpServers": {
+    "mcp-atlassian": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e", "JIRA_URL",
+        "-e", "JIRA_USERNAME",
+        "-e", "JIRA_API_TOKEN",
+        "-e", "CONFLUENCE_URL",
+        "-e", "CONFLUENCE_USERNAME",
+        "-e", "CONFLUENCE_API_TOKEN",
+        "ghcr.io/sooperset/mcp-atlassian:latest"
+      ],
+      "env": {
+        "JIRA_API_TOKEN": "${ATLASSIAN_API_TOKEN}",
+        "JIRA_URL": "${JIRA_URL}",
+        "JIRA_USERNAME": "${ATLASSIAN_EMAIL}",
+        "CONFLUENCE_API_TOKEN": "${ATLASSIAN_API_TOKEN}",
+        "CONFLUENCE_URL": "${CONFLUENCE_URL}",
+        "CONFLUENCE_USERNAME": "${ATLASSIAN_EMAIL}"
+      },
+      "metadata": {
+        "description": "Atlassian MCP server for Jira and Confluence integration",
+        "documentation": "https://github.com/sooperset/mcp-atlassian",
+        "tools": [
+          {
+            "name": "getIssue",
+            "description": "Fetch details for a specific Jira issue by key (e.g., PROJ-123)"
+          },
+          {
+            "name": "createIssue",
+            "description": "Create a new Jira issue with summary, description, type, and priority"
+          },
+          {
+            "name": "updateIssue",
+            "description": "Update an existing Jira issue's fields (status, assignee, description, etc.)"
+          },
+          {
+            "name": "searchIssues",
+            "description": "Search for Jira issues using JQL (Jira Query Language)"
+          },
+          {
+            "name": "addComment",
+            "description": "Add a comment to a Jira issue"
+          },
+          {
+            "name": "transitionIssue",
+            "description": "Transition a Jira issue to a different status (e.g., In Progress, Done)"
+          },
+          {
+            "name": "getConfluencePage",
+            "description": "Retrieve content from a Confluence page by ID or title"
+          },
+          {
+            "name": "searchConfluence",
+            "description": "Search Confluence for pages and content"
+          }
+        ]
+      }
+    }
+  }
+}

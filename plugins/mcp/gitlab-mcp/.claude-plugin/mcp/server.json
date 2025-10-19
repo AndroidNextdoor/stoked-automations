@@ -1,0 +1,77 @@
+{
+  "mcpServers": {
+    "gitlab": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-e", "GITLAB_PERSONAL_ACCESS_TOKEN",
+        "-e", "GITLAB_API_URL",
+        "mcp/gitlab"
+      ],
+      "env": {
+        "GITLAB_PERSONAL_ACCESS_TOKEN": "${GITLAB_TOKEN}",
+        "GITLAB_API_URL": "${GITLAB_API_URL}"
+      },
+      "metadata": {
+        "description": "GitLab MCP server for repository and CI/CD management",
+        "documentation": "https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab",
+        "tools": [
+          {
+            "name": "create_or_update_file",
+            "description": "Create or update a file in a GitLab repository"
+          },
+          {
+            "name": "search_repositories",
+            "description": "Search for GitLab repositories by name or criteria"
+          },
+          {
+            "name": "create_repository",
+            "description": "Create a new GitLab repository"
+          },
+          {
+            "name": "get_file_contents",
+            "description": "Get the contents of a file from a repository"
+          },
+          {
+            "name": "push_files",
+            "description": "Push multiple files to a repository in a single commit"
+          },
+          {
+            "name": "create_merge_request",
+            "description": "Create a new merge request"
+          },
+          {
+            "name": "get_merge_request",
+            "description": "Get details of a specific merge request"
+          },
+          {
+            "name": "update_merge_request",
+            "description": "Update an existing merge request"
+          },
+          {
+            "name": "list_branches",
+            "description": "List all branches in a repository"
+          },
+          {
+            "name": "get_project",
+            "description": "Get detailed information about a GitLab project"
+          },
+          {
+            "name": "list_commits",
+            "description": "List commits in a repository or branch"
+          },
+          {
+            "name": "create_issue",
+            "description": "Create a new GitLab issue"
+          },
+          {
+            "name": "get_pipeline_status",
+            "description": "Get the status of a CI/CD pipeline"
+          }
+        ]
+      }
+    }
+  }
+}

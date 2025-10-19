@@ -1,9 +1,9 @@
 {
   "name": "cloud-cost-optimizer",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Optimize cloud costs and generate cost reports",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git-Jira Workflow - Enterprise GitLab Flow with Jira Integration</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .legend {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 4px;
+        }
+        .legend-item {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+        .legend-color {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        #diagram {
+            margin-top: 20px;
+        }
+        .info-box {
+            background: #e8f4f8;
+            border-left: 4px solid #0969da;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .info-box h3 {
+            margin-top: 0;
+            color: #0969da;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Git-Jira Workflow Plugin</h1>
+        <p class="subtitle">Enterprise GitLab Flow with Atlassian Jira & GitLab Integration via MCP Servers</p>
+
+        <div class="info-box">
+            <h3>📋 Workflow Overview</h3>
+            <p>This workflow automates the complete development lifecycle from ticket creation to merge request, integrating:</p>
+            <ul>
+                <li><strong>Atlassian MCP Server</strong> - Real-time Jira ticket management</li>
+                <li><strong>GitLab MCP Server</strong> - Automated branch and MR operations</li>
+                <li><strong>Enterprise GitLab Flow</strong> - Professional branching strategy</li>
+                <li><strong>Automatic Status Updates</strong> - Jira tickets stay synchronized with Git state</li>
+            </ul>
+        </div>
+
+        <div class="legend">
+            <strong>Legend:</strong><br>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #fff4e1;"></span>
+                <span>Decision Points</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #e1f0ff;"></span>
+                <span>Jira Operations (Atlassian MCP)</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #f0e1ff;"></span>
+                <span>GitLab Operations (GitLab MCP)</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #ffe1e1;"></span>
+                <span>Hotfix Flow</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #e1f5e1;"></span>
+                <span>Start/End</span>
+            </div>
+        </div>
+
+        <div id="diagram">
+            <pre class="mermaid">
+flowchart TD
+    Start([User Starts Work in Claude Code]) --> CheckBranch{Check Current Branch}
+
+    CheckBranch -->|Main or Test Branch| SuggestFeature[Suggest Creating Feature Branch]
+    CheckBranch -->|Feature Branch Exists| ValidateBranch{Feature Branch<br/>Linked to Jira?}
+
+    SuggestFeature --> BranchType{Branch Type?}
+
+    BranchType -->|Feature Branch| AskUser{User Confirms<br/>Feature Branch?}
+    BranchType -->|Hotfix| HotfixFlow[Create Hotfix Branch<br/>HOTFIX-summary-title]
+
+    AskUser -->|Yes, Has Ticket| GetTicket[User Provides Jira Ticket ID]
+    AskUser -->|No Ticket| CreateTicket[Create New Jira Ticket<br/>via Atlassian MCP]
+
+    HotfixFlow --> HotfixTicket[Create Jira Ticket<br/>with High Priority<br/>via Atlassian MCP]
+    HotfixTicket --> CheckoutHotfix[Checkout Hotfix Branch<br/>HOTFIX-summary-title]
+
+    GetTicket --> CheckoutBranch[Checkout Feature Branch<br/>Named After Ticket]
+    CreateTicket --> SetSummary[Set Ticket Summary<br/>Based on Work Description]
+    SetSummary --> CheckoutBranch
+
+    ValidateBranch -->|Not Linked| LinkTicket[Link/Create Jira Ticket<br/>via Atlassian MCP]
+    ValidateBranch -->|Linked| WorkOnCode[User Works on Code]
+
+    LinkTicket --> WorkOnCode
+    CheckoutBranch --> WorkOnCode
+    CheckoutHotfix --> WorkOnCode
+
+    WorkOnCode --> CodeReady{Code Ready<br/>to Push?}
+
+    CodeReady -->|No| WorkOnCode
+    CodeReady -->|Yes| PushCode[Push Code to GitLab<br/>via GitLab MCP]
+
+    PushCode --> CreateMR[Create Merge Request<br/>via GitLab MCP]
+
+    CreateMR --> LinkMRtoJira[Link MR to Jira Ticket<br/>in MR Description]
+
+    LinkMRtoJira --> UpdateJira[Update Jira Ticket<br/>via Atlassian MCP]
+
+    UpdateJira --> AddComment[Add Comment with:<br/>- Work Accomplished<br/>- MR Link<br/>- Code Changes Summary]
+
+    AddComment --> TransitionTicket[Transition Ticket to<br/>'In Review' or Similar]
+
+    TransitionTicket --> End([Workflow Complete])
+
+    style Start fill:#e1f5e1
+    style End fill:#e1f5e1
+    style CheckBranch fill:#fff4e1
+    style BranchType fill:#fff4e1
+    style AskUser fill:#fff4e1
+    style ValidateBranch fill:#fff4e1
+    style CodeReady fill:#fff4e1
+    style CreateTicket fill:#e1f0ff
+    style SetSummary fill:#e1f0ff
+    style LinkTicket fill:#e1f0ff
+    style UpdateJira fill:#e1f0ff
+    style AddComment fill:#e1f0ff
+    style TransitionTicket fill:#e1f0ff
+    style HotfixTicket fill:#e1f0ff
+    style PushCode fill:#f0e1ff
+    style CreateMR fill:#f0e1ff
+    style LinkMRtoJira fill:#f0e1ff
+    style HotfixFlow fill:#ffe1e1
+    style CheckoutHotfix fill:#ffe1e1
+            </pre>
+        </div>
+
+        <div class="info-box" style="background: #f6f8fa; border-left-color: #6e7781;">
+            <h3>🔧 Key Automation Points</h3>
+            <ol>
+                <li><strong>Branch Validation</strong> - Automatically checks if current branch is linked to a Jira ticket</li>
+                <li><strong>Ticket Creation</strong> - Creates Jira tickets on-the-fly if needed</li>
+                <li><strong>Branch Naming</strong> - Enforces consistent naming: <code>JIRA-123/feature-description</code></li>
+                <li><strong>Hotfix Priority</strong> - Automatically sets high priority for hotfix branches</li>
+                <li><strong>MR Auto-linking</strong> - Links merge requests to Jira tickets automatically</li>
+                <li><strong>Status Transitions</strong> - Updates Jira status as work progresses (In Progress → In Review → Done)</li>
+            </ol>
+        </div>
+
+        <div class="info-box" style="background: #fff8e1; border-left-color: #f59e0b;">
+            <h3>⚡ Branch Naming Convention</h3>
+            <p><strong>Format:</strong> <code>JIRA-123/feature-description</code> or <code>HOTFIX-description</code></p>
+            <p><strong>Examples:</strong></p>
+            <ul>
+                <li><code>JIRA-1234/user-authentication</code> - Feature branch</li>
+                <li><code>feature/JIRA-5678-payment-gateway</code> - Alternative format</li>
+                <li><code>HOTFIX-security-patch</code> - Critical production fix</li>
+                <li><code>hotfix/JIRA-9999-memory-leak</code> - Hotfix with ticket</li>
+            </ul>
+        </div>
+
+        <div class="info-box" style="background: #e1f0ff; border-left-color: #0969da;">
+            <h3>📚 Usage Examples</h3>
+
+            <h4>Example 1: Starting Feature Work</h4>
+            <pre style="background: #f6f8fa; padding: 10px; border-radius: 4px; overflow-x: auto;">
+User: "I need to work on JIRA-1234 for adding user authentication"
+
+Plugin Actions:
+1. ✓ Fetch Jira ticket details via Atlassian MCP
+2. ✓ Create branch: feature/JIRA-1234-add-user-authentication
+3. ✓ Update Jira status to "In Progress"
+4. ✓ Notify user of next steps
+            </pre>
+
+            <h4>Example 2: Creating Merge Request</h4>
+            <pre style="background: #f6f8fa; padding: 10px; border-radius: 4px; overflow-x: auto;">
+User: "Create a merge request for JIRA-5678"
+
+Plugin Actions:
+1. ✓ Push branch to GitLab via GitLab MCP
+2. ✓ Create MR with Jira details in description
+3. ✓ Link MR URL to Jira ticket
+4. ✓ Update Jira status to "In Review"
+5. ✓ Add comment to Jira with MR link
+            </pre>
+
+            <h4>Example 3: Hotfix Workflow</h4>
+            <pre style="background: #f6f8fa; padding: 10px; border-radius: 4px; overflow-x: auto;">
+User: "Critical bug, need to create hotfix for JIRA-9999"
+
+Plugin Actions:
+1. ✓ Create Jira ticket with Priority: Critical
+2. ✓ Create branch from main: hotfix/JIRA-9999-critical-fix
+3. ✓ Set Jira status to "In Progress"
+4. ✓ Guide user through hotfix process
+5. ✓ Fast-track MR creation when ready
+            </pre>
+        </div>
+
+        <div class="info-box" style="background: #f0e1ff; border-left-color: #8b5cf6;">
+            <h3>🔗 MCP Server Integration</h3>
+
+            <h4>📋 Atlassian MCP Server</h4>
+            <p><strong>Purpose:</strong> Real-time Jira ticket management and workflow automation</p>
+
+            <p><strong>Configuration:</strong></p>
+            <pre style="background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 4px; overflow-x: auto; font-size: 12px;">
+"mcp-atlassian": {
+  "command": "docker",
+  "args": [
+    "run", "-i", "--rm",
+    "-e", "JIRA_URL",
+    "-e", "JIRA_USERNAME",
+    "-e", "JIRA_API_TOKEN",
+    "ghcr.io/sooperset/mcp-atlassian:latest"
+  ],
+  "env": {
+    "JIRA_API_TOKEN": "${ATLASSIAN_API_TOKEN}",
+    "JIRA_URL": "${JIRA_URL}",
+    "JIRA_USERNAME": "${ATLASSIAN_EMAIL}"
+  },
+  "disabled": false,
+  "autoApprove": []
+}</pre>
+
+            <p><strong>Tools Used in Workflow:</strong></p>
+            <table style="width: 100%; border-collapse: collapse; margin: 10px 0;">
+                <tr style="background: #f6f8fa;">
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">MCP Tool</th>
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Workflow Step</th>
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Purpose</th>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><code>mcp__atlassian__getIssue</code></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Branch Creation</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Fetch ticket details and summary for branch naming</td>
+                </tr>
+                <tr style="background: #f6f8fa;">
+                    <td style="padding: 8px; border: 1px solid #ddd;"><code>mcp__atlassian__createIssue</code></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Ticket Creation</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Create new Jira ticket when none exists</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><code>mcp__atlassian__updateIssue</code></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Status Updates</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Update ticket status (In Progress → In Review → Done)</td>
+                </tr>
+                <tr style="background: #f6f8fa;">
+                    <td style="padding: 8px; border: 1px solid #ddd;"><code>mcp__atlassian__addComment</code></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">MR Linking</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Add MR link and progress notes to ticket</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><code>mcp__atlassian__transitionIssue</code></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Workflow Transitions</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Move ticket through Jira workflow states</td>
+                </tr>
+            </table>
+
+            <h4 style="margin-top: 20px;">🦊 GitLab MCP Server</h4>
+            <p><strong>Purpose:</strong> Automated Git repository and merge request operations</p>
+
+            <p><strong>Configuration:</strong></p>
+            <pre style="background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 4px; overflow-x: auto; font-size: 12px;">
+"gitlab": {
+  "command": "docker",
+  "args": [
+    "run", "--rm", "-i",
+    "-e", "GITLAB_PERSONAL_ACCESS_TOKEN",
+    "-e", "GITLAB_API_URL",
+    "mcp/gitlab"
+  ],
+  "env": {
+    "GITLAB_PERSONAL_ACCESS_TOKEN": "${GITLAB_TOKEN}",
+    "GITLAB_API_URL": "https://gitlab.com/api/v4"
+  },
+  "disabled": false,
+  "autoApprove": []
+}</pre>
+
+            <p><strong>Tools Used in Workflow:</strong></p>
+            <table style="width: 100%; border-collapse: collapse; margin: 10px 0;">
+                <tr style="background: #f6f8fa;">
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">MCP Tool</th>
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Workflow Step</th>
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Purpose</th>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><code>mcp__gitlab__get_project</code></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Branch Validation</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Get project info and verify repository access</td>
+                </tr>
+                <tr style="background: #f6f8fa;">
+                    <td style="padding: 8px; border: 1px solid #ddd;"><code>mcp__gitlab__list_branches</code></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Branch Check</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">List existing branches to check for duplicates</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><code>mcp__gitlab__create_merge_request</code></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">MR Creation</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Create merge request with Jira details</td>
+                </tr>
+                <tr style="background: #f6f8fa;">
+                    <td style="padding: 8px; border: 1px solid #ddd;"><code>mcp__gitlab__get_merge_request</code></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">MR Status</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Get current MR status and details</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><code>mcp__gitlab__update_merge_request</code></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">MR Updates</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Update MR title, description, or labels</td>
+                </tr>
+            </table>
+
+            <h4 style="margin-top: 20px;">🔄 MCP Workflow Integration Map</h4>
+            <table style="width: 100%; border-collapse: collapse; margin: 10px 0;">
+                <tr style="background: #f6f8fa;">
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Workflow Node</th>
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Atlassian MCP</th>
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">GitLab MCP</th>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Create Ticket</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">✓ createIssue, getIssue</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">—</td>
+                </tr>
+                <tr style="background: #f6f8fa;">
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Validate Branch</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">✓ getIssue (check link)</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">✓ get_project, list_branches</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Checkout Branch</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">✓ updateIssue (status → In Progress)</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">—</td>
+                </tr>
+                <tr style="background: #f6f8fa;">
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Push Code</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">—</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">✓ (git push operation)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Create MR</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">✓ getIssue (get details for description)</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">✓ create_merge_request</td>
+                </tr>
+                <tr style="background: #f6f8fa;">
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Update Jira</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">✓ updateIssue, addComment (status → In Review)</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">✓ get_merge_request (get MR URL)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Transition Ticket</strong></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">✓ transitionIssue (move to Done/Resolved)</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">—</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis'
+            }
+        });
+    </script>
+</body>
+</html>

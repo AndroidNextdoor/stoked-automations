@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify AAIS Inland Marine Rating Worksheet,Windows - Chrome 140.0.7339.80,"Downloads the rating worksheet for an AAIS Inland Marine policy, and compares the rating worksheet against a baseline document stored in S3. This test verifies that the rating worksheet maintains a consistent format throughout time.",,24-09-2025 16:50:38,24-09-2025 16:52:45,2m - 7.063s,FAILED
+,,,,,,,
+Test Cases/_shared/Open Browser,Windows - Chrome 140.0.7339.80,Opens a new browser window and navigates to the ClarionDoor website,,24-09-2025 16:51:24,24-09-2025 16:51:25,1.204s,PASSED
+"DATA BINDING - {""(Default) date_..."":""""}",,,,,,,
+Start listener action : beforeTestCase,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:24,24-09-2025 16:51:24,0.017s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:24,24-09-2025 16:51:24,0.001s,PASSED
+"if (toString().contains(""https://baseiso.clariondoor.com""))",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:24,24-09-2025 16:51:24,0.003s,PASSED
+com.zywave.clariondoor.keywords.BrowserKeywords.openBrowser(),Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:24,24-09-2025 16:51:25,0.681s,PASSED
+Start listener action : afterTestCase,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:25,24-09-2025 16:51:25,0.358s,PASSED
+,,,,,,,
+Test Cases/_shared/Login,Windows - Chrome 140.0.7339.80,Logs in to the UFCIC Portal,,24-09-2025 16:51:25,24-09-2025 16:51:49,23.172s,PASSED
+Start listener action : beforeTestCase,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:26,24-09-2025 16:51:26,0.850s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:27,24-09-2025 16:51:27,0.000s,PASSED
+"if (Failed_Test_Case.equals(""""))",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:27,24-09-2025 16:51:49,21.986s,PASSED
+Start listener action : afterTestCase,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:49,24-09-2025 16:51:49,0.003s,PASSED
+,,,,,,,
+Test Cases/quote/Open Quote,Windows - Chrome 140.0.7339.80,Opens an existing quote,,24-09-2025 16:51:49,24-09-2025 16:51:55,6.138s,PASSED
+"DATA BINDING - {""(Default) _Insu..."":"""",""(Default) origi..."":""0"",""(Default) _Quot..."":"""",""quote_id"":""68922443dc997""}",,,,,,,
+Start listener action : beforeTestCase,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:49,24-09-2025 16:51:49,0.553s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:49,24-09-2025 16:51:49,0.000s,PASSED
+Original_Test_Result = original_test_result,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:49,24-09-2025 16:51:49,0.001s,PASSED
+testSuiteId = getExecutionSourceId(),Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:49,24-09-2025 16:51:49,0.001s,PASSED
+"log.logInfo(""Test Suite ID: "" + testSuiteId)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:49,24-09-2025 16:51:49,0.001s,PASSED
+"testSuiteName = tokenize(""/"").last()",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:49,24-09-2025 16:51:49,0.002s,PASSED
+"log.logInfo(""Test Suite Name: "" + testSuiteName)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:49,24-09-2025 16:51:49,0.001s,PASSED
+"if (testSuiteName == ""Verify AAIS Inland Marine Rating Worksheet"")",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:49,24-09-2025 16:51:50,0.355s,PASSED
+"log.logInfo(""quote_id"")",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:50,24-09-2025 16:51:50,0.000s,PASSED
+"waitForElementVisible(findTestObject(""home/Open Quote Searchbox""), 10)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:50,24-09-2025 16:51:50,0.445s,PASSED
+"setText(findTestObject(""home/Open Quote Searchbox""), quote_id)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:50,24-09-2025 16:51:50,0.257s,PASSED
+"waitForElementClickable(findTestObject(""home/Open Quote Button""), 5)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:50,24-09-2025 16:51:50,0.087s,PASSED
+"click(findTestObject(""home/Open Quote Button""))",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:50,24-09-2025 16:51:51,0.307s,PASSED
+"waitForElementPresent(findTestObject(""home/Start New Quote/_shared/Navbar Loader""), 30)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:51,24-09-2025 16:51:53,2.612s,PASSED
+"waitForElementNotPresent(findTestObject(""home/Start New Quote/_shared/Navbar Loader""), 60)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:53,24-09-2025 16:51:54,0.500s,PASSED
+"waitForElementVisible(findTestObject(""home/Start New Quote/_shared/Named Insured""), 10)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:54,24-09-2025 16:51:54,0.587s,PASSED
+"verifyElementVisible(findTestObject(""home/Start New Quote/_shared/Named Insured""), STOP_ON_FAILURE)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:54,24-09-2025 16:51:55,0.128s,PASSED
+"_Insured_Name = getText(findTestObject(""home/Start New Quote/_shared/Named Insured""), STOP_ON_FAILURE)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:55,24-09-2025 16:51:55,0.119s,PASSED
+url = getUrl(),Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:55,24-09-2025 16:51:55,0.034s,PASSED
+"portionOfUrlContainingQuoteId = com/quote/"").last()",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:55,24-09-2025 16:51:55,0.000s,PASSED
+"_Quote_Id = split(""/"").first()",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:55,24-09-2025 16:51:55,0.001s,PASSED
+"verifyMatch(_Quote_Id, quote_id, false)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:55,24-09-2025 16:51:55,0.003s,PASSED
+Start listener action : afterTestCase,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:55,24-09-2025 16:51:55,0.021s,PASSED
+,,,,,,,
+Test Cases/quote/_shared/_page navigation/Navigate From Schedule Mod IRPM To Quote,Windows - Chrome 140.0.7339.80,"Navigates from the 'Schedule Mod/IRPM' to the 'Quote' page, by clicking the 'Next' button.",,24-09-2025 16:51:55,24-09-2025 16:52:11,16.402s,PASSED
+"DATA BINDING - {""(Default) _Quot..."":""""}",,,,,,,
+Start listener action : beforeTestCase,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:55,24-09-2025 16:51:55,0.497s,PASSED
+awsUtils = new com.zywave.clariondoor.katalon.AwsUtils(),Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:55,24-09-2025 16:51:55,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:55,24-09-2025 16:51:55,0.001s,PASSED
+com.zywave.clariondoor.keywords.BrowserKeywords.tryClickNextButton(),Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:55,24-09-2025 16:51:57,1.673s,PASSED
+"waitForElementPresent(findTestObject(""home/Start New Quote/_shared/Navbar Loader""), 30)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:57,24-09-2025 16:51:57,0.046s,PASSED
+"waitForElementNotPresent(findTestObject(""home/Start New Quote/_shared/Navbar Loader""), 30)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:51:57,24-09-2025 16:52:11,13.792s,PASSED
+"waitForElementVisible(findTestObject(""home/Start New Quote/Quote/Total Premium Page Header""), 30)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:52:11,24-09-2025 16:52:11,0.101s,PASSED
+"verifyElementVisible(findTestObject(""home/Start New Quote/Quote/Total Premium Page Header""))",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:52:11,24-09-2025 16:52:11,0.082s,PASSED
+"waitForElementVisible(findTestObject(""home/Start New Quote/Quote/Quote Total""), 30)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:52:11,24-09-2025 16:52:11,0.082s,PASSED
+"_Quote_Premium = getText(findTestObject(""home/Start New Quote/Quote/Quote Total""))",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:52:11,24-09-2025 16:52:11,0.077s,PASSED
+Start listener action : afterTestCase,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:52:11,24-09-2025 16:52:11,0.011s,PASSED
+,,,,,,,
+Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline,Windows - Chrome 140.0.7339.80,Downloads and compares an AAIS Inland Marine Rating Worksheet against a baseline document stored in S3.,,24-09-2025 16:52:11,24-09-2025 16:52:45,33.482s,FAILED
+Start listener action : beforeTestCase,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:52:11,24-09-2025 16:52:12,0.409s,PASSED
+"com.zywave.clariondoor.keywords.PdfComparisonKeywords.downloadDocumentWithPolling(""AAISInlandMarineRatingWorksheet"", ""AAIS Inland Marine Rating Worksheet"", ""pdf"", ""AAIS_Inland_Marine_Rating_Worksheet"", ""pdfUrl"", false, false)",Windows - Chrome 140.0.7339.80,,,24-09-2025 16:52:12,24-09-2025 16:52:14,2.285s,FAILED
+Start listener action : afterTestCase,Windows - Chrome 140.0.7339.80,,,24-09-2025 16:52:14,24-09-2025 16:52:45,30.758s,PASSED

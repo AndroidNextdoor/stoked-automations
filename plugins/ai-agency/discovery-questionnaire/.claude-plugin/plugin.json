@@ -1,13 +1,25 @@
 {
   "name": "discovery-questionnaire",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Generate custom discovery questionnaires for AI agency prospects",
   "author": {
-    "name": "Claude Code Plugin Hub",
-    "url": "https://github.com/AndroidNextdoor/stoked-automations"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor/stoked-automations",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "categories": ["ai-agency", "sales", "business"],
-  "keywords": ["discovery", "questionnaire", "client", "sales", "agency", "ai-agency"]
+  "categories": [
+    "ai-agency",
+    "sales",
+    "business"
+  ],
+  "keywords": [
+    "discovery",
+    "questionnaire",
+    "client",
+    "sales",
+    "agency",
+    "ai-agency"
+  ]
 }

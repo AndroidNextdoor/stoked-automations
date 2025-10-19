@@ -1,10 +1,10 @@
 {
   "name": "flash-loan-simulator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Simulate and analyze flash loan strategies including arbitrage, liquidations, and collateral swaps",
   "author": {
-    "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.io",
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]",
     "url": "https://intentsolutions.ai"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

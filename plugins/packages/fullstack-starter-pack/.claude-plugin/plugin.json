@@ -1,9 +1,9 @@
 {
   "name": "fullstack-starter-pack",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Complete fullstack development toolkit: React, Express/FastAPI, PostgreSQL scaffolding with AI agents",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]",
     "url": "https://github.com/AndroidNextdoor"
   },

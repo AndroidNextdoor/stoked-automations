@@ -9,7 +9,7 @@ description: |
 This skill leverages the access-control-auditor plugin to perform comprehensive audits of access control configurations. It helps identify potential security risks associated with overly permissive access, misconfigured permissions, and non-compliance with security policies.
 
 ## How It Works
-
+ 
 1. **Analyze Request**: Claude identifies the user's intent to audit access control.
 2. **Invoke Plugin**: The access-control-auditor plugin is activated.
 3. **Execute Audit**: The plugin analyzes the specified access control configuration (e.g., IAM policies, ACLs).

@@ -1,9 +1,9 @@
 {
   "name": "transfer-learning-adapter",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Transfer learning adaptation",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

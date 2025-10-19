@@ -1,9 +1,9 @@
 {
   "name": "unit-test-generator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Automatically generate comprehensive unit tests from source code with multiple testing framework support",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

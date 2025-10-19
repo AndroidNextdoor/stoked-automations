@@ -1,13 +1,19 @@
 {
   "name": "whale-alert-monitor",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Monitor large crypto transactions and whale wallet movements in real-time",
   "author": {
-    "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.io",
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]",
     "url": "https://intentsolutions.ai"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["whale", "alert", "monitor", "large", "transactions"]
+  "keywords": [
+    "whale",
+    "alert",
+    "monitor",
+    "large",
+    "transactions"
+  ]
 }

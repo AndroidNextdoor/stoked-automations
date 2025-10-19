@@ -1,9 +1,9 @@
 {
   "name": "nosql-data-modeler",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Database plugin for nosql-data-modeler",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

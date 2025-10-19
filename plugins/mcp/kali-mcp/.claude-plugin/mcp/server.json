@@ -1,0 +1,69 @@
+{
+  "mcpServers": {
+    "kali-server": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-e", "MAX_TIMEOUT",
+        "-e", "DEFAULT_TIMEOUT",
+        "-e", "LOG_LEVEL",
+        "-p", "5000:5000",
+        "-p", "8000:8000",
+        "kali-mcp-server"
+      ],
+      "env": {
+        "MAX_TIMEOUT": "${MAX_TIMEOUT:-300}",
+        "DEFAULT_TIMEOUT": "${DEFAULT_TIMEOUT:-60}",
+        "LOG_LEVEL": "${LOG_LEVEL:-INFO}"
+      },
+      "metadata": {
+        "description": "Kali Linux security tools MCP server for penetration testing and CTF challenges",
+        "documentation": "https://github.com/Wh0am123/MCP-Kali-Server",
+        "tools": [
+          {
+            "name": "execute_command",
+            "description": "Execute security tools and terminal commands on Kali Linux (nmap, gobuster, curl, etc.)"
+          },
+          {
+            "name": "run_nmap_scan",
+            "description": "Run network reconnaissance scans using Nmap with various scan types"
+          },
+          {
+            "name": "web_enumeration",
+            "description": "Enumerate web directories and files using gobuster, dirb, or ffuf"
+          },
+          {
+            "name": "exploit_search",
+            "description": "Search for exploits using searchsploit and ExploitDB"
+          },
+          {
+            "name": "curl_request",
+            "description": "Make HTTP requests to web applications and APIs for testing"
+          },
+          {
+            "name": "run_metasploit",
+            "description": "Execute Metasploit Framework commands for exploitation"
+          },
+          {
+            "name": "sql_injection_test",
+            "description": "Test for SQL injection vulnerabilities using sqlmap"
+          },
+          {
+            "name": "password_cracking",
+            "description": "Crack passwords using John the Ripper or Hashcat"
+          },
+          {
+            "name": "network_sniffing",
+            "description": "Capture and analyze network traffic using tcpdump or Wireshark"
+          },
+          {
+            "name": "vulnerability_scan",
+            "description": "Scan targets for vulnerabilities using OpenVAS, Nikto, or similar tools"
+          }
+        ]
+      }
+    }
+  }
+}

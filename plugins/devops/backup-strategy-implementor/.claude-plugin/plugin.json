@@ -1,9 +1,9 @@
 {
   "name": "backup-strategy-implementor",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Implement backup strategies for databases and applications",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

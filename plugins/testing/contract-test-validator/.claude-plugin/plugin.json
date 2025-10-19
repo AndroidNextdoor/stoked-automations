@@ -1,9 +1,9 @@
 {
   "name": "contract-test-validator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "API contract testing with Pact, OpenAPI validation, and consumer-driven contract verification",
   "author": {
-    "name": "Claude Code Plugin Hub",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

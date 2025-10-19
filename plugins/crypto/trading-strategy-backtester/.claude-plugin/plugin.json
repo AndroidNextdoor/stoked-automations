@@ -1,10 +1,10 @@
 {
   "name": "trading-strategy-backtester",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Backtest trading strategies with historical data, performance metrics, and risk analysis",
   "author": {
-    "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.io",
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]",
     "url": "https://intentsolutions.ai"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

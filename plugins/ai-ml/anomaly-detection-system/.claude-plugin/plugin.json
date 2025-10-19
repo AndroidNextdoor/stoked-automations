@@ -1,9 +1,9 @@
 {
   "name": "anomaly-detection-system",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Detect anomalies and outliers in data",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

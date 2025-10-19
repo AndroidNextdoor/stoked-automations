@@ -230,14 +230,14 @@ A: Yes! Many sponsors expense this as "Developer Tools" or "SaaS Subscriptions".
 
 **General Questions:** [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
 **Enterprise Inquiries:** [andrew@stokedautomation.com](mailto:andrew@stokedautomation.com)
-**Custom Development:** [Intent Solutions](https://intentsolutions.io)
+**Custom Development:** [Stoked Automation](https://stokedautomation.com)
 
 ---
 
 ## 🔗 Quick Links
 
 - **Marketplace:** [stokedautomation.com](https://stokedautomations.com)
-- **GitHub Sponsors:** [Sponsor @jeremylongshore](https://github.com/sponsors/jeremylongshore)
+- **GitHub Sponsors:** [Sponsor @AndroidNextdoor](https://github.com/sponsors/AndroidNextdoor)
 - **Plugin Repository:** [claude-code-plugins](https://github.com/AndroidNextdoor/stoked-automations)
 - **Documentation:** [Getting Started](../README.md)
 - **Discord Community:** [Join Discord](https://discord.gg/your-invite) *(Coming Soon)*

@@ -1,9 +1,9 @@
 {
   "name": "ai-ml-engineering-pack",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Professional AI/ML Engineering toolkit: Prompt engineering, LLM integration, RAG systems, AI safety with 12 expert plugins",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]",
     "url": "https://github.com/AndroidNextdoor"
   },

@@ -1,10 +1,11 @@
 {
   "name": "domain-memory-agent",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Knowledge base with semantic search, document storage, and automatic summarization. Perfect for domain-specific knowledge management.",
   "author": {
-    "name": "Intent Solutions",
-    "url": "https://intentsolutions.io"
+    "name": "Andrew Nixdorf",
+    "url": "https://intentsolutions.io",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",

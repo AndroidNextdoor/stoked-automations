@@ -1,6 +1,6 @@
 {
   "name": "serena",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "AI-powered memory and context management system with semantic search, project-specific prompts, and intelligent codebase understanding",
   "category": "ai-ml",
   "keywords": [
@@ -14,8 +14,9 @@
     "ai-assistant"
   ],
   "author": {
-    "name": "Oraios",
-    "url": "https://github.com/oraios"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/oraios",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/oraios/serena",
   "license": "MIT",

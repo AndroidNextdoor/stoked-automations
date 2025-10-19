@@ -1,9 +1,9 @@
 {
   "name": "compliance-report-generator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Generate compliance reports",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

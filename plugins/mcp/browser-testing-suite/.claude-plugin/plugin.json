@@ -1,6 +1,6 @@
 {
   "name": "browser-testing-suite",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Complete browser testing toolkit with 5 MCP servers (Playwright, Chrome DevTools, Cypress, Selenium, Katalon) and 4 expert Agent Skills for comprehensive E2E, API, component, and performance testing",
   "author": {
     "name": "Andrew Nixdorf",

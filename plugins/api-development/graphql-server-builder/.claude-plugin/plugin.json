@@ -1,12 +1,19 @@
 {
   "name": "graphql-server-builder",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Build GraphQL servers with schema-first design, resolvers, and subscriptions",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["graphql", "api", "server", "apollo", "schema", "resolvers"]
+  "keywords": [
+    "graphql",
+    "api",
+    "server",
+    "apollo",
+    "schema",
+    "resolvers"
+  ]
 }

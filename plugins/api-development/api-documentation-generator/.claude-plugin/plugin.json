@@ -1,12 +1,18 @@
 {
   "name": "api-documentation-generator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Generate comprehensive API documentation from OpenAPI/Swagger specs",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["api", "documentation", "openapi", "swagger", "docs"]
+  "keywords": [
+    "api",
+    "documentation",
+    "openapi",
+    "swagger",
+    "docs"
+  ]
 }

@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify AAIS Inland Marine Rating Worksheet" time="127.063" tests="5" failures="1" errors="0">
+   <testsuite name="Verify AAIS Inland Marine Rating Worksheet" tests="5" failures="1" errors="0" time="127.063" skipped="0" timestamp="24-09-2025T16:50:38" hostname="Unknow host" id="Test Suites/AAIS Inland Marine/Part 1/Builders Risk/Debit Mod/Verify AAIS Inland Marine Rating Worksheet">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="/katalon/katalon/BaseISO/Reports/20250924_164919/AAIS Inland Marine/Part 1/Builders Risk/Debit Mod/Verify AAIS Inland Marine Rating Worksheet/20250924_164932"/>
+         <property name="logFiles" value="/katalon/katalon/BaseISO/Reports/20250924_164919/AAIS Inland Marine/Part 1/Builders Risk/Debit Mod/Verify AAIS Inland Marine Rating Worksheet/20250924_164932/execution0.log"/>
+         <property name="attachments" value="Before Test Cases/_shared/keyes/keyes-Login Checkpoint.png, keyes/keyes-Login Page Loaded.png, Before Test Cases/quote/keyes/keyes-Open Quote Checkpoint.png, Before Test Cases/quote/_shared/_page navigation/keyes/keyes-Navigate From Schedule Mod IRPM To Quote Checkpoint.png, Before Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/keyes/keyes-Compare Rating Worksheet To Baseline Checkpoint.png, keyes/keyes-Before 30 second delay.png, keyes/keyes-After 30 second delay.png"/>
+         <property name="hostName" value="Unknow host"/>
+         <property name="remoteDriverUrl" value="Device Farm"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;140.0.7339.80 (670b6f192f4668d2ac2c06bd77ec3e4eeda7d648-refs/branch-heads/7339_41@{#3})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Users\\testnode\\scoped_dir4716_923112113&quot;&#xa;  },&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:49725&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;140.0.7339.80&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 140.0.7339.80"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="1b16d78aaf1f916146a0db6854b032db"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="windows"/>
+      </properties>
+      <testcase name="Test Cases/_shared/Open Browser" time="1.204" classname="Test Cases/_shared/Open Browser" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) date_...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[24-09-2025T16:51:24 - [TEST_CASE][PASSED] - Test Cases/_shared/Open Browser: Test Cases/_shared/Open Browser
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - if (Failed_Test_Case != ""): null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - testCase = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - testCaseVariables = testCaseContext.getTestCaseVariables(): null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - if (testCaseVariables.containsKey("date_created")): null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - testDataDateCreated = testCaseVariables.get("date_created"): null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - log.logInfo("Date Created: " + testDataDateCreated): Date Created: 
+
+24-09-2025T16:51:24 - [MESSAGE][INFO] - Date Created: 
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - isTestDataDummyEntry = testDataDateCreated.equals("0000-01-01T00:00"): null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - if (isTestDataDummyEntry): null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - if (!(FIRST_TEST_CASE)): null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.util.KeywordUtil(): null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - if (toString().contains("https://baseiso.clariondoor.com")): null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - Environment = "Prod": null
+
+24-09-2025T16:51:24 - [TEST_STEP][PASSED] - com.zywave.clariondoor.keywords.BrowserKeywords.openBrowser(): com.zywave.clariondoor.keywords.BrowserKeywords.openBrowser is PASSED
+
+24-09-2025T16:51:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+24-09-2025T16:51:25 - [MESSAGE][PASSED] - Current window maximized
+
+24-09-2025T16:51:25 - [MESSAGE][PASSED] - com.zywave.clariondoor.keywords.BrowserKeywords.openBrowser is PASSED
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - testCaseName = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - if (FIRST_TEST_CASE): com.zywave.clariondoor.keywords.ListenerKeywords.updateResults is PASSED
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - FIRST_TEST_CASE = false: null
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - com.zywave.clariondoor.keywords.ListenerKeywords.updateResults(testCaseContext): com.zywave.clariondoor.keywords.ListenerKeywords.updateResults is PASSED
+
+24-09-2025T16:51:25 - [MESSAGE][INFO] - Browser Version ::: Chrome 140.0.7339.80
+
+24-09-2025T16:51:25 - [MESSAGE][INFO] - Remote Driver Type ::: Selenium
+
+24-09-2025T16:51:25 - [MESSAGE][INFO] - Session ID: 1b16d78aaf1f916146a0db6854b032db
+
+24-09-2025T16:51:25 - [MESSAGE][INFO] - Resolution: (1936, 1096)
+
+24-09-2025T16:51:25 - [MESSAGE][INFO] - Find DEVICE FARM SESSION VIDEOS in AWS Sandbox Environment using the link below:
+
+24-09-2025T16:51:25 - [MESSAGE][INFO] - https://us-west-2.console.aws.amazon.com/devicefarm/home?region=us-west-2#/browser/projects/4bf8c095-a160-4a34-ae26-f0d9fb7e7ece/runsselenium/logs/1b16d78aaf1f916146a0db6854b032db
+
+24-09-2025T16:51:25 - [MESSAGE][INFO] - attempting to connect to database
+
+24-09-2025T16:51:25 - [MESSAGE][PASSED] - com.zywave.clariondoor.keywords.ListenerKeywords.updateResults is PASSED
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" || testCaseContext.getTestCaseStatus() == "ERROR"): null
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - variables = testCaseContext.getTestCaseVariables(): null
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - beginsWith = "": null
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - beginsWithPerformance = false: null
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - if (variables.size() > 0): null
+
+24-09-2025T16:51:25 - [TEST_STEP][PASSED] - variables.eachWithIndex({ java.lang.Object key, java.lang.Object val, java.lang.Object i -> ... }): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/_shared/Login" time="23.172" classname="Test Cases/_shared/Login" status="PASSED">
+         <system-out><![CDATA[24-09-2025T16:51:25 - [TEST_CASE][PASSED] - Test Cases/_shared/Login: Test Cases/_shared/Login
+
+24-09-2025T16:51:26 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Taking screenshot successfully
+
+24-09-2025T16:51:26 - [TEST_STEP][PASSED] - if (Failed_Test_Case != ""): null
+
+24-09-2025T16:51:26 - [TEST_STEP][PASSED] - testCase = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:51:26 - [TEST_STEP][PASSED] - testCaseVariables = testCaseContext.getTestCaseVariables(): null
+
+24-09-2025T16:51:26 - [TEST_STEP][PASSED] - if (testCaseVariables.containsKey("date_created")): null
+
+24-09-2025T16:51:26 - [TEST_STEP][PASSED] - if (!(FIRST_TEST_CASE)): Taking screenshot successfully
+
+24-09-2025T16:51:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+24-09-2025T16:51:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Before Test Cases/_shared/keyes/keyes-Login Checkpoint.png]]
+
+24-09-2025T16:51:27 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.util.KeywordUtil(): null
+
+24-09-2025T16:51:27 - [TEST_STEP][PASSED] - if (Failed_Test_Case.equals("")): Object 'Object Repository/home/Start New Quote Button' is visible
+
+24-09-2025T16:51:27 - [TEST_STEP][PASSED] - siteLink = Url: null
+
+24-09-2025T16:51:27 - [TEST_STEP][PASSED] - username = Username: null
+
+24-09-2025T16:51:27 - [TEST_STEP][PASSED] - password = Password: null
+
+24-09-2025T16:51:27 - [TEST_STEP][PASSED] - try: Object 'Object Repository/home/Start New Quote Button' is visible
+
+24-09-2025T16:51:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+24-09-2025T16:51:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+24-09-2025T16:51:32 - [TEST_STEP][PASSED] - try: Navigate to 'https://baseiso.clariondoor.com/login' successfully
+
+24-09-2025T16:51:32 - [TEST_STEP][PASSED] - navigateToUrl(siteLink, STOP_ON_FAILURE): Navigate to 'https://baseiso.clariondoor.com/login' successfully
+
+24-09-2025T16:51:33 - [MESSAGE][PASSED] - Navigate to 'https://baseiso.clariondoor.com/login' successfully
+
+24-09-2025T16:51:33 - [TEST_STEP][PASSED] - waitForPageLoad(45, STOP_ON_FAILURE): Wait for page load successfully
+
+24-09-2025T16:51:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+24-09-2025T16:51:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+24-09-2025T16:51:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+24-09-2025T16:51:38 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Login Page Loaded"): Taking screenshot successfully
+
+24-09-2025T16:51:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+24-09-2025T16:51:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Login Page Loaded.png]]
+
+24-09-2025T16:51:39 - [TEST_STEP][PASSED] - try: com.zywave.clariondoor.keywords.ListenerKeywords.captureLogRocketSession is PASSED
+
+24-09-2025T16:51:39 - [TEST_STEP][PASSED] - com.zywave.clariondoor.keywords.ListenerKeywords.captureLogRocketSession(): com.zywave.clariondoor.keywords.ListenerKeywords.captureLogRocketSession is PASSED
+
+24-09-2025T16:51:39 - [MESSAGE][PASSED] - Attribute 'content' of object 'Object Repository/common/LoggedOutLogRocketSession' is: 'https://app.logrocket.com/dtizdl/portal/s/6-01997ca3-2cad-7110-a6a6-9dbb41b835c7/0?t=1758732696544'
+
+24-09-2025T16:51:39 - [MESSAGE][INFO] - LogRocket Session Captured Before Logging In: https://app.logrocket.com/dtizdl/portal/s/6-01997ca3-2cad-7110-a6a6-9dbb41b835c7/0?t=1758732696544
+
+24-09-2025T16:51:39 - [MESSAGE][INFO] - attempting to connect to database
+
+24-09-2025T16:51:39 - [MESSAGE][PASSED] - com.zywave.clariondoor.keywords.ListenerKeywords.captureLogRocketSession is PASSED
+
+24-09-2025T16:51:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("_shared/Handle Session Ended Popup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/_shared/Handle Session Ended Popup' successfully
+
+24-09-2025T16:51:39 - [TEST_CASE][PASSED] - Test Cases/_shared/Handle Session Ended Popup: Test Cases/_shared/Handle Session Ended Popup
+
+24-09-2025T16:51:39 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.util.KeywordUtil(): null
+
+24-09-2025T16:51:39 - [TEST_STEP][PASSED] - modalAppears = waitForElementPresent(findTestObject("login/Modal Ok Button"), 5): Object 'Object Repository/login/Modal Ok Button' is not present after 5 second(s)
+
+24-09-2025T16:51:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-test = 'global-dialog-modal']//button[normalize-space(.) = 'OK']'. Please recheck the objects properties to make sure the desired element is located. 
+
+24-09-2025T16:51:45 - [MESSAGE][WARNING] - Object 'Object Repository/login/Modal Ok Button' is not present after 5 second(s)
+
+24-09-2025T16:51:45 - [TEST_STEP][PASSED] - if (modalAppears): null
+
+24-09-2025T16:51:45 - [TEST_STEP][PASSED] - else: Modal does not appear on login page
+
+24-09-2025T16:51:45 - [TEST_STEP][PASSED] - log.logInfo("Modal does not appear on login page"): Modal does not appear on login page
+
+24-09-2025T16:51:45 - [MESSAGE][INFO] - Modal does not appear on login page
+
+24-09-2025T16:51:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/_shared/Handle Session Ended Popup' successfully
+
+24-09-2025T16:51:45 - [TEST_STEP][PASSED] - setText(findTestObject("login/Login_Email Input"), username): Text 'cdportal-admin@zywave.com' is set on object 'Object Repository/login/Login_Email Input'
+
+24-09-2025T16:51:45 - [MESSAGE][PASSED] - Text 'cdportal-admin@zywave.com' is set on object 'Object Repository/login/Login_Email Input'
+
+24-09-2025T16:51:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("login/Login_Password input"), password): Text ****** has been set on object 'Object Repository/login/Login_Password input'
+
+24-09-2025T16:51:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login/Login_Password input'
+
+24-09-2025T16:51:46 - [TEST_STEP][PASSED] - click(findTestObject("login/a_Login")): Object: 'Object Repository/login/a_Login' is clicked on
+
+24-09-2025T16:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Login' is clicked on
+
+24-09-2025T16:51:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("home/Start New Quote Button"), 60): Object 'Object Repository/home/Start New Quote Button' is present
+
+24-09-2025T16:51:48 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote Button' is present
+
+24-09-2025T16:51:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("home/Start New Quote Button"), 60): Object 'Object Repository/home/Start New Quote Button' is visible
+
+24-09-2025T16:51:48 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote Button' is visible
+
+24-09-2025T16:51:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("home/Start New Quote Button")): Object 'Object Repository/home/Start New Quote Button' is visible
+
+24-09-2025T16:51:49 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote Button' is visible
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - testCaseName = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - if (FIRST_TEST_CASE): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" || testCaseContext.getTestCaseStatus() == "ERROR"): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - variables = testCaseContext.getTestCaseVariables(): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - beginsWith = "": null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - beginsWithPerformance = false: null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - if (variables.size() > 0): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/quote/Open Quote" time="6.138" classname="Test Cases/quote/Open Quote" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) _Insu...":"","(Default) origi...":"0","(Default) _Quot...":"","quote_id":"68922443dc997"}]]></property>
+         </properties>
+         <system-out><![CDATA[24-09-2025T16:51:49 - [TEST_CASE][PASSED] - Test Cases/quote/Open Quote: Test Cases/quote/Open Quote
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Taking screenshot successfully
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - if (Failed_Test_Case != ""): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - testCase = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - testCaseVariables = testCaseContext.getTestCaseVariables(): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - if (testCaseVariables.containsKey("date_created")): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - if (!(FIRST_TEST_CASE)): Taking screenshot successfully
+
+24-09-2025T16:51:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+24-09-2025T16:51:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Before Test Cases/quote/keyes/keyes-Open Quote Checkpoint.png]]
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.util.KeywordUtil(): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - Original_Test_Result = original_test_result: null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - testSuiteId = getExecutionSourceId(): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - log.logInfo("Test Suite ID: " + testSuiteId): Test Suite ID: Test Suites/AAIS Inland Marine/Part 1/Builders Risk/Debit Mod/Verify AAIS Inland Marine Rating Worksheet
+
+24-09-2025T16:51:49 - [MESSAGE][INFO] - Test Suite ID: Test Suites/AAIS Inland Marine/Part 1/Builders Risk/Debit Mod/Verify AAIS Inland Marine Rating Worksheet
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - testSuiteName = tokenize("/").last(): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - log.logInfo("Test Suite Name: " + testSuiteName): Test Suite Name: Verify AAIS Inland Marine Rating Worksheet
+
+24-09-2025T16:51:49 - [MESSAGE][INFO] - Test Suite Name: Verify AAIS Inland Marine Rating Worksheet
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - if (testSuiteName == "Verify AAIS Inland Marine Rating Worksheet"): null
+
+24-09-2025T16:51:49 - [TEST_STEP][PASSED] - testData = findTestData("AAIS Inland Marine/Verify AAIS Inland Marine Rating Worksheet/Stage/Quote Id"): null
+
+24-09-2025T16:51:50 - [TEST_STEP][PASSED] - if (Environment == "Prod"): null
+
+24-09-2025T16:51:50 - [TEST_STEP][PASSED] - testData = findTestData("AAIS Inland Marine/Verify AAIS Inland Marine Rating Worksheet/Prod/Quote Id"): null
+
+24-09-2025T16:51:50 - [TEST_STEP][PASSED] - quote_id = testData.getValue("quote_id", 1): null
+
+24-09-2025T16:51:50 - [TEST_STEP][PASSED] - log.logInfo("quote_id"): quote_id
+
+24-09-2025T16:51:50 - [MESSAGE][INFO] - quote_id
+
+24-09-2025T16:51:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("home/Open Quote Searchbox"), 10): Object 'Object Repository/home/Open Quote Searchbox' is visible
+
+24-09-2025T16:51:50 - [MESSAGE][PASSED] - Object 'Object Repository/home/Open Quote Searchbox' is visible
+
+24-09-2025T16:51:50 - [TEST_STEP][PASSED] - setText(findTestObject("home/Open Quote Searchbox"), quote_id): Text '689afe8cedf7e' is set on object 'Object Repository/home/Open Quote Searchbox'
+
+24-09-2025T16:51:50 - [MESSAGE][PASSED] - Text '689afe8cedf7e' is set on object 'Object Repository/home/Open Quote Searchbox'
+
+24-09-2025T16:51:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("home/Open Quote Button"), 5): Object 'Object Repository/home/Open Quote Button' is clickable
+
+24-09-2025T16:51:50 - [MESSAGE][PASSED] - Object 'Object Repository/home/Open Quote Button' is clickable
+
+24-09-2025T16:51:50 - [TEST_STEP][PASSED] - click(findTestObject("home/Open Quote Button")): Object: 'Object Repository/home/Open Quote Button' is clicked on
+
+24-09-2025T16:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/home/Open Quote Button' is clicked on
+
+24-09-2025T16:51:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("home/Start New Quote/_shared/Navbar Loader"), 30): Object 'Object Repository/home/Start New Quote/_shared/Navbar Loader' is present
+
+24-09-2025T16:51:53 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote/_shared/Navbar Loader' is present
+
+24-09-2025T16:51:53 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("home/Start New Quote/_shared/Navbar Loader"), 60): Web element with id: 'Object Repository/home/Start New Quote/_shared/Navbar Loader' located by 'By.xpath: //*[@data-test = 'loader-nav-footer']' is not present after '60' second(s)
+
+24-09-2025T16:51:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/home/Start New Quote/_shared/Navbar Loader' located by 'By.xpath: //*[@data-test = 'loader-nav-footer']' is not present after '60' second(s)
+
+24-09-2025T16:51:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("home/Start New Quote/_shared/Named Insured"), 10): Object 'Object Repository/home/Start New Quote/_shared/Named Insured' is visible
+
+24-09-2025T16:51:54 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote/_shared/Named Insured' is visible
+
+24-09-2025T16:51:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("home/Start New Quote/_shared/Named Insured"), STOP_ON_FAILURE): Object 'Object Repository/home/Start New Quote/_shared/Named Insured' is visible
+
+24-09-2025T16:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote/_shared/Named Insured' is visible
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - _Insured_Name = getText(findTestObject("home/Start New Quote/_shared/Named Insured"), STOP_ON_FAILURE): Text of object 'Object Repository/home/Start New Quote/_shared/Named Insured' is: 'Katalon Test 12082025 034256'
+
+24-09-2025T16:51:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/home/Start New Quote/_shared/Named Insured' is: 'Katalon Test 12082025 034256'
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://baseiso.clariondoor.com/quote/689afe8cedf7e/package/schedmod'
+
+24-09-2025T16:51:55 - [MESSAGE][PASSED] - Current window's url is: 'https://baseiso.clariondoor.com/quote/689afe8cedf7e/package/schedmod'
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - portionOfUrlContainingQuoteId = com/quote/").last(): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - _Quote_Id = split("/").first(): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - verifyMatch(_Quote_Id, quote_id, false): Actual text '689afe8cedf7e' and expected text '689afe8cedf7e' are matched 
+
+24-09-2025T16:51:55 - [MESSAGE][PASSED] - Actual text '689afe8cedf7e' and expected text '689afe8cedf7e' are matched 
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: attempting to connect to database
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - testCaseName = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - if (FIRST_TEST_CASE): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" || testCaseContext.getTestCaseStatus() == "ERROR"): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - variables = testCaseContext.getTestCaseVariables(): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - beginsWith = "": null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - beginsWithPerformance = false: null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - if (variables.size() > 0): attempting to connect to database
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - variables.eachWithIndex({ java.lang.Object key, java.lang.Object val, java.lang.Object i -> ... }): attempting to connect to database
+
+24-09-2025T16:51:55 - [MESSAGE][INFO] - attempting to connect to database
+
+24-09-2025T16:51:55 - [MESSAGE][INFO] - attempting to connect to database]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/quote/_shared/_page navigation/Navigate From Schedule Mod IRPM To Quote" time="16.402" classname="Test Cases/quote/_shared/_page navigation/Navigate From Schedule Mod IRPM To Quote" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) _Quot...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[24-09-2025T16:51:55 - [TEST_CASE][PASSED] - Test Cases/quote/_shared/_page navigation/Navigate From Schedule Mod IRPM To Quote: Test Cases/quote/_shared/_page navigation/Navigate From Schedule Mod IRPM To Quote
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Taking screenshot successfully
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - if (Failed_Test_Case != ""): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - testCase = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - testCaseVariables = testCaseContext.getTestCaseVariables(): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - if (testCaseVariables.containsKey("date_created")): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - if (!(FIRST_TEST_CASE)): Taking screenshot successfully
+
+24-09-2025T16:51:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+24-09-2025T16:51:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Before Test Cases/quote/_shared/_page navigation/keyes/keyes-Navigate From Schedule Mod IRPM To Quote Checkpoint.png]]
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - awsUtils = new com.zywave.clariondoor.katalon.AwsUtils(): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.util.KeywordUtil(): null
+
+24-09-2025T16:51:55 - [TEST_STEP][PASSED] - com.zywave.clariondoor.keywords.BrowserKeywords.tryClickNextButton(): com.zywave.clariondoor.keywords.BrowserKeywords.tryClickNextButton is PASSED
+
+24-09-2025T16:51:55 - [MESSAGE][PASSED] - Current window's url is: 'https://baseiso.clariondoor.com/quote/689afe8cedf7e/package/schedmod'
+
+24-09-2025T16:51:55 - [MESSAGE][INFO] - Starting Page: https://baseiso.clariondoor.com/quote/689afe8cedf7e/package/schedmod
+
+24-09-2025T16:51:55 - [MESSAGE][INFO] - Trying to Click Button
+
+24-09-2025T16:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote/_shared/Next Button' is clickable
+
+24-09-2025T16:51:57 - [MESSAGE][PASSED] - Object: 'Object Repository/home/Start New Quote/_shared/Next Button' is clicked on
+
+24-09-2025T16:51:57 - [MESSAGE][PASSED] - Current window's url is: 'https://baseiso.clariondoor.com/quote/689afe8cedf7e/package/quote'
+
+24-09-2025T16:51:57 - [MESSAGE][INFO] - Successfully Navigated to Page: https://baseiso.clariondoor.com/quote/689afe8cedf7e/package/quote
+
+24-09-2025T16:51:57 - [MESSAGE][PASSED] - com.zywave.clariondoor.keywords.BrowserKeywords.tryClickNextButton is PASSED
+
+24-09-2025T16:51:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("home/Start New Quote/_shared/Navbar Loader"), 30): Object 'Object Repository/home/Start New Quote/_shared/Navbar Loader' is present
+
+24-09-2025T16:51:57 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote/_shared/Navbar Loader' is present
+
+24-09-2025T16:51:57 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("home/Start New Quote/_shared/Navbar Loader"), 30): Web element with id: 'Object Repository/home/Start New Quote/_shared/Navbar Loader' located by 'By.xpath: //*[@data-test = 'loader-nav-footer']' is not present after '30' second(s)
+
+24-09-2025T16:52:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/home/Start New Quote/_shared/Navbar Loader' located by 'By.xpath: //*[@data-test = 'loader-nav-footer']' is not present after '30' second(s)
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("home/Start New Quote/Quote/Total Premium Page Header"), 30): Object 'Object Repository/home/Start New Quote/Quote/Total Premium Page Header' is visible
+
+24-09-2025T16:52:11 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote/Quote/Total Premium Page Header' is visible
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("home/Start New Quote/Quote/Total Premium Page Header")): Object 'Object Repository/home/Start New Quote/Quote/Total Premium Page Header' is visible
+
+24-09-2025T16:52:11 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote/Quote/Total Premium Page Header' is visible
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("home/Start New Quote/Quote/Quote Total"), 30): Object 'Object Repository/home/Start New Quote/Quote/Quote Total' is visible
+
+24-09-2025T16:52:11 - [MESSAGE][PASSED] - Object 'Object Repository/home/Start New Quote/Quote/Quote Total' is visible
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - _Quote_Premium = getText(findTestObject("home/Start New Quote/Quote/Quote Total")): Text of object 'Object Repository/home/Start New Quote/Quote/Quote Total' is: '$20,021'
+
+24-09-2025T16:52:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/home/Start New Quote/Quote/Quote Total' is: '$20,021'
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: attempting to connect to database
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - testCaseName = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - if (FIRST_TEST_CASE): null
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" || testCaseContext.getTestCaseStatus() == "ERROR"): null
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - variables = testCaseContext.getTestCaseVariables(): null
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - beginsWith = "": null
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - beginsWithPerformance = false: null
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - if (variables.size() > 0): attempting to connect to database
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - variables.eachWithIndex({ java.lang.Object key, java.lang.Object val, java.lang.Object i -> ... }): attempting to connect to database
+
+24-09-2025T16:52:11 - [MESSAGE][INFO] - attempting to connect to database]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline" time="33.482" classname="Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline" status="FAILED">
+         <failure type="FAILED" message="Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual object '401' and expected object '200' are not equal&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.zywave.clariondoor.keywords.PdfComparisonKeywords.downloadDocumentWithPolling(PdfComparisonKeywords.groovy:191)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at Compare Rating Worksheet To Baseline.run(Compare Rating Worksheet To Baseline:31)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1758732572085.run(TempTestSuite1758732572085.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[24-09-2025T16:52:11 - [TEST_CASE][FAILED] - Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline: Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object '401' and expected object '200' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.zywave.clariondoor.keywords.PdfComparisonKeywords.downloadDocumentWithPolling(PdfComparisonKeywords.groovy:191)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Compare Rating Worksheet To Baseline.run(Compare Rating Worksheet To Baseline:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1758732572085.run(TempTestSuite1758732572085.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Taking screenshot successfully
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - if (Failed_Test_Case != ""): null
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - testCase = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - testCaseVariables = testCaseContext.getTestCaseVariables(): null
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - if (testCaseVariables.containsKey("date_created")): null
+
+24-09-2025T16:52:11 - [TEST_STEP][PASSED] - if (!(FIRST_TEST_CASE)): Taking screenshot successfully
+
+24-09-2025T16:52:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+24-09-2025T16:52:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Before Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/keyes/keyes-Compare Rating Worksheet To Baseline Checkpoint.png]]
+
+24-09-2025T16:52:12 - [TEST_STEP][FAILED] - com.zywave.clariondoor.keywords.PdfComparisonKeywords.downloadDocumentWithPolling("AAISInlandMarineRatingWorksheet", "AAIS Inland Marine Rating Worksheet", "pdf", "AAIS_Inland_Marine_Rating_Worksheet", "pdfUrl", false, false): Actual object '401' and expected object '200' are not equal
+
+24-09-2025T16:52:12 - [MESSAGE][INFO] - BaseISO
+
+24-09-2025T16:52:12 - [MESSAGE][INFO] - /katalon/katalon/BaseISO/Test Suites/AAIS Inland Marine/Part 1/Builders Risk/Debit Mod/Verify AAIS Inland Marine Rating Worksheet.ts
+
+24-09-2025T16:52:12 - [MESSAGE][INFO] - buildDocumentName(): BaseISO-Prod-aais_inland_marine-aais_inland_marine_rating_worksheet.pdf
+
+24-09-2025T16:52:13 - [MESSAGE][INFO] - Bearer Token: eyJraWQiOiIxV05PSVBrcGNUM1ZrUUN1UmhCWkd5Sm1GYVRtQThmRmZxR2FJWjIzbzlNPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiOWFjNjdjOS1mODkxLTRiOGYtYTM5ZS0yYWQ0MDljMTM0MDMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfRWVvOXAyZzNxIiwiY29nbml0bzp1c2VybmFtZSI6ImI5YWM2N2M5LWY4OTEtNGI4Zi1hMzllLTJhZDQwOWMxMzQwMyIsImdpdmVuX25hbWUiOiJCYXNlSVNPIiwiY3VzdG9tOmNvbXBhbnkiOiJaeXdhdmUiLCJvcmlnaW5fanRpIjoiNjQ2YjIyOGEtZTNiOC00Y2M1LTllYzYtZmIyYWJjYWFhNzVkIiwiYXVkIjoiMThuazNjajE2cDBzZjljdm5pM2kyZ3Y4ZTAiLCJldmVudF9pZCI6ImQwZTcyODk0LTE3YjYtNDVhNC04NWM1LTdlNGIxYTkxZDU0MiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNzU4NzMyNzMyLCJleHAiOjE3NTg3MzYzMzIsImN1c3RvbTpyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NTg3MzI3MzIsImZhbWlseV9uYW1lIjoiQWRtaW4iLCJqdGkiOiJlNzljZWQxZS05MWQ1LTQ4YzMtOTc0Ny03M2E5MTQ2MzYyMjUiLCJlbWFpbCI6ImNkcG9ydGFsLWFkbWluQHp5d2F2ZS5jb20ifQ.JMVkSjOUUTRZwZt5Am5z0TsQWgl-jhRBUC3S73J0APihuZ4x7ow6QWq7c7sebO_uK-DU_9kRVCjzs8bsz1y7tUm59cxr784OcK1C_EV76EQo5WZvt_zdPosL8_JoOtJzPixrsu1YcRPPsxt6OzyeKC-BYJJVwB-3E1GTf6lVCyGunR-hp6B8c-0VUjif6BnXfU1w0qefwX_z0Mi2YPX9JmCV_cN0hwNROL_UbmdOQTvuL4Jc8uXXYc3v7wrZUYlMdQBznTYBikQ4w68oAOsdiDKzH_cmHoiVFF5YNuryqgF-2REB5eYWA-oQJ3lfLsFDksdpG7UgpDVcYUn8ighegQ
+
+24-09-2025T16:52:13 - [MESSAGE][INFO] - Access Token: eyJraWQiOiJXOUl6YTgxZ0pmaStoSnVlYmdFK1BZXC8yMStiWGM5REVVME1tZzFmK05END0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJiOWFjNjdjOS1mODkxLTRiOGYtYTM5ZS0yYWQ0MDljMTM0MDMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl9FZW85cDJnM3EiLCJjbGllbnRfaWQiOiIxOG5rM2NqMTZwMHNmOWN2bmkzaTJndjhlMCIsIm9yaWdpbl9qdGkiOiI2NDZiMjI4YS1lM2I4LTRjYzUtOWVjNi1mYjJhYmNhYWE3NWQiLCJldmVudF9pZCI6ImQwZTcyODk0LTE3YjYtNDVhNC04NWM1LTdlNGIxYTkxZDU0MiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE3NTg3MzI3MzIsImV4cCI6MTc1ODczNjMzMiwiaWF0IjoxNzU4NzMyNzMyLCJqdGkiOiI2ZTZmZmIxNy1hY2YyLTQxNzMtOGQwNS03ZDhkYmUzOWY1YWIiLCJ1c2VybmFtZSI6ImI5YWM2N2M5LWY4OTEtNGI4Zi1hMzllLTJhZDQwOWMxMzQwMyJ9.hXX7yfBL2FHb3WGDNQmxzHU602LY3UORHII0Die0QTim5hgwO6g1bD6YD4UbYgT-ivhDN4PTfyC95q7WQ6FvmsbtjgznyrrpCBHJPdfagmr1MNsQb1uqnVMK63sdh9AQz2qdtuYCpxURimkbUTx6PDEiShqZkQIKqe4Sf3opsAt-wAbQK1LKnYXJfUJZDjK6j12AX5En072OUsNl6W9rwJIQbsR-e6dfDxE4i630HiW3VQwLXWNNMQm5yRZ8UDDwowRk5TRwHoSmBuxGh7bov-sHzwUSDgQF97aKRhlqaavp1C0c4iSqIGNykqcBIo0DPabPqmpo8FE0DVCwW76DgQ
+
+24-09-2025T16:52:13 - [MESSAGE][INFO] - Refresh Token: eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.HJqvYO0bGOahoaGqrk1Y26YNbSbUyljRaK3CduV3MoAnL7-Ora48YKqAcuOb2fOLiwJHTZjPhRYo72wNUK4Wde5fpjrb9ITVYAlHuDS8-n2N7Kp-BzDZFKRdoGzXx_DKdAm-FpeAqCryK-QeUiySn5oiJ0iMjUO4S2_GfXMJ2bgCdL0qOyBygaIa25cggtQIPbHRVMhq7tZNGm8qHW-dITe0B67iVQ8suqGxcyWdQb0VISw1cG6NeklfBqRNXXP-HCsNJ-GL6gFbNC8kY_KEFctGeM1knzIfr5rPCky71T7yhfoxWBsyqUfluaECin5ajtesdiLU7DdNASvhmYJ4Jw.i-pjwrsvYt0q4noK.Nqt6IAABCFrBPs9OghYCibDH_gjBCR4kpyPz1Iv0c9mguET8YYHzrMLTwqqH9jMNBRQpCXcG2EZ_S5kSv6wTsOmCXdE16AyYky7PDJsYu57mFNo15RUzB32WlVUWz4DMeiz1uOv5kMGFLleFmj0bf-TsEJHU6gkr48LtZvNQd4OZbG-nGS2Hu0_Dj4AsGEtsS_JlweG1AeXs02Xg6r224eLnMZVvGWF_4fD9smEqxD-TZ7q9XGbGgJajZeuzoD_eJNijoxGrnTW0RKwOfrGRe1ypSN4niWN8KKxRlf7FU91HhZwSiZNPm8ts_-erzL3auKzcU5PIdG1KNCKKxUU1Ua97WJG9ODuyn5Dy-r4cfQrhnlskGTQrHrfBiCE0I8pRj7K6Y0gooiR9d6B_FlvnO__j2_XUmkcM4bTwDfG3xpJ9FbalS7ppLW6CyLODo3NCjphyWtimHhtfl13XSifL6UeE0DBShyWUe_XDnEZdbHLwmgXpT-VjgmW_KfP8V5c2SLQUZz4lS55_5qvJyb7dGPgc8Inw-9bstaxj4I82xm6SL7970UxInpPDakTKvC8nJ_vIbLOG7apDgoYqoS6-rBt3r8IS2lG1TVCulCfLVY3WKpPFKu6f1Gfx9wT3pb1Mo7aR4hTBHsT7N1yvNQL_q97WO9Y5E3phZwe12t8slY1-ynsApczNYJViS9RLrHGWwb2Qtnjp2G9biuje6_jptFzOxALsfzLPE2nIuPbif5PKD_vvmpJmSU3oPTkQ8WhzgYoO9hcwpx85Y6tTcND0xOopF-pUKPHNzuo5JB5ZUys4Fd7RLs6aOdBgMZ18r2tN-a2VF0WBupalmnVBJ1zzRo1scxKrWLNUK6ME-0QviF1PF5OyvpW19sBkT2M_LHWZvU7YOBRLWRc3LgDTKi6XASgmP0BYC-5rpqp7W6l3UdYkFtFuBAPrUIRPHVIhBi5yc_MiW5Wj2zCY6dcFBDK2uQZRreS4NAvsyqbBJ2ZFLEdlYjfOinaqWYQOLLTgsZMOeEA5FqM8yADR-r7g9VGMIgug2IH2uW_J3GBL2uH1nE-5GdwVNfhK5HlLMmjUAaR5-W5usrfhTFjpaFAkmIjAspqQX9pZmGKA_AobywfEwdZA7anHPa3qVik68UyvJ3-S_2TnZcTwhhaD2DHCGbMtGIetm3bX94BGqkorhdt9gITeEjJuCE8AZkaTK3Lc73yjByemTLhA81kL_BUEHN4QDCjprxwcT8Zq4ciVby4VQAMfXkI3qyR7RBhKfv9ZCZ4mmSCbAR0qwgPQJoy1t0_0TxbFKKioF-ivyPr2k3FMRP8c4p_Ud0TS6NArUyLUKQ.GbpZvnoGth528NaYyNj0Kw
+
+24-09-2025T16:52:13 - [MESSAGE][PASSED] - Actual text 'eyJraWQiOiIxV05PSVBrcGNUM1ZrUUN1UmhCWkd5Sm1GYVRtQThmRmZxR2FJWjIzbzlNPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiOWFjNjdjOS1mODkxLTRiOGYtYTM5ZS0yYWQ0MDljMTM0MDMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tXC91cy13ZXN0LTJfRWVvOXAyZzNxIiwiY29nbml0bzp1c2VybmFtZSI6ImI5YWM2N2M5LWY4OTEtNGI4Zi1hMzllLTJhZDQwOWMxMzQwMyIsImdpdmVuX25hbWUiOiJCYXNlSVNPIiwiY3VzdG9tOmNvbXBhbnkiOiJaeXdhdmUiLCJvcmlnaW5fanRpIjoiNjQ2YjIyOGEtZTNiOC00Y2M1LTllYzYtZmIyYWJjYWFhNzVkIiwiYXVkIjoiMThuazNjajE2cDBzZjljdm5pM2kyZ3Y4ZTAiLCJldmVudF9pZCI6ImQwZTcyODk0LTE3YjYtNDVhNC04NWM1LTdlNGIxYTkxZDU0MiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNzU4NzMyNzMyLCJleHAiOjE3NTg3MzYzMzIsImN1c3RvbTpyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NTg3MzI3MzIsImZhbWlseV9uYW1lIjoiQWRtaW4iLCJqdGkiOiJlNzljZWQxZS05MWQ1LTQ4YzMtOTc0Ny03M2E5MTQ2MzYyMjUiLCJlbWFpbCI6ImNkcG9ydGFsLWFkbWluQHp5d2F2ZS5jb20ifQ.JMVkSjOUUTRZwZt5Am5z0TsQWgl-jhRBUC3S73J0APihuZ4x7ow6QWq7c7sebO_uK-DU_9kRVCjzs8bsz1y7tUm59cxr784OcK1C_EV76EQo5WZvt_zdPosL8_JoOtJzPixrsu1YcRPPsxt6OzyeKC-BYJJVwB-3E1GTf6lVCyGunR-hp6B8c-0VUjif6BnXfU1w0qefwX_z0Mi2YPX9JmCV_cN0hwNROL_UbmdOQTvuL4Jc8uXXYc3v7wrZUYlMdQBznTYBikQ4w68oAOsdiDKzH_cmHoiVFF5YNuryqgF-2REB5eYWA-oQJ3lfLsFDksdpG7UgpDVcYUn8ighegQ' and expected text 'null' are not matched 
+
+24-09-2025T16:52:13 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/common/QuoteID_container' is: '689afe8cedf7e'
+
+24-09-2025T16:52:13 - [MESSAGE][INFO] - Quote ID: 689afe8cedf7e
+
+24-09-2025T16:52:13 - [MESSAGE][INFO] - HAR: /katalon/katalon/BaseISO/Reports/20250924_164919/AAIS Inland Marine/Part 1/Builders Risk/Debit Mod/Verify AAIS Inland Marine Rating Worksheet/20250924_164932/requests/main/Get-Quote-Data_0.har
+
+24-09-2025T16:52:13 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+24-09-2025T16:52:13 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.util.KeywordUtil(): null
+
+24-09-2025T16:52:13 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+24-09-2025T16:52:13 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+24-09-2025T16:52:13 - [MESSAGE][PASSED] - Verify response successfully
+
+24-09-2025T16:52:13 - [MESSAGE][PASSED] - All validation steps have been passed
+
+24-09-2025T16:52:13 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+24-09-2025T16:52:13 - [MESSAGE][INFO] - Get Quote Data statusCode: 401
+
+24-09-2025T16:52:13 - [MESSAGE][INFO] - encodeFileName(): AAIS%20Inland%20Marine%20Rating%20Worksheet
+
+24-09-2025T16:52:14 - [MESSAGE][INFO] - HAR: /katalon/katalon/BaseISO/Reports/20250924_164919/AAIS Inland Marine/Part 1/Builders Risk/Debit Mod/Verify AAIS Inland Marine Rating Worksheet/20250924_164932/requests/main/Generate-Document_1.har
+
+24-09-2025T16:52:14 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+24-09-2025T16:52:14 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.util.KeywordUtil(): null
+
+24-09-2025T16:52:14 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+24-09-2025T16:52:14 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+24-09-2025T16:52:14 - [MESSAGE][PASSED] - Verify response successfully
+
+24-09-2025T16:52:14 - [MESSAGE][PASSED] - All validation steps have been passed
+
+24-09-2025T16:52:14 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+24-09-2025T16:52:14 - [MESSAGE][INFO] - Generate Document statusCode: 401
+
+24-09-2025T16:52:14 - [MESSAGE][FAILED] - Unable to verify equal between actual object '401' and expected object '200' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '401' and expected object '200' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.zywave.clariondoor.keywords.PdfComparisonKeywords.downloadDocumentWithPolling(PdfComparisonKeywords.groovy:191)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Compare Rating Worksheet To Baseline.run(Compare Rating Worksheet To Baseline:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1758732572085.run(TempTestSuite1758732572085.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+24-09-2025T16:52:14 - [MESSAGE][FAILED] - Actual object '401' and expected object '200' are not equal
+
+24-09-2025T16:52:14 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+24-09-2025T16:52:14 - [TEST_STEP][PASSED] - testCaseName = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:52:14 - [TEST_STEP][PASSED] - if (FIRST_TEST_CASE): null
+
+24-09-2025T16:52:14 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED" || testCaseContext.getTestCaseStatus() == "ERROR"): Taking screenshot successfully
+
+24-09-2025T16:52:14 - [TEST_STEP][PASSED] - Failed_Test_Case = testCaseContext.getTestCaseId(): null
+
+24-09-2025T16:52:14 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before 30 second delay"): Taking screenshot successfully
+
+24-09-2025T16:52:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+24-09-2025T16:52:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Before 30 second delay.png]]
+
+24-09-2025T16:52:14 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+24-09-2025T16:52:44 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+24-09-2025T16:52:44 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After 30 second delay"): Taking screenshot successfully
+
+24-09-2025T16:52:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+24-09-2025T16:52:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-After 30 second delay.png]]
+
+24-09-2025T16:52:45 - [TEST_STEP][PASSED] - variables = testCaseContext.getTestCaseVariables(): null
+
+24-09-2025T16:52:45 - [TEST_STEP][PASSED] - beginsWith = "": null
+
+24-09-2025T16:52:45 - [TEST_STEP][PASSED] - beginsWithPerformance = false: null
+
+24-09-2025T16:52:45 - [TEST_STEP][PASSED] - if (variables.size() > 0): null]]></system-out>
+         <system-err><![CDATA[24-09-2025T16:52:11 - [TEST_CASE][FAILED] - Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline: Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object '401' and expected object '200' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.zywave.clariondoor.keywords.PdfComparisonKeywords.downloadDocumentWithPolling(PdfComparisonKeywords.groovy:191)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Compare Rating Worksheet To Baseline.run(Compare Rating Worksheet To Baseline:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1758732572085.run(TempTestSuite1758732572085.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-09-2025T16:50:38 - [TEST_SUITE][FAILED] - Verify AAIS Inland Marine Rating Worksheet: Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object '401' and expected object '200' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.zywave.clariondoor.keywords.PdfComparisonKeywords.downloadDocumentWithPolling(PdfComparisonKeywords.groovy:191)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Compare Rating Worksheet To Baseline.run(Compare Rating Worksheet To Baseline:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1758732572085.run(TempTestSuite1758732572085.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[24-09-2025T16:50:38 - [TEST_SUITE][FAILED] - Verify AAIS Inland Marine Rating Worksheet: Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object '401' and expected object '200' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.zywave.clariondoor.keywords.PdfComparisonKeywords.downloadDocumentWithPolling(PdfComparisonKeywords.groovy:191)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Compare Rating Worksheet To Baseline.run(Compare Rating Worksheet To Baseline:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1758732572085.run(TempTestSuite1758732572085.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>
