@@ -1,8 +1,16 @@
 {
   "name": "unit-test-generator",
+  "displayName": "Unit Test Generator",
+  "category": "testing",
+  "type": "standard",
   "description": "Automatically generate comprehensive unit tests from source code with multiple testing framework support",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/unit-test-generator",
+  "license": "MIT",
   "keywords": [
     "testing",
     "unit-tests",
@@ -12,14 +20,26 @@
     "mocha",
     "junit"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/unit-test-generator",
-  "license": "MIT",
-  "installation": "/plugin install unit-test-generator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install unit-test-generator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/unit-test-generator/README.md",
+  "tags": [
+    "testing",
+    "unit-tests",
+    "test-generation",
+    "jest",
+    "pytest",
+    "mocha",
+    "junit"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

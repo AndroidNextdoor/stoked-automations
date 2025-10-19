@@ -1,0 +1,80 @@
+{
+  "name": "firecrawl-mcp",
+  "displayName": "Firecrawl Mcp",
+  "category": "productivity",
+  "type": "mcp",
+  "description": "Advanced web scraping and crawling via Firecrawl MCP - extract structured data, scrape websites, convert pages to markdown, and automate web data collection with AI assistance",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/mendableai",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/mendableai/firecrawl",
+  "license": "MIT",
+  "keywords": [
+    "web-scraping",
+    "data-extraction",
+    "crawling",
+    "firecrawl",
+    "markdown-conversion",
+    "structured-data",
+    "mcp-server",
+    "automation",
+    "web-data",
+    "sitemap-generation"
+  ],
+  "features": [],
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    },
+    {
+      "name": "tool_3",
+      "description": "MCP tool 3"
+    },
+    {
+      "name": "tool_4",
+      "description": "MCP tool 4"
+    },
+    {
+      "name": "tool_5",
+      "description": "MCP tool 5"
+    },
+    {
+      "name": "tool_6",
+      "description": "MCP tool 6"
+    }
+  ],
+  "installation": "/plugin install firecrawl-mcp@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/firecrawl-mcp/README.md",
+  "tags": [
+    "web-scraping",
+    "data-extraction",
+    "crawling",
+    "firecrawl",
+    "markdown-conversion",
+    "structured-data",
+    "mcp-server",
+    "automation",
+    "web-data",
+    "sitemap-generation"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.028Z",
+  "updatedAt": "2025-10-19T02:38:21.028Z"
+}

@@ -1,8 +1,16 @@
 {
   "name": "experiment-tracking-setup",
+  "displayName": "Experiment Tracking Setup",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Set up ML experiment tracking",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/experiment-tracking-setup",
+  "license": "MIT",
   "keywords": [
     "experiments",
     "mlflow",
@@ -10,14 +18,24 @@
     "tracking",
     "mlops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/experiment-tracking-setup",
-  "license": "MIT",
-  "installation": "/plugin install experiment-tracking-setup@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install experiment-tracking-setup@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/experiment-tracking-setup/README.md",
+  "tags": [
+    "experiments",
+    "mlflow",
+    "wandb",
+    "tracking",
+    "mlops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.037Z",
+  "updatedAt": "2025-10-19T02:38:21.037Z"
 }

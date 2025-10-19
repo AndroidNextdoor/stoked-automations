@@ -1,8 +1,16 @@
 {
   "name": "zapier-zap-builder",
+  "displayName": "Zapier Zap Builder",
+  "category": "ai-agency",
+  "type": "standard",
   "description": "Create multi-step Zapier Zaps with filters, paths, and formatters",
   "version": "2025.0.0",
-  "category": "business-tools",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-agency/zapier-zap-builder",
+  "license": "MIT",
   "keywords": [
     "zapier",
     "zap",
@@ -11,14 +19,25 @@
     "workflow",
     "ai-agency"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-agency/zapier-zap-builder",
-  "license": "MIT",
-  "installation": "/plugin install zapier-zap-builder@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install zapier-zap-builder@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-agency/zapier-zap-builder/README.md",
+  "tags": [
+    "zapier",
+    "zap",
+    "automation",
+    "integration",
+    "workflow",
+    "ai-agency"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.029Z",
+  "updatedAt": "2025-10-19T02:38:21.029Z"
 }

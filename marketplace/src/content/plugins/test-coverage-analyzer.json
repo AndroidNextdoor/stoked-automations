@@ -1,8 +1,16 @@
 {
   "name": "test-coverage-analyzer",
+  "displayName": "Test Coverage Analyzer",
+  "category": "testing",
+  "type": "standard",
   "description": "Analyze code coverage metrics, identify untested code, and generate comprehensive coverage reports",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-coverage-analyzer",
+  "license": "MIT",
   "keywords": [
     "testing",
     "coverage",
@@ -10,14 +18,24 @@
     "metrics",
     "analysis"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-coverage-analyzer",
-  "license": "MIT",
-  "installation": "/plugin install test-coverage-analyzer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install test-coverage-analyzer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/test-coverage-analyzer/README.md",
+  "tags": [
+    "testing",
+    "coverage",
+    "code-coverage",
+    "metrics",
+    "analysis"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

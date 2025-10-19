@@ -1,22 +1,39 @@
 {
   "name": "api-mock-server",
+  "displayName": "Api Mock Server",
+  "category": "api-development",
+  "type": "standard",
   "description": "Create mock API servers from OpenAPI specs for testing",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-mock-server",
+  "license": "MIT",
   "keywords": [
     "mock",
     "testing",
     "openapi",
     "stub"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-mock-server",
-  "license": "MIT",
-  "installation": "/plugin install api-mock-server@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install api-mock-server@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/api-development/api-mock-server/README.md",
+  "tags": [
+    "mock",
+    "testing",
+    "openapi",
+    "stub"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.031Z",
+  "updatedAt": "2025-10-19T02:38:21.031Z"
 }

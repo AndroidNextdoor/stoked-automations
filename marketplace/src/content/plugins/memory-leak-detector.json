@@ -1,22 +1,39 @@
 {
   "name": "memory-leak-detector",
+  "displayName": "Memory Leak Detector",
+  "category": "performance",
+  "type": "standard",
   "description": "Detect memory leaks and analyze memory usage patterns",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/memory-leak-detector",
+  "license": "MIT",
   "keywords": [
     "memory",
     "leak",
     "detection",
     "performance"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/memory-leak-detector",
-  "license": "MIT",
-  "installation": "/plugin install memory-leak-detector@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install memory-leak-detector@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/memory-leak-detector/README.md",
+  "tags": [
+    "memory",
+    "leak",
+    "detection",
+    "performance"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.041Z",
+  "updatedAt": "2025-10-19T02:38:21.041Z"
 }

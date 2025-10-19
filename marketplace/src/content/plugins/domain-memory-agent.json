@@ -1,8 +1,16 @@
 {
   "name": "domain-memory-agent",
+  "displayName": "Domain Memory Agent",
+  "category": "productivity",
+  "type": "mcp",
   "description": "Knowledge base with TF-IDF semantic search and extractive summarization - no ML dependencies required",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/domain-memory-agent",
+  "license": "MIT",
   "keywords": [
     "mcp",
     "knowledge-base",
@@ -12,14 +20,54 @@
     "rag",
     "documentation"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/domain-memory-agent",
-  "license": "MIT",
-  "installation": "/plugin install domain-memory-agent@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    },
+    {
+      "name": "tool_3",
+      "description": "MCP tool 3"
+    },
+    {
+      "name": "tool_4",
+      "description": "MCP tool 4"
+    },
+    {
+      "name": "tool_5",
+      "description": "MCP tool 5"
+    },
+    {
+      "name": "tool_6",
+      "description": "MCP tool 6"
+    }
+  ],
+  "installation": "/plugin install domain-memory-agent@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/domain-memory-agent/README.md",
+  "tags": [
+    "mcp",
+    "knowledge-base",
+    "semantic-search",
+    "tfidf",
+    "summarization",
+    "rag",
+    "documentation"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.027Z",
+  "updatedAt": "2025-10-19T02:38:21.027Z"
 }

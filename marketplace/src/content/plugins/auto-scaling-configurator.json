@@ -1,8 +1,16 @@
 {
   "name": "auto-scaling-configurator",
+  "displayName": "Auto Scaling Configurator",
+  "category": "devops",
+  "type": "standard",
   "description": "Configure auto-scaling policies for applications and infrastructure",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/auto-scaling-configurator",
+  "license": "MIT",
   "keywords": [
     "autoscaling",
     "scaling",
@@ -10,14 +18,24 @@
     "kubernetes",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/auto-scaling-configurator",
-  "license": "MIT",
-  "installation": "/plugin install auto-scaling-configurator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install auto-scaling-configurator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/auto-scaling-configurator/README.md",
+  "tags": [
+    "autoscaling",
+    "scaling",
+    "hpa",
+    "kubernetes",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.034Z",
+  "updatedAt": "2025-10-19T02:38:21.034Z"
 }

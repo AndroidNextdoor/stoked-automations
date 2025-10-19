@@ -1,8 +1,16 @@
 {
   "name": "feature-engineering-toolkit",
+  "displayName": "Feature Engineering Toolkit",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Feature creation, selection, and transformation tools",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/feature-engineering-toolkit",
+  "license": "MIT",
   "keywords": [
     "features",
     "engineering",
@@ -10,14 +18,24 @@
     "transformation",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/feature-engineering-toolkit",
-  "license": "MIT",
-  "installation": "/plugin install feature-engineering-toolkit@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install feature-engineering-toolkit@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/feature-engineering-toolkit/README.md",
+  "tags": [
+    "features",
+    "engineering",
+    "selection",
+    "transformation",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.036Z",
+  "updatedAt": "2025-10-19T02:38:21.036Z"
 }

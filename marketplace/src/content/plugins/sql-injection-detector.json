@@ -1,21 +1,37 @@
 {
   "name": "sql-injection-detector",
+  "displayName": "Sql Injection Detector",
+  "category": "security",
+  "type": "standard",
   "description": "Detect SQL injection vulnerabilities",
   "version": "2025.0.0",
-  "category": "security",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/sql-injection-detector",
+  "license": "MIT",
   "keywords": [
     "security",
     "compliance",
     "auditing"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/sql-injection-detector",
-  "license": "MIT",
-  "installation": "/plugin install sql-injection-detector@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install sql-injection-detector@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/security/sql-injection-detector/README.md",
+  "tags": [
+    "security",
+    "compliance",
+    "auditing"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.043Z",
+  "updatedAt": "2025-10-19T02:38:21.043Z"
 }

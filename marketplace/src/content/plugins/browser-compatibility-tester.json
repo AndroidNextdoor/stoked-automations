@@ -1,8 +1,16 @@
 {
   "name": "browser-compatibility-tester",
+  "displayName": "Browser Compatibility Tester",
+  "category": "testing",
+  "type": "standard",
   "description": "Cross-browser testing with BrowserStack, Selenium Grid, and Playwright - test across Chrome, Firefox, Safari, Edge",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/browser-compatibility-tester",
+  "license": "MIT",
   "keywords": [
     "testing",
     "cross-browser",
@@ -11,14 +19,25 @@
     "playwright",
     "compatibility"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/browser-compatibility-tester",
-  "license": "MIT",
-  "installation": "/plugin install browser-compatibility-tester@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install browser-compatibility-tester@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/browser-compatibility-tester/README.md",
+  "tags": [
+    "testing",
+    "cross-browser",
+    "browserstack",
+    "selenium",
+    "playwright",
+    "compatibility"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.030Z",
+  "updatedAt": "2025-10-19T02:38:21.030Z"
 }

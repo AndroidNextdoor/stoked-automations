@@ -1,8 +1,16 @@
 {
   "name": "time-series-forecaster",
+  "displayName": "Time Series Forecaster",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Time series forecasting and analysis",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/time-series-forecaster",
+  "license": "MIT",
   "keywords": [
     "time-series",
     "forecasting",
@@ -10,14 +18,24 @@
     "prophet",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/time-series-forecaster",
-  "license": "MIT",
-  "installation": "/plugin install time-series-forecaster@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install time-series-forecaster@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/time-series-forecaster/README.md",
+  "tags": [
+    "time-series",
+    "forecasting",
+    "arima",
+    "prophet",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.036Z",
+  "updatedAt": "2025-10-19T02:38:21.036Z"
 }

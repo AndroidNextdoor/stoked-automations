@@ -1,29 +1,23 @@
 {
   "name": "whale-alert-monitor",
-  "description": "Production-grade whale transaction monitoring system with real-time WebSocket tracking, multi-chain support, and automated alerting for $1M+ cryptocurrency movements",
+  "displayName": "Whale Alert Monitor",
+  "category": "crypto",
+  "type": "standard",
+  "description": "Monitor large crypto transactions and whale wallet movements in real-time",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/whale-alert-monitor",
+  "license": "MIT",
   "keywords": [
     "whale",
     "alert",
     "monitor",
     "large",
-    "transactions",
-    "crypto",
-    "blockchain",
-    "websocket",
-    "real-time",
-    "ethereum",
-    "binance",
-    "polygon"
+    "transactions"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/whale-alert-monitor",
-  "license": "MIT",
-  "installation": "/plugin install whale-alert-monitor@claude@stoked-automations",
   "features": [
     "Real-time whale transaction monitoring via WebSocket",
     "Multi-chain support (Ethereum, BSC, Polygon, Solana)",
@@ -46,13 +40,23 @@
     "Performance metrics and monitoring",
     "Docker containerization support"
   ],
-  "requirements": [
-    "Python 3.9+",
-    "PostgreSQL 14+ with TimescaleDB extension",
-    "WebSocket connection for blockchain nodes",
-    "Redis for caching (optional)",
-    "API keys for price oracles (CoinGecko/CMC)",
-    "Webhook URLs for alerting channels"
+  "installation": "/plugin install whale-alert-monitor@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/crypto/whale-alert-monitor/README.md",
+  "tags": [
+    "whale",
+    "alert",
+    "monitor",
+    "large",
+    "transactions"
   ],
-  "screenshots": []
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.039Z",
+  "updatedAt": "2025-10-19T02:38:21.039Z"
 }

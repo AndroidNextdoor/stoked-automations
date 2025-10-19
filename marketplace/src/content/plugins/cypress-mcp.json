@@ -1,0 +1,75 @@
+{
+  "name": "cypress-mcp",
+  "displayName": "Cypress Mcp",
+  "category": "testing",
+  "type": "mcp",
+  "description": "Cypress MCP server for component and E2E testing - automatically generates test cases, Page Object Models, and runs tests through MCP protocol.",
+  "version": "2025.0.0",
+  "author": {
+    "name": "jprealini",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/jprealini/cypress-mcp",
+  "license": "MIT",
+  "keywords": [
+    "cypress",
+    "testing",
+    "e2e",
+    "component-testing",
+    "test-generation",
+    "page-object-model",
+    "mcp",
+    "automation"
+  ],
+  "features": [],
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    },
+    {
+      "name": "tool_3",
+      "description": "MCP tool 3"
+    },
+    {
+      "name": "tool_4",
+      "description": "MCP tool 4"
+    },
+    {
+      "name": "tool_5",
+      "description": "MCP tool 5"
+    },
+    {
+      "name": "tool_6",
+      "description": "MCP tool 6"
+    }
+  ],
+  "installation": "/plugin install cypress-mcp@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/cypress-mcp/README.md",
+  "tags": [
+    "cypress",
+    "testing",
+    "e2e",
+    "component-testing",
+    "test-generation",
+    "page-object-model",
+    "mcp",
+    "automation"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.027Z",
+  "updatedAt": "2025-10-19T02:38:21.027Z"
+}

@@ -1,12 +1,16 @@
 {
   "name": "openbb-terminal",
-  "description": "Open-source investment research terminal integration - comprehensive equity analysis, crypto tracking, macro indicators, portfolio optimization, and AI-powered financial insights using OpenBB Platform. Transform Stoked Automations into a professional Bloomberg Terminal alternative.",
+  "displayName": "Openbb Terminal",
+  "category": "finance",
+  "type": "standard",
+  "description": "Open-source investment research terminal integration - comprehensive equity analysis, crypto tracking, macro indicators, portfolio optimization, and AI-powered financial insights using OpenBB Platform",
   "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
-    "url": "https://github.com/AndroidNextdoor"
+    "email": "[email protected]"
   },
-  "category": "other",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/finance/openbb-terminal",
+  "license": "MIT",
   "keywords": [
     "finance",
     "investment",
@@ -22,15 +26,8 @@
     "forex",
     "macroeconomics",
     "quant",
-    "ai-finance",
-    "bloomberg-terminal",
-    "investment-research",
-    "financial-data"
+    "ai-finance"
   ],
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
-  "license": "MIT",
-  "installation": "/plugin install openbb-terminal@claude@stoked-automations",
   "features": [
     "Complete equity analysis with /openbb-equity command",
     "Comprehensive cryptocurrency analysis with /openbb-crypto",
@@ -75,10 +72,33 @@
     "Earnings calendar integration",
     "Insider trading monitoring"
   ],
-  "requirements": [
-    "Stoked Automations v2025.0.0 or higher",
-    "Python 3.9.21 - 3.12",
-    "pip install openbb",
-    "Optional: Data provider API keys for premium data"
-  ]
+  "installation": "/plugin install openbb-terminal@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/finance/openbb-terminal/README.md",
+  "tags": [
+    "finance",
+    "investment",
+    "openbb",
+    "stocks",
+    "crypto",
+    "portfolio",
+    "trading",
+    "financial-analysis",
+    "market-data",
+    "equity-research",
+    "options",
+    "forex",
+    "macroeconomics",
+    "quant",
+    "ai-finance"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

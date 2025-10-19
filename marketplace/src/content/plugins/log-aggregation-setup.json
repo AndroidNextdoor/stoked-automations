@@ -1,8 +1,16 @@
 {
   "name": "log-aggregation-setup",
+  "displayName": "Log Aggregation Setup",
+  "category": "devops",
+  "type": "standard",
   "description": "Set up log aggregation (ELK, Loki, Splunk)",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/log-aggregation-setup",
+  "license": "MIT",
   "keywords": [
     "logging",
     "elk",
@@ -11,14 +19,25 @@
     "observability",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/log-aggregation-setup",
-  "license": "MIT",
-  "installation": "/plugin install log-aggregation-setup@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install log-aggregation-setup@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/log-aggregation-setup/README.md",
+  "tags": [
+    "logging",
+    "elk",
+    "loki",
+    "splunk",
+    "observability",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.035Z",
+  "updatedAt": "2025-10-19T02:38:21.035Z"
 }

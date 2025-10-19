@@ -1,21 +1,37 @@
 {
   "name": "database-partition-manager",
+  "displayName": "Database Partition Manager",
+  "category": "database",
+  "type": "standard",
   "description": "Database plugin for database-partition-manager",
   "version": "2025.0.0",
-  "category": "database",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-partition-manager",
+  "license": "MIT",
   "keywords": [
     "database",
     "backend",
     "partition"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-partition-manager",
-  "license": "MIT",
-  "installation": "/plugin install database-partition-manager@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install database-partition-manager@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/database/database-partition-manager/README.md",
+  "tags": [
+    "database",
+    "backend",
+    "partition"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.039Z",
+  "updatedAt": "2025-10-19T02:38:21.039Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "chaos-engineering-toolkit",
+  "displayName": "Chaos Engineering Toolkit",
+  "category": "testing",
+  "type": "standard",
   "description": "Chaos testing for resilience with failure injection, latency simulation, and system resilience validation",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/chaos-engineering-toolkit",
+  "license": "MIT",
   "keywords": [
     "testing",
     "chaos-engineering",
@@ -11,14 +19,25 @@
     "fault-tolerance",
     "reliability"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/chaos-engineering-toolkit",
-  "license": "MIT",
-  "installation": "/plugin install chaos-engineering-toolkit@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install chaos-engineering-toolkit@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/chaos-engineering-toolkit/README.md",
+  "tags": [
+    "testing",
+    "chaos-engineering",
+    "resilience",
+    "failure-injection",
+    "fault-tolerance",
+    "reliability"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.030Z",
+  "updatedAt": "2025-10-19T02:38:21.030Z"
 }

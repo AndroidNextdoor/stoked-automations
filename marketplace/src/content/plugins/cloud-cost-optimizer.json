@@ -1,8 +1,16 @@
 {
   "name": "cloud-cost-optimizer",
+  "displayName": "Cloud Cost Optimizer",
+  "category": "devops",
+  "type": "standard",
   "description": "Optimize cloud costs and generate cost reports",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/cloud-cost-optimizer",
+  "license": "MIT",
   "keywords": [
     "cost",
     "optimization",
@@ -11,14 +19,25 @@
     "aws",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/cloud-cost-optimizer",
-  "license": "MIT",
-  "installation": "/plugin install cloud-cost-optimizer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install cloud-cost-optimizer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/cloud-cost-optimizer/README.md",
+  "tags": [
+    "cost",
+    "optimization",
+    "finops",
+    "cloud",
+    "aws",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.035Z",
+  "updatedAt": "2025-10-19T02:38:21.035Z"
 }

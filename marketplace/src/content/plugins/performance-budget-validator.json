@@ -1,22 +1,39 @@
 {
   "name": "performance-budget-validator",
+  "displayName": "Performance Budget Validator",
+  "category": "performance",
+  "type": "standard",
   "description": "Validate application against performance budgets",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/performance-budget-validator",
+  "license": "MIT",
   "keywords": [
     "performance-budget",
     "validation",
     "ci-cd",
     "testing"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/performance-budget-validator",
-  "license": "MIT",
-  "installation": "/plugin install performance-budget-validator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install performance-budget-validator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/performance-budget-validator/README.md",
+  "tags": [
+    "performance-budget",
+    "validation",
+    "ci-cd",
+    "testing"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.041Z",
+  "updatedAt": "2025-10-19T02:38:21.041Z"
 }

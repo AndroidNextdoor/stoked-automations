@@ -1,8 +1,16 @@
 {
   "name": "sla-sli-tracker",
+  "displayName": "Sla Sli Tracker",
+  "category": "performance",
+  "type": "standard",
   "description": "Track SLAs, SLIs, and SLOs for service reliability",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/sla-sli-tracker",
+  "license": "MIT",
   "keywords": [
     "sla",
     "sli",
@@ -10,14 +18,24 @@
     "sre",
     "reliability"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/sla-sli-tracker",
-  "license": "MIT",
-  "installation": "/plugin install sla-sli-tracker@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install sla-sli-tracker@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/sla-sli-tracker/README.md",
+  "tags": [
+    "sla",
+    "sli",
+    "slo",
+    "sre",
+    "reliability"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.042Z",
+  "updatedAt": "2025-10-19T02:38:21.042Z"
 }

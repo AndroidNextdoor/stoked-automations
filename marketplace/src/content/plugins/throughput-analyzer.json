@@ -1,22 +1,39 @@
 {
   "name": "throughput-analyzer",
+  "displayName": "Throughput Analyzer",
+  "category": "performance",
+  "type": "standard",
   "description": "Analyze and optimize system throughput",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/throughput-analyzer",
+  "license": "MIT",
   "keywords": [
     "throughput",
     "performance",
     "capacity",
     "optimization"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/throughput-analyzer",
-  "license": "MIT",
-  "installation": "/plugin install throughput-analyzer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install throughput-analyzer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/throughput-analyzer/README.md",
+  "tags": [
+    "throughput",
+    "performance",
+    "capacity",
+    "optimization"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.042Z",
+  "updatedAt": "2025-10-19T02:38:21.042Z"
 }

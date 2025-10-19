@@ -1,8 +1,16 @@
 {
   "name": "workflow-orchestrator",
+  "displayName": "Workflow Orchestrator",
+  "category": "automation",
+  "type": "mcp",
   "description": "DAG-based workflow automation with parallel task execution and dependency management",
   "version": "2025.0.0",
-  "category": "automation",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/workflow-orchestrator",
+  "license": "MIT",
   "keywords": [
     "mcp",
     "workflow",
@@ -12,14 +20,46 @@
     "cicd",
     "parallel-execution"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/workflow-orchestrator",
-  "license": "MIT",
-  "installation": "/plugin install workflow-orchestrator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    },
+    {
+      "name": "tool_3",
+      "description": "MCP tool 3"
+    },
+    {
+      "name": "tool_4",
+      "description": "MCP tool 4"
+    }
+  ],
+  "installation": "/plugin install workflow-orchestrator@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/workflow-orchestrator/README.md",
+  "tags": [
+    "mcp",
+    "workflow",
+    "dag",
+    "automation",
+    "orchestration",
+    "cicd",
+    "parallel-execution"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.027Z",
+  "updatedAt": "2025-10-19T02:38:21.027Z"
 }

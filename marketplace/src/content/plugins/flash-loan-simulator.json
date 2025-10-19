@@ -1,8 +1,16 @@
 {
   "name": "flash-loan-simulator",
+  "displayName": "Flash Loan Simulator",
+  "category": "crypto",
+  "type": "standard",
   "description": "Simulate and analyze flash loan strategies including arbitrage, liquidations, and collateral swaps",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/flash-loan-simulator",
+  "license": "MIT",
   "keywords": [
     "crypto",
     "flash-loans",
@@ -13,14 +21,27 @@
     "ethereum",
     "simulation"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/flash-loan-simulator",
-  "license": "MIT",
-  "installation": "/plugin install flash-loan-simulator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install flash-loan-simulator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/crypto/flash-loan-simulator/README.md",
+  "tags": [
+    "crypto",
+    "flash-loans",
+    "defi",
+    "aave",
+    "arbitrage",
+    "liquidation",
+    "ethereum",
+    "simulation"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.038Z",
+  "updatedAt": "2025-10-19T02:38:21.038Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "mobile-app-tester",
+  "displayName": "Mobile App Tester",
+  "category": "testing",
+  "type": "standard",
   "description": "Mobile app test automation with Appium, Detox, XCUITest - test iOS and Android apps",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/mobile-app-tester",
+  "license": "MIT",
   "keywords": [
     "testing",
     "mobile",
@@ -13,14 +21,27 @@
     "ios",
     "android"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/mobile-app-tester",
-  "license": "MIT",
-  "installation": "/plugin install mobile-app-tester@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install mobile-app-tester@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/mobile-app-tester/README.md",
+  "tags": [
+    "testing",
+    "mobile",
+    "appium",
+    "detox",
+    "xcuitest",
+    "espresso",
+    "ios",
+    "android"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.030Z",
+  "updatedAt": "2025-10-19T02:38:21.030Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "security-test-scanner",
+  "displayName": "Security Test Scanner",
+  "category": "testing",
+  "type": "standard",
   "description": "Automated security vulnerability testing covering OWASP Top 10, SQL injection, XSS, CSRF, and authentication issues",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/security-test-scanner",
+  "license": "MIT",
   "keywords": [
     "testing",
     "security",
@@ -10,14 +18,24 @@
     "owasp",
     "penetration-testing"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/security-test-scanner",
-  "license": "MIT",
-  "installation": "/plugin install security-test-scanner@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install security-test-scanner@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/security-test-scanner/README.md",
+  "tags": [
+    "testing",
+    "security",
+    "vulnerabilities",
+    "owasp",
+    "penetration-testing"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

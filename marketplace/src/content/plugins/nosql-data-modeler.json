@@ -1,21 +1,37 @@
 {
   "name": "nosql-data-modeler",
+  "displayName": "Nosql Data Modeler",
+  "category": "database",
+  "type": "standard",
   "description": "Database plugin for nosql-data-modeler",
   "version": "2025.0.0",
-  "category": "database",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/nosql-data-modeler",
+  "license": "MIT",
   "keywords": [
     "database",
     "backend",
     "data"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/nosql-data-modeler",
-  "license": "MIT",
-  "installation": "/plugin install nosql-data-modeler@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install nosql-data-modeler@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/database/nosql-data-modeler/README.md",
+  "tags": [
+    "database",
+    "backend",
+    "data"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.040Z",
+  "updatedAt": "2025-10-19T02:38:21.040Z"
 }

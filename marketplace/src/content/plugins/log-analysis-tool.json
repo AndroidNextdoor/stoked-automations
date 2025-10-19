@@ -1,22 +1,39 @@
 {
   "name": "log-analysis-tool",
+  "displayName": "Log Analysis Tool",
+  "category": "performance",
+  "type": "standard",
   "description": "Analyze logs for performance insights and issues",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/log-analysis-tool",
+  "license": "MIT",
   "keywords": [
     "logs",
     "analysis",
     "performance",
     "debugging"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/log-analysis-tool",
-  "license": "MIT",
-  "installation": "/plugin install log-analysis-tool@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install log-analysis-tool@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/log-analysis-tool/README.md",
+  "tags": [
+    "logs",
+    "analysis",
+    "performance",
+    "debugging"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.041Z",
+  "updatedAt": "2025-10-19T02:38:21.041Z"
 }

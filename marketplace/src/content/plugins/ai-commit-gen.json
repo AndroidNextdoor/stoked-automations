@@ -1,12 +1,16 @@
 {
   "name": "ai-commit-gen",
-  "description": "AI-powered commit message generator that analyzes your git diff and creates perfect conventional commit messages instantly. Never write commit messages manually again - get 3 AI-generated options in seconds.",
+  "displayName": "Ai Commit Gen",
+  "category": "productivity",
+  "type": "standard",
+  "description": "AI-powered commit message generator - analyzes your git diff and creates conventional commit messages instantly",
   "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
-    "url": "https://github.com/AndroidNextdoor"
+    "email": "[email protected]"
   },
-  "category": "devops",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/productivity/ai-commit-gen",
+  "license": "MIT",
   "keywords": [
     "git",
     "commit",
@@ -14,15 +18,8 @@
     "ai",
     "automation",
     "productivity",
-    "devops",
-    "commit-message",
-    "git-workflow",
-    "conventional"
+    "devops"
   ],
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
-  "license": "MIT",
-  "installation": "/plugin install ai-commit-gen@claude@stoked-automations",
   "features": [
     "Instant commit message generation with /commit",
     "Analyzes git diff automatically",
@@ -45,9 +42,25 @@
     "Professional commit history instantly",
     "Single-command workflow"
   ],
-  "requirements": [
-    "Stoked Automations v2025.0.0 or higher",
-    "Git repository initialized",
-    "Changes staged or unstaged for commit"
-  ]
+  "installation": "/plugin install ai-commit-gen@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/productivity/ai-commit-gen/README.md",
+  "tags": [
+    "git",
+    "commit",
+    "conventional-commits",
+    "ai",
+    "automation",
+    "productivity",
+    "devops"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

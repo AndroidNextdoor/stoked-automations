@@ -1,8 +1,16 @@
 {
   "name": "security-pro-pack",
-  "description": "Professional security tools for Stoked Automations: vulnerability scanning, compliance, cryptography audit, container & API security",
-  "version": "2025.0.0",
+  "displayName": "Security Pro Pack",
   "category": "security",
+  "type": "standard",
+  "description": "Professional security tools for Claude Code: vulnerability scanning, compliance, cryptography audit, container & API security",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/security-pro-pack",
+  "license": "MIT",
   "keywords": [
     "security",
     "vulnerability-scanning",
@@ -15,14 +23,29 @@
     "devsecops",
     "package"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/security-pro-pack",
-  "license": "MIT",
-  "installation": "/plugin install security-pro-pack@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install security-pro-pack@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/packages/security-pro-pack/README.md",
+  "tags": [
+    "security",
+    "vulnerability-scanning",
+    "compliance",
+    "HIPAA",
+    "PCI-DSS",
+    "GDPR",
+    "SOC2",
+    "cryptography",
+    "devsecops",
+    "package"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.029Z",
+  "updatedAt": "2025-10-19T02:38:21.029Z"
 }

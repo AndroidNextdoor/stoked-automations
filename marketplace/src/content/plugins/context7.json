@@ -1,0 +1,58 @@
+{
+  "name": "context7",
+  "displayName": "Context7",
+  "category": "ai-ml",
+  "type": "mcp",
+  "description": "Up-to-date code documentation for LLMs - fetches current, version-specific docs and code examples from Context7 database",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "url": "https://upstash.com",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/upstash/context7",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "documentation",
+    "code-examples",
+    "library-docs",
+    "api-reference",
+    "context-management",
+    "up-to-date-docs"
+  ],
+  "features": [],
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    }
+  ],
+  "installation": "/plugin install context7@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/context7/README.md",
+  "tags": [
+    "mcp",
+    "documentation",
+    "code-examples",
+    "library-docs",
+    "api-reference",
+    "context-management",
+    "up-to-date-docs"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.028Z",
+  "updatedAt": "2025-10-19T02:38:21.028Z"
+}

@@ -1,22 +1,39 @@
 {
   "name": "resource-usage-tracker",
+  "displayName": "Resource Usage Tracker",
+  "category": "performance",
+  "type": "standard",
   "description": "Track and optimize resource usage across the stack",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/resource-usage-tracker",
+  "license": "MIT",
   "keywords": [
     "resources",
     "monitoring",
     "optimization",
     "metrics"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/resource-usage-tracker",
-  "license": "MIT",
-  "installation": "/plugin install resource-usage-tracker@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install resource-usage-tracker@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/resource-usage-tracker/README.md",
+  "tags": [
+    "resources",
+    "monitoring",
+    "optimization",
+    "metrics"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.041Z",
+  "updatedAt": "2025-10-19T02:38:21.041Z"
 }

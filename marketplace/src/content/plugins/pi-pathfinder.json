@@ -1,0 +1,51 @@
+{
+  "name": "pi-pathfinder",
+  "displayName": "Pi Pathfinder",
+  "category": "example",
+  "type": "standard",
+  "description": "PI Pathfinder - Finds the path through 229 plugins. Automatically picks the best plugin for your task, extracts its skills, and applies them. You don't pick plugins, PI does. Part of our initiative to update all plugins with appropriate skill sets.",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "pi",
+    "pathfinder",
+    "plugin-intelligence",
+    "task-router",
+    "auto-selector",
+    "skill-extraction",
+    "easy-mode",
+    "automatic",
+    "no-thinking-required"
+  ],
+  "features": [],
+  "installation": "/plugin install pi-pathfinder@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/examples/pi-pathfinder/README.md",
+  "tags": [
+    "agent-skills",
+    "pi",
+    "pathfinder",
+    "plugin-intelligence",
+    "task-router",
+    "auto-selector",
+    "skill-extraction",
+    "easy-mode",
+    "automatic",
+    "no-thinking-required"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.026Z",
+  "updatedAt": "2025-10-19T02:38:21.026Z"
+}

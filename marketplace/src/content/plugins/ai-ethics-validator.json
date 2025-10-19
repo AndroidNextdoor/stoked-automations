@@ -1,8 +1,16 @@
 {
   "name": "ai-ethics-validator",
+  "displayName": "Ai Ethics Validator",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "AI ethics and fairness validation",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/ai-ethics-validator",
+  "license": "MIT",
   "keywords": [
     "ethics",
     "fairness",
@@ -10,14 +18,24 @@
     "responsible-ai",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/ai-ethics-validator",
-  "license": "MIT",
-  "installation": "/plugin install ai-ethics-validator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install ai-ethics-validator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/ai-ethics-validator/README.md",
+  "tags": [
+    "ethics",
+    "fairness",
+    "bias",
+    "responsible-ai",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.037Z",
+  "updatedAt": "2025-10-19T02:38:21.037Z"
 }

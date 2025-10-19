@@ -1,22 +1,39 @@
 {
   "name": "cache-performance-optimizer",
+  "displayName": "Cache Performance Optimizer",
+  "category": "performance",
+  "type": "standard",
   "description": "Optimize caching strategies for improved performance",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/cache-performance-optimizer",
+  "license": "MIT",
   "keywords": [
     "cache",
     "performance",
     "optimization",
     "redis"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/cache-performance-optimizer",
-  "license": "MIT",
-  "installation": "/plugin install cache-performance-optimizer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install cache-performance-optimizer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/cache-performance-optimizer/README.md",
+  "tags": [
+    "cache",
+    "performance",
+    "optimization",
+    "redis"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.040Z",
+  "updatedAt": "2025-10-19T02:38:21.040Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "test-data-generator",
+  "displayName": "Test Data Generator",
+  "category": "testing",
+  "type": "standard",
   "description": "Generate realistic test data including users, products, orders, and custom schemas for comprehensive testing",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-data-generator",
+  "license": "MIT",
   "keywords": [
     "testing",
     "test-data",
@@ -10,14 +18,24 @@
     "fixtures",
     "factory"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-data-generator",
-  "license": "MIT",
-  "installation": "/plugin install test-data-generator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install test-data-generator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/test-data-generator/README.md",
+  "tags": [
+    "testing",
+    "test-data",
+    "fake-data",
+    "fixtures",
+    "factory"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

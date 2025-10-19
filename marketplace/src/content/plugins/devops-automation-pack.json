@@ -1,8 +1,16 @@
 {
   "name": "devops-automation-pack",
+  "displayName": "Devops Automation Pack",
+  "category": "devops",
+  "type": "standard",
   "description": "Complete DevOps automation suite with 25 plugins covering Git workflows, CI/CD pipelines, Docker optimization, Kubernetes management, Terraform IaC, and deployment strategies",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/devops-automation-pack",
+  "license": "MIT",
   "keywords": [
     "devops",
     "ci-cd",
@@ -14,14 +22,28 @@
     "automation",
     "package"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/devops-automation-pack",
-  "license": "MIT",
-  "installation": "/plugin install devops-automation-pack@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install devops-automation-pack@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/packages/devops-automation-pack/README.md",
+  "tags": [
+    "devops",
+    "ci-cd",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "deployment",
+    "infrastructure",
+    "automation",
+    "package"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.026Z",
+  "updatedAt": "2025-10-19T02:38:21.026Z"
 }

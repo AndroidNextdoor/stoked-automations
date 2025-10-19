@@ -1,22 +1,39 @@
 {
   "name": "error-rate-monitor",
+  "displayName": "Error Rate Monitor",
+  "category": "performance",
+  "type": "standard",
   "description": "Monitor and analyze application error rates",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/error-rate-monitor",
+  "license": "MIT",
   "keywords": [
     "errors",
     "monitoring",
     "reliability",
     "sre"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/error-rate-monitor",
-  "license": "MIT",
-  "installation": "/plugin install error-rate-monitor@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install error-rate-monitor@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/error-rate-monitor/README.md",
+  "tags": [
+    "errors",
+    "monitoring",
+    "reliability",
+    "sre"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.041Z",
+  "updatedAt": "2025-10-19T02:38:21.041Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "api-schema-validator",
+  "displayName": "Api Schema Validator",
+  "category": "api-development",
+  "type": "standard",
   "description": "Validate API schemas with JSON Schema, Joi, Yup, or Zod",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-schema-validator",
+  "license": "MIT",
   "keywords": [
     "schema",
     "validation",
@@ -10,14 +18,24 @@
     "joi",
     "zod"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-schema-validator",
-  "license": "MIT",
-  "installation": "/plugin install api-schema-validator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install api-schema-validator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/api-development/api-schema-validator/README.md",
+  "tags": [
+    "schema",
+    "validation",
+    "json-schema",
+    "joi",
+    "zod"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.033Z",
+  "updatedAt": "2025-10-19T02:38:21.033Z"
 }

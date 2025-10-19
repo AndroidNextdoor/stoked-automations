@@ -1,8 +1,16 @@
 {
   "name": "docker-compose-generator",
+  "displayName": "Docker Compose Generator",
+  "category": "devops",
+  "type": "standard",
   "description": "Generate Docker Compose configurations for multi-container applications with best practices",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/docker-compose-generator",
+  "license": "MIT",
   "keywords": [
     "docker",
     "docker-compose",
@@ -10,14 +18,24 @@
     "orchestration",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/docker-compose-generator",
-  "license": "MIT",
-  "installation": "/plugin install docker-compose-generator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install docker-compose-generator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/docker-compose-generator/README.md",
+  "tags": [
+    "docker",
+    "docker-compose",
+    "containers",
+    "orchestration",
+    "devops"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.033Z",
+  "updatedAt": "2025-10-19T02:38:21.033Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "test-orchestrator",
+  "displayName": "Test Orchestrator",
+  "category": "testing",
+  "type": "standard",
   "description": "Orchestrate complex test workflows with dependencies, parallel execution, and smart test selection",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-orchestrator",
+  "license": "MIT",
   "keywords": [
     "testing",
     "orchestration",
@@ -11,14 +19,25 @@
     "test-selection",
     "ci-cd"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-orchestrator",
-  "license": "MIT",
-  "installation": "/plugin install test-orchestrator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install test-orchestrator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/test-orchestrator/README.md",
+  "tags": [
+    "testing",
+    "orchestration",
+    "workflow",
+    "parallel",
+    "test-selection",
+    "ci-cd"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.031Z",
+  "updatedAt": "2025-10-19T02:38:21.031Z"
 }

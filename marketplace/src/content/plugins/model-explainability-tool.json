@@ -1,8 +1,16 @@
 {
   "name": "model-explainability-tool",
+  "displayName": "Model Explainability Tool",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Model interpretability and explainability",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/model-explainability-tool",
+  "license": "MIT",
   "keywords": [
     "explainability",
     "shap",
@@ -10,14 +18,24 @@
     "interpretability",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/model-explainability-tool",
-  "license": "MIT",
-  "installation": "/plugin install model-explainability-tool@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install model-explainability-tool@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/model-explainability-tool/README.md",
+  "tags": [
+    "explainability",
+    "shap",
+    "lime",
+    "interpretability",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.037Z",
+  "updatedAt": "2025-10-19T02:38:21.037Z"
 }

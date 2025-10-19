@@ -1,8 +1,16 @@
 {
   "name": "ci-cd-pipeline-builder",
+  "displayName": "Ci Cd Pipeline Builder",
+  "category": "devops",
+  "type": "standard",
   "description": "Build CI/CD pipelines for GitHub Actions, GitLab CI, Jenkins, and more",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/ci-cd-pipeline-builder",
+  "license": "MIT",
   "keywords": [
     "ci-cd",
     "github-actions",
@@ -11,14 +19,25 @@
     "devops",
     "automation"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/ci-cd-pipeline-builder",
-  "license": "MIT",
-  "installation": "/plugin install ci-cd-pipeline-builder@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install ci-cd-pipeline-builder@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/ci-cd-pipeline-builder/README.md",
+  "tags": [
+    "ci-cd",
+    "github-actions",
+    "gitlab-ci",
+    "jenkins",
+    "devops",
+    "automation"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.034Z",
+  "updatedAt": "2025-10-19T02:38:21.034Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "test-environment-manager",
+  "displayName": "Test Environment Manager",
+  "category": "testing",
+  "type": "standard",
   "description": "Manage test environments with Docker Compose, Testcontainers, and environment isolation",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-environment-manager",
+  "license": "MIT",
   "keywords": [
     "testing",
     "environment",
@@ -11,14 +19,25 @@
     "isolation",
     "infrastructure"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-environment-manager",
-  "license": "MIT",
-  "installation": "/plugin install test-environment-manager@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install test-environment-manager@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/test-environment-manager/README.md",
+  "tags": [
+    "testing",
+    "environment",
+    "docker",
+    "testcontainers",
+    "isolation",
+    "infrastructure"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.030Z",
+  "updatedAt": "2025-10-19T02:38:21.030Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "orm-code-generator",
+  "displayName": "Orm Code Generator",
+  "category": "database",
+  "type": "standard",
   "description": "Generate ORM models from database schemas or create database schemas from models for TypeORM, Prisma, Sequelize, SQLAlchemy, and more",
   "version": "2025.0.0",
-  "category": "database",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/orm-code-generator",
+  "license": "MIT",
   "keywords": [
     "orm",
     "models",
@@ -10,14 +18,24 @@
     "database",
     "backend"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/orm-code-generator",
-  "license": "MIT",
-  "installation": "/plugin install orm-code-generator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install orm-code-generator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/database/orm-code-generator/README.md",
+  "tags": [
+    "orm",
+    "models",
+    "code-generation",
+    "database",
+    "backend"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.040Z",
+  "updatedAt": "2025-10-19T02:38:21.040Z"
 }

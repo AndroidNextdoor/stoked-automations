@@ -1,8 +1,16 @@
 {
   "name": "transfer-learning-adapter",
+  "displayName": "Transfer Learning Adapter",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Transfer learning adaptation",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/transfer-learning-adapter",
+  "license": "MIT",
   "keywords": [
     "transfer-learning",
     "fine-tuning",
@@ -10,14 +18,24 @@
     "adapters",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/transfer-learning-adapter",
-  "license": "MIT",
-  "installation": "/plugin install transfer-learning-adapter@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install transfer-learning-adapter@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/transfer-learning-adapter/README.md",
+  "tags": [
+    "transfer-learning",
+    "fine-tuning",
+    "pretrained",
+    "adapters",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.037Z",
+  "updatedAt": "2025-10-19T02:38:21.037Z"
 }

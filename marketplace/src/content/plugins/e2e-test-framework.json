@@ -1,8 +1,16 @@
 {
   "name": "e2e-test-framework",
+  "displayName": "E2e Test Framework",
+  "category": "testing",
+  "type": "standard",
   "description": "End-to-end test automation with Playwright, Cypress, and Selenium for browser-based testing",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/e2e-test-framework",
+  "license": "MIT",
   "keywords": [
     "testing",
     "e2e",
@@ -11,14 +19,25 @@
     "selenium",
     "browser-testing"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/e2e-test-framework",
-  "license": "MIT",
-  "installation": "/plugin install e2e-test-framework@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install e2e-test-framework@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/e2e-test-framework/README.md",
+  "tags": [
+    "testing",
+    "e2e",
+    "playwright",
+    "cypress",
+    "selenium",
+    "browser-testing"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.043Z",
+  "updatedAt": "2025-10-19T02:38:21.043Z"
 }

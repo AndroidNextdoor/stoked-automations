@@ -1,8 +1,16 @@
 {
   "name": "anomaly-detection-system",
+  "displayName": "Anomaly Detection System",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Detect anomalies and outliers in data",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/anomaly-detection-system",
+  "license": "MIT",
   "keywords": [
     "anomaly",
     "outliers",
@@ -10,14 +18,24 @@
     "isolation",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/anomaly-detection-system",
-  "license": "MIT",
-  "installation": "/plugin install anomaly-detection-system@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install anomaly-detection-system@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/anomaly-detection-system/README.md",
+  "tags": [
+    "anomaly",
+    "outliers",
+    "detection",
+    "isolation",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.036Z",
+  "updatedAt": "2025-10-19T02:38:21.036Z"
 }

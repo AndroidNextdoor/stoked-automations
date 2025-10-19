@@ -1,8 +1,16 @@
 {
   "name": "make-scenario-builder",
+  "displayName": "Make Scenario Builder",
+  "category": "ai-agency",
+  "type": "standard",
   "description": "Create Make.com (Integromat) scenarios with AI assistance",
   "version": "2025.0.0",
-  "category": "business-tools",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-agency/make-scenario-builder",
+  "license": "MIT",
   "keywords": [
     "make",
     "integromat",
@@ -11,14 +19,25 @@
     "workflow",
     "ai-agency"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-agency/make-scenario-builder",
-  "license": "MIT",
-  "installation": "/plugin install make-scenario-builder@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install make-scenario-builder@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-agency/make-scenario-builder/README.md",
+  "tags": [
+    "make",
+    "integromat",
+    "automation",
+    "scenarios",
+    "workflow",
+    "ai-agency"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.028Z",
+  "updatedAt": "2025-10-19T02:38:21.028Z"
 }

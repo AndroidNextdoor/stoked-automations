@@ -1,8 +1,16 @@
 {
   "name": "dependency-checker",
+  "displayName": "Dependency Checker",
+  "category": "security",
+  "type": "standard",
   "description": "Check dependencies for known vulnerabilities, outdated packages, and license compliance",
   "version": "2025.0.0",
-  "category": "security",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/dependency-checker",
+  "license": "MIT",
   "keywords": [
     "security",
     "dependencies",
@@ -11,14 +19,25 @@
     "composer",
     "vulnerabilities"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/dependency-checker",
-  "license": "MIT",
-  "installation": "/plugin install dependency-checker@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install dependency-checker@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/security/dependency-checker/README.md",
+  "tags": [
+    "security",
+    "dependencies",
+    "npm",
+    "pip",
+    "composer",
+    "vulnerabilities"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.042Z",
+  "updatedAt": "2025-10-19T02:38:21.042Z"
 }

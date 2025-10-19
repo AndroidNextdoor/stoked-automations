@@ -1,21 +1,37 @@
 {
   "name": "database-cache-layer",
+  "displayName": "Database Cache Layer",
+  "category": "database",
+  "type": "standard",
   "description": "Database plugin for database-cache-layer",
   "version": "2025.0.0",
-  "category": "database",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-cache-layer",
+  "license": "MIT",
   "keywords": [
     "database",
     "backend",
     "cache"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-cache-layer",
-  "license": "MIT",
-  "installation": "/plugin install database-cache-layer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install database-cache-layer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/database/database-cache-layer/README.md",
+  "tags": [
+    "database",
+    "backend",
+    "cache"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.039Z",
+  "updatedAt": "2025-10-19T02:38:21.039Z"
 }

@@ -1,22 +1,39 @@
 {
   "name": "response-time-tracker",
+  "displayName": "Response Time Tracker",
+  "category": "performance",
+  "type": "standard",
   "description": "Track and optimize application response times",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/response-time-tracker",
+  "license": "MIT",
   "keywords": [
     "response-time",
     "latency",
     "performance",
     "monitoring"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/response-time-tracker",
-  "license": "MIT",
-  "installation": "/plugin install response-time-tracker@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install response-time-tracker@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/response-time-tracker/README.md",
+  "tags": [
+    "response-time",
+    "latency",
+    "performance",
+    "monitoring"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.042Z",
+  "updatedAt": "2025-10-19T02:38:21.042Z"
 }

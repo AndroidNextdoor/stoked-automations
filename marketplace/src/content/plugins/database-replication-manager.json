@@ -1,8 +1,16 @@
 {
   "name": "database-replication-manager",
+  "displayName": "Database Replication Manager",
+  "category": "database",
+  "type": "standard",
   "description": "Manage database replication, failover, and high availability configurations",
   "version": "2025.0.0",
-  "category": "database",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-replication-manager",
+  "license": "MIT",
   "keywords": [
     "replication",
     "high-availability",
@@ -10,14 +18,24 @@
     "database",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/database/database-replication-manager",
-  "license": "MIT",
-  "installation": "/plugin install database-replication-manager@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install database-replication-manager@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/database/database-replication-manager/README.md",
+  "tags": [
+    "replication",
+    "high-availability",
+    "failover",
+    "database",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.040Z",
+  "updatedAt": "2025-10-19T02:38:21.040Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "regression-test-tracker",
+  "displayName": "Regression Test Tracker",
+  "category": "testing",
+  "type": "standard",
   "description": "Track and run regression tests to ensure new changes don't break existing functionality",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/regression-test-tracker",
+  "license": "MIT",
   "keywords": [
     "testing",
     "regression-testing",
@@ -10,14 +18,24 @@
     "ci-cd",
     "quality-assurance"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/regression-test-tracker",
-  "license": "MIT",
-  "installation": "/plugin install regression-test-tracker@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install regression-test-tracker@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/regression-test-tracker/README.md",
+  "tags": [
+    "testing",
+    "regression-testing",
+    "test-tracking",
+    "ci-cd",
+    "quality-assurance"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

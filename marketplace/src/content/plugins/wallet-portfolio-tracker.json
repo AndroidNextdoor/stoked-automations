@@ -1,8 +1,16 @@
 {
   "name": "wallet-portfolio-tracker",
+  "displayName": "Wallet Portfolio Tracker",
+  "category": "crypto",
+  "type": "standard",
   "description": "Track crypto wallets across multiple chains with portfolio analytics and transaction history",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/wallet-portfolio-tracker",
+  "license": "MIT",
   "keywords": [
     "wallet",
     "portfolio",
@@ -11,14 +19,25 @@
     "defi",
     "crypto"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/wallet-portfolio-tracker",
-  "license": "MIT",
-  "installation": "/plugin install wallet-portfolio-tracker@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install wallet-portfolio-tracker@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/crypto/wallet-portfolio-tracker/README.md",
+  "tags": [
+    "wallet",
+    "portfolio",
+    "tracking",
+    "blockchain",
+    "defi",
+    "crypto"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.039Z",
+  "updatedAt": "2025-10-19T02:38:21.039Z"
 }

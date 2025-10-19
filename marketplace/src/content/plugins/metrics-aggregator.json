@@ -1,22 +1,39 @@
 {
   "name": "metrics-aggregator",
+  "displayName": "Metrics Aggregator",
+  "category": "performance",
+  "type": "standard",
   "description": "Aggregate and centralize performance metrics",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/metrics-aggregator",
+  "license": "MIT",
   "keywords": [
     "metrics",
     "aggregation",
     "prometheus",
     "monitoring"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/metrics-aggregator",
-  "license": "MIT",
-  "installation": "/plugin install metrics-aggregator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install metrics-aggregator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/metrics-aggregator/README.md",
+  "tags": [
+    "metrics",
+    "aggregation",
+    "prometheus",
+    "monitoring"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.041Z",
+  "updatedAt": "2025-10-19T02:38:21.041Z"
 }

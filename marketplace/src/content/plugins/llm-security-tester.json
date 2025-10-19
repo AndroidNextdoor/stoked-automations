@@ -1,0 +1,51 @@
+{
+  "name": "llm-security-tester",
+  "displayName": "Llm Security Tester",
+  "category": "security",
+  "type": "standard",
+  "description": "LLM security testing for prompt injection, jailbreaking, data poisoning, and AI model vulnerabilities - comprehensive OWASP LLM Top 10 testing",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+  "license": "MIT",
+  "keywords": [
+    "llm-security",
+    "prompt-injection",
+    "jailbreaking",
+    "ai-security",
+    "data-poisoning",
+    "model-inversion",
+    "owasp-llm",
+    "ml-security",
+    "chatbot-security",
+    "rag-security"
+  ],
+  "features": [],
+  "installation": "/plugin install llm-security-tester@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/security/llm-security-tester/README.md",
+  "tags": [
+    "llm-security",
+    "prompt-injection",
+    "jailbreaking",
+    "ai-security",
+    "data-poisoning",
+    "model-inversion",
+    "owasp-llm",
+    "ml-security",
+    "chatbot-security",
+    "rag-security"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.028Z",
+  "updatedAt": "2025-10-19T02:38:21.028Z"
+}

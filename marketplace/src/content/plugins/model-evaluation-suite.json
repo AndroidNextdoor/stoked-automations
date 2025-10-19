@@ -1,8 +1,16 @@
 {
   "name": "model-evaluation-suite",
+  "displayName": "Model Evaluation Suite",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Comprehensive model evaluation with multiple metrics",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/model-evaluation-suite",
+  "license": "MIT",
   "keywords": [
     "evaluation",
     "metrics",
@@ -10,14 +18,24 @@
     "validation",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/model-evaluation-suite",
-  "license": "MIT",
-  "installation": "/plugin install model-evaluation-suite@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install model-evaluation-suite@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/model-evaluation-suite/README.md",
+  "tags": [
+    "evaluation",
+    "metrics",
+    "testing",
+    "validation",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.036Z",
+  "updatedAt": "2025-10-19T02:38:21.036Z"
 }

@@ -1,22 +1,39 @@
 {
   "name": "network-latency-analyzer",
+  "displayName": "Network Latency Analyzer",
+  "category": "performance",
+  "type": "standard",
   "description": "Analyze network latency and optimize request patterns",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/network-latency-analyzer",
+  "license": "MIT",
   "keywords": [
     "network",
     "latency",
     "performance",
     "api"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/network-latency-analyzer",
-  "license": "MIT",
-  "installation": "/plugin install network-latency-analyzer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install network-latency-analyzer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/network-latency-analyzer/README.md",
+  "tags": [
+    "network",
+    "latency",
+    "performance",
+    "api"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.041Z",
+  "updatedAt": "2025-10-19T02:38:21.041Z"
 }

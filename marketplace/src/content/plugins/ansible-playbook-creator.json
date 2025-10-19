@@ -1,8 +1,16 @@
 {
   "name": "ansible-playbook-creator",
+  "displayName": "Ansible Playbook Creator",
+  "category": "devops",
+  "type": "standard",
   "description": "Create Ansible playbooks for configuration management",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/ansible-playbook-creator",
+  "license": "MIT",
   "keywords": [
     "ansible",
     "automation",
@@ -10,14 +18,24 @@
     "playbooks",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/ansible-playbook-creator",
-  "license": "MIT",
-  "installation": "/plugin install ansible-playbook-creator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install ansible-playbook-creator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/ansible-playbook-creator/README.md",
+  "tags": [
+    "ansible",
+    "automation",
+    "configuration",
+    "playbooks",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.035Z",
+  "updatedAt": "2025-10-19T02:38:21.035Z"
 }

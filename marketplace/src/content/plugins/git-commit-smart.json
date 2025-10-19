@@ -1,8 +1,16 @@
 {
   "name": "git-commit-smart",
+  "displayName": "Git Commit Smart",
+  "category": "devops",
+  "type": "standard",
   "description": "AI-powered conventional commit message generator with smart analysis",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/git-commit-smart",
+  "license": "MIT",
   "keywords": [
     "git",
     "commits",
@@ -11,14 +19,25 @@
     "devops",
     "productivity"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/git-commit-smart",
-  "license": "MIT",
-  "installation": "/plugin install git-commit-smart@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install git-commit-smart@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/git-commit-smart/README.md",
+  "tags": [
+    "git",
+    "commits",
+    "conventional-commits",
+    "automation",
+    "devops",
+    "productivity"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.026Z",
+  "updatedAt": "2025-10-19T02:38:21.026Z"
 }

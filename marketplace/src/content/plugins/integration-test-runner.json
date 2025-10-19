@@ -1,8 +1,16 @@
 {
   "name": "integration-test-runner",
+  "displayName": "Integration Test Runner",
+  "category": "testing",
+  "type": "standard",
   "description": "Run and manage integration test suites with environment setup, database seeding, and cleanup",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/integration-test-runner",
+  "license": "MIT",
   "keywords": [
     "testing",
     "integration-tests",
@@ -10,14 +18,24 @@
     "e2e",
     "api-testing"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/integration-test-runner",
-  "license": "MIT",
-  "installation": "/plugin install integration-test-runner@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install integration-test-runner@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/integration-test-runner/README.md",
+  "tags": [
+    "testing",
+    "integration-tests",
+    "test-runner",
+    "e2e",
+    "api-testing"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "sugar",
-  "description": "Autonomous AI development for Stoked Automations: create and manage tasks with rich context, run safe autonomous cycles, and get quality nudges via hooks \u2014 all powered by a minimal MCP bridge to the Sugar CLI.",
-  "version": "2.0.0",
+  "displayName": "Sugar",
   "category": "devops",
+  "type": "mcp",
+  "description": "Transform Claude Code into an autonomous AI development powerhouse with rich task context, specialized agents, and intelligent workflow automation",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/cdnsteve/sugar",
+  "license": "MIT",
   "keywords": [
     "autonomous",
     "development",
@@ -10,27 +18,71 @@
     "task-management",
     "automation",
     "agents",
+    "enterprise",
     "workflow",
     "productivity",
     "mcp"
   ],
-  "author": {
-    "name": "cdnsteve"
-  },
-  "featured": true,
-  "repository": "https://github.com/cdnsteve/sugar",
-  "license": "MIT",
-  "installation": "/plugin install sugar@claude@stoked-automations",
   "features": [
     "Slash commands for tasks and status",
     "Hooks for discovery and quality reminders",
     "MCP server bridging to Sugar CLI",
     "Project-scoped autonomous execution"
   ],
-  "requirements": [
-    "Python 3.11+",
-    "pip install sugarai",
-    "sugar init in your project"
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    },
+    {
+      "name": "tool_3",
+      "description": "MCP tool 3"
+    },
+    {
+      "name": "tool_4",
+      "description": "MCP tool 4"
+    },
+    {
+      "name": "tool_5",
+      "description": "MCP tool 5"
+    },
+    {
+      "name": "tool_6",
+      "description": "MCP tool 6"
+    },
+    {
+      "name": "tool_7",
+      "description": "MCP tool 7"
+    }
   ],
-  "screenshots": []
+  "installation": "/plugin install sugar@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/sugar/README.md",
+  "tags": [
+    "autonomous",
+    "development",
+    "ai",
+    "task-management",
+    "automation",
+    "agents",
+    "enterprise",
+    "workflow",
+    "productivity",
+    "mcp"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.026Z",
+  "updatedAt": "2025-10-19T02:38:21.026Z"
 }

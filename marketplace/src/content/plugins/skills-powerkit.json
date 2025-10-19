@@ -1,0 +1,49 @@
+{
+  "name": "skills-powerkit",
+  "displayName": "Skills Powerkit",
+  "category": "example",
+  "type": "standard",
+  "description": "Ultimate plugin management toolkit with 5 Agent Skills - automates creating, validating, auditing, and managing plugins in the claude-code-plugins marketplace",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "agent-skills",
+    "plugin-management",
+    "marketplace",
+    "validation",
+    "audit",
+    "versioning",
+    "meta-plugin",
+    "repository-tools"
+  ],
+  "features": [],
+  "installation": "/plugin install skills-powerkit@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/examples/skills-powerkit/README.md",
+  "tags": [
+    "skills",
+    "agent-skills",
+    "plugin-management",
+    "marketplace",
+    "validation",
+    "audit",
+    "versioning",
+    "meta-plugin",
+    "repository-tools"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.025Z",
+  "updatedAt": "2025-10-19T02:38:21.025Z"
+}

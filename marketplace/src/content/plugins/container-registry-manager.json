@@ -1,8 +1,16 @@
 {
   "name": "container-registry-manager",
+  "displayName": "Container Registry Manager",
+  "category": "devops",
+  "type": "standard",
   "description": "Manage container registries (ECR, GCR, Harbor)",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/container-registry-manager",
+  "license": "MIT",
   "keywords": [
     "registry",
     "containers",
@@ -11,14 +19,25 @@
     "gcr",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/container-registry-manager",
-  "license": "MIT",
-  "installation": "/plugin install container-registry-manager@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install container-registry-manager@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/container-registry-manager/README.md",
+  "tags": [
+    "registry",
+    "containers",
+    "docker",
+    "ecr",
+    "gcr",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.035Z",
+  "updatedAt": "2025-10-19T02:38:21.035Z"
 }

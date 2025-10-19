@@ -1,27 +1,24 @@
 {
   "name": "market-sentiment-analyzer",
-  "description": "AI-powered market sentiment analyzer aggregating data from 15+ social platforms, 500+ news sources, and on-chain metrics with predictive modeling and trading signal generation",
+  "displayName": "Market Sentiment Analyzer",
+  "category": "crypto",
+  "type": "standard",
+  "description": "Analyze market sentiment from social media, news, and on-chain data",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/market-sentiment-analyzer",
+  "license": "MIT",
   "keywords": [
     "sentiment",
     "analysis",
     "social",
     "news",
     "market",
-    "crypto",
-    "nlp",
-    "machine-learning",
-    "trading-signals",
-    "prediction"
+    "crypto"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/market-sentiment-analyzer",
-  "license": "MIT",
-  "installation": "/plugin install market-sentiment-analyzer@claude@stoked-automations",
   "features": [
     "Multi-source sentiment aggregation (15+ platforms)",
     "Real-time Twitter/X sentiment tracking (streaming API)",
@@ -44,14 +41,24 @@
     "Visualization dashboards with heatmaps",
     "API for programmatic access"
   ],
-  "requirements": [
-    "Python 3.9+ with NLP libraries (spaCy, NLTK)",
-    "Twitter/X API access (Essential tier minimum)",
-    "Reddit API credentials (PRAW)",
-    "News API key (newsapi.org or similar)",
-    "PostgreSQL for sentiment storage",
-    "Redis for real-time caching",
-    "GPU recommended for ML inference (optional)"
+  "installation": "/plugin install market-sentiment-analyzer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/crypto/market-sentiment-analyzer/README.md",
+  "tags": [
+    "sentiment",
+    "analysis",
+    "social",
+    "news",
+    "market",
+    "crypto"
   ],
-  "screenshots": []
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.038Z",
+  "updatedAt": "2025-10-19T02:38:21.038Z"
 }

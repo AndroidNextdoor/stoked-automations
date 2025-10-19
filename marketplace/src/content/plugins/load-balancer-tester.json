@@ -1,8 +1,16 @@
 {
   "name": "load-balancer-tester",
+  "displayName": "Load Balancer Tester",
+  "category": "testing",
+  "type": "standard",
   "description": "Test load balancing strategies with traffic distribution validation and failover testing",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/load-balancer-tester",
+  "license": "MIT",
   "keywords": [
     "testing",
     "load-balancer",
@@ -10,14 +18,24 @@
     "failover",
     "high-availability"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/load-balancer-tester",
-  "license": "MIT",
-  "installation": "/plugin install load-balancer-tester@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install load-balancer-tester@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/load-balancer-tester/README.md",
+  "tags": [
+    "testing",
+    "load-balancer",
+    "traffic-distribution",
+    "failover",
+    "high-availability"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.030Z",
+  "updatedAt": "2025-10-19T02:38:21.030Z"
 }

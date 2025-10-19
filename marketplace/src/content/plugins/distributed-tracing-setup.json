@@ -1,22 +1,39 @@
 {
   "name": "distributed-tracing-setup",
+  "displayName": "Distributed Tracing Setup",
+  "category": "performance",
+  "type": "standard",
   "description": "Set up distributed tracing for microservices",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/distributed-tracing-setup",
+  "license": "MIT",
   "keywords": [
     "tracing",
     "observability",
     "microservices",
     "opentelemetry"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/distributed-tracing-setup",
-  "license": "MIT",
-  "installation": "/plugin install distributed-tracing-setup@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install distributed-tracing-setup@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/distributed-tracing-setup/README.md",
+  "tags": [
+    "tracing",
+    "observability",
+    "microservices",
+    "opentelemetry"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.041Z",
+  "updatedAt": "2025-10-19T02:38:21.041Z"
 }

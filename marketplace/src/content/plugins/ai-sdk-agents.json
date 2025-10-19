@@ -1,12 +1,16 @@
 {
   "name": "ai-sdk-agents",
-  "description": "Multi-agent orchestration with AI SDK v5 - handoffs, routing, and coordination for any AI provider (OpenAI, Anthropic, Google). Build sophisticated multi-agent systems with automatic handoffs, intelligent routing, and seamless coordination.",
+  "displayName": "Ai Sdk Agents",
+  "category": "ai-ml",
+  "type": "standard",
+  "description": "Multi-agent orchestration with AI SDK v5 - handoffs, routing, and coordination for any AI provider (OpenAI, Anthropic, Google)",
   "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
-    "url": "https://github.com/AndroidNextdoor"
+    "email": "[email protected]"
   },
-  "category": "ai-ml-assistance",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/ai-sdk-agents",
+  "license": "MIT",
   "keywords": [
     "ai-sdk",
     "agents",
@@ -20,15 +24,8 @@
     "google",
     "claude",
     "ai",
-    "coordination",
-    "ai-sdk-v5",
-    "vercel-ai",
-    "agent-systems"
+    "coordination"
   ],
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
-  "license": "MIT",
-  "installation": "/plugin install ai-sdk-agents@claude@stoked-automations",
   "features": [
     "Initialize multi-agent projects with /ai-agents-setup",
     "Create specialized agents with /ai-agent-create",
@@ -39,11 +36,11 @@
     "Support for OpenAI, Anthropic, and Google AI",
     "Built on AI SDK v5 (@ai-sdk-tools/agents)",
     "Real-time handoff tracking and metrics",
-    "Code generation pipeline (architect \u2192 coder \u2192 tester \u2192 reviewer)",
-    "Research pipeline (searcher \u2192 analyzer \u2192 synthesizer \u2192 reporter)",
-    "Content creation pipeline (researcher \u2192 writer \u2192 editor \u2192 publisher)",
-    "Customer support routing (triager \u2192 specialists)",
-    "DevOps automation (monitor \u2192 diagnoser \u2192 fixer)",
+    "Code generation pipeline (architect → coder → tester → reviewer)",
+    "Research pipeline (searcher → analyzer → synthesizer → reporter)",
+    "Content creation pipeline (researcher → writer → editor → publisher)",
+    "Customer support routing (triager → specialists)",
+    "DevOps automation (monitor → diagnoser → fixer)",
     "TypeScript type safety with Zod schemas",
     "Performance benchmarking and optimization",
     "Quality assessment scoring",
@@ -51,12 +48,31 @@
     "Multi-provider support in same system",
     "Production-ready agent orchestration"
   ],
-  "requirements": [
-    "Stoked Automations v2025.0.0 or higher",
-    "Node.js 18+ for running multi-agent projects",
-    "npm or pnpm for package management",
-    "At least one AI provider API key (Anthropic/OpenAI/Google)",
-    "TypeScript 5.0+ for type safety",
-    "Zod for schema validation"
-  ]
+  "installation": "/plugin install ai-sdk-agents@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/ai-sdk-agents/README.md",
+  "tags": [
+    "ai-sdk",
+    "agents",
+    "multi-agent",
+    "orchestration",
+    "handoff",
+    "routing",
+    "llm",
+    "openai",
+    "anthropic",
+    "google",
+    "claude",
+    "ai",
+    "coordination"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "classification-model-builder",
+  "displayName": "Classification Model Builder",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Build classification models",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/classification-model-builder",
+  "license": "MIT",
   "keywords": [
     "classification",
     "supervised",
@@ -10,14 +18,24 @@
     "labels",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/classification-model-builder",
-  "license": "MIT",
-  "installation": "/plugin install classification-model-builder@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install classification-model-builder@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/classification-model-builder/README.md",
+  "tags": [
+    "classification",
+    "supervised",
+    "predictor",
+    "labels",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.036Z",
+  "updatedAt": "2025-10-19T02:38:21.036Z"
 }

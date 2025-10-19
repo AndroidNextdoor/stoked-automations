@@ -1,8 +1,16 @@
 {
   "name": "database-test-manager",
+  "displayName": "Database Test Manager",
+  "category": "testing",
+  "type": "standard",
   "description": "Database testing utilities with test data setup, transaction rollback, and schema validation",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/database-test-manager",
+  "license": "MIT",
   "keywords": [
     "testing",
     "database",
@@ -12,14 +20,26 @@
     "migrations",
     "transactions"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/database-test-manager",
-  "license": "MIT",
-  "installation": "/plugin install database-test-manager@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install database-test-manager@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/database-test-manager/README.md",
+  "tags": [
+    "testing",
+    "database",
+    "sql",
+    "test-data",
+    "fixtures",
+    "migrations",
+    "transactions"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.030Z",
+  "updatedAt": "2025-10-19T02:38:21.030Z"
 }

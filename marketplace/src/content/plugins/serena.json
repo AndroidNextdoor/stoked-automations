@@ -1,0 +1,70 @@
+{
+  "name": "serena",
+  "displayName": "Serena",
+  "category": "ai-ml",
+  "type": "mcp",
+  "description": "AI-powered memory and context management with semantic search, project-specific prompts, and codebase understanding via language servers",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/oraios",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/oraios/serena",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "memory-management",
+    "semantic-search",
+    "context-management",
+    "prompts",
+    "codebase-understanding",
+    "language-servers"
+  ],
+  "features": [],
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    },
+    {
+      "name": "tool_3",
+      "description": "MCP tool 3"
+    },
+    {
+      "name": "tool_4",
+      "description": "MCP tool 4"
+    },
+    {
+      "name": "tool_5",
+      "description": "MCP tool 5"
+    }
+  ],
+  "installation": "/plugin install serena@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/serena/README.md",
+  "tags": [
+    "mcp",
+    "memory-management",
+    "semantic-search",
+    "context-management",
+    "prompts",
+    "codebase-understanding",
+    "language-servers"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.028Z",
+  "updatedAt": "2025-10-19T02:38:21.028Z"
+}

@@ -1,21 +1,37 @@
 {
   "name": "security-misconfiguration-finder",
+  "displayName": "Security Misconfiguration Finder",
+  "category": "security",
+  "type": "standard",
   "description": "Find security misconfigurations",
   "version": "2025.0.0",
-  "category": "security",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/security-misconfiguration-finder",
+  "license": "MIT",
   "keywords": [
     "security",
     "compliance",
     "auditing"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/security-misconfiguration-finder",
-  "license": "MIT",
-  "installation": "/plugin install security-misconfiguration-finder@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install security-misconfiguration-finder@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/security/security-misconfiguration-finder/README.md",
+  "tags": [
+    "security",
+    "compliance",
+    "auditing"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.043Z",
+  "updatedAt": "2025-10-19T02:38:21.043Z"
 }

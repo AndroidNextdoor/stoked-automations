@@ -1,8 +1,16 @@
 {
   "name": "deep-learning-optimizer",
+  "displayName": "Deep Learning Optimizer",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Deep learning optimization techniques",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/deep-learning-optimizer",
+  "license": "MIT",
   "keywords": [
     "optimization",
     "adam",
@@ -10,14 +18,24 @@
     "learning-rate",
     "deep-learning"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/deep-learning-optimizer",
-  "license": "MIT",
-  "installation": "/plugin install deep-learning-optimizer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install deep-learning-optimizer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/deep-learning-optimizer/README.md",
+  "tags": [
+    "optimization",
+    "adam",
+    "sgd",
+    "learning-rate",
+    "deep-learning"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.037Z",
+  "updatedAt": "2025-10-19T02:38:21.037Z"
 }

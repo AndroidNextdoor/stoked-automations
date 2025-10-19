@@ -1,22 +1,39 @@
 {
   "name": "api-cache-manager",
+  "displayName": "Api Cache Manager",
+  "category": "api-development",
+  "type": "standard",
   "description": "Implement caching strategies with Redis, CDN, and HTTP headers",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-cache-manager",
+  "license": "MIT",
   "keywords": [
     "caching",
     "redis",
     "cdn",
     "performance"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-cache-manager",
-  "license": "MIT",
-  "installation": "/plugin install api-cache-manager@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install api-cache-manager@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/api-development/api-cache-manager/README.md",
+  "tags": [
+    "caching",
+    "redis",
+    "cdn",
+    "performance"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.033Z",
+  "updatedAt": "2025-10-19T02:38:21.033Z"
 }

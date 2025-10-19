@@ -1,8 +1,16 @@
 {
   "name": "automl-pipeline-builder",
+  "displayName": "Automl Pipeline Builder",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Build AutoML pipelines",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/automl-pipeline-builder",
+  "license": "MIT",
   "keywords": [
     "automl",
     "automated",
@@ -10,14 +18,24 @@
     "h2o",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/automl-pipeline-builder",
-  "license": "MIT",
-  "installation": "/plugin install automl-pipeline-builder@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install automl-pipeline-builder@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/automl-pipeline-builder/README.md",
+  "tags": [
+    "automl",
+    "automated",
+    "pipeline",
+    "h2o",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.037Z",
+  "updatedAt": "2025-10-19T02:38:21.037Z"
 }

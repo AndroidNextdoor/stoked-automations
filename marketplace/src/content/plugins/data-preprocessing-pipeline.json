@@ -1,8 +1,16 @@
 {
   "name": "data-preprocessing-pipeline",
+  "displayName": "Data Preprocessing Pipeline",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Automated data preprocessing and cleaning pipelines",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/data-preprocessing-pipeline",
+  "license": "MIT",
   "keywords": [
     "preprocessing",
     "cleaning",
@@ -10,14 +18,24 @@
     "pipeline",
     "data"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/data-preprocessing-pipeline",
-  "license": "MIT",
-  "installation": "/plugin install data-preprocessing-pipeline@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install data-preprocessing-pipeline@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/data-preprocessing-pipeline/README.md",
+  "tags": [
+    "preprocessing",
+    "cleaning",
+    "etl",
+    "pipeline",
+    "data"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.036Z",
+  "updatedAt": "2025-10-19T02:38:21.036Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "container-security-scanner",
+  "displayName": "Container Security Scanner",
+  "category": "devops",
+  "type": "standard",
   "description": "Scan containers for vulnerabilities using Trivy, Snyk, and other security tools",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/container-security-scanner",
+  "license": "MIT",
   "keywords": [
     "security",
     "containers",
@@ -11,14 +19,25 @@
     "trivy",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/container-security-scanner",
-  "license": "MIT",
-  "installation": "/plugin install container-security-scanner@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install container-security-scanner@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/container-security-scanner/README.md",
+  "tags": [
+    "security",
+    "containers",
+    "scanning",
+    "vulnerabilities",
+    "trivy",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.034Z",
+  "updatedAt": "2025-10-19T02:38:21.034Z"
 }

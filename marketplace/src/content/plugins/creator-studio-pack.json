@@ -1,12 +1,16 @@
 {
   "name": "creator-studio-pack",
+  "displayName": "Creator Studio Pack",
+  "category": "packages",
+  "type": "standard",
   "description": "Complete plugin suite for builder-filmmakers: Build products AND create viral videos. 20 plugins covering documentation, video production, content strategy, and workflow optimization. Transform from code to published video in 30 minutes.",
   "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
-    "url": "https://github.com/AndroidNextdoor"
+    "email": "[email protected]"
   },
-  "category": "automation",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/creator-studio-pack",
+  "license": "MIT",
   "keywords": [
     "video",
     "content-creation",
@@ -27,10 +31,6 @@
     "package",
     "premium"
   ],
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
-  "license": "MIT",
-  "installation": "/plugin install creator-studio-pack@claude@stoked-automations",
   "features": [
     "Auto-document builds with build-logger-agent",
     "Record screen with /record command (start/stop/mark)",
@@ -53,13 +53,36 @@
     "10 AI agents + 10 commands",
     "Comprehensive documentation and templates"
   ],
-  "requirements": [
-    "Stoked Automations v2025.0.0 or higher",
-    "FFmpeg for video processing",
-    "Git for build logging",
-    "Optional: DaVinci Resolve 18+ for professional editing",
-    "Optional: YouTube API credentials for automated uploads",
-    "Optional: Twitter API credentials for thread distribution",
-    "Optional: LinkedIn API credentials for professional content"
-  ]
+  "installation": "/plugin install creator-studio-pack@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/packages/creator-studio-pack/README.md",
+  "tags": [
+    "video",
+    "content-creation",
+    "youtube",
+    "filmmaking",
+    "creator",
+    "documentation",
+    "screencast",
+    "tutorial",
+    "video-editing",
+    "content-strategy",
+    "distribution",
+    "thumbnails",
+    "subtitles",
+    "repurposing",
+    "batch-recording",
+    "analytics",
+    "package",
+    "premium"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

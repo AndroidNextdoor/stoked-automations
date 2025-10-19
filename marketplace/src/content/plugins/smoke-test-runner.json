@@ -1,8 +1,16 @@
 {
   "name": "smoke-test-runner",
+  "displayName": "Smoke Test Runner",
+  "category": "testing",
+  "type": "standard",
   "description": "Quick smoke test suites to verify critical functionality after deployments",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/smoke-test-runner",
+  "license": "MIT",
   "keywords": [
     "testing",
     "smoke-tests",
@@ -10,14 +18,24 @@
     "sanity-check",
     "critical-path"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/smoke-test-runner",
-  "license": "MIT",
-  "installation": "/plugin install smoke-test-runner@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install smoke-test-runner@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/smoke-test-runner/README.md",
+  "tags": [
+    "testing",
+    "smoke-tests",
+    "deployment",
+    "sanity-check",
+    "critical-path"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.030Z",
+  "updatedAt": "2025-10-19T02:38:21.030Z"
 }

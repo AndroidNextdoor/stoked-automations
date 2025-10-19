@@ -1,22 +1,39 @@
 {
   "name": "capacity-planning-analyzer",
+  "displayName": "Capacity Planning Analyzer",
+  "category": "performance",
+  "type": "standard",
   "description": "Analyze and plan for capacity requirements",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/capacity-planning-analyzer",
+  "license": "MIT",
   "keywords": [
     "capacity-planning",
     "scaling",
     "forecasting",
     "infrastructure"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/capacity-planning-analyzer",
-  "license": "MIT",
-  "installation": "/plugin install capacity-planning-analyzer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install capacity-planning-analyzer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/capacity-planning-analyzer/README.md",
+  "tags": [
+    "capacity-planning",
+    "scaling",
+    "forecasting",
+    "infrastructure"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.040Z",
+  "updatedAt": "2025-10-19T02:38:21.040Z"
 }

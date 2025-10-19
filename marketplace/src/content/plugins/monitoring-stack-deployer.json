@@ -1,8 +1,16 @@
 {
   "name": "monitoring-stack-deployer",
+  "displayName": "Monitoring Stack Deployer",
+  "category": "devops",
+  "type": "standard",
   "description": "Deploy monitoring stacks (Prometheus, Grafana, Datadog)",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/monitoring-stack-deployer",
+  "license": "MIT",
   "keywords": [
     "monitoring",
     "prometheus",
@@ -10,14 +18,24 @@
     "observability",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/monitoring-stack-deployer",
-  "license": "MIT",
-  "installation": "/plugin install monitoring-stack-deployer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install monitoring-stack-deployer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/monitoring-stack-deployer/README.md",
+  "tags": [
+    "monitoring",
+    "prometheus",
+    "grafana",
+    "observability",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.035Z",
+  "updatedAt": "2025-10-19T02:38:21.035Z"
 }

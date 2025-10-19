@@ -1,8 +1,16 @@
 {
   "name": "helm-chart-generator",
+  "displayName": "Helm Chart Generator",
+  "category": "devops",
+  "type": "standard",
   "description": "Generate Helm charts for Kubernetes applications",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/helm-chart-generator",
+  "license": "MIT",
   "keywords": [
     "helm",
     "kubernetes",
@@ -10,14 +18,24 @@
     "charts",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/helm-chart-generator",
-  "license": "MIT",
-  "installation": "/plugin install helm-chart-generator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install helm-chart-generator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/helm-chart-generator/README.md",
+  "tags": [
+    "helm",
+    "kubernetes",
+    "packaging",
+    "charts",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.035Z",
+  "updatedAt": "2025-10-19T02:38:21.035Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "gitops-workflow-builder",
+  "displayName": "Gitops Workflow Builder",
+  "category": "devops",
+  "type": "standard",
   "description": "Build GitOps workflows with ArgoCD and Flux",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/gitops-workflow-builder",
+  "license": "MIT",
   "keywords": [
     "gitops",
     "argocd",
@@ -11,14 +19,25 @@
     "kubernetes",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/gitops-workflow-builder",
-  "license": "MIT",
-  "installation": "/plugin install gitops-workflow-builder@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install gitops-workflow-builder@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/gitops-workflow-builder/README.md",
+  "tags": [
+    "gitops",
+    "argocd",
+    "flux",
+    "cd",
+    "kubernetes",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.035Z",
+  "updatedAt": "2025-10-19T02:38:21.035Z"
 }

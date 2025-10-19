@@ -1,22 +1,39 @@
 {
   "name": "api-throttling-manager",
+  "displayName": "Api Throttling Manager",
+  "category": "api-development",
+  "type": "standard",
   "description": "Manage API throttling with dynamic rate limits and quota management",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-throttling-manager",
+  "license": "MIT",
   "keywords": [
     "throttling",
     "rate-limiting",
     "quota",
     "traffic-management"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/api-throttling-manager",
-  "license": "MIT",
-  "installation": "/plugin install api-throttling-manager@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install api-throttling-manager@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/api-development/api-throttling-manager/README.md",
+  "tags": [
+    "throttling",
+    "rate-limiting",
+    "quota",
+    "traffic-management"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.033Z",
+  "updatedAt": "2025-10-19T02:38:21.033Z"
 }

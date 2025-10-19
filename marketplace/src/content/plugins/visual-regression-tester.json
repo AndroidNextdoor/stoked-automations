@@ -1,8 +1,16 @@
 {
   "name": "visual-regression-tester",
+  "displayName": "Visual Regression Tester",
+  "category": "testing",
+  "type": "standard",
   "description": "Visual diff testing with Percy, Chromatic, BackstopJS - catch unintended UI changes",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/visual-regression-tester",
+  "license": "MIT",
   "keywords": [
     "testing",
     "visual-regression",
@@ -12,14 +20,26 @@
     "backstop",
     "screenshot-testing"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/visual-regression-tester",
-  "license": "MIT",
-  "installation": "/plugin install visual-regression-tester@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install visual-regression-tester@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/visual-regression-tester/README.md",
+  "tags": [
+    "testing",
+    "visual-regression",
+    "ui-testing",
+    "percy",
+    "chromatic",
+    "backstop",
+    "screenshot-testing"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.030Z",
+  "updatedAt": "2025-10-19T02:38:21.030Z"
 }

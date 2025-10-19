@@ -1,22 +1,39 @@
 {
   "name": "backup-strategy-implementor",
+  "displayName": "Backup Strategy Implementor",
+  "category": "devops",
+  "type": "standard",
   "description": "Implement backup strategies for databases and applications",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/backup-strategy-implementor",
+  "license": "MIT",
   "keywords": [
     "backup",
     "disaster-recovery",
     "restoration",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/backup-strategy-implementor",
-  "license": "MIT",
-  "installation": "/plugin install backup-strategy-implementor@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install backup-strategy-implementor@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/backup-strategy-implementor/README.md",
+  "tags": [
+    "backup",
+    "disaster-recovery",
+    "restoration",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.035Z",
+  "updatedAt": "2025-10-19T02:38:21.035Z"
 }

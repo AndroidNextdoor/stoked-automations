@@ -1,8 +1,16 @@
 {
   "name": "accessibility-test-scanner",
+  "displayName": "Accessibility Test Scanner",
+  "category": "testing",
+  "type": "standard",
   "description": "A11y compliance testing with WCAG 2.1/2.2 validation, screen reader compatibility, and automated accessibility audits",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/accessibility-test-scanner",
+  "license": "MIT",
   "keywords": [
     "testing",
     "accessibility",
@@ -12,14 +20,26 @@
     "screen-reader",
     "compliance"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/accessibility-test-scanner",
-  "license": "MIT",
-  "installation": "/plugin install accessibility-test-scanner@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install accessibility-test-scanner@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/accessibility-test-scanner/README.md",
+  "tags": [
+    "testing",
+    "accessibility",
+    "a11y",
+    "wcag",
+    "aria",
+    "screen-reader",
+    "compliance"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.029Z",
+  "updatedAt": "2025-10-19T02:38:21.029Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "model-versioning-tracker",
+  "displayName": "Model Versioning Tracker",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Track and manage model versions",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/model-versioning-tracker",
+  "license": "MIT",
   "keywords": [
     "versioning",
     "mlflow",
@@ -10,14 +18,24 @@
     "registry",
     "mlops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/model-versioning-tracker",
-  "license": "MIT",
-  "installation": "/plugin install model-versioning-tracker@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install model-versioning-tracker@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/model-versioning-tracker/README.md",
+  "tags": [
+    "versioning",
+    "mlflow",
+    "tracking",
+    "registry",
+    "mlops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.037Z",
+  "updatedAt": "2025-10-19T02:38:21.037Z"
 }

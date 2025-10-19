@@ -800,6 +800,30 @@ const categoryIcons: Record<string, string> = {
     }
   }
 
+  // Toggle sections visibility based on active filters
+  function toggleSectionsVisibility() {
+    const hasActiveFilters = searchInput.value.trim() || selectedCategories.size > 0;
+
+    const spotlightSection = document.getElementById('spotlight-section');
+    const featuredSection = document.getElementById('featured-section');
+    const categoriesSection = document.getElementById('categories-section');
+    const allPluginsHeader = document.getElementById('all-plugins-header');
+
+    if (hasActiveFilters) {
+      // Hide all promotional/organizational sections when filtering
+      if (spotlightSection) spotlightSection.style.display = 'none';
+      if (featuredSection) featuredSection.style.display = 'none';
+      if (categoriesSection) categoriesSection.style.display = 'none';
+      if (allPluginsHeader) allPluginsHeader.style.display = 'none';
+    } else {
+      // Show sections when no filters active
+      if (spotlightSection) spotlightSection.style.display = '';
+      if (featuredSection) featuredSection.style.display = '';
+      if (categoriesSection) categoriesSection.style.display = '';
+      if (allPluginsHeader) allPluginsHeader.style.display = '';
+    }
+  }
+
   // Main filter function
   function updatePluginDisplay() {
     const searchTerm = searchInput.value.toLowerCase().trim();
@@ -807,6 +831,9 @@ const categoryIcons: Record<string, string> = {
 
     const pluginCards = Array.from(document.querySelectorAll('.plugin-card'));
     let visibleCount = 0;
+
+    // Toggle sections visibility
+    toggleSectionsVisibility();
 
     // Filter plugins
     pluginCards.forEach((card) => {

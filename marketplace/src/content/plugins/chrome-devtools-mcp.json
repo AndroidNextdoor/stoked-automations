@@ -1,0 +1,93 @@
+{
+  "name": "chrome-devtools-mcp",
+  "displayName": "Chrome Devtools Mcp",
+  "category": "testing",
+  "type": "mcp",
+  "description": "Official Chrome DevTools Protocol MCP server from Google - control and inspect live Chrome browsers with performance insights, network analysis, and console access.",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Google Chrome Team",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "license": "MIT",
+  "keywords": [
+    "chrome",
+    "devtools",
+    "cdp",
+    "debugging",
+    "performance",
+    "network-analysis",
+    "puppeteer",
+    "mcp",
+    "google"
+  ],
+  "features": [],
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    },
+    {
+      "name": "tool_3",
+      "description": "MCP tool 3"
+    },
+    {
+      "name": "tool_4",
+      "description": "MCP tool 4"
+    },
+    {
+      "name": "tool_5",
+      "description": "MCP tool 5"
+    },
+    {
+      "name": "tool_6",
+      "description": "MCP tool 6"
+    },
+    {
+      "name": "tool_7",
+      "description": "MCP tool 7"
+    },
+    {
+      "name": "tool_8",
+      "description": "MCP tool 8"
+    },
+    {
+      "name": "tool_9",
+      "description": "MCP tool 9"
+    },
+    {
+      "name": "tool_10",
+      "description": "MCP tool 10"
+    }
+  ],
+  "installation": "/plugin install chrome-devtools-mcp@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/chrome-devtools-mcp/README.md",
+  "tags": [
+    "chrome",
+    "devtools",
+    "cdp",
+    "debugging",
+    "performance",
+    "network-analysis",
+    "puppeteer",
+    "mcp",
+    "google"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.027Z",
+  "updatedAt": "2025-10-19T02:38:21.027Z"
+}

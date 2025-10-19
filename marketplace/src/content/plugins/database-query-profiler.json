@@ -1,8 +1,16 @@
 {
   "name": "database-query-profiler",
+  "displayName": "Database Query Profiler",
+  "category": "performance",
+  "type": "standard",
   "description": "Profile and optimize database queries for performance",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/database-query-profiler",
+  "license": "MIT",
   "keywords": [
     "database",
     "query",
@@ -10,14 +18,24 @@
     "optimization",
     "sql"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/database-query-profiler",
-  "license": "MIT",
-  "installation": "/plugin install database-query-profiler@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install database-query-profiler@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/database-query-profiler/README.md",
+  "tags": [
+    "database",
+    "query",
+    "profiling",
+    "optimization",
+    "sql"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.041Z",
+  "updatedAt": "2025-10-19T02:38:21.041Z"
 }

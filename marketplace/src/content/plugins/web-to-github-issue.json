@@ -1,0 +1,47 @@
+{
+  "name": "web-to-github-issue",
+  "displayName": "Web To Github Issue",
+  "category": "skill-enhancers",
+  "type": "standard",
+  "description": "Enhances web_search Skill by automatically creating GitHub issues from research findings. Research topics, extract key insights, and generate formatted tickets in seconds.",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+  "license": "MIT",
+  "keywords": [
+    "web-search",
+    "github",
+    "automation",
+    "research",
+    "issue-tracking",
+    "skill-enhancer",
+    "productivity",
+    "workflow"
+  ],
+  "features": [],
+  "installation": "/plugin install web-to-github-issue@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/skill-enhancers/web-to-github-issue/README.md",
+  "tags": [
+    "web-search",
+    "github",
+    "automation",
+    "research",
+    "issue-tracking",
+    "skill-enhancer",
+    "productivity",
+    "workflow"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.026Z",
+  "updatedAt": "2025-10-19T02:38:21.026Z"
+}

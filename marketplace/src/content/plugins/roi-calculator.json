@@ -1,8 +1,16 @@
 {
   "name": "roi-calculator",
+  "displayName": "Roi Calculator",
+  "category": "ai-agency",
+  "type": "standard",
   "description": "Calculate and present ROI for AI automation projects",
   "version": "2025.0.0",
-  "category": "business-tools",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-agency/roi-calculator",
+  "license": "MIT",
   "keywords": [
     "roi",
     "return on investment",
@@ -11,14 +19,25 @@
     "value",
     "ai-agency"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-agency/roi-calculator",
-  "license": "MIT",
-  "installation": "/plugin install roi-calculator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install roi-calculator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-agency/roi-calculator/README.md",
+  "tags": [
+    "roi",
+    "return on investment",
+    "calculator",
+    "sales",
+    "value",
+    "ai-agency"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.029Z",
+  "updatedAt": "2025-10-19T02:38:21.029Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "ml-model-trainer",
+  "displayName": "Ml Model Trainer",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Train and optimize machine learning models with automated workflows",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/ml-model-trainer",
+  "license": "MIT",
   "keywords": [
     "ml",
     "machine-learning",
@@ -10,14 +18,24 @@
     "models",
     "ai"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/ml-model-trainer",
-  "license": "MIT",
-  "installation": "/plugin install ml-model-trainer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install ml-model-trainer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/ml-model-trainer/README.md",
+  "tags": [
+    "ml",
+    "machine-learning",
+    "training",
+    "models",
+    "ai"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.035Z",
+  "updatedAt": "2025-10-19T02:38:21.035Z"
 }

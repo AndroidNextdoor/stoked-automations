@@ -1,8 +1,16 @@
 {
   "name": "test-doubles-generator",
+  "displayName": "Test Doubles Generator",
+  "category": "testing",
+  "type": "standard",
   "description": "Generate mocks, stubs, spies, and fakes for unit testing with Jest, Sinon, and test frameworks",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-doubles-generator",
+  "license": "MIT",
   "keywords": [
     "testing",
     "mocks",
@@ -13,14 +21,27 @@
     "jest",
     "sinon"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-doubles-generator",
-  "license": "MIT",
-  "installation": "/plugin install test-doubles-generator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install test-doubles-generator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/test-doubles-generator/README.md",
+  "tags": [
+    "testing",
+    "mocks",
+    "stubs",
+    "spies",
+    "fakes",
+    "test-doubles",
+    "jest",
+    "sinon"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.030Z",
+  "updatedAt": "2025-10-19T02:38:21.030Z"
 }

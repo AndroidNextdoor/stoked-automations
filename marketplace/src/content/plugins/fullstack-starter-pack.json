@@ -1,8 +1,16 @@
 {
   "name": "fullstack-starter-pack",
+  "displayName": "Fullstack Starter Pack",
+  "category": "fullstack",
+  "type": "standard",
   "description": "Complete fullstack development toolkit: React, Express/FastAPI, PostgreSQL scaffolding with AI agents",
   "version": "2025.0.0",
-  "category": "frontend-development",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/fullstack-starter-pack",
+  "license": "MIT",
   "keywords": [
     "fullstack",
     "react",
@@ -14,14 +22,28 @@
     "mvp",
     "package"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/fullstack-starter-pack",
-  "license": "MIT",
-  "installation": "/plugin install fullstack-starter-pack@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install fullstack-starter-pack@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/packages/fullstack-starter-pack/README.md",
+  "tags": [
+    "fullstack",
+    "react",
+    "express",
+    "fastapi",
+    "postgresql",
+    "prisma",
+    "typescript",
+    "mvp",
+    "package"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.029Z",
+  "updatedAt": "2025-10-19T02:38:21.029Z"
 }

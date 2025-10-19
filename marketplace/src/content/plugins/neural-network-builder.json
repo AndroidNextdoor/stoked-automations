@@ -1,8 +1,16 @@
 {
   "name": "neural-network-builder",
+  "displayName": "Neural Network Builder",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Build and configure neural network architectures",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/neural-network-builder",
+  "license": "MIT",
   "keywords": [
     "neural-networks",
     "deep-learning",
@@ -10,14 +18,24 @@
     "pytorch",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/neural-network-builder",
-  "license": "MIT",
-  "installation": "/plugin install neural-network-builder@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install neural-network-builder@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/neural-network-builder/README.md",
+  "tags": [
+    "neural-networks",
+    "deep-learning",
+    "architecture",
+    "pytorch",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.036Z",
+  "updatedAt": "2025-10-19T02:38:21.036Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "rest-api-generator",
+  "displayName": "Rest Api Generator",
+  "category": "api-development",
+  "type": "standard",
   "description": "Generate RESTful APIs from schemas with proper routing, validation, and documentation",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/rest-api-generator",
+  "license": "MIT",
   "keywords": [
     "api",
     "rest",
@@ -11,14 +19,25 @@
     "swagger",
     "backend"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/api-development/rest-api-generator",
-  "license": "MIT",
-  "installation": "/plugin install rest-api-generator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install rest-api-generator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/api-development/rest-api-generator/README.md",
+  "tags": [
+    "api",
+    "rest",
+    "generator",
+    "openapi",
+    "swagger",
+    "backend"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.031Z",
+  "updatedAt": "2025-10-19T02:38:21.031Z"
 }

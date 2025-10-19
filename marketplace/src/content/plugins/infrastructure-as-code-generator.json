@@ -1,8 +1,16 @@
 {
   "name": "infrastructure-as-code-generator",
+  "displayName": "Infrastructure As Code Generator",
+  "category": "devops",
+  "type": "standard",
   "description": "Generate Infrastructure as Code for Terraform, CloudFormation, Pulumi, and more",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/infrastructure-as-code-generator",
+  "license": "MIT",
   "keywords": [
     "iac",
     "terraform",
@@ -11,14 +19,25 @@
     "infrastructure",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/infrastructure-as-code-generator",
-  "license": "MIT",
-  "installation": "/plugin install infrastructure-as-code-generator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install infrastructure-as-code-generator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/infrastructure-as-code-generator/README.md",
+  "tags": [
+    "iac",
+    "terraform",
+    "cloudformation",
+    "pulumi",
+    "infrastructure",
+    "devops"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.034Z",
+  "updatedAt": "2025-10-19T02:38:21.034Z"
 }

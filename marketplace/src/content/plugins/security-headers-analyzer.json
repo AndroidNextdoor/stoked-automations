@@ -1,21 +1,37 @@
 {
   "name": "security-headers-analyzer",
+  "displayName": "Security Headers Analyzer",
+  "category": "security",
+  "type": "standard",
   "description": "Analyze HTTP security headers",
   "version": "2025.0.0",
-  "category": "security",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/security-headers-analyzer",
+  "license": "MIT",
   "keywords": [
     "security",
     "compliance",
     "auditing"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/security/security-headers-analyzer",
-  "license": "MIT",
-  "installation": "/plugin install security-headers-analyzer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install security-headers-analyzer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/security/security-headers-analyzer/README.md",
+  "tags": [
+    "security",
+    "compliance",
+    "auditing"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.043Z",
+  "updatedAt": "2025-10-19T02:38:21.043Z"
 }

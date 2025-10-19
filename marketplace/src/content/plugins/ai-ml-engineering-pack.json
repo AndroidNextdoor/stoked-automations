@@ -1,8 +1,16 @@
 {
   "name": "ai-ml-engineering-pack",
+  "displayName": "Ai Ml Engineering Pack",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Professional AI/ML Engineering toolkit: Prompt engineering, LLM integration, RAG systems, AI safety with 12 expert plugins",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/ai-ml-engineering-pack",
+  "license": "MIT",
   "keywords": [
     "ai",
     "ml",
@@ -15,14 +23,29 @@
     "anthropic",
     "package"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/packages/ai-ml-engineering-pack",
-  "license": "MIT",
-  "installation": "/plugin install ai-ml-engineering-pack@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install ai-ml-engineering-pack@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/packages/ai-ml-engineering-pack/README.md",
+  "tags": [
+    "ai",
+    "ml",
+    "llm",
+    "prompt-engineering",
+    "rag",
+    "vector-database",
+    "ai-safety",
+    "openai",
+    "anthropic",
+    "package"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.029Z",
+  "updatedAt": "2025-10-19T02:38:21.029Z"
 }

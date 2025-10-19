@@ -1,22 +1,39 @@
 {
   "name": "infrastructure-metrics-collector",
+  "displayName": "Infrastructure Metrics Collector",
+  "category": "performance",
+  "type": "standard",
   "description": "Collect comprehensive infrastructure performance metrics",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/infrastructure-metrics-collector",
+  "license": "MIT",
   "keywords": [
     "infrastructure",
     "metrics",
     "monitoring",
     "observability"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/infrastructure-metrics-collector",
-  "license": "MIT",
-  "installation": "/plugin install infrastructure-metrics-collector@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install infrastructure-metrics-collector@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/infrastructure-metrics-collector/README.md",
+  "tags": [
+    "infrastructure",
+    "metrics",
+    "monitoring",
+    "observability"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.041Z",
+  "updatedAt": "2025-10-19T02:38:21.041Z"
 }

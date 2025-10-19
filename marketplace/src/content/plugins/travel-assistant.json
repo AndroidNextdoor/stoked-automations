@@ -1,12 +1,16 @@
 {
   "name": "travel-assistant",
-  "description": "Intelligent travel assistant with real-time weather forecasts, currency conversion, timezone coordination, AI-powered itineraries, smart packing lists, and local expert tips. Complete travel planning in one plugin with 6 commands, 4 AI agents, and automatic API integrations.",
+  "displayName": "Travel Assistant",
+  "category": "productivity",
+  "type": "standard",
+  "description": "Intelligent travel assistant with real-time weather, currency conversion, timezone info, and AI-powered itinerary planning. Your complete travel companion.",
   "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
-    "url": "https://github.com/AndroidNextdoor"
+    "email": "[email protected]"
   },
-  "category": "other",
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/productivity/travel-assistant",
+  "license": "MIT",
   "keywords": [
     "travel",
     "weather",
@@ -16,19 +20,11 @@
     "vacation",
     "trip-planning",
     "ai-travel",
-    "real-time-api",
-    "budget-travel",
-    "packing-list",
-    "travel-planner",
-    "weather-forecast",
-    "currency-converter",
-    "multi-city-trips",
-    "local-tips"
+    "real-time",
+    "api-integration",
+    "budget",
+    "packing-list"
   ],
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
-  "license": "MIT",
-  "installation": "/plugin install travel-assistant@claude@stoked-automations",
   "features": [
     "Complete travel planning with /travel command",
     "Real-time weather forecasts (7-14 days)",
@@ -62,10 +58,30 @@
     "Digital nomad remote work features",
     "Save 5+ hours per trip planning"
   ],
-  "requirements": [
-    "Claude Code 1.0.0 or higher",
-    "Optional: OpenWeatherMap API key (free tier)",
-    "Optional: ExchangeRate-API key (free tier)",
-    "Internet connection for real-time data"
-  ]
+  "installation": "/plugin install travel-assistant@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/productivity/travel-assistant/README.md",
+  "tags": [
+    "travel",
+    "weather",
+    "currency",
+    "timezone",
+    "itinerary",
+    "vacation",
+    "trip-planning",
+    "ai-travel",
+    "real-time",
+    "api-integration",
+    "budget",
+    "packing-list"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

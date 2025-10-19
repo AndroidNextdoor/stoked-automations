@@ -1,22 +1,39 @@
 {
   "name": "alerting-rule-creator",
+  "displayName": "Alerting Rule Creator",
+  "category": "performance",
+  "type": "standard",
   "description": "Create intelligent alerting rules for performance monitoring",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/alerting-rule-creator",
+  "license": "MIT",
   "keywords": [
     "alerting",
     "monitoring",
     "sre",
     "observability"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/alerting-rule-creator",
-  "license": "MIT",
-  "installation": "/plugin install alerting-rule-creator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install alerting-rule-creator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/alerting-rule-creator/README.md",
+  "tags": [
+    "alerting",
+    "monitoring",
+    "sre",
+    "observability"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.040Z",
+  "updatedAt": "2025-10-19T02:38:21.040Z"
 }

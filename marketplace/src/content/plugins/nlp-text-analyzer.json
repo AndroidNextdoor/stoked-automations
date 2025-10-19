@@ -1,8 +1,16 @@
 {
   "name": "nlp-text-analyzer",
+  "displayName": "Nlp Text Analyzer",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Natural language processing and text analysis",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/nlp-text-analyzer",
+  "license": "MIT",
   "keywords": [
     "nlp",
     "text",
@@ -10,14 +18,24 @@
     "tokenization",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/nlp-text-analyzer",
-  "license": "MIT",
-  "installation": "/plugin install nlp-text-analyzer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install nlp-text-analyzer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/nlp-text-analyzer/README.md",
+  "tags": [
+    "nlp",
+    "text",
+    "analysis",
+    "tokenization",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.036Z",
+  "updatedAt": "2025-10-19T02:38:21.036Z"
 }

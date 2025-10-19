@@ -1,8 +1,16 @@
 {
   "name": "deployment-rollback-manager",
+  "displayName": "Deployment Rollback Manager",
+  "category": "devops",
+  "type": "standard",
   "description": "Manage and execute deployment rollbacks with safety checks",
   "version": "2025.0.0",
-  "category": "devops",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/deployment-rollback-manager",
+  "license": "MIT",
   "keywords": [
     "rollback",
     "deployment",
@@ -10,14 +18,24 @@
     "recovery",
     "devops"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/devops/deployment-rollback-manager",
-  "license": "MIT",
-  "installation": "/plugin install deployment-rollback-manager@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install deployment-rollback-manager@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/devops/deployment-rollback-manager/README.md",
+  "tags": [
+    "rollback",
+    "deployment",
+    "kubernetes",
+    "recovery",
+    "devops"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.034Z",
+  "updatedAt": "2025-10-19T02:38:21.034Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "performance-test-suite",
+  "displayName": "Performance Test Suite",
+  "category": "testing",
+  "type": "standard",
   "description": "Load testing and performance benchmarking with metrics analysis and bottleneck identification",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/performance-test-suite",
+  "license": "MIT",
   "keywords": [
     "testing",
     "performance",
@@ -10,14 +18,24 @@
     "benchmarking",
     "stress-testing"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/performance-test-suite",
-  "license": "MIT",
-  "installation": "/plugin install performance-test-suite@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install performance-test-suite@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/performance-test-suite/README.md",
+  "tags": [
+    "testing",
+    "performance",
+    "load-testing",
+    "benchmarking",
+    "stress-testing"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

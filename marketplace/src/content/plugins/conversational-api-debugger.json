@@ -1,8 +1,16 @@
 {
   "name": "conversational-api-debugger",
+  "displayName": "Conversational Api Debugger",
+  "category": "debugging",
+  "type": "mcp",
   "description": "Debug REST API failures using OpenAPI specs and HTTP logs (HAR) - root cause analysis with cURL generation",
   "version": "2025.0.0",
-  "category": "debugging",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/conversational-api-debugger",
+  "license": "MIT",
   "keywords": [
     "mcp",
     "api",
@@ -13,14 +21,47 @@
     "curl",
     "http"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/conversational-api-debugger",
-  "license": "MIT",
-  "installation": "/plugin install conversational-api-debugger@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    },
+    {
+      "name": "tool_3",
+      "description": "MCP tool 3"
+    },
+    {
+      "name": "tool_4",
+      "description": "MCP tool 4"
+    }
+  ],
+  "installation": "/plugin install conversational-api-debugger@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/conversational-api-debugger/README.md",
+  "tags": [
+    "mcp",
+    "api",
+    "debugging",
+    "openapi",
+    "har",
+    "rest",
+    "curl",
+    "http"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.027Z",
+  "updatedAt": "2025-10-19T02:38:21.027Z"
 }

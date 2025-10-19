@@ -1,8 +1,16 @@
 {
   "name": "computer-vision-processor",
+  "displayName": "Computer Vision Processor",
+  "category": "ai-ml",
+  "type": "standard",
   "description": "Computer vision image processing and analysis",
   "version": "2025.0.0",
-  "category": "ai-ml-assistance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/computer-vision-processor",
+  "license": "MIT",
   "keywords": [
     "cv",
     "vision",
@@ -10,14 +18,24 @@
     "detection",
     "ml"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-ml/computer-vision-processor",
-  "license": "MIT",
-  "installation": "/plugin install computer-vision-processor@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install computer-vision-processor@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/ai-ml/computer-vision-processor/README.md",
+  "tags": [
+    "cv",
+    "vision",
+    "images",
+    "detection",
+    "ml"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.036Z",
+  "updatedAt": "2025-10-19T02:38:21.036Z"
 }

@@ -1,8 +1,16 @@
 {
   "name": "mutation-test-runner",
+  "displayName": "Mutation Test Runner",
+  "category": "testing",
+  "type": "standard",
   "description": "Mutation testing to validate test quality by introducing code changes and verifying tests catch them",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/mutation-test-runner",
+  "license": "MIT",
   "keywords": [
     "testing",
     "mutation-testing",
@@ -10,14 +18,24 @@
     "stryker",
     "pitest"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/mutation-test-runner",
-  "license": "MIT",
-  "installation": "/plugin install mutation-test-runner@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install mutation-test-runner@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/mutation-test-runner/README.md",
+  "tags": [
+    "testing",
+    "mutation-testing",
+    "test-quality",
+    "stryker",
+    "pitest"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.044Z",
+  "updatedAt": "2025-10-19T02:38:21.044Z"
 }

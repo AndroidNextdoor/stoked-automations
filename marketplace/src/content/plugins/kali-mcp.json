@@ -1,0 +1,104 @@
+{
+  "name": "kali-mcp",
+  "displayName": "Kali Mcp",
+  "category": "security",
+  "type": "mcp",
+  "description": "Kali Linux security tools integration via MCP - execute penetration testing commands, run security scans, automate reconnaissance, and solve CTF challenges with AI assistance",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/Wh0am123",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/Wh0am123/MCP-Kali-Server",
+  "license": "MIT",
+  "keywords": [
+    "kali-linux",
+    "penetration-testing",
+    "security",
+    "nmap",
+    "metasploit",
+    "burp-suite",
+    "reconnaissance",
+    "exploitation",
+    "ctf",
+    "offensive-security",
+    "red-team",
+    "bug-bounty",
+    "vulnerability-scanning",
+    "mcp-server"
+  ],
+  "features": [],
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    },
+    {
+      "name": "tool_3",
+      "description": "MCP tool 3"
+    },
+    {
+      "name": "tool_4",
+      "description": "MCP tool 4"
+    },
+    {
+      "name": "tool_5",
+      "description": "MCP tool 5"
+    },
+    {
+      "name": "tool_6",
+      "description": "MCP tool 6"
+    },
+    {
+      "name": "tool_7",
+      "description": "MCP tool 7"
+    },
+    {
+      "name": "tool_8",
+      "description": "MCP tool 8"
+    },
+    {
+      "name": "tool_9",
+      "description": "MCP tool 9"
+    },
+    {
+      "name": "tool_10",
+      "description": "MCP tool 10"
+    }
+  ],
+  "installation": "/plugin install kali-mcp@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/kali-mcp/README.md",
+  "tags": [
+    "kali-linux",
+    "penetration-testing",
+    "security",
+    "nmap",
+    "metasploit",
+    "burp-suite",
+    "reconnaissance",
+    "exploitation",
+    "ctf",
+    "offensive-security",
+    "red-team",
+    "bug-bounty",
+    "vulnerability-scanning",
+    "mcp-server"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.028Z",
+  "updatedAt": "2025-10-19T02:38:21.028Z"
+}

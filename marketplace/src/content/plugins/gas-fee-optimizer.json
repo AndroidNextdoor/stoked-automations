@@ -1,8 +1,16 @@
 {
   "name": "gas-fee-optimizer",
+  "displayName": "Gas Fee Optimizer",
+  "category": "crypto",
+  "type": "standard",
   "description": "Optimize transaction gas fees with timing and routing recommendations",
   "version": "2025.0.0",
-  "category": "other",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/gas-fee-optimizer",
+  "license": "MIT",
   "keywords": [
     "gas",
     "fees",
@@ -11,14 +19,25 @@
     "transaction",
     "l2"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/crypto/gas-fee-optimizer",
-  "license": "MIT",
-  "installation": "/plugin install gas-fee-optimizer@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install gas-fee-optimizer@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/crypto/gas-fee-optimizer/README.md",
+  "tags": [
+    "gas",
+    "fees",
+    "ethereum",
+    "optimization",
+    "transaction",
+    "l2"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.038Z",
+  "updatedAt": "2025-10-19T02:38:21.038Z"
 }

@@ -1,0 +1,60 @@
+{
+  "name": "aws-kb-retrieval",
+  "displayName": "Aws Kb Retrieval",
+  "category": "ai-ml",
+  "type": "mcp",
+  "description": "AWS Bedrock Knowledge Base retrieval and RAG capabilities. Enterprise-grade semantic search with vector embeddings and AWS-managed knowledge bases.",
+  "version": "2025.0.0",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/awslabs",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/awslabs/mcp-server-aws-kb-retrieval",
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "bedrock",
+    "knowledge-base",
+    "rag",
+    "retrieval",
+    "semantic-search",
+    "vector-embeddings",
+    "enterprise-ai"
+  ],
+  "features": [],
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    }
+  ],
+  "installation": "/plugin install aws-kb-retrieval@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/aws-kb-retrieval/README.md",
+  "tags": [
+    "aws",
+    "bedrock",
+    "knowledge-base",
+    "rag",
+    "retrieval",
+    "semantic-search",
+    "vector-embeddings",
+    "enterprise-ai"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.028Z",
+  "updatedAt": "2025-10-19T02:38:21.028Z"
+}

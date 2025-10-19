@@ -1,8 +1,16 @@
 {
   "name": "apm-dashboard-creator",
+  "displayName": "Apm Dashboard Creator",
+  "category": "performance",
+  "type": "standard",
   "description": "Create Application Performance Monitoring dashboards",
   "version": "2025.0.0",
-  "category": "performance",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/apm-dashboard-creator",
+  "license": "MIT",
   "keywords": [
     "apm",
     "monitoring",
@@ -10,14 +18,24 @@
     "grafana",
     "datadog"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/performance/apm-dashboard-creator",
-  "license": "MIT",
-  "installation": "/plugin install apm-dashboard-creator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install apm-dashboard-creator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/performance/apm-dashboard-creator/README.md",
+  "tags": [
+    "apm",
+    "monitoring",
+    "dashboard",
+    "grafana",
+    "datadog"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.040Z",
+  "updatedAt": "2025-10-19T02:38:21.040Z"
 }

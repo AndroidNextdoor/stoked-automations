@@ -1,8 +1,16 @@
 {
   "name": "contract-test-validator",
+  "displayName": "Contract Test Validator",
+  "category": "testing",
+  "type": "standard",
   "description": "API contract testing with Pact, OpenAPI validation, and consumer-driven contract verification",
   "version": "2025.0.0",
-  "category": "testing",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/contract-test-validator",
+  "license": "MIT",
   "keywords": [
     "testing",
     "contract-testing",
@@ -12,14 +20,26 @@
     "microservices",
     "consumer-driven"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": false,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/contract-test-validator",
-  "license": "MIT",
-  "installation": "/plugin install contract-test-validator@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "installation": "/plugin install contract-test-validator@stoked-automations",
+  "usage": {},
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/testing/contract-test-validator/README.md",
+  "tags": [
+    "testing",
+    "contract-testing",
+    "pact",
+    "openapi",
+    "api",
+    "microservices",
+    "consumer-driven"
+  ],
+  "featured": false,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.029Z",
+  "updatedAt": "2025-10-19T02:38:21.029Z"
 }

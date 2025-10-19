@@ -1,8 +1,16 @@
 {
   "name": "project-health-auditor",
+  "displayName": "Project Health Auditor",
+  "category": "code-quality",
+  "type": "mcp",
   "description": "Multi-dimensional code health analysis with complexity, churn, and test coverage - identifies technical debt hot spots",
   "version": "2025.0.0",
-  "category": "code-analysis",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/project-health-auditor",
+  "license": "MIT",
   "keywords": [
     "mcp",
     "code-quality",
@@ -12,14 +20,46 @@
     "test-coverage",
     "analytics"
   ],
-  "author": {
-    "name": "Andrew Nixdorf"
-  },
-  "featured": true,
-  "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/project-health-auditor",
-  "license": "MIT",
-  "installation": "/plugin install project-health-auditor@claude@stoked-automations",
   "features": [],
-  "requirements": [],
-  "screenshots": []
+  "tools": [
+    {
+      "name": "tool_1",
+      "description": "MCP tool 1"
+    },
+    {
+      "name": "tool_2",
+      "description": "MCP tool 2"
+    },
+    {
+      "name": "tool_3",
+      "description": "MCP tool 3"
+    },
+    {
+      "name": "tool_4",
+      "description": "MCP tool 4"
+    }
+  ],
+  "installation": "/plugin install project-health-auditor@stoked-automations",
+  "usage": {
+    "mcp": "Use MCP tools in Claude Code"
+  },
+  "examples": [],
+  "screenshots": [],
+  "documentation": "https://github.com/AndroidNextdoor/stoked-automations/blob/main/./plugins/mcp/project-health-auditor/README.md",
+  "tags": [
+    "mcp",
+    "code-quality",
+    "technical-debt",
+    "complexity",
+    "git-churn",
+    "test-coverage",
+    "analytics"
+  ],
+  "featured": true,
+  "verified": true,
+  "downloads": 0,
+  "rating": 0,
+  "reviews": [],
+  "createdAt": "2025-10-19T02:38:21.027Z",
+  "updatedAt": "2025-10-19T02:38:21.027Z"
 }
