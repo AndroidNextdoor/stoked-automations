@@ -4,11 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       bump_type:
-        description: 'Version bump type'
+        description: 'Version bump type (Annual-style: YYYY.MAJOR.MINOR)'
         required: true
         type: choice
         options:
-          - patch
           - minor
           - major
       skip_tests:
@@ -68,30 +67,33 @@ jobs:
         run: |
           CURRENT="${{ steps.current_version.outputs.current }}"
           BUMP_TYPE="${{ inputs.bump_type }}"
+          CURRENT_YEAR=$(date +%Y)
 
+          # Parse Annual-style version: YYYY.MAJOR.MINOR
           IFS='.' read -ra PARTS <<< "$CURRENT"
-          MAJOR="${PARTS[0]}"
-          MINOR="${PARTS[1]}"
-          PATCH="${PARTS[2]}"
+          YEAR="${PARTS[0]}"
+          MAJOR="${PARTS[1]}"
+          MINOR="${PARTS[2]}"
 
-          case "$BUMP_TYPE" in
-            major)
-              MAJOR=$((MAJOR + 1))
-              MINOR=0
-              PATCH=0
-              ;;
-            minor)
-              MINOR=$((MINOR + 1))
-              PATCH=0
-              ;;
-            patch)
-              PATCH=$((PATCH + 1))
-              ;;
-          esac
+          # If year has changed, reset to YYYY.0.0
+          if [ "$YEAR" != "$CURRENT_YEAR" ]; then
+            echo "New year detected! Resetting version to $CURRENT_YEAR.0.0"
+            NEW_VERSION="$CURRENT_YEAR.0.0"
+          else
+            case "$BUMP_TYPE" in
+              major)
+                MAJOR=$((MAJOR + 1))
+                MINOR=0
+                ;;
+              minor)
+                MINOR=$((MINOR + 1))
+                ;;
+            esac
+            NEW_VERSION="$YEAR.$MAJOR.$MINOR"
+          fi
 
-          NEW_VERSION="$MAJOR.$MINOR.$PATCH"
           echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
-          echo "New version: $NEW_VERSION"
+          echo "New version: $NEW_VERSION (Annual-style versioning)"
 
       - name: Update version in marketplace.json
         run: |
@@ -181,9 +183,14 @@ jobs:
           NEW_VERSION="${{ steps.new_version.outputs.version }}"
           echo "## Release v$NEW_VERSION Complete! " >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "-  Version bumped: ${{ steps.current_version.outputs.current }} → $NEW_VERSION" >> $GITHUB_STEP_SUMMARY
+          echo "-  Version bumped: ${{ steps.current_version.outputs.current }} → $NEW_VERSION (Annual-style)" >> $GITHUB_STEP_SUMMARY
           echo "-  Git tag created: v$NEW_VERSION" >> $GITHUB_STEP_SUMMARY
           echo "-  GitHub release published" >> $GITHUB_STEP_SUMMARY
           echo "-  Announcement issue created" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Annual-style Versioning:** YYYY.MAJOR.MINOR" >> $GITHUB_STEP_SUMMARY
+          echo "- Year resets MAJOR to 0 automatically" >> $GITHUB_STEP_SUMMARY
+          echo "- MAJOR: Significant features (backward compatible)" >> $GITHUB_STEP_SUMMARY
+          echo "- MINOR: Bug fixes and small improvements" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "[View Release](https://github.com/${{ github.repository }}/releases/tag/v$NEW_VERSION)" >> $GITHUB_STEP_SUMMARY
