@@ -32,7 +32,13 @@ marketplace.plugins.forEach(plugin => {
     type: plugin.mcpTools ? 'mcp' : 'standard',
     description: plugin.description,
     version: plugin.version,
-    author: plugin.author,
+    author: {
+      name: plugin.author.name,
+      email: plugin.author.email && plugin.author.email.includes('@') && !plugin.author.email.includes('[email')
+        ? plugin.author.email
+        : 'andrew@stokedautomation.com',
+      url: plugin.author.url
+    },
     repository: plugin.repository || `https://github.com/AndroidNextdoor/stoked-automations/tree/main/${plugin.source}`,
     license: plugin.license || 'MIT',
     keywords: plugin.keywords || [],

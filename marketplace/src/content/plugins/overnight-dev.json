@@ -7,8 +7,8 @@
   "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
-    "url": "https://intentsolutions.io",
-    "email": "[email protected]"
+    "email": "andrew@stokedautomation.com",
+    "url": "https://intentsolutions.io"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/productivity/overnight-dev",
   "license": "MIT",
@@ -45,6 +45,6 @@
   "downloads": 0,
   "rating": 0,
   "reviews": [],
-  "createdAt": "2025-10-19T02:38:21.029Z",
-  "updatedAt": "2025-10-19T02:38:21.029Z"
+  "createdAt": "2025-10-19T02:43:04.079Z",
+  "updatedAt": "2025-10-19T02:43:04.079Z"
 }

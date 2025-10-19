@@ -7,8 +7,8 @@
   "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
-    "url": "https://github.com/mendableai",
-    "email": "[email protected]"
+    "email": "andrew@stokedautomation.com",
+    "url": "https://github.com/mendableai"
   },
   "repository": "https://github.com/mendableai/firecrawl",
   "license": "MIT",
@@ -75,6 +75,6 @@
   "downloads": 0,
   "rating": 0,
   "reviews": [],
-  "createdAt": "2025-10-19T02:38:21.028Z",
-  "updatedAt": "2025-10-19T02:38:21.028Z"
+  "createdAt": "2025-10-19T02:43:04.078Z",
+  "updatedAt": "2025-10-19T02:43:04.078Z"
 }

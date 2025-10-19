@@ -7,7 +7,7 @@
   "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
-    "email": "[email protected]"
+    "email": "andrew@stokedautomation.com"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/mcp/project-health-auditor",
   "license": "MIT",
@@ -60,6 +60,6 @@
   "downloads": 0,
   "rating": 0,
   "reviews": [],
-  "createdAt": "2025-10-19T02:38:21.027Z",
-  "updatedAt": "2025-10-19T02:38:21.027Z"
+  "createdAt": "2025-10-19T02:43:04.077Z",
+  "updatedAt": "2025-10-19T02:43:04.077Z"
 }
