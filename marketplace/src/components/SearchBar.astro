@@ -714,8 +714,7 @@ const categoryIcons: Record<string, string> = {
       // Special handling for "mcp" virtual category
       if (category === 'mcp') {
         count = pluginCards.filter(card => {
-          const name = card.getAttribute('data-name')?.toLowerCase() || '';
-          return name.endsWith('-mcp');
+          return card.getAttribute('data-mcp') === 'true';
         }).length;
       } else {
         count = pluginCards.filter(card =>
@@ -823,8 +822,8 @@ const categoryIcons: Record<string, string> = {
         keywords.includes(searchTerm);
 
       // Category match (OR logic for multiple selections)
-      // Special handling for "mcp" virtual category - matches plugins ending with "-mcp"
-      const isMcpPlugin = name.endsWith('-mcp');
+      // Special handling for "mcp" virtual category - matches plugins with data-mcp="true"
+      const isMcpPlugin = card.getAttribute('data-mcp') === 'true';
       const matchesCategory = selectedCategories.size === 0 ||
         selectedCategories.has(category) ||
         (selectedCategories.has('mcp') && isMcpPlugin);

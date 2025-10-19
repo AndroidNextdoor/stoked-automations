@@ -12,9 +12,12 @@ interface Props {
   featured?: boolean;
   installation: string;
   repository?: string;
+  type?: string;
+  tools?: any[];
 }
 
-const { name, description, version, category, keywords, author, featured, installation, repository } = Astro.props;
+const { name, description, version, category, keywords, author, featured, installation, repository, type, tools } = Astro.props;
+const isMcpServer = type === 'mcp' || (tools && tools.length > 0);
 
 // Category icon mapping
 const categoryIcons: Record<string, string> = {
@@ -69,6 +72,7 @@ const colorClass = categoryColors[category] || 'category-neutral';
   data-keywords={keywords.join(' ')}
   data-category={category}
   data-featured={featured ? 'true' : 'false'}
+  data-mcp={isMcpServer ? 'true' : 'false'}
 >
   {featured && (
     <div class="featured-ribbon">
