@@ -1,7 +1,7 @@
 {
   "name": "metrics-aggregator",
   "description": "Aggregate and centralize performance metrics",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "metrics",

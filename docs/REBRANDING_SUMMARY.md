@@ -4,7 +4,7 @@
 
 This document summarizes the comprehensive rebranding of the Stoked Automations repository completed on October 18, 2025.
 
-**Branch:** `feature/rebrand-jetbrains-versioning-2025`
+**Branch:** `feature/rebrand-Annual-versioning-2025`
 
 ## What Changed
 
@@ -17,7 +17,7 @@ This document summarizes the comprehensive rebranding of the Stoked Automations 
 
 ### 2. Versioning Strategy
 
-Migrated from **semantic versioning** (1.0.0) to **JetBrains-style versioning** (2025.0.0)
+Migrated from **semantic versioning** (1.0.0) to **Annual-style versioning** (2025.0.0)
 
 **New Format:** `YYYY.MAJOR.MINOR`
 
@@ -42,7 +42,7 @@ Migrated from **semantic versioning** (1.0.0) to **JetBrains-style versioning** 
 #### Automation Scripts
 - **`scripts/rebrand-repository.sh`** - Bulk update script for all plugins
   - Updates author attribution
-  - Converts to JetBrains versioning
+  - Converts to Annual versioning
   - Supports `--dry-run` mode
   - Updates both plugin.json and marketplace catalogs
 
@@ -59,7 +59,7 @@ Migrated from **semantic versioning** (1.0.0) to **JetBrains-style versioning** 
 
 #### Core Documentation
 - **`CLAUDE.md`**
-  - Added JetBrains versioning documentation
+  - Added Annual versioning documentation
   - Added 30-hour mode documentation
   - Updated versioning best practices
 
@@ -98,7 +98,7 @@ Every `plugins/*/.claude-plugin/plugin.json` file updated with:
 
 ### Versioning Philosophy
 
-#### Why JetBrains Style?
+#### Why Annual Style?
 
 1. **Chronological Context** - Immediately know when a version was released
 2. **Predictable Cadence** - Annual major version resets
@@ -172,7 +172,7 @@ Token Limits by System:
 
 ### Versioning
 - ✓ All 250 plugins use version "2025.0.0"
-- ✓ JetBrains format (YYYY.MAJOR.MINOR) documented
+- ✓ Annual format (YYYY.MAJOR.MINOR) documented
 - ✓ Versioning guide added to CLAUDE.md
 
 ### Scripts
@@ -248,7 +248,7 @@ When creating new plugins, use:
 ### New Sections in CLAUDE.md
 
 1. **Versioning** (Line 317-362)
-   - Complete JetBrains versioning guide
+   - Complete Annual versioning guide
    - Version bumping rules
    - Benefits and philosophy
    - Migration notes
@@ -277,7 +277,7 @@ When creating new plugins, use:
 
 1. **Review Changes**
    ```bash
-   git diff main feature/rebrand-jetbrains-versioning-2025
+   git diff main feature/rebrand-Annual-versioning-2025
    ```
 
 2. **Run Full Validation**
@@ -295,16 +295,16 @@ When creating new plugins, use:
 4. **Merge to Main**
    ```bash
    git add -A
-   git commit -m "Rebrand: Andrew Nixdorf ownership + JetBrains versioning (2025.0.0)
+   git commit -m "Rebrand: Andrew Nixdorf ownership + Annual versioning (2025.0.0)
 
-   - Update all 250 plugins to v2025.0.0 (JetBrains format)
+   - Update all 250 plugins to v2025.0.0 (Annual format)
    - Rebrand with Andrew Nixdorf as author
    - Add 30-hour deep work mode script
    - Add comprehensive Claude Code settings guide
    - Update CLAUDE.md with versioning documentation
    - Create repository rebranding automation scripts"
 
-   git push origin feature/rebrand-jetbrains-versioning-2025
+   git push origin feature/rebrand-Annual-versioning-2025
    ```
 
 5. **Create Pull Request**
@@ -362,6 +362,6 @@ For questions about this rebranding:
 ---
 
 **Rebranding Date:** October 18, 2025
-**Branch:** feature/rebrand-jetbrains-versioning-2025
+**Branch:** feature/rebrand-Annual-versioning-2025
 **Status:** ✅ Complete, Ready for Review
 **Version:** 2025.0.0 (First Release!)

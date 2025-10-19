@@ -1,7 +1,7 @@
 {
   "name": "infrastructure-metrics-collector",
   "description": "Collect comprehensive infrastructure performance metrics",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "infrastructure",

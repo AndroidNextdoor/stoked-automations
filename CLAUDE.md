@@ -207,7 +207,7 @@ mkdir -p plugins/community/your-plugin/agents    # If using agents
       "name": "your-plugin",
       "source": "./plugins/community/your-plugin",
       "description": "Clear one-line description",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "productivity",
       "keywords": ["keyword1", "keyword2"],
       "author": {
@@ -316,7 +316,7 @@ Valid categories: `productivity`, `security`, `testing`, `deployment`, `document
 
 ### Versioning
 
-This repository uses **JetBrains-style versioning** (`YYYY.MAJOR.MINOR`), inspired by the versioning scheme used by IntelliJ IDEA, PyCharm, and other JetBrains products.
+This repository uses **Annual-style versioning** (`YYYY.MAJOR.MINOR`), inspired by the versioning scheme used by IntelliJ IDEA, PyCharm, and other Annual products.
 
 **Format:** `YYYY.MAJOR.MINOR`
 
@@ -351,15 +351,15 @@ This repository uses **JetBrains-style versioning** (`YYYY.MAJOR.MINOR`), inspir
 - If breaking changes are absolutely necessary, document them clearly in CHANGELOG.md
 - Consider deprecation warnings before removing features
 
-**Benefits of JetBrains-Style Versioning:**
+**Benefits of Annual-Style Versioning:**
 - Clear chronological context (know when a version was released)
 - Predictable release cadence
 - Easy to understand progression
 - Works well with annual planning cycles
-- Familiar to developers using JetBrains IDEs
+- Familiar to developers using Annual IDEs
 
 **Migration from Semantic Versioning:**
-All plugins have been migrated from `1.0.0` (semantic versioning) to `2025.0.0` (JetBrains-style) as of October 2025.
+All plugins have been migrated from `1.0.0` (semantic versioning) to `2025.0.0` (Annual-style) as of October 2025.
 
 ## CI/CD Pipeline
 
@@ -481,7 +481,7 @@ plugin-name/
 ```json
 {
   "name": "plugin-name",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Clear description",
   "author": {
     "name": "Author Name",

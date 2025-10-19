@@ -56,7 +56,7 @@ my-plugin/
 ```json
 {
   "name": "my-plugin",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Clear one-line description",
   "author": {
     "name": "Your Name",
@@ -67,6 +67,8 @@ my-plugin/
   "keywords": ["keyword1", "keyword2"]
 }
 ```
+
+**Version Format**: `YYYY.MAJOR.MINOR` (e.g., 2025.0.0 for initial release in 2025)
 
 **2. Slash Commands** (`commands/*.md`)
 - Triggered with `/command-name`
@@ -108,7 +110,7 @@ Edit `.claude-plugin/plugin.json`:
 ```json
 {
   "name": "my-first-plugin",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "My first Claude Code plugin for learning",
   "author": {
     "name": "Your Name",
@@ -463,7 +465,7 @@ EOF
      "name": "my-first-plugin",
      "source": "./plugins/community/my-first-plugin",
      "description": "My first Claude Code plugin",
-     "version": "1.0.0",
+     "version": "2025.0.0",
      "category": "productivity",
      "keywords": ["learning", "example"],
      "author": {
@@ -508,7 +510,7 @@ cat > .claude-plugin/marketplace.json << 'EOF'
     {
       "name": "my-first-plugin",
       "source": "./plugins/my-first-plugin",
-      "version": "1.0.0"
+      "version": "2025.0.0"
     }
   ]
 }

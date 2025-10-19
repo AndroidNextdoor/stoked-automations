@@ -124,7 +124,7 @@ Edit `.claude-plugin/marketplace.extended.json` and add your plugin:
   "name": "my-plugin",
   "source": "./plugins/community/my-plugin",
   "description": "Clear, concise description of what it does",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "productivity",
   "keywords": ["relevant", "searchable", "keywords"],
   "author": {

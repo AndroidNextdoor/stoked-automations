@@ -1,7 +1,7 @@
 {
   "name": "travel-assistant",
   "description": "Intelligent travel assistant with real-time weather forecasts, currency conversion, timezone coordination, AI-powered itineraries, smart packing lists, and local expert tips. Complete travel planning in one plugin with 6 commands, 4 AI agents, and automatic API integrations.",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
     "url": "https://github.com/AndroidNextdoor"

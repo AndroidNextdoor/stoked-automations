@@ -1,6 +1,6 @@
 {
   "name": "@stoked-automations/project-health-auditor",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Analyze local repos for code health, complexity, test coverage gaps",
   "type": "module",
   "main": "dist/servers/code-metrics.js",

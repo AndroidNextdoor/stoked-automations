@@ -1,7 +1,7 @@
 {
   "name": "test-doubles-generator",
   "description": "Generate mocks, stubs, spies, and fakes for unit testing with Jest, Sinon, and test frameworks",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "testing",
   "keywords": [
     "testing",
@@ -14,7 +14,7 @@
     "sinon"
   ],
   "author": {
-    "name": "Claude Code Plugin Hub"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-doubles-generator",

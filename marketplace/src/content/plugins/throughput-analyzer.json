@@ -1,7 +1,7 @@
 {
   "name": "throughput-analyzer",
   "description": "Analyze and optimize system throughput",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "throughput",

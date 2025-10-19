@@ -99,6 +99,7 @@ def testData = [
 
 ## 📚 Available Commands
 
+- `/process-webhook` - **NEW!** Process Teams webhook with S3 test results
 - `/craft-test-case` - Create expert test cases with data-driven logic
 - `/analyze-test` - Deep dive into test failures (via scripts)
 - `/create-jira-ticket` - Automated ticket creation with classification
@@ -111,6 +112,99 @@ def testData = [
 - MySQL client
 - Firecrawl MCP (for session scraping)
 - Atlassian MCP (for JIRA integration)
+- Microsoft Teams webhook (optional, for automatic notifications)
+
+## 🔗 Teams Webhook Integration
+
+This plugin receives webhook notifications from Microsoft Teams containing signed S3 URLs to Katalon test results, then automatically downloads and analyzes them.
+
+### How It Works
+
+1. **Teams sends webhook** → Test results are uploaded to S3, Teams sends notification with signed URL
+2. **Claude Code receives payload** → You use `/process-webhook` command with the JSON payload
+3. **Auto-download from S3** → Script downloads the test results archive
+4. **Extract and analyze** → Automatically parses Katalon reports and identifies failures
+5. **Present insights** → Shows test summary, failures, and actionable recommendations
+
+### Setup
+
+No configuration required! Just receive the webhook payload from Teams and process it.
+
+### Usage
+
+When you receive a Teams notification about test results:
+
+```bash
+# Copy the JSON payload from Teams and run:
+/process-webhook '{"s3_url": "https://bucket.s3.amazonaws.com/test-results.zip?signature=..."}'
+```
+
+### Webhook Payload Format
+
+Your Teams webhook should send JSON with a signed S3 URL:
+
+```json
+{
+  "s3_url": "https://bucket.s3.amazonaws.com/test-results.zip?AWSAccessKeyId=...&Signature=...",
+  "testSuite": "Regression Suite",
+  "environment": "Production",
+  "timestamp": "2025-01-18T10:30:00Z",
+  "buildId": "BUILD-12345"
+}
+```
+
+The plugin supports multiple JSON structures - it will automatically find the S3 URL regardless of nesting.
+
+### What Gets Processed
+
+After downloading from S3, the plugin:
+- ✅ **Extracts archives** - Handles ZIP and TAR.GZ files
+- 📊 **Parses Katalon reports** - Reads execution.properties, JUnit XML, CSV reports
+- 🔍 **Analyzes failures** - Extracts error messages, stack traces, HAR files
+- 📸 **Locates screenshots** - Finds failure screenshots and videos
+- 🎥 **Links session recordings** - Identifies LogRocket and AWS Device Farm URLs
+- 🏷️ **Classifies issues** - Determines if failures are BUGs or TASKs
+
+### Automatic Hook
+
+After processing completes, a post-webhook analysis hook automatically:
+- Counts failed tests and errors
+- Identifies available HAR files for network analysis
+- Locates screenshots for visual debugging
+- Detects session recording links
+
+### Example Workflow
+
+```
+User: I just got a Teams notification about test failures
+
+Claude: Please paste the webhook payload from Teams
+
+User: {"s3_url": "https://bucket.s3.amazonaws.com/results.zip?..."}
+
+Claude: Processing webhook...
+[Downloading from S3...]
+✅ Downloaded 15.3 MB
+[Extracting archive...]
+✅ Extracted 247 files
+[Analyzing results...]
+
+📊 Test Results Summary:
+- Total: 45 tests
+- Passed: 42 ✅
+- Failed: 3 ❌
+- Duration: 8m 32s
+
+❌ Failed Tests:
+1. TC_Login_InvalidCredentials - Element not found
+2. TC_Quote_PremiumCalculation - Assertion failed (expected 3200, got 3245)
+3. TC_API_GetQuoteData - HTTP 401 Unauthorized
+
+Would you like me to:
+1. Create JIRA tickets for these failures?
+2. Analyze HAR files for network issues?
+3. Generate an HTML report?
+```
 
 ## 🎓 Best Practices
 
@@ -119,10 +213,11 @@ def testData = [
 3. **Generate reports automatically** - After every test run
 4. **Add assertions everywhere** - Verify at each step
 5. **Log results to database** - Track trends over time
+6. **Enable Teams notifications** - Get instant alerts on test failures
 
 ---
 
 **Author:** Andrew Nixdorf (andrew@stokedautomations.com)
-**Version:** 1.0.0
+**Version:** 2025.0.0
 **Category:** Testing
 **Repository:** https://github.com/AndroidNextdoor/stoked-automations

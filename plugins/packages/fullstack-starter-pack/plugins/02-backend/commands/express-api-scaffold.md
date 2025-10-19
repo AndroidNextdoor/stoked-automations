@@ -534,7 +534,7 @@ describe('Task API', () => {
 ```json
 {
   "name": "task-api",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",

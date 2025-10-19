@@ -1,6 +1,6 @@
 {
   "name": "@stoked-automations/design-to-code",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Convert Figma designs and screenshots to code components (React, Svelte, Vue)",
   "type": "module",
   "main": "./dist/servers/design-converter.js",

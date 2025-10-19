@@ -4,9 +4,9 @@
   "category": "ai-ml-assistance",
   "type": "mcp",
   "description": "Track and analyze AI experiments with MCP tools and web dashboard. Log prompts, results, and ratings across different AI tools, with comprehensive statistics and CSV export.",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "plugins@example.com",
     "url": "https://github.com/AndroidNextdoor/stoked-automations"
   },
@@ -65,7 +65,7 @@
   ],
   "installation": "/plugin install ai-experiment-logger@claude@stoked-automations",
   "usage": {
-    "mcp": "Use MCP tools like log_experiment, list_experiments, get_statistics in Claude Code",
+    "mcp": "Use MCP tools like log_experiment, list_experiments, get_statistics in Stoked Automations",
     "web": "Run 'npm run web' to start web dashboard at http://localhost:3000"
   },
   "examples": [

@@ -4,11 +4,11 @@
 # Repository Rebranding Script - Stoked Automations
 #
 # This script updates all plugins with new author attribution and
-# JetBrains-style versioning (YYYY.MAJOR.MINOR).
+# Annual-style versioning (YYYY.MAJOR.MINOR).
 #
 # What this script does:
 # - Updates all plugin.json files with Andrew Nixdorf as author
-# - Converts all versions to JetBrains style starting at 2025.0.0
+# - Converts all versions to Annual style starting at 2025.0.0
 # - Updates marketplace.extended.json with new versioning
 # - Preserves all other metadata
 #
@@ -171,7 +171,7 @@ print_section "Rebranding Summary"
 echo ""
 echo -e "${GREEN}Changes applied:${NC}"
 echo "  • Plugin files updated: $UPDATED_COUNT"
-echo "  • New version format: 2025.0.0 (JetBrains style: YYYY.MAJOR.MINOR)"
+echo "  • New version format: 2025.0.0 (Annual style: YYYY.MAJOR.MINOR)"
 echo "  • Author: Andrew Nixdorf <[email protected]>"
 echo ""
 
@@ -182,7 +182,7 @@ else
     print_warning "Next steps:"
     echo "  1. Run: pnpm run sync-marketplace"
     echo "  2. Run: ./scripts/validate-all.sh"
-    echo "  3. Commit changes: git add -A && git commit -m 'Rebrand: Update to Andrew Nixdorf + JetBrains versioning (2025.0.0)'"
+    echo "  3. Commit changes: git add -A && git commit -m 'Rebrand: Update to Andrew Nixdorf + Annual versioning (2025.0.0)'"
 fi
 
 echo ""

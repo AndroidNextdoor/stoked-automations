@@ -1,0 +1,20 @@
+{
+  "name": "selenium-mcp",
+  "version": "2025.0.0",
+  "description": "Selenium WebDriver MCP server - industry-standard browser automation with support for Chrome, Firefox, Edge, and Safari. Perfect for cross-browser testing.",
+  "author": {
+    "name": "Angie Jones",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/angiejones/mcp-selenium",
+  "license": "MIT",
+  "keywords": [
+    "selenium",
+    "webdriver",
+    "browser-automation",
+    "cross-browser-testing",
+    "e2e",
+    "testing",
+    "mcp"
+  ]
+}

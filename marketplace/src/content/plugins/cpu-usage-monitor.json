@@ -1,7 +1,7 @@
 {
   "name": "cpu-usage-monitor",
   "description": "Monitor and analyze CPU usage patterns in applications",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "cpu",

@@ -1,7 +1,7 @@
 {
   "name": "synthetic-monitoring-setup",
   "description": "Set up synthetic monitoring for proactive performance tracking",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "synthetic-monitoring",

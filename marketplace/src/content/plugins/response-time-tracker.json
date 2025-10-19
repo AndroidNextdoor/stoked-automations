@@ -1,7 +1,7 @@
 {
   "name": "response-time-tracker",
   "description": "Track and optimize application response times",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "response-time",

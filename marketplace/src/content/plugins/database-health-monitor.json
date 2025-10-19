@@ -1,7 +1,7 @@
 {
   "name": "database-health-monitor",
   "description": "Database plugin for database-health-monitor",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "database",
   "keywords": [
     "database",

@@ -1,7 +1,7 @@
 {
   "name": "fullstack-starter-pack",
   "description": "Complete fullstack development toolkit: React, Express/FastAPI, PostgreSQL scaffolding with AI agents",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "frontend-development",
   "keywords": [
     "fullstack",

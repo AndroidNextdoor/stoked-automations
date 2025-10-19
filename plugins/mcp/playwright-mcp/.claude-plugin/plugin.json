@@ -1,0 +1,23 @@
+{
+  "name": "playwright-mcp",
+  "version": "2025.0.0",
+  "description": "Official Microsoft Playwright MCP server - browser automation using accessibility tree (no screenshots needed). Fast, deterministic E2E testing with Chrome, Firefox, and WebKit support.",
+  "author": {
+    "name": "Microsoft",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/microsoft/playwright-mcp",
+  "license": "MIT",
+  "keywords": [
+    "playwright",
+    "browser-automation",
+    "e2e-testing",
+    "accessibility",
+    "mcp",
+    "microsoft",
+    "chrome",
+    "firefox",
+    "webkit",
+    "testing"
+  ]
+}

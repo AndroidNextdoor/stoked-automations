@@ -1,7 +1,7 @@
 {
   "name": "formatter",
   "description": "Code formatting plugin using hooks to auto-format on save",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "other",
   "keywords": [
     "formatting",
@@ -9,7 +9,7 @@
     "automation"
   ],
   "author": {
-    "name": "Claude Code Plugin Hub"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/examples/formatter",

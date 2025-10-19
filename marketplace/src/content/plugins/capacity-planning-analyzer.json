@@ -1,7 +1,7 @@
 {
   "name": "capacity-planning-analyzer",
   "description": "Analyze and plan for capacity requirements",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "capacity-planning",

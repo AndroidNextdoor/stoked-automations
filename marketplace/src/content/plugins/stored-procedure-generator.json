@@ -1,7 +1,7 @@
 {
   "name": "stored-procedure-generator",
   "description": "Database plugin for stored-procedure-generator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "database",
   "keywords": [
     "database",

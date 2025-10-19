@@ -1,6 +1,6 @@
 {
   "name": "sugar",
-  "description": "Autonomous AI development for Claude Code: create and manage tasks with rich context, run safe autonomous cycles, and get quality nudges via hooks \u2014 all powered by a minimal MCP bridge to the Sugar CLI.",
+  "description": "Autonomous AI development for Stoked Automations: create and manage tasks with rich context, run safe autonomous cycles, and get quality nudges via hooks \u2014 all powered by a minimal MCP bridge to the Sugar CLI.",
   "version": "2.0.0",
   "category": "devops",
   "keywords": [

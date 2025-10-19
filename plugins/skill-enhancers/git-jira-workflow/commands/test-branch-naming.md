@@ -29,7 +29,7 @@ The plugin follows these conventions:
   - `HOTFIX-critical-database-fix`
 
 ### Release Branches
-- **Format**: `2025.1.0` (JetBrains-style versioning)
+- **Format**: `2025.1.0` (Annual-style versioning)
 - **Pattern**: `YYYY.R.P` (Year.Release.Patch)
 - **Examples**:
   - `2025.1.0` - First release of 2025

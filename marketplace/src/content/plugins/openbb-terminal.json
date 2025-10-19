@@ -1,7 +1,7 @@
 {
   "name": "openbb-terminal",
-  "description": "Open-source investment research terminal integration - comprehensive equity analysis, crypto tracking, macro indicators, portfolio optimization, and AI-powered financial insights using OpenBB Platform. Transform Claude Code into a professional Bloomberg Terminal alternative.",
-  "version": "1.0.0",
+  "description": "Open-source investment research terminal integration - comprehensive equity analysis, crypto tracking, macro indicators, portfolio optimization, and AI-powered financial insights using OpenBB Platform. Transform Stoked Automations into a professional Bloomberg Terminal alternative.",
+  "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
     "url": "https://github.com/AndroidNextdoor"
@@ -76,7 +76,7 @@
     "Insider trading monitoring"
   ],
   "requirements": [
-    "Claude Code 1.0.0 or higher",
+    "Stoked Automations v2025.0.0 or higher",
     "Python 3.9.21 - 3.12",
     "pip install openbb",
     "Optional: Data provider API keys for premium data"

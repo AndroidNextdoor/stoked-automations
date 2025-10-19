@@ -316,7 +316,7 @@ If your Jira uses a custom project key (not "JIRA"), the plugin automatically de
 The plugin uses these branch patterns:
 - `JIRA-123-description` - Features (NO prefix)
 - `HOTFIX/JIRA-123-description` - Production hotfixes (WITH prefix)
-- `2025.1.0` - Release versioning (JetBrains-style: YYYY.R.P)
+- `2025.1.0` - Release versioning (Annual-style: YYYY.R.P)
 
 ## Best Practices
 

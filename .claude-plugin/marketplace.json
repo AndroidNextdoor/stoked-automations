@@ -219,34 +219,94 @@
       }
     },
     {
-      "name": "browser-testing-suite",
-      "source": "./plugins/mcp/browser-testing-suite",
-      "description": "Complete browser testing toolkit with 5 MCP servers (Playwright, Chrome DevTools, Cypress, Selenium, Katalon) and 4 expert Agent Skills for comprehensive E2E, API, component, and performance testing",
+      "name": "playwright-mcp",
+      "source": "./plugins/mcp/playwright-mcp",
+      "description": "Official Microsoft Playwright MCP server - browser automation using accessibility tree (no screenshots needed). Fast, deterministic E2E testing with Chrome, Firefox, and WebKit support.",
       "version": "2025.0.0",
       "category": "testing",
       "keywords": [
-        "mcp",
-        "testing",
         "playwright",
-        "selenium",
-        "cypress",
-        "katalon",
-        "chrome-devtools",
-        "cdp",
-        "e2e",
-        "component-testing",
-        "api-testing",
         "browser-automation",
-        "performance",
-        "network-analysis",
-        "visual-regression",
-        "page-object-model",
-        "agent-skills"
+        "e2e-testing",
+        "accessibility",
+        "mcp",
+        "microsoft",
+        "chrome",
+        "firefox",
+        "webkit",
+        "testing"
       ],
       "author": {
-        "name": "Andrew Nixdorf",
+        "name": "Microsoft",
         "email": "[email protected]"
-      }
+      },
+      "repository": "https://github.com/microsoft/playwright-mcp"
+    },
+    {
+      "name": "cypress-mcp",
+      "source": "./plugins/mcp/cypress-mcp",
+      "description": "Cypress MCP server for component and E2E testing - automatically generates test cases, Page Object Models, and runs tests through MCP protocol.",
+      "version": "2025.0.0",
+      "category": "testing",
+      "keywords": [
+        "cypress",
+        "testing",
+        "e2e",
+        "component-testing",
+        "test-generation",
+        "page-object-model",
+        "mcp",
+        "automation"
+      ],
+      "author": {
+        "name": "jprealini",
+        "email": "[email protected]"
+      },
+      "repository": "https://github.com/jprealini/cypress-mcp"
+    },
+    {
+      "name": "selenium-mcp",
+      "source": "./plugins/mcp/selenium-mcp",
+      "description": "Selenium WebDriver MCP server - industry-standard browser automation with support for Chrome, Firefox, Edge, and Safari. Perfect for cross-browser testing.",
+      "version": "2025.0.0",
+      "category": "testing",
+      "keywords": [
+        "selenium",
+        "webdriver",
+        "browser-automation",
+        "cross-browser-testing",
+        "e2e",
+        "testing",
+        "mcp"
+      ],
+      "author": {
+        "name": "Angie Jones",
+        "email": "[email protected]"
+      },
+      "repository": "https://github.com/angiejones/mcp-selenium"
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "source": "./plugins/mcp/chrome-devtools-mcp",
+      "description": "Official Chrome DevTools Protocol MCP server from Google - control and inspect live Chrome browsers with performance insights, network analysis, and console access.",
+      "version": "2025.0.0",
+      "category": "testing",
+      "keywords": [
+        "chrome",
+        "devtools",
+        "cdp",
+        "debugging",
+        "performance",
+        "network-analysis",
+        "puppeteer",
+        "mcp",
+        "google"
+      ],
+      "author": {
+        "name": "Google Chrome Team",
+        "email": "[email protected]"
+      },
+      "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
     },
     {
       "name": "conversational-api-debugger",
@@ -4504,6 +4564,32 @@
         "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
+    },
+    {
+      "name": "color-accessibility-specialist",
+      "source": "./plugins/design/color-accessibility-specialist",
+      "description": "Elite color theory and accessibility expert with exceptional eye for contrast issues, WCAG compliance, and aesthetic harmony. Analyzes colors visually with screenshots and provides specific fixes.",
+      "version": "2025.0.0",
+      "category": "accessibility",
+      "keywords": [
+        "accessibility",
+        "color-theory",
+        "wcag",
+        "contrast",
+        "color-blind",
+        "aesthetics",
+        "design",
+        "a11y",
+        "visual-testing",
+        "ui-design",
+        "color-harmony",
+        "screenshot-analysis"
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
+      },
+      "repository": "https://github.com/AndroidNextdoor/stoked-automations"
     }
   ]
 }

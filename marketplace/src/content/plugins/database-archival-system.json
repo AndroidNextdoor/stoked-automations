@@ -1,7 +1,7 @@
 {
   "name": "database-archival-system",
   "description": "Database plugin for database-archival-system",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "database",
   "keywords": [
     "database",

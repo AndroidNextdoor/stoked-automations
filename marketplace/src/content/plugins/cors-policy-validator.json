@@ -1,7 +1,7 @@
 {
   "name": "cors-policy-validator",
   "description": "Validate CORS policies",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "security",
   "keywords": [
     "security",

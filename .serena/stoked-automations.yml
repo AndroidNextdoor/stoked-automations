@@ -31,7 +31,7 @@ metadata:
     - "Astro 5.14.5"
     - "React 18"
     - "Tailwind CSS 4"
-  versioning_scheme: "JetBrains (YYYY.MAJOR.MINOR)"
+  versioning_scheme: "Annual (YYYY.MAJOR.MINOR)"
   current_version: "2025.0.0"
   license: "MIT"
 
@@ -56,7 +56,7 @@ custom_prompts:
 
       CRITICAL CONTEXT:
       - Author: Andrew Nixdorf (andrew@stokedautomation.com)
-      - Versioning: JetBrains style (2025.0.0)
+      - Versioning: Annual style (2025.0.0)
       - Design: Warm earth tones (tan, beige, orange, brown)
       - License: MIT
 
@@ -75,7 +75,7 @@ custom_prompts:
 
       Common Issues to Check:
       - Plugin.json has correct author (Andrew Nixdorf)
-      - Version follows JetBrains pattern
+      - Version follows Annual pattern
       - All shell scripts are executable (chmod +x)
       - No hardcoded secrets or API keys
       - marketplace.extended.json synced with marketplace.json
@@ -87,7 +87,7 @@ custom_prompts:
       You are developing a feature for Stoked Automations.
 
       Repository Standards:
-      - JetBrains versioning (YYYY.MAJOR.MINOR)
+      - Annual versioning (YYYY.MAJOR.MINOR)
       - Author: Andrew Nixdorf (andrew@stokedautomation.com)
       - License: MIT
       - Color palette: Warm earth tones (tan, beige, orange, brown)

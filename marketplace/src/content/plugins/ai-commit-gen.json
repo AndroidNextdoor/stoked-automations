@@ -1,7 +1,7 @@
 {
   "name": "ai-commit-gen",
   "description": "AI-powered commit message generator that analyzes your git diff and creates perfect conventional commit messages instantly. Never write commit messages manually again - get 3 AI-generated options in seconds.",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
     "url": "https://github.com/AndroidNextdoor"
@@ -46,7 +46,7 @@
     "Single-command workflow"
   ],
   "requirements": [
-    "Claude Code 1.0.0 or higher",
+    "Stoked Automations v2025.0.0 or higher",
     "Git repository initialized",
     "Changes staged or unstaged for commit"
   ]

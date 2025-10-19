@@ -1,7 +1,7 @@
 {
   "name": "alerting-rule-creator",
   "description": "Create intelligent alerting rules for performance monitoring",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "alerting",

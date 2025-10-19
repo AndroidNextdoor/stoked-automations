@@ -122,7 +122,7 @@ plugin-name/
 ```json
 {
   "name": "plugin-name",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Clear one-line description",
   "category": "productivity",
   "keywords": ["keyword1", "keyword2", "keyword3"],
@@ -497,7 +497,7 @@ async function executeTool(
 - MINOR: New features (backward compatible)
 - PATCH: Bug fixes
 
-**JetBrains Style (Repository-level):**
+**Annual Style (Repository-level):**
 - `YYYY.MAJOR.MINOR`
 - Used for overall marketplace versioning
 

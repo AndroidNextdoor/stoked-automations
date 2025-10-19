@@ -1,7 +1,7 @@
 {
   "name": "workflow-orchestrator",
   "description": "DAG-based workflow automation with parallel task execution and dependency management",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "automation",
   "keywords": [
     "mcp",

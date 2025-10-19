@@ -1,6 +1,6 @@
 {
   "name": "@claude-plugins/ai-experiment-logger",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Track and analyze AI experiments with MCP tools and web dashboard",
   "main": "dist/index.js",
   "type": "module",

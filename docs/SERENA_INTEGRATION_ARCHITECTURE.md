@@ -297,7 +297,7 @@ custom_prompts:
       You are developing a feature for Stoked Automations.
 
       Repository standards:
-      - JetBrains versioning (YYYY.MAJOR.MINOR)
+      - Annual versioning (YYYY.MAJOR.MINOR)
       - Author: Andrew Nixdorf (andrew@stokedautomation.com)
       - License: MIT
       - Warm color palette: tan, beige, orange, brown

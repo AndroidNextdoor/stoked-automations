@@ -3,7 +3,7 @@
 **{{ONE_LINE_DESCRIPTION}}**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](.claude-plugin/plugin.json)
+[![Version](https://img.shields.io/badge/version-2025.0.0-green.svg)](.claude-plugin/plugin.json)
 [![Category](https://img.shields.io/badge/category-{{CATEGORY}}-orange.svg)](.claude-plugin/plugin.json)
 
 ---
@@ -372,7 +372,7 @@ export {{PLUGIN_NAME}}_DEBUG=true
 
 ## Changelog
 
-### v1.0.0 ({{DATE}})
+### v2025.0.0 ({{DATE}})
 
 **Added:**
 - ✨ {{New feature 1}}
@@ -390,13 +390,13 @@ export {{PLUGIN_NAME}}_DEBUG=true
 
 ## Roadmap
 
-### v1.1.0 (Planned)
+### v2025.1.0 (Planned)
 
 - [ ] {{Planned feature 1}}
 - [ ] {{Planned feature 2}}
 - [ ] {{Planned feature 3}}
 
-### v2.0.0 (Future)
+### v2026.0.0 (Future)
 
 - [ ] {{Major feature 1}}
 - [ ] {{Major feature 2}}

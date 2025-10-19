@@ -1,0 +1,21 @@
+{
+  "name": "cypress-mcp",
+  "version": "2025.0.0",
+  "description": "Cypress MCP server for component and E2E testing - automatically generates test cases, Page Object Models, and runs tests through MCP protocol.",
+  "author": {
+    "name": "jprealini",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/jprealini/cypress-mcp",
+  "license": "MIT",
+  "keywords": [
+    "cypress",
+    "testing",
+    "e2e",
+    "component-testing",
+    "test-generation",
+    "page-object-model",
+    "mcp",
+    "automation"
+  ]
+}

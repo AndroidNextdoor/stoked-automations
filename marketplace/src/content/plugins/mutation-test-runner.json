@@ -1,7 +1,7 @@
 {
   "name": "mutation-test-runner",
   "description": "Mutation testing to validate test quality by introducing code changes and verifying tests catch them",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "testing",
   "keywords": [
     "testing",

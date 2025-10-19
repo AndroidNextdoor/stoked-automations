@@ -22,7 +22,7 @@ cd my-plugin
 ```json
 {
   "name": "my-plugin",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Clear description of what your plugin does",
   "author": {
     "name": "Your Name",
