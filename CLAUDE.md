@@ -58,7 +58,8 @@ claude-code-plugins/
 │   └── workflow-orchestrator/     # 4 MCP tools
 ├── marketplace/                    # Astro website (Node.js)
 │   ├── src/                       # Astro 5.14.5 + Tailwind 4
-│   └── dist/                      # Built site → GitHub Pages
+│   ├── dist/                      # Built site
+│   └── vercel.json                # Vercel deployment config
 └── pnpm-workspace.yaml            # Workspace config
 ```
 
@@ -379,13 +380,15 @@ All plugins have been migrated from `1.0.0` (semantic versioning) to `2025.0.0` 
      - Suspicious URLs (non-HTTPS, URL shorteners)
    - MCP plugin dependency audit (`npm audit`)
 
-2. **`.github/workflows/deploy-marketplace.yml`** (deploys to GitHub Pages)
-   - Builds Astro site (`cd marketplace && npm run build`)
-   - Deploys to https://stokedautomations.com/
+2. **`.github/workflows/deploy-marketplace.yml`** (deploys to Vercel)
+   - Builds Astro site with Vercel CLI
+   - Deploys to production: https://stokedautomations.com/
+   - Requires `VERCEL_TOKEN` secret configured in GitHub
 
-3. **`.github/workflows/release.yml`** (version tagging)
+3. **`.github/workflows/release.yml`** (version tagging with Annual-style versioning)
    - Creates GitHub releases with changelog
-   - Semantic versioning tags
+   - Annual-style versioning (YYYY.MAJOR.MINOR)
+   - Auto-resets version at new year
 
 ### Pre-commit Checklist
 
