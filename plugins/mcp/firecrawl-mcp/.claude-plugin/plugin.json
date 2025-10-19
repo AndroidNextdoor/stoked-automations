@@ -1,0 +1,34 @@
+{
+  "name": "firecrawl-mcp",
+  "version": "2025.0.0",
+  "description": "Advanced web scraping and crawling via Firecrawl MCP - extract structured data, scrape websites, convert pages to markdown, and automate web data collection with AI assistance",
+  "category": "productivity",
+  "keywords": [
+    "web-scraping",
+    "data-extraction",
+    "crawling",
+    "firecrawl",
+    "markdown-conversion",
+    "structured-data",
+    "mcp-server",
+    "automation",
+    "web-data",
+    "sitemap-generation"
+  ],
+  "author": {
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/mendableai",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/mendableai/firecrawl",
+  "license": "MIT",
+  "prerequisites": {
+    "description": "Requires Firecrawl API key for cloud service or self-hosted Firecrawl instance",
+    "steps": [
+      "Sign up for Firecrawl at https://firecrawl.dev",
+      "Get your API key from the dashboard",
+      "Set FIRECRAWL_API_KEY environment variable",
+      "Optional: Set FIRECRAWL_API_URL for self-hosted instances"
+    ]
+  }
+}

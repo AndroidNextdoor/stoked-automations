@@ -130,6 +130,32 @@ npm run build
 npm run preview
 ```
 
+### Mode Switching Scripts
+
+```bash
+# Enable PR review mode (optimized for code review):
+scripts/modes/enable-pr-review-mode.sh
+
+# Features:
+# - Detects system resources and optimizes token limits
+# - Higher thinking tokens for deep code analysis
+# - Lower output tokens for concise review comments
+# - Instructions for installing PR review plugins (code-review-ai)
+
+# Enable 30-hour deep work mode (maximum token limits):
+scripts/modes/enable-30-hour-mode.sh
+
+# Features:
+# - Maximum token limits for extended deep work sessions
+# - Optimized for complex problem-solving (30+ hours)
+# - Comprehensive toolkit of specialized agents
+# - Ideal for full-stack development and large-scale refactoring
+
+# Future modes:
+# - enable-testing-mode.sh        - Browser testing tools
+# - enable-documentation-mode.sh  - Documentation generation tools
+```
+
 ### Local Plugin Testing Workflow
 
 ```bash
@@ -181,12 +207,12 @@ mkdir -p plugins/community/your-plugin/agents    # If using agents
       "name": "your-plugin",
       "source": "./plugins/community/your-plugin",
       "description": "Clear one-line description",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "productivity",
       "keywords": ["keyword1", "keyword2"],
       "author": {
         "name": "Your Name",
-        "email": "your.email@example.com"
+        "email": "your.email@stokedautomations.com"
       }
     }
   ]
@@ -290,11 +316,50 @@ Valid categories: `productivity`, `security`, `testing`, `deployment`, `document
 
 ### Versioning
 
-Follow semantic versioning (MAJOR.MINOR.PATCH):
-- `1.0.0` - Initial release
-- `1.1.0` - New feature, backward compatible
-- `1.1.1` - Bug fix
-- `2.0.0` - Breaking change
+This repository uses **Annual-style versioning** (`YYYY.MAJOR.MINOR`), inspired by the versioning scheme used by IntelliJ IDEA, PyCharm, and other Annual products.
+
+**Format:** `YYYY.MAJOR.MINOR`
+
+**Examples:**
+- `2025.0.0` - Initial release in 2025
+- `2025.1.0` - Major feature update (backward compatible)
+- `2025.1.1` - Minor update or bug fix
+- `2025.2.0` - Next major feature release
+- `2026.0.0` - First release in 2026 (resets MAJOR to 0)
+
+**Versioning Rules:**
+1. **YYYY** - Calendar year (e.g., 2025, 2026)
+   - Resets annually
+   - Provides clear chronological context
+
+2. **MAJOR** - Significant feature releases
+   - Increments for major new features or improvements
+   - Backward compatible within the same year
+   - Resets to 0 at the start of each new year
+
+3. **MINOR** - Bug fixes, patches, and minor improvements
+   - Increments for bug fixes or small enhancements
+   - Always backward compatible
+   - No breaking changes
+
+**When to Bump Versions:**
+- **YYYY.MAJOR** - Major features, significant refactoring, new capabilities
+- **YYYY.MINOR** - Bug fixes, documentation updates, small improvements
+
+**Breaking Changes:**
+- Avoid breaking changes within the same calendar year
+- If breaking changes are absolutely necessary, document them clearly in CHANGELOG.md
+- Consider deprecation warnings before removing features
+
+**Benefits of Annual-Style Versioning:**
+- Clear chronological context (know when a version was released)
+- Predictable release cadence
+- Easy to understand progression
+- Works well with annual planning cycles
+- Familiar to developers using Annual IDEs
+
+**Migration from Semantic Versioning:**
+All plugins have been migrated from `1.0.0` (semantic versioning) to `2025.0.0` (Annual-style) as of October 2025.
 
 ## CI/CD Pipeline
 
@@ -416,11 +481,11 @@ plugin-name/
 ```json
 {
   "name": "plugin-name",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Clear description",
   "author": {
     "name": "Author Name",
-    "email": "author@example.com"
+    "email": "author@stokedautomations.com"
   },
   "repository": "https://github.com/username/repo",
   "license": "MIT",

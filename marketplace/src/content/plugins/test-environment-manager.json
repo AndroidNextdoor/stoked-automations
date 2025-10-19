@@ -1,7 +1,7 @@
 {
   "name": "test-environment-manager",
   "description": "Manage test environments with Docker Compose, Testcontainers, and environment isolation",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "testing",
   "keywords": [
     "testing",
@@ -12,7 +12,7 @@
     "infrastructure"
   ],
   "author": {
-    "name": "Claude Code Plugin Hub"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/test-environment-manager",

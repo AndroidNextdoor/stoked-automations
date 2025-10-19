@@ -1,7 +1,7 @@
 {
   "name": "load-test-runner",
   "description": "Create and execute load tests for performance validation",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "load-testing",

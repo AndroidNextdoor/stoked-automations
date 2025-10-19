@@ -26,10 +26,10 @@ This skill activates when you need to:
 
 ### Example 1: Security Audit
 
-User request: "Analyze the security headers for example.com"
+User request: "Analyze the security headers for stokedautomations.com"
 
 The skill will:
-1. Fetch the HTTP headers from example.com.
+1. Fetch the HTTP headers from stokedautomations.com.
 2. Analyze the headers for common security vulnerabilities.
 3. Generate a report outlining the security grade, score, and any identified issues with recommendations.
 

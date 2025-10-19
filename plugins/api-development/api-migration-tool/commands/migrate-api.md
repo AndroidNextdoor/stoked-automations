@@ -164,7 +164,7 @@ migration_plan:
 {
   "id": 123,
   "name": "John Doe",
-  "email": "john@example.com",
+  "email": "john@stokedautomations.com",
   "street": "123 Main St",
   "city": "San Francisco",
   "state": "CA",
@@ -175,7 +175,7 @@ migration_plan:
 {
   "id": 123,
   "name": "John Doe",
-  "email": "john@example.com",
+  "email": "john@stokedautomations.com",
   "address": {
     "street": "123 Main St",
     "city": "San Francisco",
@@ -230,7 +230,7 @@ const routingRules = {
     deprecationWarning: {
       header: "Deprecation",
       value: "API v1 will be sunset on 2024-12-31. Migrate to v2.",
-      link: "https://docs.example.com/api-migration"
+      link: "https://docs.stokedautomations.com/api-migration"
     }
   }
 };
@@ -401,7 +401,7 @@ describe('GraphQL Schema Migration Tests', () => {
   });
 
   test('v2 clients receive nested profile structure', async () => {
-    const query = `query { user(email: "john@example.com") { profile { firstName lastName } } }`;
+    const query = `query { user(email: "john@stokedautomations.com") { profile { firstName lastName } } }`;
     const result = await executeQuery(query, { apiVersion: 'v2' });
     expect(result.data.user.profile.firstName).toBe('John');
   });
@@ -609,7 +609,7 @@ describe('gRPC API Migration Tests', () => {
   });
 
   test('v2 clients receive enhanced data structures', async () => {
-    const request = new user.v2.GetUserRequest({ email: 'john@example.com' });
+    const request = new user.v2.GetUserRequest({ email: 'john@stokedautomations.com' });
     const response = await v2Client.GetUser(request);
 
     expect(response.user.profile).toBeDefined();

@@ -1,12 +1,17 @@
 {
   "name": "api-sdk-generator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Generate client SDKs from OpenAPI specs for multiple languages",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["sdk", "client", "openapi", "codegen"]
+  "keywords": [
+    "sdk",
+    "client",
+    "openapi",
+    "codegen"
+  ]
 }

@@ -1,9 +1,9 @@
 {
   "name": "dex-aggregator-router",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Find optimal DEX routes for token swaps across multiple exchanges",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

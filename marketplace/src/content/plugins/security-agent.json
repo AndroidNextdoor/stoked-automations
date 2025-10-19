@@ -1,7 +1,7 @@
 {
   "name": "security-agent",
   "description": "Security review subagent for code analysis",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "security",
   "keywords": [
     "security",
@@ -9,7 +9,7 @@
     "code-review"
   ],
   "author": {
-    "name": "Claude Code Plugin Hub"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/examples/security-agent",

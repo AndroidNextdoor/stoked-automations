@@ -577,7 +577,7 @@ class APISecurityScanner {
 }
 
 // Usage
-const scanner = new APISecurityScanner('https://api.example.com', {
+const scanner = new APISecurityScanner('https://api.stokedautomations.com', {
   credentials: {
     admin: { username: 'admin', password: 'admin123' },
     user: { username: 'user', password: 'user123' }
@@ -775,7 +775,7 @@ class APISecurityTester:
 
 # Usage example
 if __name__ == "__main__":
-    scanner = APISecurityTester("https://api.example.com")
+    scanner = APISecurityTester("https://api.stokedautomations.com")
     report = scanner.run_security_tests()
     print(f"Report saved to security_report.json")
 ```

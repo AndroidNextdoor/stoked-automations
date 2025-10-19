@@ -1,7 +1,7 @@
 {
   "name": "creator-studio-pack",
   "description": "Complete plugin suite for builder-filmmakers: Build products AND create viral videos. 20 plugins covering documentation, video production, content strategy, and workflow optimization. Transform from code to published video in 30 minutes.",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
     "url": "https://github.com/AndroidNextdoor"
@@ -54,7 +54,7 @@
     "Comprehensive documentation and templates"
   ],
   "requirements": [
-    "Claude Code 1.0.0 or higher",
+    "Stoked Automations v2025.0.0 or higher",
     "FFmpeg for video processing",
     "Git for build logging",
     "Optional: DaVinci Resolve 18+ for professional editing",

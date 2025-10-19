@@ -462,7 +462,7 @@ The Pro tier offers exclusive premium plugins and priority support.
 ## Performance Recommendations
 
 1. **Lazy load tier comparison images**
-2. **Preload critical fonts** (Inter, JetBrains Mono)
+2. **Preload critical fonts** (Inter, Annual Mono)
 3. **Inline critical CSS** for above-the-fold content
 4. **Defer non-critical JavaScript** (analytics, chat widgets)
 5. **Optimize images** (WebP format with PNG fallback)

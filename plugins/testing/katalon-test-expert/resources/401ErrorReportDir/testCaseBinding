@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/_shared/Open Browser","testCaseId":"Test Cases/_shared/Open Browser","iterationVariableName":""}
+{"testCaseName":"Test Cases/_shared/Login","testCaseId":"Test Cases/_shared/Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/quote/Open Quote","testCaseId":"Test Cases/quote/Open Quote","iterationVariableName":"","bindedValues":{"quote_id":"\u002768922443dc997\u0027"}}
+{"testCaseName":"Test Cases/quote/_shared/_page navigation/Navigate From Schedule Mod IRPM To Quote","testCaseId":"Test Cases/quote/_shared/_page navigation/Navigate From Schedule Mod IRPM To Quote","iterationVariableName":""}
+{"testCaseName":"Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline","testCaseId":"Test Cases/quote/AAIS Non-Filed Inland Marine/Download Documents/Compare Rating Worksheet To Baseline","iterationVariableName":""}

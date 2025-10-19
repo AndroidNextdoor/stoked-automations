@@ -1,9 +1,9 @@
 {
   "name": "model-explainability-tool",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Model interpretability and explainability",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

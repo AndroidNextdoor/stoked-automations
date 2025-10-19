@@ -1,6 +1,6 @@
 {
   "name": "context7",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Up-to-date code documentation for LLMs - fetches current, version-specific docs and code examples from Context7's documentation database",
   "category": "ai-ml",
   "keywords": [
@@ -13,8 +13,9 @@
     "up-to-date-docs"
   ],
   "author": {
-    "name": "Upstash",
-    "url": "https://upstash.com"
+    "name": "Andrew Nixdorf",
+    "url": "https://upstash.com",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/upstash/context7",
   "license": "MIT",

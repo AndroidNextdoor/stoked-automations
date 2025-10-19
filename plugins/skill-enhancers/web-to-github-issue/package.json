@@ -1,6 +1,6 @@
 {
   "name": "web-to-github-issue",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Enhances Claude's web_search Skill by creating GitHub issues from research",
   "type": "module",
   "scripts": {

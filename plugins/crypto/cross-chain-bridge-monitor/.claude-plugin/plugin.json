@@ -1,10 +1,10 @@
 {
   "name": "cross-chain-bridge-monitor",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Monitor cross-chain bridge activity, track transfers, analyze security, and detect bridge exploits",
   "author": {
-    "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.io",
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]",
     "url": "https://intentsolutions.ai"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

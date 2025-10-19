@@ -235,7 +235,7 @@ token = secrets.token_urlsafe(32)
 //  MEDIUM: Certificate validation disabled
 const https = require('https')
 
-https.get('https://api.example.com', {
+https.get('https://api.stokedautomations.com', {
   rejectUnauthorized: false  // Dangerous!
 }, callback)
 
@@ -246,7 +246,7 @@ https.get('https://api.example.com', {
 // Impact: Vulnerable to man-in-the-middle attacks
 
 // Fix: Enable certificate validation
-https.get('https://api.example.com', {
+https.get('https://api.stokedautomations.com', {
   rejectUnauthorized: true  // Default, but be explicit
 }, callback)
 ```

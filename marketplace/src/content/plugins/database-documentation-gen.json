@@ -1,7 +1,7 @@
 {
   "name": "database-documentation-gen",
   "description": "Database plugin for database-documentation-gen",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "database",
   "keywords": [
     "database",

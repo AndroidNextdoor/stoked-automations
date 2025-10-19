@@ -1,9 +1,10 @@
 {
   "name": "security-agent",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Specialized security review subagent",
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
   },
   "license": "MIT",
   "keywords": [

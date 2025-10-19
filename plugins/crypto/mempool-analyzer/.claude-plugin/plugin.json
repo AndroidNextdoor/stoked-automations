@@ -1,10 +1,10 @@
 {
   "name": "mempool-analyzer",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Advanced mempool analysis for MEV opportunities, pending transaction monitoring, and gas price optimization",
   "author": {
-    "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.io",
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]",
     "url": "https://intentsolutions.ai"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

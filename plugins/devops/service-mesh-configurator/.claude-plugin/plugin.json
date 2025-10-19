@@ -1,9 +1,9 @@
 {
   "name": "service-mesh-configurator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Configure service mesh (Istio, Linkerd) for microservices",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

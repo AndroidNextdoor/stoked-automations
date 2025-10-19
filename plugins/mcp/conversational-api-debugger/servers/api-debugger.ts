@@ -388,7 +388,7 @@ async function explainFailure(args: z.infer<typeof ExplainFailureSchema>) {
 function findMatchingEndpoint(log: HTTPLog, spec: OpenAPISpec): ParsedEndpoint | undefined {
   if (!spec.paths) return undefined;
 
-  const url = new URL(log.url, 'http://example.com');
+  const url = new URL(log.url, 'http://stokedautomations.com');
   const pathname = url.pathname;
 
   for (const [path, pathItem] of Object.entries(spec.paths)) {

@@ -226,7 +226,7 @@ claude-code-plugins/
       "name": "git-commit-smart",           //  NEW - FEATURED
       "source": "./plugins/devops/git-commit-smart",
       "description": "AI-powered conventional commit message generator",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": ["git", "commits", "conventional-commits", "automation"],
       "featured": true                      //  PRODUCTION READY

@@ -1,7 +1,7 @@
 {
   "name": "ai-sdk-agents",
   "description": "Multi-agent orchestration with AI SDK v5 - handoffs, routing, and coordination for any AI provider (OpenAI, Anthropic, Google). Build sophisticated multi-agent systems with automatic handoffs, intelligent routing, and seamless coordination.",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "author": {
     "name": "Andrew Nixdorf",
     "url": "https://github.com/AndroidNextdoor"
@@ -52,7 +52,7 @@
     "Production-ready agent orchestration"
   ],
   "requirements": [
-    "Claude Code 1.0.0 or higher",
+    "Stoked Automations v2025.0.0 or higher",
     "Node.js 18+ for running multi-agent projects",
     "npm or pnpm for package management",
     "At least one AI provider API key (Anthropic/OpenAI/Google)",

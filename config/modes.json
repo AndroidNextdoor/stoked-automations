@@ -1,0 +1,323 @@
+{
+  "$schema": "./modes-schema.json",
+  "version": "2025.0.0",
+  "modes": {
+    "pr-review": {
+      "name": "PR Review Mode",
+      "description": "Optimized for code review, security analysis, and pull request evaluation",
+      "script": "scripts/modes/enable-pr-review-mode.sh",
+      "tokenLimits": {
+        "high": { "output": 20000, "thinking": 20000 },
+        "medium": { "output": 10000, "thinking": 8000 },
+        "low": { "output": 6000, "thinking": 5000 }
+      },
+      "recommendedPlugins": [
+        "code-review-ai@stoked-automations"
+      ],
+      "recommendedAgents": [
+        "code-reviewer",
+        "architect-review",
+        "security-auditor",
+        "performance-engineer",
+        "debugger"
+      ],
+      "useCases": [
+        "Pull request reviews",
+        "Code quality assessment",
+        "Security vulnerability detection",
+        "Architecture review",
+        "Performance analysis"
+      ],
+      "icon": "\ud83d\udd0d"
+    },
+    "30-hour": {
+      "name": "30-Hour Deep Work Mode",
+      "description": "Maximum token limits for extended deep work sessions and complex problem-solving",
+      "script": "scripts/modes/enable-30-hour-mode.sh",
+      "tokenLimits": {
+        "high": { "output": 64000, "thinking": 32000 },
+        "medium": { "output": 48000, "thinking": 24000 },
+        "low": { "output": 32000, "thinking": 16000 }
+      },
+      "recommendedPlugins": [
+        "code-review-ai@stoked-automations",
+        "kali-mcp@stoked-automations"
+      ],
+      "recommendedAgents": [
+        "architect-review",
+        "cloud-architect",
+        "backend-architect",
+        "database-architect",
+        "kubernetes-architect",
+        "docs-architect",
+        "api-documenter",
+        "tutorial-engineer",
+        "code-reviewer",
+        "security-auditor",
+        "performance-engineer",
+        "tdd-orchestrator"
+      ],
+      "useCases": [
+        "Building full-stack applications from scratch",
+        "Large-scale refactoring and modernization",
+        "System architecture design and review",
+        "Comprehensive documentation projects",
+        "Complex debugging and performance optimization",
+        "Research and deep code analysis",
+        "Multi-day feature development",
+        "Repository-wide transformations"
+      ],
+      "icon": "\ud83d\ude80"
+    },
+    "testing": {
+      "name": "Testing Mode",
+      "description": "Comprehensive testing workflows including TDD, test automation, and QA processes",
+      "script": "scripts/modes/enable-testing-mode.sh",
+      "tokenLimits": {
+        "high": { "output": 32000, "thinking": 16000 },
+        "medium": { "output": 24000, "thinking": 12000 },
+        "low": { "output": 16000, "thinking": 10000 }
+      },
+      "recommendedPlugins": [
+        "code-review-ai@stoked-automations",
+        "katalon-test-analyzer@stoked-automations"
+      ],
+      "recommendedAgents": [
+        "test-automator",
+        "tdd-orchestrator",
+        "debugger",
+        "code-reviewer",
+        "performance-engineer",
+        "security-auditor"
+      ],
+      "useCases": [
+        "Writing unit tests for new features",
+        "Building integration test suites",
+        "Creating e2e browser tests",
+        "Improving test coverage",
+        "Refactoring existing tests",
+        "Test automation setup",
+        "TDD workflow implementation",
+        "QA process optimization"
+      ],
+      "icon": "\u2705"
+    },
+    "documentation": {
+      "name": "Documentation Mode",
+      "description": "Technical writing and comprehensive documentation generation",
+      "script": "scripts/modes/enable-documentation-mode.sh",
+      "tokenLimits": {
+        "high": { "output": 48000, "thinking": 16000 },
+        "medium": { "output": 32000, "thinking": 12000 },
+        "low": { "output": 24000, "thinking": 10000 }
+      },
+      "recommendedPlugins": [
+        "code-review-ai@stoked-automations"
+      ],
+      "recommendedAgents": [
+        "docs-architect",
+        "api-documenter",
+        "tutorial-engineer",
+        "mermaid-expert",
+        "reference-builder",
+        "architect-review",
+        "ui-ux-designer",
+        "code-reviewer"
+      ],
+      "useCases": [
+        "Writing comprehensive API documentation",
+        "Creating step-by-step tutorials",
+        "Building architecture documentation",
+        "Generating technical references",
+        "Writing user guides and FAQs",
+        "Creating design system documentation",
+        "Building knowledge bases",
+        "Documentation site creation"
+      ],
+      "icon": "\ud83d\udcdd"
+    },
+    "security-audit": {
+      "name": "Security Audit Mode",
+      "description": "Security analysis, vulnerability scanning, and compliance auditing",
+      "script": "scripts/modes/enable-security-audit-mode.sh",
+      "tokenLimits": {
+        "high": { "output": 24000, "thinking": 24000 },
+        "medium": { "output": 20000, "thinking": 20000 },
+        "low": { "output": 16000, "thinking": 16000 }
+      },
+      "recommendedPlugins": [
+        "code-review-ai@stoked-automations"
+      ],
+      "recommendedAgents": [
+        "security-auditor",
+        "backend-security-coder",
+        "frontend-security-coder",
+        "mobile-security-coder",
+        "code-reviewer",
+        "architect-review"
+      ],
+      "useCases": [
+        "Security reviews and audits",
+        "Vulnerability scanning",
+        "Compliance audits (GDPR, HIPAA, SOC2)",
+        "Threat modeling",
+        "Penetration testing support",
+        "Security code review",
+        "DevSecOps integration"
+      ],
+      "icon": "\ud83d\udd12"
+    },
+    "performance": {
+      "name": "Performance Optimization Mode",
+      "description": "Performance analysis, profiling, and optimization",
+      "script": "scripts/modes/enable-performance-mode.sh",
+      "tokenLimits": {
+        "high": { "output": 32000, "thinking": 20000 },
+        "medium": { "output": 24000, "thinking": 16000 },
+        "low": { "output": 20000, "thinking": 12000 }
+      },
+      "recommendedPlugins": [
+        "code-review-ai@stoked-automations"
+      ],
+      "recommendedAgents": [
+        "performance-engineer",
+        "database-optimizer",
+        "observability-engineer",
+        "code-reviewer"
+      ],
+      "useCases": [
+        "Performance tuning and optimization",
+        "Database query optimization",
+        "Profiling and bottleneck detection",
+        "Load testing and stress testing",
+        "Caching strategy implementation",
+        "Monitoring and observability setup",
+        "Performance regression detection"
+      ],
+      "icon": "\u26a1"
+    },
+    "devops": {
+      "name": "DevOps Mode",
+      "description": "Infrastructure, CI/CD pipelines, and deployment automation",
+      "script": "scripts/modes/enable-devops-mode.sh",
+      "tokenLimits": {
+        "high": { "output": 28000, "thinking": 24000 },
+        "medium": { "output": 24000, "thinking": 20000 },
+        "low": { "output": 20000, "thinking": 16000 }
+      },
+      "recommendedPlugins": [
+        "code-review-ai@stoked-automations"
+      ],
+      "recommendedAgents": [
+        "deployment-engineer",
+        "terraform-specialist",
+        "kubernetes-architect",
+        "incident-responder",
+        "devops-troubleshooter",
+        "observability-engineer"
+      ],
+      "useCases": [
+        "Infrastructure setup and management",
+        "CI/CD pipeline creation",
+        "Kubernetes cluster management",
+        "Terraform/IaC development",
+        "Incident response and troubleshooting",
+        "Container orchestration",
+        "Cloud migration"
+      ],
+      "icon": "\u2699\ufe0f"
+    },
+    "data-science": {
+      "name": "Data Science Mode",
+      "description": "Data analysis, machine learning, and analytics",
+      "script": "scripts/modes/enable-data-science-mode.sh",
+      "tokenLimits": {
+        "high": { "output": 48000, "thinking": 20000 },
+        "medium": { "output": 32000, "thinking": 16000 },
+        "low": { "output": 24000, "thinking": 12000 }
+      },
+      "recommendedPlugins": [
+        "code-review-ai@stoked-automations"
+      ],
+      "recommendedAgents": [
+        "data-scientist",
+        "ml-engineer",
+        "mlops-engineer",
+        "data-engineer",
+        "python-pro"
+      ],
+      "useCases": [
+        "Data analysis and visualization",
+        "ML model training and evaluation",
+        "Data pipeline creation",
+        "Feature engineering",
+        "Model deployment and monitoring",
+        "Statistical analysis",
+        "Experiment tracking"
+      ],
+      "icon": "\ud83d\udcca"
+    },
+    "fullstack": {
+      "name": "Full-Stack Development Mode",
+      "description": "Complete application development from frontend to backend",
+      "script": "scripts/modes/enable-fullstack-mode.sh",
+      "tokenLimits": {
+        "high": { "output": 64000, "thinking": 32000 },
+        "medium": { "output": 48000, "thinking": 24000 },
+        "low": { "output": 32000, "thinking": 16000 }
+      },
+      "recommendedPlugins": [
+        "code-review-ai@stoked-automations",
+        "fullstack-starter-pack@stoked-automations"
+      ],
+      "recommendedAgents": [
+        "frontend-developer",
+        "backend-architect",
+        "database-architect",
+        "api-documenter",
+        "test-automator",
+        "ui-ux-designer",
+        "typescript-pro",
+        "python-pro"
+      ],
+      "useCases": [
+        "Building complete applications from scratch",
+        "Full-stack feature development",
+        "API design and implementation",
+        "Database schema design",
+        "Frontend and backend integration",
+        "Authentication and authorization",
+        "Deployment and hosting setup"
+      ],
+      "icon": "\ud83c\udf10"
+    },
+    "quick-fix": {
+      "name": "Quick Fix Mode",
+      "description": "Fast bug fixes and small changes with conservative token limits",
+      "script": "scripts/modes/enable-quick-fix-mode.sh",
+      "tokenLimits": {
+        "high": { "output": 16000, "thinking": 12000 },
+        "medium": { "output": 12000, "thinking": 10000 },
+        "low": { "output": 10000, "thinking": 8000 }
+      },
+      "recommendedPlugins": [
+        "code-review-ai@stoked-automations"
+      ],
+      "recommendedAgents": [
+        "debugger",
+        "error-detective",
+        "code-reviewer"
+      ],
+      "useCases": [
+        "Hot fixes for production issues",
+        "Quick bug resolution",
+        "Small patches",
+        "Error debugging",
+        "Log analysis",
+        "Rapid prototyping",
+        "Emergency fixes"
+      ],
+      "icon": "\ud83d\udd27"
+    }
+  }
+}

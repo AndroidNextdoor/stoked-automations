@@ -1,0 +1,25 @@
+{
+  "name": "color-accessibility-specialist",
+  "version": "2025.0.0",
+  "description": "Elite color theory and accessibility expert with exceptional eye for contrast issues, WCAG compliance, and aesthetic harmony. Analyzes colors visually with screenshots and provides specific fixes.",
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+  "license": "MIT",
+  "keywords": [
+    "accessibility",
+    "color-theory",
+    "wcag",
+    "contrast",
+    "color-blind",
+    "aesthetics",
+    "design",
+    "a11y",
+    "visual-testing",
+    "ui-design",
+    "color-harmony",
+    "screenshot-analysis"
+  ]
+}

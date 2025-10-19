@@ -1,9 +1,9 @@
 {
   "name": "helm-chart-generator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Generate Helm charts for Kubernetes applications",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

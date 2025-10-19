@@ -174,7 +174,7 @@ Each generated JSON file includes:
 {
   "name": "plugin-name",
   "description": "Plugin description from marketplace.json",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "mapped-category",
   "keywords": ["keyword1", "keyword2"],
   "author": {

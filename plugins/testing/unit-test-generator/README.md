@@ -85,7 +85,7 @@ describe('validateEmail', () => {
 
   it('should return false for invalid email addresses', () => {
     expect(validateEmail('notanemail')).toBe(false);
-    expect(validateEmail('@example.com')).toBe(false);
+    expect(validateEmail('@stokedautomations.com')).toBe(false);
     expect(validateEmail('user@')).toBe(false);
   });
 

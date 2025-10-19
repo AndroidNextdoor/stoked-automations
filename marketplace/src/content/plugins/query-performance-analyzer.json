@@ -1,7 +1,7 @@
 {
   "name": "query-performance-analyzer",
   "description": "Analyze query performance with EXPLAIN plan interpretation, bottleneck identification, and optimization recommendations",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "database",
   "keywords": [
     "performance",

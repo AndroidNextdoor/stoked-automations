@@ -1,13 +1,19 @@
 {
   "name": "on-chain-analytics",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Analyze on-chain metrics including whale movements, network activity, and holder distribution",
   "author": {
-    "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.io",
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]",
     "url": "https://intentsolutions.ai"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["on-chain", "analytics", "whale", "metrics", "blockchain"]
+  "keywords": [
+    "on-chain",
+    "analytics",
+    "whale",
+    "metrics",
+    "blockchain"
+  ]
 }

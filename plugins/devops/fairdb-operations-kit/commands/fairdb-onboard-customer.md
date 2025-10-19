@@ -292,7 +292,7 @@ cat << EOF > /tmp/${CUSTOMER_NAME}-connection-details.md
 
 ### Database Information
 - **Database Name**: ${DB_NAME}
-- **Host**: fairdb-prod.example.com
+- **Host**: fairdb-prod.stokedautomations.com
 - **Port**: 5432
 - **SSL Required**: Yes
 
@@ -318,16 +318,16 @@ cat << EOF > /tmp/${CUSTOMER_NAME}-connection-details.md
 ### Connection Strings
 \`\`\`
 # Standard connection
-postgresql://${DB_USER}:${DB_USER_PASS}@fairdb-prod.example.com:5432/${DB_NAME}?sslmode=require
+postgresql://${DB_USER}:${DB_USER_PASS}@fairdb-prod.stokedautomations.com:5432/${DB_NAME}?sslmode=require
 
 # With SSL certificate
-postgresql://${DB_USER}:${DB_USER_PASS}@fairdb-prod.example.com:5432/${DB_NAME}?sslmode=require&sslcert=client.crt&sslkey=client.key&sslrootcert=server.crt
+postgresql://${DB_USER}:${DB_USER_PASS}@fairdb-prod.stokedautomations.com:5432/${DB_NAME}?sslmode=require&sslcert=client.crt&sslkey=client.key&sslrootcert=server.crt
 
 # JDBC URL
-jdbc:postgresql://fairdb-prod.example.com:5432/${DB_NAME}?ssl=true&sslmode=require
+jdbc:postgresql://fairdb-prod.stokedautomations.com:5432/${DB_NAME}?ssl=true&sslmode=require
 
 # psql command
-psql "host=fairdb-prod.example.com port=5432 dbname=${DB_NAME} user=${DB_USER} sslmode=require"
+psql "host=fairdb-prod.stokedautomations.com port=5432 dbname=${DB_NAME} user=${DB_USER} sslmode=require"
 \`\`\`
 
 ### Resource Limits

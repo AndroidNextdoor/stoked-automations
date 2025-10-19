@@ -172,14 +172,14 @@ ingress:
   annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
   hosts:
-    - host: api.example.com
+    - host: api.stokedautomations.com
       paths:
         - path: /
           pathType: Prefix
   tls:
     - secretName: api-tls
       hosts:
-        - api.example.com
+        - api.stokedautomations.com
 
 # Environment variables from ConfigMap
 config:
@@ -246,7 +246,7 @@ resources:
 ingress:
   enabled: true
   hosts:
-    - host: api-dev.example.com
+    - host: api-dev.stokedautomations.com
       paths:
         - path: /
           pathType: Prefix
@@ -284,7 +284,7 @@ ingress:
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
     nginx.ingress.kubernetes.io/rate-limit: "100"
   hosts:
-    - host: api.example.com
+    - host: api.stokedautomations.com
       paths:
         - path: /
           pathType: Prefix

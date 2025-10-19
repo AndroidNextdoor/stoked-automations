@@ -1,9 +1,9 @@
 {
   "name": "load-balancer-tester",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Test load balancing strategies with traffic distribution validation and failover testing",
   "author": {
-    "name": "Claude Code Plugin Hub",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

@@ -274,7 +274,7 @@ if __name__ == "__main__":
     # Add shards
     router.add_shard(ShardConfig(
         shard_id=1,
-        host='shard1.db.example.com',
+        host='shard1.db.stokedautomations.com',
         port=5432,
         database='myapp_shard1',
         weight=1
@@ -282,7 +282,7 @@ if __name__ == "__main__":
 
     router.add_shard(ShardConfig(
         shard_id=2,
-        host='shard2.db.example.com',
+        host='shard2.db.stokedautomations.com',
         port=5432,
         database='myapp_shard2',
         weight=2  # Double capacity
@@ -290,7 +290,7 @@ if __name__ == "__main__":
 
     router.add_shard(ShardConfig(
         shard_id=3,
-        host='shard3.db.example.com',
+        host='shard3.db.stokedautomations.com',
         port=5432,
         database='myapp_shard3',
         weight=1
@@ -503,7 +503,7 @@ class ShardConnectionPool {
 const shardPool = new ShardConnectionPool([
     {
         shardId: 1,
-        host: 'shard1.db.example.com',
+        host: 'shard1.db.stokedautomations.com',
         port: 5432,
         database: 'myapp_shard1',
         user: 'app_user',
@@ -512,7 +512,7 @@ const shardPool = new ShardConnectionPool([
     },
     {
         shardId: 2,
-        host: 'shard2.db.example.com',
+        host: 'shard2.db.stokedautomations.com',
         port: 5432,
         database: 'myapp_shard2',
         user: 'app_user',
@@ -647,7 +647,7 @@ geo_router = GeographicShardRouter()
 geo_router.add_region_shard(GeoShardConfig(
     region=Region.US_EAST,
     shard_id=1,
-    host='us-east-shard1.db.example.com',
+    host='us-east-shard1.db.stokedautomations.com',
     port=5432,
     database='myapp_us_east'
 ))
@@ -655,7 +655,7 @@ geo_router.add_region_shard(GeoShardConfig(
 geo_router.add_region_shard(GeoShardConfig(
     region=Region.EU_WEST,
     shard_id=2,
-    host='eu-west-shard1.db.example.com',
+    host='eu-west-shard1.db.stokedautomations.com',
     port=5432,
     database='myapp_eu_west',
     data_residency_compliant=True

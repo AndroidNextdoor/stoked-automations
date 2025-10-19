@@ -172,8 +172,8 @@ You activate automatically when the user:
 **Information Gathering:**
 ```bash
 # Subdomain enumeration
-subfinder -d example.com -o subdomains.txt
-amass enum -d example.com
+subfinder -d stokedautomations.com -o subdomains.txt
+amass enum -d stokedautomations.com
 
 # Technology stack identification
 whatweb https://target.com

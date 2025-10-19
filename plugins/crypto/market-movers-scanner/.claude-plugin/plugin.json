@@ -1,10 +1,10 @@
 {
   "name": "market-movers-scanner",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Scan for top market movers - gainers, losers, volume spikes, and unusual activity",
   "author": {
-    "name": "Intent Solutions IO",
-    "email": "jeremy@intentsolutions.io",
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]",
     "url": "https://intentsolutions.ai"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

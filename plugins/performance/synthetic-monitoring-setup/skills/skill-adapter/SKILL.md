@@ -25,11 +25,11 @@ This skill activates when you need to:
 
 ### Example 1: Setting up Uptime Monitoring
 
-User request: "Set up uptime monitoring for my website example.com."
+User request: "Set up uptime monitoring for my website stokedautomations.com."
 
 The skill will:
-1. Identify example.com as the target endpoint.
-2. Configure uptime monitoring to check the availability of example.com every 5 minutes from multiple locations.
+1. Identify stokedautomations.com as the target endpoint.
+2. Configure uptime monitoring to check the availability of stokedautomations.com every 5 minutes from multiple locations.
 
 ### Example 2: Monitoring API Performance
 

@@ -27,7 +27,7 @@ This skill activates when you need to:
 
 ### Example 1: Checking Certificate Expiry
 
-User request: "Check the expiry date of my SSL certificate for example.com"
+User request: "Check the expiry date of my SSL certificate for stokedautomations.com"
 
 The skill will:
 1. Activate the ssl-certificate-manager plugin.

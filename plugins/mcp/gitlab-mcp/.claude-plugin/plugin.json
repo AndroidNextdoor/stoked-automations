@@ -1,0 +1,33 @@
+{
+  "name": "gitlab-mcp",
+  "version": "2025.0.0",
+  "description": "GitLab integration via MCP - manage repositories, branches, merge requests, pipelines, and issues through GitLab's REST API",
+  "category": "devops",
+  "keywords": [
+    "gitlab",
+    "git",
+    "merge-requests",
+    "ci-cd",
+    "repository-management",
+    "mcp-server",
+    "version-control",
+    "pipelines"
+  ],
+  "author": {
+    "name": "Andrew Nixdorf",
+    "url": "https://modelcontextprotocol.io",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab",
+  "license": "MIT",
+  "prerequisites": {
+    "description": "Requires Docker and GitLab personal access token with API permissions",
+    "steps": [
+      "Install Docker Desktop and ensure it's running",
+      "Create GitLab personal access token at https://gitlab.com/-/profile/personal_access_tokens",
+      "Select scopes: api, read_api, read_repository, write_repository",
+      "Set GITLAB_TOKEN environment variable with your token",
+      "Set GITLAB_API_URL environment variable (https://gitlab.com/api/v4 or your self-hosted URL)"
+    ]
+  }
+}

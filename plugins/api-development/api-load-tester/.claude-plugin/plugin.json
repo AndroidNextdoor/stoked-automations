@@ -1,12 +1,17 @@
 {
   "name": "api-load-tester",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Load test APIs with k6, Gatling, or Artillery",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["load-testing", "performance", "k6", "stress-testing"]
+  "keywords": [
+    "load-testing",
+    "performance",
+    "k6",
+    "stress-testing"
+  ]
 }

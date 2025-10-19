@@ -16,7 +16,7 @@
       "name": "skills-powerkit",
       "source": "./plugins/examples/skills-powerkit",
       "description": "Ultimate plugin management toolkit with 5 Agent Skills - automates creating, validating, auditing, and managing plugins in the claude-code-plugins marketplace",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "example",
       "keywords": [
         "skills",
@@ -30,7 +30,7 @@
         "repository-tools"
       ],
       "author": {
-        "name": "Claude Code Plugins",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -40,7 +40,7 @@
       "name": "pi-pathfinder",
       "source": "./plugins/examples/pi-pathfinder",
       "description": "PI Pathfinder - Finds the path through 229 plugins. Automatically picks the best plugin for your task, extracts its skills, and applies them. You don't pick plugins, PI does. Part of our initiative to update all plugins with appropriate skill sets.",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "example",
       "keywords": [
         "agent-skills",
@@ -55,7 +55,7 @@
         "no-thinking-required"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -68,7 +68,7 @@
       "name": "web-to-github-issue",
       "source": "./plugins/skill-enhancers/web-to-github-issue",
       "description": "Enhances web_search Skill by automatically creating GitHub issues from research findings. Research topics, extract key insights, and generate formatted tickets in seconds.",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "skill-enhancers",
       "keywords": [
         "web-search",
@@ -81,17 +81,42 @@
         "workflow"
       ],
       "author": {
-        "name": "Claude Code Plugins Team",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
       "repository": "https://github.com/AndroidNextdoor/stoked-automations"
     },
     {
+      "name": "git-jira-workflow",
+      "source": "./plugins/skill-enhancers/git-jira-workflow",
+      "description": "Enterprise GitLab Flow with Jira integration - automates branch creation, commit validation, and Jira status updates using Atlassian and GitLab MCP servers",
+      "version": "2025.0.0",
+      "category": "skill-enhancers",
+      "keywords": [
+        "git",
+        "gitlab",
+        "jira",
+        "workflow",
+        "branching",
+        "atlassian",
+        "mcp",
+        "skill-enhancer",
+        "automation",
+        "enterprise"
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
+      },
+      "featured": false,
+      "repository": "https://github.com/AndroidNextdoor/stoked-automations"
+    },
+    {
       "name": "sugar",
       "source": "./plugins/devops/sugar",
       "description": "Transform Claude Code into an autonomous AI development powerhouse with rich task context, specialized agents, and intelligent workflow automation",
-      "version": "2.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "autonomous",
@@ -106,8 +131,8 @@
         "mcp"
       ],
       "author": {
-        "name": "Steven Leggett",
-        "email": "contact@roboticforce.io"
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
       },
       "featured": true,
       "mcpTools": 7,
@@ -117,7 +142,7 @@
       "name": "git-commit-smart",
       "source": "./plugins/devops/git-commit-smart",
       "description": "AI-powered conventional commit message generator with smart analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "git",
@@ -128,7 +153,7 @@
         "productivity"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -137,7 +162,7 @@
       "name": "fairdb-operations-kit",
       "source": "./plugins/devops/fairdb-operations-kit",
       "description": "Complete operations kit for FairDB PostgreSQL as a Service - VPS setup, PostgreSQL management, customer provisioning, monitoring, and backup automation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "fairdb",
@@ -156,8 +181,8 @@
         "incident-response"
       ],
       "author": {
-        "name": "Jeremy Longshore",
-        "email": "andrew@stokedautomation.com"
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
       },
       "featured": false,
       "repository": "https://github.com/AndroidNextdoor/stoked-automations"
@@ -166,7 +191,7 @@
       "name": "devops-automation-pack",
       "source": "./plugins/packages/devops-automation-pack",
       "description": "Complete DevOps automation suite with 25 plugins covering Git workflows, CI/CD pipelines, Docker optimization, Kubernetes management, Terraform IaC, and deployment strategies",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "devops",
@@ -180,7 +205,7 @@
         "package"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -189,7 +214,7 @@
       "name": "project-health-auditor",
       "source": "./plugins/mcp/project-health-auditor",
       "description": "Multi-dimensional code health analysis with complexity, churn, and test coverage - identifies technical debt hot spots",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "code-quality",
       "keywords": [
         "mcp",
@@ -201,48 +226,111 @@
         "analytics"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
       "mcpTools": 4
     },
     {
-      "name": "browser-testing-suite",
-      "source": "./plugins/mcp/browser-testing-suite",
-      "description": "Complete browser testing toolkit with 5 MCP servers (Playwright, Chrome DevTools, Cypress, Selenium, Katalon) and 4 expert Agent Skills for comprehensive E2E, API, component, and performance testing",
-      "version": "1.0.0",
+      "name": "playwright-mcp",
+      "source": "./plugins/mcp/playwright-mcp",
+      "description": "Official Microsoft Playwright MCP server - browser automation using accessibility tree (no screenshots needed). Fast, deterministic E2E testing with Chrome, Firefox, and WebKit support.",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
-        "mcp",
-        "testing",
         "playwright",
-        "selenium",
-        "cypress",
-        "katalon",
-        "chrome-devtools",
-        "cdp",
-        "e2e",
-        "component-testing",
-        "api-testing",
         "browser-automation",
-        "performance",
-        "network-analysis",
-        "visual-regression",
-        "page-object-model",
-        "agent-skills"
+        "e2e-testing",
+        "accessibility",
+        "mcp",
+        "microsoft",
+        "chrome",
+        "firefox",
+        "webkit",
+        "testing"
       ],
       "author": {
-        "name": "Andrew Nixdorf",
+        "name": "Microsoft",
         "email": "[email protected]"
       },
-      "mcpTools": 43
+      "repository": "https://github.com/microsoft/playwright-mcp",
+      "mcpTools": 12
+    },
+    {
+      "name": "cypress-mcp",
+      "source": "./plugins/mcp/cypress-mcp",
+      "description": "Cypress MCP server for component and E2E testing - automatically generates test cases, Page Object Models, and runs tests through MCP protocol.",
+      "version": "2025.0.0",
+      "category": "testing",
+      "keywords": [
+        "cypress",
+        "testing",
+        "e2e",
+        "component-testing",
+        "test-generation",
+        "page-object-model",
+        "mcp",
+        "automation"
+      ],
+      "author": {
+        "name": "jprealini",
+        "email": "[email protected]"
+      },
+      "repository": "https://github.com/jprealini/cypress-mcp",
+      "mcpTools": 6
+    },
+    {
+      "name": "selenium-mcp",
+      "source": "./plugins/mcp/selenium-mcp",
+      "description": "Selenium WebDriver MCP server - industry-standard browser automation with support for Chrome, Firefox, Edge, and Safari. Perfect for cross-browser testing.",
+      "version": "2025.0.0",
+      "category": "testing",
+      "keywords": [
+        "selenium",
+        "webdriver",
+        "browser-automation",
+        "cross-browser-testing",
+        "e2e",
+        "testing",
+        "mcp"
+      ],
+      "author": {
+        "name": "Angie Jones",
+        "email": "[email protected]"
+      },
+      "repository": "https://github.com/angiejones/mcp-selenium",
+      "mcpTools": 15
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "source": "./plugins/mcp/chrome-devtools-mcp",
+      "description": "Official Chrome DevTools Protocol MCP server from Google - control and inspect live Chrome browsers with performance insights, network analysis, and console access.",
+      "version": "2025.0.0",
+      "category": "testing",
+      "keywords": [
+        "chrome",
+        "devtools",
+        "cdp",
+        "debugging",
+        "performance",
+        "network-analysis",
+        "puppeteer",
+        "mcp",
+        "google"
+      ],
+      "author": {
+        "name": "Google Chrome Team",
+        "email": "[email protected]"
+      },
+      "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "mcpTools": 10
     },
     {
       "name": "conversational-api-debugger",
       "source": "./plugins/mcp/conversational-api-debugger",
       "description": "Debug REST API failures using OpenAPI specs and HTTP logs (HAR) - root cause analysis with cURL generation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "debugging",
       "keywords": [
         "mcp",
@@ -255,7 +343,7 @@
         "http"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -265,7 +353,7 @@
       "name": "domain-memory-agent",
       "source": "./plugins/mcp/domain-memory-agent",
       "description": "Knowledge base with TF-IDF semantic search and extractive summarization - no ML dependencies required",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "productivity",
       "keywords": [
         "mcp",
@@ -277,7 +365,7 @@
         "documentation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -287,7 +375,7 @@
       "name": "design-to-code",
       "source": "./plugins/mcp/design-to-code",
       "description": "Convert Figma designs and screenshots to React/Svelte/Vue components with built-in accessibility",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "design",
       "keywords": [
         "mcp",
@@ -300,7 +388,7 @@
         "component-generation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -310,7 +398,7 @@
       "name": "workflow-orchestrator",
       "source": "./plugins/mcp/workflow-orchestrator",
       "description": "DAG-based workflow automation with parallel task execution and dependency management",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "automation",
       "keywords": [
         "mcp",
@@ -322,7 +410,7 @@
         "parallel-execution"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -332,7 +420,7 @@
       "name": "context7",
       "source": "./plugins/mcp/context7",
       "description": "Up-to-date code documentation for LLMs - fetches current, version-specific docs and code examples from Context7 database",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "mcp",
@@ -344,8 +432,9 @@
         "up-to-date-docs"
       ],
       "author": {
-        "name": "Upstash",
-        "url": "https://upstash.com"
+        "name": "Andrew Nixdorf",
+        "url": "https://upstash.com",
+        "email": "[email protected]"
       },
       "featured": false,
       "mcpTools": 2,
@@ -359,7 +448,7 @@
       "name": "serena",
       "source": "./plugins/mcp/serena",
       "description": "AI-powered memory and context management with semantic search, project-specific prompts, and codebase understanding via language servers",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "mcp",
@@ -371,8 +460,9 @@
         "language-servers"
       ],
       "author": {
-        "name": "Oraios",
-        "url": "https://github.com/oraios"
+        "name": "Andrew Nixdorf",
+        "url": "https://github.com/oraios",
+        "email": "[email protected]"
       },
       "featured": false,
       "mcpTools": 5,
@@ -382,7 +472,7 @@
       "name": "aws-kb-retrieval",
       "source": "./plugins/mcp/aws-kb-retrieval",
       "description": "AWS Bedrock Knowledge Base retrieval and RAG capabilities. Enterprise-grade semantic search with vector embeddings and AWS-managed knowledge bases.",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "mcpTools": 2,
       "keywords": [
@@ -396,16 +486,150 @@
         "enterprise-ai"
       ],
       "author": {
-        "name": "AWS Labs",
-        "url": "https://github.com/awslabs"
+        "name": "Andrew Nixdorf",
+        "url": "https://github.com/awslabs",
+        "email": "[email protected]"
       },
       "repository": "https://github.com/awslabs/mcp-server-aws-kb-retrieval"
+    },
+    {
+      "name": "atlassian-mcp",
+      "source": "./plugins/mcp/atlassian-mcp",
+      "description": "Jira and Confluence integration via MCP - manage tickets, update statuses, search issues, and access Confluence documentation",
+      "version": "2025.0.0",
+      "category": "productivity",
+      "keywords": [
+        "jira",
+        "confluence",
+        "atlassian",
+        "issue-tracking",
+        "project-management",
+        "mcp-server",
+        "documentation",
+        "ticket-management"
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
+        "url": "https://github.com/sooperset",
+        "email": "[email protected]"
+      },
+      "featured": false,
+      "mcpTools": 8,
+      "repository": "https://github.com/sooperset/mcp-atlassian"
+    },
+    {
+      "name": "gitlab-mcp",
+      "source": "./plugins/mcp/gitlab-mcp",
+      "description": "GitLab integration via MCP - manage repositories, branches, merge requests, pipelines, and issues through GitLab's REST API",
+      "version": "2025.0.0",
+      "category": "devops",
+      "keywords": [
+        "gitlab",
+        "git",
+        "merge-requests",
+        "ci-cd",
+        "repository-management",
+        "mcp-server",
+        "version-control",
+        "pipelines"
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
+        "url": "https://modelcontextprotocol.io",
+        "email": "[email protected]"
+      },
+      "featured": false,
+      "mcpTools": 13,
+      "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab"
+    },
+    {
+      "name": "firecrawl-mcp",
+      "source": "./plugins/mcp/firecrawl-mcp",
+      "description": "Advanced web scraping and crawling via Firecrawl MCP - extract structured data, scrape websites, convert pages to markdown, and automate web data collection with AI assistance",
+      "version": "2025.0.0",
+      "category": "productivity",
+      "keywords": [
+        "web-scraping",
+        "data-extraction",
+        "crawling",
+        "firecrawl",
+        "markdown-conversion",
+        "structured-data",
+        "mcp-server",
+        "automation",
+        "web-data",
+        "sitemap-generation"
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
+        "url": "https://github.com/mendableai",
+        "email": "[email protected]"
+      },
+      "featured": true,
+      "mcpTools": 6,
+      "repository": "https://github.com/mendableai/firecrawl"
+    },
+    {
+      "name": "kali-mcp",
+      "source": "./plugins/mcp/kali-mcp",
+      "description": "Kali Linux security tools integration via MCP - execute penetration testing commands, run security scans, automate reconnaissance, and solve CTF challenges with AI assistance",
+      "version": "2025.0.0",
+      "category": "security",
+      "keywords": [
+        "kali-linux",
+        "penetration-testing",
+        "security",
+        "nmap",
+        "metasploit",
+        "burp-suite",
+        "reconnaissance",
+        "exploitation",
+        "ctf",
+        "offensive-security",
+        "red-team",
+        "bug-bounty",
+        "vulnerability-scanning",
+        "mcp-server"
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
+        "url": "https://github.com/Wh0am123",
+        "email": "[email protected]"
+      },
+      "featured": true,
+      "mcpTools": 10,
+      "repository": "https://github.com/Wh0am123/MCP-Kali-Server"
+    },
+    {
+      "name": "llm-security-tester",
+      "source": "./plugins/security/llm-security-tester",
+      "description": "LLM security testing for prompt injection, jailbreaking, data poisoning, and AI model vulnerabilities - comprehensive OWASP LLM Top 10 testing",
+      "version": "2025.0.0",
+      "category": "security",
+      "keywords": [
+        "llm-security",
+        "prompt-injection",
+        "jailbreaking",
+        "ai-security",
+        "data-poisoning",
+        "model-inversion",
+        "owasp-llm",
+        "ml-security",
+        "chatbot-security",
+        "rag-security"
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
+      },
+      "featured": true,
+      "repository": "https://github.com/AndroidNextdoor/stoked-automations"
     },
     {
       "name": "hello-world",
       "source": "./plugins/examples/hello-world",
       "description": "Simple example plugin demonstrating basic slash commands",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "example",
       "keywords": [
         "example",
@@ -413,38 +637,47 @@
         "beginner"
       ],
       "author": {
-        "name": "Jeremy Longshore"
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
       }
     },
     {
       "name": "formatter",
       "source": "./plugins/examples/formatter",
       "description": "Code formatting plugin using hooks to auto-format on save",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "productivity",
       "keywords": [
         "formatting",
         "hooks",
         "automation"
-      ]
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
+      }
     },
     {
       "name": "security-agent",
       "source": "./plugins/examples/security-agent",
       "description": "Security review subagent for code analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
         "agent",
         "code-review"
-      ]
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
+      }
     },
     {
       "name": "n8n-workflow-designer",
       "source": "./plugins/ai-agency/n8n-workflow-designer",
       "description": "Design complex n8n workflows with AI assistance - loops, branching, error handling",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-agency",
       "keywords": [
         "n8n",
@@ -455,8 +688,9 @@
         "ai-agency"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
-        "url": "https://github.com/AndroidNextdoor/stoked-automations"
+        "name": "Andrew Nixdorf",
+        "url": "https://github.com/AndroidNextdoor/stoked-automations",
+        "email": "[email protected]"
       },
       "featured": true
     },
@@ -464,7 +698,7 @@
       "name": "make-scenario-builder",
       "source": "./plugins/ai-agency/make-scenario-builder",
       "description": "Create Make.com (Integromat) scenarios with AI assistance",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-agency",
       "keywords": [
         "make",
@@ -475,14 +709,15 @@
         "ai-agency"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub"
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
       }
     },
     {
       "name": "zapier-zap-builder",
       "source": "./plugins/ai-agency/zapier-zap-builder",
       "description": "Create multi-step Zapier Zaps with filters, paths, and formatters",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-agency",
       "keywords": [
         "zapier",
@@ -493,14 +728,15 @@
         "ai-agency"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub"
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
       }
     },
     {
       "name": "discovery-questionnaire",
       "source": "./plugins/ai-agency/discovery-questionnaire",
       "description": "Generate custom discovery questionnaires for AI agency prospects",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-agency",
       "keywords": [
         "discovery",
@@ -511,14 +747,15 @@
         "ai-agency"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub"
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
       }
     },
     {
       "name": "sow-generator",
       "source": "./plugins/ai-agency/sow-generator",
       "description": "Generate professional Statements of Work for AI projects",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-agency",
       "keywords": [
         "sow",
@@ -529,14 +766,15 @@
         "ai-agency"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub"
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
       }
     },
     {
       "name": "roi-calculator",
       "source": "./plugins/ai-agency/roi-calculator",
       "description": "Calculate and present ROI for AI automation projects",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-agency",
       "keywords": [
         "roi",
@@ -547,14 +785,15 @@
         "ai-agency"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub"
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
       }
     },
     {
       "name": "overnight-dev",
       "source": "./plugins/productivity/overnight-dev",
       "description": "Run Claude autonomously for 6-8 hours overnight using Git hooks that enforce TDD - wake up to fully tested features",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "productivity",
       "keywords": [
         "overnight",
@@ -568,7 +807,7 @@
         "productivity"
       ],
       "author": {
-        "name": "Intent Solutions IO",
+        "name": "Andrew Nixdorf",
         "url": "https://intentsolutions.io",
         "email": "[email protected]"
       },
@@ -578,7 +817,7 @@
       "name": "security-pro-pack",
       "source": "./plugins/packages/security-pro-pack",
       "description": "Professional security tools for Claude Code: vulnerability scanning, compliance, cryptography audit, container & API security",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -593,7 +832,7 @@
         "package"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -603,7 +842,7 @@
       "name": "fullstack-starter-pack",
       "source": "./plugins/packages/fullstack-starter-pack",
       "description": "Complete fullstack development toolkit: React, Express/FastAPI, PostgreSQL scaffolding with AI agents",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "fullstack",
       "keywords": [
         "fullstack",
@@ -617,7 +856,7 @@
         "package"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -627,7 +866,7 @@
       "name": "ai-ml-engineering-pack",
       "source": "./plugins/packages/ai-ml-engineering-pack",
       "description": "Professional AI/ML Engineering toolkit: Prompt engineering, LLM integration, RAG systems, AI safety with 12 expert plugins",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "ai",
@@ -642,7 +881,7 @@
         "package"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -652,7 +891,7 @@
       "name": "snapshot-test-manager",
       "source": "./plugins/testing/snapshot-test-manager",
       "description": "Manage and update snapshot tests with intelligent diff analysis and selective updates",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -663,7 +902,7 @@
         "test-management"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -671,7 +910,7 @@
       "name": "contract-test-validator",
       "source": "./plugins/testing/contract-test-validator",
       "description": "API contract testing with Pact, OpenAPI validation, and consumer-driven contract verification",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -683,7 +922,7 @@
         "consumer-driven"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -691,7 +930,7 @@
       "name": "accessibility-test-scanner",
       "source": "./plugins/testing/accessibility-test-scanner",
       "description": "A11y compliance testing with WCAG 2.1/2.2 validation, screen reader compatibility, and automated accessibility audits",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -703,7 +942,7 @@
         "compliance"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -711,7 +950,7 @@
       "name": "visual-regression-tester",
       "source": "./plugins/testing/visual-regression-tester",
       "description": "Visual diff testing with Percy, Chromatic, BackstopJS - catch unintended UI changes",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -723,7 +962,7 @@
         "screenshot-testing"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -731,7 +970,7 @@
       "name": "chaos-engineering-toolkit",
       "source": "./plugins/testing/chaos-engineering-toolkit",
       "description": "Chaos testing for resilience with failure injection, latency simulation, and system resilience validation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -742,7 +981,7 @@
         "reliability"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -750,7 +989,7 @@
       "name": "test-doubles-generator",
       "source": "./plugins/testing/test-doubles-generator",
       "description": "Generate mocks, stubs, spies, and fakes for unit testing with Jest, Sinon, and test frameworks",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -763,7 +1002,7 @@
         "sinon"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -771,7 +1010,7 @@
       "name": "browser-compatibility-tester",
       "source": "./plugins/testing/browser-compatibility-tester",
       "description": "Cross-browser testing with BrowserStack, Selenium Grid, and Playwright - test across Chrome, Firefox, Safari, Edge",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -782,7 +1021,7 @@
         "compatibility"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -790,7 +1029,7 @@
       "name": "mobile-app-tester",
       "source": "./plugins/testing/mobile-app-tester",
       "description": "Mobile app test automation with Appium, Detox, XCUITest - test iOS and Android apps",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -803,7 +1042,7 @@
         "android"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -811,7 +1050,7 @@
       "name": "database-test-manager",
       "source": "./plugins/testing/database-test-manager",
       "description": "Database testing utilities with test data setup, transaction rollback, and schema validation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -823,7 +1062,7 @@
         "transactions"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -831,7 +1070,7 @@
       "name": "smoke-test-runner",
       "source": "./plugins/testing/smoke-test-runner",
       "description": "Quick smoke test suites to verify critical functionality after deployments",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -841,7 +1080,7 @@
         "critical-path"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -849,7 +1088,7 @@
       "name": "load-balancer-tester",
       "source": "./plugins/testing/load-balancer-tester",
       "description": "Test load balancing strategies with traffic distribution validation and failover testing",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -859,7 +1098,7 @@
         "high-availability"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -867,7 +1106,7 @@
       "name": "api-fuzzer",
       "source": "./plugins/testing/api-fuzzer",
       "description": "Fuzz testing for APIs with malformed inputs, edge cases, and security vulnerability detection",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -878,7 +1117,7 @@
         "input-validation"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -886,7 +1125,7 @@
       "name": "test-report-generator",
       "source": "./plugins/testing/test-report-generator",
       "description": "Generate comprehensive test reports with coverage, trends, and stakeholder-friendly formats",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -897,7 +1136,7 @@
         "ci-cd"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -905,7 +1144,7 @@
       "name": "test-environment-manager",
       "source": "./plugins/testing/test-environment-manager",
       "description": "Manage test environments with Docker Compose, Testcontainers, and environment isolation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -916,7 +1155,7 @@
         "infrastructure"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -924,7 +1163,7 @@
       "name": "test-orchestrator",
       "source": "./plugins/testing/test-orchestrator",
       "description": "Orchestrate complex test workflows with dependencies, parallel execution, and smart test selection",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -935,7 +1174,7 @@
         "ci-cd"
       ],
       "author": {
-        "name": "Claude Code Plugin Hub",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -943,7 +1182,7 @@
       "name": "rest-api-generator",
       "source": "./plugins/api-development/rest-api-generator",
       "description": "Generate RESTful APIs from schemas with proper routing, validation, and documentation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "api",
@@ -954,7 +1193,7 @@
         "backend"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -963,7 +1202,7 @@
       "name": "graphql-server-builder",
       "source": "./plugins/api-development/graphql-server-builder",
       "description": "Build GraphQL servers with schema-first design, resolvers, and subscriptions",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "graphql",
@@ -974,7 +1213,7 @@
         "resolvers"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -983,7 +1222,7 @@
       "name": "api-documentation-generator",
       "source": "./plugins/api-development/api-documentation-generator",
       "description": "Generate comprehensive API documentation from OpenAPI/Swagger specs",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "api",
@@ -993,7 +1232,7 @@
         "docs"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1001,7 +1240,7 @@
       "name": "api-versioning-manager",
       "source": "./plugins/api-development/api-versioning-manager",
       "description": "Manage API versions with migration strategies and backward compatibility",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "api",
@@ -1010,7 +1249,7 @@
         "backward-compatibility"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1018,7 +1257,7 @@
       "name": "webhook-handler-creator",
       "source": "./plugins/api-development/webhook-handler-creator",
       "description": "Create secure webhook endpoints with signature verification and retry logic",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "webhook",
@@ -1027,7 +1266,7 @@
         "security"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1035,7 +1274,7 @@
       "name": "api-rate-limiter",
       "source": "./plugins/api-development/api-rate-limiter",
       "description": "Implement rate limiting with token bucket, sliding window, and Redis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "rate-limiting",
@@ -1044,7 +1283,7 @@
         "redis"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1052,7 +1291,7 @@
       "name": "api-gateway-builder",
       "source": "./plugins/api-development/api-gateway-builder",
       "description": "Build API gateway with routing, authentication, and rate limiting",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "api-gateway",
@@ -1061,7 +1300,7 @@
         "microservices"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1069,7 +1308,7 @@
       "name": "grpc-service-generator",
       "source": "./plugins/api-development/grpc-service-generator",
       "description": "Generate gRPC services with Protocol Buffers and streaming support",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "grpc",
@@ -1078,7 +1317,7 @@
         "streaming"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1086,7 +1325,7 @@
       "name": "api-mock-server",
       "source": "./plugins/api-development/api-mock-server",
       "description": "Create mock API servers from OpenAPI specs for testing",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "mock",
@@ -1095,7 +1334,7 @@
         "stub"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1103,7 +1342,7 @@
       "name": "api-security-scanner",
       "source": "./plugins/api-development/api-security-scanner",
       "description": "Scan APIs for security vulnerabilities and OWASP API Top 10",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "security",
@@ -1112,7 +1351,7 @@
         "vulnerability"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1120,7 +1359,7 @@
       "name": "websocket-server-builder",
       "source": "./plugins/api-development/websocket-server-builder",
       "description": "Build WebSocket servers for real-time bidirectional communication",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "websocket",
@@ -1129,7 +1368,7 @@
         "ws"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1137,7 +1376,7 @@
       "name": "api-response-validator",
       "source": "./plugins/api-development/api-response-validator",
       "description": "Validate API responses against schemas and contracts",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "validation",
@@ -1146,7 +1385,7 @@
         "api"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1154,7 +1393,7 @@
       "name": "api-error-handler",
       "source": "./plugins/api-development/api-error-handler",
       "description": "Implement standardized error handling with proper HTTP status codes",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "error-handling",
@@ -1163,7 +1402,7 @@
         "exceptions"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1171,7 +1410,7 @@
       "name": "api-cache-manager",
       "source": "./plugins/api-development/api-cache-manager",
       "description": "Implement caching strategies with Redis, CDN, and HTTP headers",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "caching",
@@ -1180,7 +1419,7 @@
         "performance"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1188,7 +1427,7 @@
       "name": "api-migration-tool",
       "source": "./plugins/api-development/api-migration-tool",
       "description": "Migrate APIs between versions with backward compatibility",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "migration",
@@ -1197,7 +1436,7 @@
         "backward-compatibility"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1205,7 +1444,7 @@
       "name": "api-contract-generator",
       "source": "./plugins/api-development/api-contract-generator",
       "description": "Generate API contracts for consumer-driven contract testing",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "contract",
@@ -1214,7 +1453,7 @@
         "microservices"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1222,7 +1461,7 @@
       "name": "api-monitoring-dashboard",
       "source": "./plugins/api-development/api-monitoring-dashboard",
       "description": "Create monitoring dashboards for API health, metrics, and alerts",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "monitoring",
@@ -1231,7 +1470,7 @@
         "dashboard"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1239,7 +1478,7 @@
       "name": "api-load-tester",
       "source": "./plugins/api-development/api-load-tester",
       "description": "Load test APIs with k6, Gatling, or Artillery",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "load-testing",
@@ -1248,7 +1487,7 @@
         "stress-testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1256,7 +1495,7 @@
       "name": "api-authentication-builder",
       "source": "./plugins/api-development/api-authentication-builder",
       "description": "Build authentication systems with JWT, OAuth2, and API keys",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "authentication",
@@ -1265,7 +1504,7 @@
         "security"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1273,7 +1512,7 @@
       "name": "api-request-logger",
       "source": "./plugins/api-development/api-request-logger",
       "description": "Log API requests with structured logging and correlation IDs",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "logging",
@@ -1282,7 +1521,7 @@
         "correlation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1290,7 +1529,7 @@
       "name": "api-throttling-manager",
       "source": "./plugins/api-development/api-throttling-manager",
       "description": "Manage API throttling with dynamic rate limits and quota management",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "throttling",
@@ -1299,7 +1538,7 @@
         "traffic-management"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1307,7 +1546,7 @@
       "name": "api-sdk-generator",
       "source": "./plugins/api-development/api-sdk-generator",
       "description": "Generate client SDKs from OpenAPI specs for multiple languages",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "sdk",
@@ -1316,7 +1555,7 @@
         "codegen"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1324,7 +1563,7 @@
       "name": "api-schema-validator",
       "source": "./plugins/api-development/api-schema-validator",
       "description": "Validate API schemas with JSON Schema, Joi, Yup, or Zod",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "schema",
@@ -1334,7 +1573,7 @@
         "zod"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1342,7 +1581,7 @@
       "name": "api-event-emitter",
       "source": "./plugins/api-development/api-event-emitter",
       "description": "Implement event-driven APIs with message queues and event streaming",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "events",
@@ -1352,7 +1591,7 @@
         "event-driven"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1360,7 +1599,7 @@
       "name": "api-batch-processor",
       "source": "./plugins/api-development/api-batch-processor",
       "description": "Implement batch API operations with bulk processing and job queues",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "api-development",
       "keywords": [
         "batch",
@@ -1369,7 +1608,7 @@
         "job-processing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1377,7 +1616,7 @@
       "name": "docker-compose-generator",
       "source": "./plugins/devops/docker-compose-generator",
       "description": "Generate Docker Compose configurations for multi-container applications with best practices",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "docker",
@@ -1387,7 +1626,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -1396,7 +1635,7 @@
       "name": "kubernetes-deployment-creator",
       "source": "./plugins/devops/kubernetes-deployment-creator",
       "description": "Create Kubernetes deployments, services, and configurations with best practices",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "kubernetes",
@@ -1406,7 +1645,7 @@
         "containers"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -1415,7 +1654,7 @@
       "name": "ci-cd-pipeline-builder",
       "source": "./plugins/devops/ci-cd-pipeline-builder",
       "description": "Build CI/CD pipelines for GitHub Actions, GitLab CI, Jenkins, and more",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "ci-cd",
@@ -1426,7 +1665,7 @@
         "automation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -1435,7 +1674,7 @@
       "name": "infrastructure-as-code-generator",
       "source": "./plugins/devops/infrastructure-as-code-generator",
       "description": "Generate Infrastructure as Code for Terraform, CloudFormation, Pulumi, and more",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "iac",
@@ -1446,7 +1685,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -1455,7 +1694,7 @@
       "name": "container-security-scanner",
       "source": "./plugins/devops/container-security-scanner",
       "description": "Scan containers for vulnerabilities using Trivy, Snyk, and other security tools",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "security",
@@ -1466,7 +1705,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1474,7 +1713,7 @@
       "name": "deployment-rollback-manager",
       "source": "./plugins/devops/deployment-rollback-manager",
       "description": "Manage and execute deployment rollbacks with safety checks",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "rollback",
@@ -1484,7 +1723,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1492,7 +1731,7 @@
       "name": "service-mesh-configurator",
       "source": "./plugins/devops/service-mesh-configurator",
       "description": "Configure service mesh (Istio, Linkerd) for microservices",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "service-mesh",
@@ -1502,7 +1741,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1510,7 +1749,7 @@
       "name": "environment-config-manager",
       "source": "./plugins/devops/environment-config-manager",
       "description": "Manage environment configurations and secrets across deployments",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "config",
@@ -1520,7 +1759,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1528,7 +1767,7 @@
       "name": "secrets-manager-integrator",
       "source": "./plugins/devops/secrets-manager-integrator",
       "description": "Integrate with secrets managers (Vault, AWS Secrets Manager, etc)",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "secrets",
@@ -1539,7 +1778,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1547,7 +1786,7 @@
       "name": "auto-scaling-configurator",
       "source": "./plugins/devops/auto-scaling-configurator",
       "description": "Configure auto-scaling policies for applications and infrastructure",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "autoscaling",
@@ -1557,7 +1796,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1565,7 +1804,7 @@
       "name": "load-balancer-configurator",
       "source": "./plugins/devops/load-balancer-configurator",
       "description": "Configure load balancers (ALB, NLB, Nginx, HAProxy)",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "load-balancer",
@@ -1576,7 +1815,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1584,7 +1823,7 @@
       "name": "monitoring-stack-deployer",
       "source": "./plugins/devops/monitoring-stack-deployer",
       "description": "Deploy monitoring stacks (Prometheus, Grafana, Datadog)",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "monitoring",
@@ -1594,7 +1833,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1602,7 +1841,7 @@
       "name": "log-aggregation-setup",
       "source": "./plugins/devops/log-aggregation-setup",
       "description": "Set up log aggregation (ELK, Loki, Splunk)",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "logging",
@@ -1613,7 +1852,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1621,7 +1860,7 @@
       "name": "backup-strategy-implementor",
       "source": "./plugins/devops/backup-strategy-implementor",
       "description": "Implement backup strategies for databases and applications",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "backup",
@@ -1630,7 +1869,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1638,7 +1877,7 @@
       "name": "disaster-recovery-planner",
       "source": "./plugins/devops/disaster-recovery-planner",
       "description": "Plan and implement disaster recovery procedures",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "disaster-recovery",
@@ -1647,7 +1886,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1655,7 +1894,7 @@
       "name": "network-policy-manager",
       "source": "./plugins/devops/network-policy-manager",
       "description": "Manage Kubernetes network policies and firewall rules",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "network-policy",
@@ -1665,7 +1904,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1673,7 +1912,7 @@
       "name": "helm-chart-generator",
       "source": "./plugins/devops/helm-chart-generator",
       "description": "Generate Helm charts for Kubernetes applications",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "helm",
@@ -1683,7 +1922,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1691,7 +1930,7 @@
       "name": "ansible-playbook-creator",
       "source": "./plugins/devops/ansible-playbook-creator",
       "description": "Create Ansible playbooks for configuration management",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "ansible",
@@ -1701,7 +1940,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1709,7 +1948,7 @@
       "name": "terraform-module-builder",
       "source": "./plugins/devops/terraform-module-builder",
       "description": "Build reusable Terraform modules",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "terraform",
@@ -1719,7 +1958,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1727,7 +1966,7 @@
       "name": "cloud-cost-optimizer",
       "source": "./plugins/devops/cloud-cost-optimizer",
       "description": "Optimize cloud costs and generate cost reports",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "cost",
@@ -1738,7 +1977,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1746,7 +1985,7 @@
       "name": "compliance-checker",
       "source": "./plugins/devops/compliance-checker",
       "description": "Check infrastructure compliance (SOC2, HIPAA, PCI-DSS)",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "compliance",
@@ -1757,7 +1996,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1765,7 +2004,7 @@
       "name": "gitops-workflow-builder",
       "source": "./plugins/devops/gitops-workflow-builder",
       "description": "Build GitOps workflows with ArgoCD and Flux",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "gitops",
@@ -1776,7 +2015,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1784,7 +2023,7 @@
       "name": "container-registry-manager",
       "source": "./plugins/devops/container-registry-manager",
       "description": "Manage container registries (ECR, GCR, Harbor)",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "registry",
@@ -1795,7 +2034,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1803,7 +2042,7 @@
       "name": "infrastructure-drift-detector",
       "source": "./plugins/devops/infrastructure-drift-detector",
       "description": "Detect infrastructure drift from desired state",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "drift",
@@ -1813,7 +2052,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1821,7 +2060,7 @@
       "name": "deployment-pipeline-orchestrator",
       "source": "./plugins/devops/deployment-pipeline-orchestrator",
       "description": "Orchestrate complex multi-stage deployment pipelines",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "devops",
       "keywords": [
         "pipeline",
@@ -1831,7 +2070,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1839,7 +2078,7 @@
       "name": "ml-model-trainer",
       "source": "./plugins/ai-ml/ml-model-trainer",
       "description": "Train and optimize machine learning models with automated workflows",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "ml",
@@ -1849,7 +2088,7 @@
         "ai"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1857,7 +2096,7 @@
       "name": "data-preprocessing-pipeline",
       "source": "./plugins/ai-ml/data-preprocessing-pipeline",
       "description": "Automated data preprocessing and cleaning pipelines",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "preprocessing",
@@ -1867,7 +2106,7 @@
         "data"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1875,7 +2114,7 @@
       "name": "feature-engineering-toolkit",
       "source": "./plugins/ai-ml/feature-engineering-toolkit",
       "description": "Feature creation, selection, and transformation tools",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "features",
@@ -1885,7 +2124,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1893,7 +2132,7 @@
       "name": "model-evaluation-suite",
       "source": "./plugins/ai-ml/model-evaluation-suite",
       "description": "Comprehensive model evaluation with multiple metrics",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "evaluation",
@@ -1903,7 +2142,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1911,7 +2150,7 @@
       "name": "hyperparameter-tuner",
       "source": "./plugins/ai-ml/hyperparameter-tuner",
       "description": "Optimize hyperparameters using grid/random/bayesian search",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "hyperparameters",
@@ -1921,7 +2160,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1929,7 +2168,7 @@
       "name": "neural-network-builder",
       "source": "./plugins/ai-ml/neural-network-builder",
       "description": "Build and configure neural network architectures",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "neural-networks",
@@ -1939,7 +2178,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1947,7 +2186,7 @@
       "name": "nlp-text-analyzer",
       "source": "./plugins/ai-ml/nlp-text-analyzer",
       "description": "Natural language processing and text analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "nlp",
@@ -1957,7 +2196,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1965,7 +2204,7 @@
       "name": "computer-vision-processor",
       "source": "./plugins/ai-ml/computer-vision-processor",
       "description": "Computer vision image processing and analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "cv",
@@ -1975,7 +2214,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -1983,7 +2222,7 @@
       "name": "time-series-forecaster",
       "source": "./plugins/ai-ml/time-series-forecaster",
       "description": "Time series forecasting and analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "time-series",
@@ -1993,7 +2232,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2001,7 +2240,7 @@
       "name": "anomaly-detection-system",
       "source": "./plugins/ai-ml/anomaly-detection-system",
       "description": "Detect anomalies and outliers in data",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "anomaly",
@@ -2011,7 +2250,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2019,7 +2258,7 @@
       "name": "recommendation-engine",
       "source": "./plugins/ai-ml/recommendation-engine",
       "description": "Build recommendation systems and engines",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "recommendations",
@@ -2029,7 +2268,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2037,7 +2276,7 @@
       "name": "sentiment-analysis-tool",
       "source": "./plugins/ai-ml/sentiment-analysis-tool",
       "description": "Sentiment analysis on text data",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "sentiment",
@@ -2047,7 +2286,7 @@
         "nlp"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2055,7 +2294,7 @@
       "name": "clustering-algorithm-runner",
       "source": "./plugins/ai-ml/clustering-algorithm-runner",
       "description": "Run clustering algorithms on datasets",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "clustering",
@@ -2065,7 +2304,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2073,7 +2312,7 @@
       "name": "classification-model-builder",
       "source": "./plugins/ai-ml/classification-model-builder",
       "description": "Build classification models",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "classification",
@@ -2083,7 +2322,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2091,7 +2330,7 @@
       "name": "regression-analysis-tool",
       "source": "./plugins/ai-ml/regression-analysis-tool",
       "description": "Regression analysis and modeling",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "regression",
@@ -2101,7 +2340,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2109,7 +2348,7 @@
       "name": "data-visualization-creator",
       "source": "./plugins/ai-ml/data-visualization-creator",
       "description": "Create data visualizations and plots",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "visualization",
@@ -2119,7 +2358,7 @@
         "analytics"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2127,7 +2366,7 @@
       "name": "model-deployment-helper",
       "source": "./plugins/ai-ml/model-deployment-helper",
       "description": "Deploy ML models to production",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "deployment",
@@ -2137,7 +2376,7 @@
         "mlops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2145,7 +2384,7 @@
       "name": "dataset-splitter",
       "source": "./plugins/ai-ml/dataset-splitter",
       "description": "Split datasets for training, validation, and testing",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "split",
@@ -2155,7 +2394,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2163,7 +2402,7 @@
       "name": "model-versioning-tracker",
       "source": "./plugins/ai-ml/model-versioning-tracker",
       "description": "Track and manage model versions",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "versioning",
@@ -2173,7 +2412,7 @@
         "mlops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2181,7 +2420,7 @@
       "name": "experiment-tracking-setup",
       "source": "./plugins/ai-ml/experiment-tracking-setup",
       "description": "Set up ML experiment tracking",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "experiments",
@@ -2191,7 +2430,7 @@
         "mlops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2199,7 +2438,7 @@
       "name": "automl-pipeline-builder",
       "source": "./plugins/ai-ml/automl-pipeline-builder",
       "description": "Build AutoML pipelines",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "automl",
@@ -2209,7 +2448,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2217,7 +2456,7 @@
       "name": "deep-learning-optimizer",
       "source": "./plugins/ai-ml/deep-learning-optimizer",
       "description": "Deep learning optimization techniques",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "optimization",
@@ -2227,7 +2466,7 @@
         "deep-learning"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2235,7 +2474,7 @@
       "name": "transfer-learning-adapter",
       "source": "./plugins/ai-ml/transfer-learning-adapter",
       "description": "Transfer learning adaptation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "transfer-learning",
@@ -2245,7 +2484,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2253,7 +2492,7 @@
       "name": "model-explainability-tool",
       "source": "./plugins/ai-ml/model-explainability-tool",
       "description": "Model interpretability and explainability",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "explainability",
@@ -2263,7 +2502,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2271,7 +2510,7 @@
       "name": "ai-ethics-validator",
       "source": "./plugins/ai-ml/ai-ethics-validator",
       "description": "AI ethics and fairness validation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "ethics",
@@ -2281,7 +2520,7 @@
         "ml"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2289,7 +2528,7 @@
       "name": "arbitrage-opportunity-finder",
       "source": "./plugins/crypto/arbitrage-opportunity-finder",
       "description": "Find and analyze arbitrage opportunities across exchanges and DeFi protocols",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "arbitrage",
@@ -2299,7 +2538,7 @@
         "profit"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -2308,7 +2547,7 @@
       "name": "blockchain-explorer-cli",
       "source": "./plugins/crypto/blockchain-explorer-cli",
       "description": "Command-line blockchain explorer for transactions, addresses, and contracts",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "blockchain",
@@ -2319,7 +2558,7 @@
         "contracts"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2327,7 +2566,7 @@
       "name": "cross-chain-bridge-monitor",
       "source": "./plugins/crypto/cross-chain-bridge-monitor",
       "description": "Monitor cross-chain bridge activity, track transfers, analyze security, and detect bridge exploits",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "crypto",
@@ -2340,7 +2579,7 @@
         "defi"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2348,7 +2587,7 @@
       "name": "crypto-derivatives-tracker",
       "source": "./plugins/crypto/crypto-derivatives-tracker",
       "description": "Track crypto futures, options, perpetual swaps with funding rates, open interest, and derivatives market analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "crypto",
@@ -2361,7 +2600,7 @@
         "trading"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2369,7 +2608,7 @@
       "name": "crypto-news-aggregator",
       "source": "./plugins/crypto/crypto-news-aggregator",
       "description": "Aggregate and analyze crypto news from multiple sources with sentiment analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "news",
@@ -2379,7 +2618,7 @@
         "media"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2387,7 +2626,7 @@
       "name": "crypto-portfolio-tracker",
       "source": "./plugins/crypto/crypto-portfolio-tracker",
       "description": "Professional crypto portfolio tracking with real-time prices, PnL analysis, and risk metrics",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "crypto",
@@ -2399,7 +2638,7 @@
         "defi"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -2408,7 +2647,7 @@
       "name": "crypto-signal-generator",
       "source": "./plugins/crypto/crypto-signal-generator",
       "description": "Generate trading signals from technical indicators and market analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "trading",
@@ -2418,7 +2657,7 @@
         "crypto"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2426,7 +2665,7 @@
       "name": "crypto-tax-calculator",
       "source": "./plugins/crypto/crypto-tax-calculator",
       "description": "Calculate crypto taxes with FIFO/LIFO methods and generate tax reports",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "crypto",
@@ -2437,7 +2676,7 @@
         "capital gains"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2445,7 +2684,7 @@
       "name": "defi-yield-optimizer",
       "source": "./plugins/crypto/defi-yield-optimizer",
       "description": "Optimize DeFi yield farming strategies across protocols with APY tracking and risk assessment",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "defi",
@@ -2457,7 +2696,7 @@
         "crypto"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2465,7 +2704,7 @@
       "name": "dex-aggregator-router",
       "source": "./plugins/crypto/dex-aggregator-router",
       "description": "Find optimal DEX routes for token swaps across multiple exchanges",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "dex",
@@ -2476,7 +2715,7 @@
         "routing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2484,7 +2723,7 @@
       "name": "flash-loan-simulator",
       "source": "./plugins/crypto/flash-loan-simulator",
       "description": "Simulate and analyze flash loan strategies including arbitrage, liquidations, and collateral swaps",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "crypto",
@@ -2497,7 +2736,7 @@
         "simulation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2505,7 +2744,7 @@
       "name": "gas-fee-optimizer",
       "source": "./plugins/crypto/gas-fee-optimizer",
       "description": "Optimize transaction gas fees with timing and routing recommendations",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "gas",
@@ -2516,7 +2755,7 @@
         "l2"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2524,7 +2763,7 @@
       "name": "liquidity-pool-analyzer",
       "source": "./plugins/crypto/liquidity-pool-analyzer",
       "description": "Analyze DeFi liquidity pools for impermanent loss, APY, and optimization opportunities",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "liquidity",
@@ -2535,7 +2774,7 @@
         "apy"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2543,7 +2782,7 @@
       "name": "market-movers-scanner",
       "source": "./plugins/crypto/market-movers-scanner",
       "description": "Scan for top market movers - gainers, losers, volume spikes, and unusual activity",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "market",
@@ -2555,7 +2794,7 @@
         "trading"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2563,7 +2802,7 @@
       "name": "market-price-tracker",
       "source": "./plugins/crypto/market-price-tracker",
       "description": "Real-time market price tracking with multi-exchange feeds and advanced alerts",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "market",
@@ -2575,7 +2814,7 @@
         "forex"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2583,7 +2822,7 @@
       "name": "market-sentiment-analyzer",
       "source": "./plugins/crypto/market-sentiment-analyzer",
       "description": "Analyze market sentiment from social media, news, and on-chain data",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "sentiment",
@@ -2594,7 +2833,7 @@
         "crypto"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -2603,7 +2842,7 @@
       "name": "mempool-analyzer",
       "source": "./plugins/crypto/mempool-analyzer",
       "description": "Advanced mempool analysis for MEV opportunities, pending transaction monitoring, and gas price optimization",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "crypto",
@@ -2616,7 +2855,7 @@
         "arbitrage"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2624,7 +2863,7 @@
       "name": "nft-rarity-analyzer",
       "source": "./plugins/crypto/nft-rarity-analyzer",
       "description": "Analyze NFT rarity scores and valuations across collections",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "nft",
@@ -2635,7 +2874,7 @@
         "crypto"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2643,7 +2882,7 @@
       "name": "on-chain-analytics",
       "source": "./plugins/crypto/on-chain-analytics",
       "description": "Analyze on-chain metrics including whale movements, network activity, and holder distribution",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "on-chain",
@@ -2653,7 +2892,7 @@
         "blockchain"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -2662,7 +2901,7 @@
       "name": "options-flow-analyzer",
       "source": "./plugins/crypto/options-flow-analyzer",
       "description": "Track institutional options flow, unusual activity, and smart money movements",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "options",
@@ -2673,7 +2912,7 @@
         "smart money"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2681,7 +2920,7 @@
       "name": "staking-rewards-optimizer",
       "source": "./plugins/crypto/staking-rewards-optimizer",
       "description": "Optimize staking rewards across multiple protocols and chains",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "crypto",
@@ -2692,7 +2931,7 @@
         "rewards"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2700,7 +2939,7 @@
       "name": "token-launch-tracker",
       "source": "./plugins/crypto/token-launch-tracker",
       "description": "Track new token launches, detect rugpulls, and analyze contract security for early-stage crypto projects",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "crypto",
@@ -2713,7 +2952,7 @@
         "new-tokens"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2721,7 +2960,7 @@
       "name": "trading-strategy-backtester",
       "source": "./plugins/crypto/trading-strategy-backtester",
       "description": "Backtest trading strategies with historical data, performance metrics, and risk analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "trading",
@@ -2732,7 +2971,7 @@
         "risk"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2740,7 +2979,7 @@
       "name": "wallet-portfolio-tracker",
       "source": "./plugins/crypto/wallet-portfolio-tracker",
       "description": "Track crypto wallets across multiple chains with portfolio analytics and transaction history",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "wallet",
@@ -2751,7 +2990,7 @@
         "crypto"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2759,7 +2998,7 @@
       "name": "whale-alert-monitor",
       "source": "./plugins/crypto/whale-alert-monitor",
       "description": "Monitor large crypto transactions and whale wallet movements in real-time",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "crypto",
       "keywords": [
         "whale",
@@ -2769,7 +3008,7 @@
         "transactions"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true
@@ -2778,7 +3017,7 @@
       "name": "data-seeder-generator",
       "source": "./plugins/database/data-seeder-generator",
       "description": "Generate realistic test data and database seed scripts for development and testing environments",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "seeding",
@@ -2788,7 +3027,7 @@
         "testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2796,7 +3035,7 @@
       "name": "data-validation-engine",
       "source": "./plugins/database/data-validation-engine",
       "description": "Database plugin for data-validation-engine",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2804,7 +3043,7 @@
         "validation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2812,7 +3051,7 @@
       "name": "database-archival-system",
       "source": "./plugins/database/database-archival-system",
       "description": "Database plugin for database-archival-system",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2820,7 +3059,7 @@
         "archival"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2828,7 +3067,7 @@
       "name": "database-audit-logger",
       "source": "./plugins/database/database-audit-logger",
       "description": "Database plugin for database-audit-logger",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2836,7 +3075,7 @@
         "audit"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2844,7 +3083,7 @@
       "name": "database-backup-automator",
       "source": "./plugins/database/database-backup-automator",
       "description": "Automate database backups with scheduling, compression, encryption, and restore procedures",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2854,7 +3093,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2862,7 +3101,7 @@
       "name": "database-cache-layer",
       "source": "./plugins/database/database-cache-layer",
       "description": "Database plugin for database-cache-layer",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2870,7 +3109,7 @@
         "cache"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2878,7 +3117,7 @@
       "name": "database-connection-pooler",
       "source": "./plugins/database/database-connection-pooler",
       "description": "Implement and optimize database connection pooling for improved performance and resource management",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "connection-pool",
@@ -2888,7 +3127,7 @@
         "optimization"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2896,7 +3135,7 @@
       "name": "database-deadlock-detector",
       "source": "./plugins/database/database-deadlock-detector",
       "description": "Database plugin for database-deadlock-detector",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2904,7 +3143,7 @@
         "deadlock"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2912,7 +3151,7 @@
       "name": "database-diff-tool",
       "source": "./plugins/database/database-diff-tool",
       "description": "Database plugin for database-diff-tool",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2920,7 +3159,7 @@
         "diff"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2928,7 +3167,7 @@
       "name": "database-documentation-gen",
       "source": "./plugins/database/database-documentation-gen",
       "description": "Database plugin for database-documentation-gen",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2936,7 +3175,7 @@
         "documentation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2944,7 +3183,7 @@
       "name": "database-health-monitor",
       "source": "./plugins/database/database-health-monitor",
       "description": "Database plugin for database-health-monitor",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2952,7 +3191,7 @@
         "health"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2960,7 +3199,7 @@
       "name": "database-index-advisor",
       "source": "./plugins/database/database-index-advisor",
       "description": "Analyze query patterns and recommend optimal database indexes with impact analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2969,7 +3208,7 @@
         "performance"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2977,7 +3216,7 @@
       "name": "database-migration-manager",
       "source": "./plugins/database/database-migration-manager",
       "description": "Manage database migrations with version control, rollback capabilities, and automated schema evolution tracking",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -2987,7 +3226,7 @@
         "backend"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -2995,7 +3234,7 @@
       "name": "database-partition-manager",
       "source": "./plugins/database/database-partition-manager",
       "description": "Database plugin for database-partition-manager",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -3003,7 +3242,7 @@
         "partition"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3011,7 +3250,7 @@
       "name": "database-recovery-manager",
       "source": "./plugins/database/database-recovery-manager",
       "description": "Database plugin for database-recovery-manager",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -3019,7 +3258,7 @@
         "recovery"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3027,7 +3266,7 @@
       "name": "database-replication-manager",
       "source": "./plugins/database/database-replication-manager",
       "description": "Manage database replication, failover, and high availability configurations",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "replication",
@@ -3037,7 +3276,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3045,7 +3284,7 @@
       "name": "database-schema-designer",
       "source": "./plugins/database/database-schema-designer",
       "description": "Design and visualize database schemas with normalization guidance, relationship mapping, and ERD generation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -3055,7 +3294,7 @@
         "normalization"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3063,7 +3302,7 @@
       "name": "database-security-scanner",
       "source": "./plugins/database/database-security-scanner",
       "description": "Database plugin for database-security-scanner",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -3071,7 +3310,7 @@
         "security"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3079,7 +3318,7 @@
       "name": "database-sharding-manager",
       "source": "./plugins/database/database-sharding-manager",
       "description": "Database plugin for database-sharding-manager",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -3087,7 +3326,7 @@
         "sharding"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3095,7 +3334,7 @@
       "name": "database-transaction-monitor",
       "source": "./plugins/database/database-transaction-monitor",
       "description": "Database plugin for database-transaction-monitor",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -3103,7 +3342,7 @@
         "transaction"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3111,7 +3350,7 @@
       "name": "nosql-data-modeler",
       "source": "./plugins/database/nosql-data-modeler",
       "description": "Database plugin for nosql-data-modeler",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -3119,7 +3358,7 @@
         "data"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3127,7 +3366,7 @@
       "name": "orm-code-generator",
       "source": "./plugins/database/orm-code-generator",
       "description": "Generate ORM models from database schemas or create database schemas from models for TypeORM, Prisma, Sequelize, SQLAlchemy, and more",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "orm",
@@ -3137,7 +3376,7 @@
         "backend"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3145,7 +3384,7 @@
       "name": "query-performance-analyzer",
       "source": "./plugins/database/query-performance-analyzer",
       "description": "Analyze query performance with EXPLAIN plan interpretation, bottleneck identification, and optimization recommendations",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "performance",
@@ -3155,7 +3394,7 @@
         "database"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3163,7 +3402,7 @@
       "name": "sql-query-optimizer",
       "source": "./plugins/database/sql-query-optimizer",
       "description": "Analyze and optimize SQL queries for better performance, suggesting indexes, query rewrites, and execution plan improvements",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "sql",
@@ -3173,7 +3412,7 @@
         "query"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3181,7 +3420,7 @@
       "name": "stored-procedure-generator",
       "source": "./plugins/database/stored-procedure-generator",
       "description": "Database plugin for stored-procedure-generator",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "database",
       "keywords": [
         "database",
@@ -3189,7 +3428,7 @@
         "procedure"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3197,7 +3436,7 @@
       "name": "alerting-rule-creator",
       "source": "./plugins/performance/alerting-rule-creator",
       "description": "Create intelligent alerting rules for performance monitoring",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "alerting",
@@ -3206,7 +3445,7 @@
         "observability"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3214,7 +3453,7 @@
       "name": "apm-dashboard-creator",
       "source": "./plugins/performance/apm-dashboard-creator",
       "description": "Create Application Performance Monitoring dashboards",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "apm",
@@ -3224,7 +3463,7 @@
         "datadog"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3232,7 +3471,7 @@
       "name": "application-profiler",
       "source": "./plugins/performance/application-profiler",
       "description": "Profile application performance with CPU, memory, and execution time analysis",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "performance",
@@ -3241,7 +3480,7 @@
         "optimization"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3249,7 +3488,7 @@
       "name": "bottleneck-detector",
       "source": "./plugins/performance/bottleneck-detector",
       "description": "Detect and resolve performance bottlenecks",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "bottleneck",
@@ -3258,7 +3497,7 @@
         "profiling"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3266,7 +3505,7 @@
       "name": "cache-performance-optimizer",
       "source": "./plugins/performance/cache-performance-optimizer",
       "description": "Optimize caching strategies for improved performance",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "cache",
@@ -3275,7 +3514,7 @@
         "redis"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3283,7 +3522,7 @@
       "name": "capacity-planning-analyzer",
       "source": "./plugins/performance/capacity-planning-analyzer",
       "description": "Analyze and plan for capacity requirements",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "capacity-planning",
@@ -3292,7 +3531,7 @@
         "infrastructure"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3300,7 +3539,7 @@
       "name": "cpu-usage-monitor",
       "source": "./plugins/performance/cpu-usage-monitor",
       "description": "Monitor and analyze CPU usage patterns in applications",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "cpu",
@@ -3309,7 +3548,7 @@
         "optimization"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3317,7 +3556,7 @@
       "name": "database-query-profiler",
       "source": "./plugins/performance/database-query-profiler",
       "description": "Profile and optimize database queries for performance",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "database",
@@ -3327,7 +3566,7 @@
         "sql"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3335,7 +3574,7 @@
       "name": "distributed-tracing-setup",
       "source": "./plugins/performance/distributed-tracing-setup",
       "description": "Set up distributed tracing for microservices",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "tracing",
@@ -3344,7 +3583,7 @@
         "opentelemetry"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3352,7 +3591,7 @@
       "name": "error-rate-monitor",
       "source": "./plugins/performance/error-rate-monitor",
       "description": "Monitor and analyze application error rates",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "errors",
@@ -3361,7 +3600,7 @@
         "sre"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3369,7 +3608,7 @@
       "name": "infrastructure-metrics-collector",
       "source": "./plugins/performance/infrastructure-metrics-collector",
       "description": "Collect comprehensive infrastructure performance metrics",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "infrastructure",
@@ -3378,7 +3617,7 @@
         "observability"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3386,7 +3625,7 @@
       "name": "load-test-runner",
       "source": "./plugins/performance/load-test-runner",
       "description": "Create and execute load tests for performance validation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "load-testing",
@@ -3395,7 +3634,7 @@
         "k6"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3403,7 +3642,7 @@
       "name": "log-analysis-tool",
       "source": "./plugins/performance/log-analysis-tool",
       "description": "Analyze logs for performance insights and issues",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "logs",
@@ -3412,7 +3651,7 @@
         "debugging"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3420,7 +3659,7 @@
       "name": "memory-leak-detector",
       "source": "./plugins/performance/memory-leak-detector",
       "description": "Detect memory leaks and analyze memory usage patterns",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "memory",
@@ -3429,7 +3668,7 @@
         "performance"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3437,7 +3676,7 @@
       "name": "metrics-aggregator",
       "source": "./plugins/performance/metrics-aggregator",
       "description": "Aggregate and centralize performance metrics",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "metrics",
@@ -3446,7 +3685,7 @@
         "monitoring"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3454,7 +3693,7 @@
       "name": "network-latency-analyzer",
       "source": "./plugins/performance/network-latency-analyzer",
       "description": "Analyze network latency and optimize request patterns",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "network",
@@ -3463,7 +3702,7 @@
         "api"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3471,7 +3710,7 @@
       "name": "performance-budget-validator",
       "source": "./plugins/performance/performance-budget-validator",
       "description": "Validate application against performance budgets",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "performance-budget",
@@ -3480,7 +3719,7 @@
         "testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3488,7 +3727,7 @@
       "name": "performance-optimization-advisor",
       "source": "./plugins/performance/performance-optimization-advisor",
       "description": "Get comprehensive performance optimization recommendations",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "optimization",
@@ -3497,7 +3736,7 @@
         "advisor"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3505,7 +3744,7 @@
       "name": "performance-regression-detector",
       "source": "./plugins/performance/performance-regression-detector",
       "description": "Detect performance regressions in CI/CD pipeline",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "regression",
@@ -3514,7 +3753,7 @@
         "testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3522,7 +3761,7 @@
       "name": "real-user-monitoring",
       "source": "./plugins/performance/real-user-monitoring",
       "description": "Implement Real User Monitoring for actual performance data",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "rum",
@@ -3531,7 +3770,7 @@
         "user-experience"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3539,7 +3778,7 @@
       "name": "resource-usage-tracker",
       "source": "./plugins/performance/resource-usage-tracker",
       "description": "Track and optimize resource usage across the stack",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "resources",
@@ -3548,7 +3787,7 @@
         "metrics"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3556,7 +3795,7 @@
       "name": "response-time-tracker",
       "source": "./plugins/performance/response-time-tracker",
       "description": "Track and optimize application response times",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "response-time",
@@ -3565,7 +3804,7 @@
         "monitoring"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3573,7 +3812,7 @@
       "name": "sla-sli-tracker",
       "source": "./plugins/performance/sla-sli-tracker",
       "description": "Track SLAs, SLIs, and SLOs for service reliability",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "sla",
@@ -3583,7 +3822,7 @@
         "reliability"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3591,7 +3830,7 @@
       "name": "synthetic-monitoring-setup",
       "source": "./plugins/performance/synthetic-monitoring-setup",
       "description": "Set up synthetic monitoring for proactive performance tracking",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "synthetic-monitoring",
@@ -3600,7 +3839,7 @@
         "testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3608,7 +3847,7 @@
       "name": "throughput-analyzer",
       "source": "./plugins/performance/throughput-analyzer",
       "description": "Analyze and optimize system throughput",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "performance",
       "keywords": [
         "throughput",
@@ -3617,7 +3856,7 @@
         "optimization"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3625,7 +3864,7 @@
       "name": "access-control-auditor",
       "source": "./plugins/security/access-control-auditor",
       "description": "Audit access control implementations",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3633,7 +3872,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3641,7 +3880,7 @@
       "name": "authentication-validator",
       "source": "./plugins/security/authentication-validator",
       "description": "Validate authentication implementations",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3649,7 +3888,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3657,7 +3896,7 @@
       "name": "compliance-report-generator",
       "source": "./plugins/security/compliance-report-generator",
       "description": "Generate compliance reports",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3665,7 +3904,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3673,7 +3912,7 @@
       "name": "cors-policy-validator",
       "source": "./plugins/security/cors-policy-validator",
       "description": "Validate CORS policies",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3681,7 +3920,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3689,7 +3928,7 @@
       "name": "csrf-protection-validator",
       "source": "./plugins/security/csrf-protection-validator",
       "description": "Validate CSRF protection",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3697,7 +3936,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3705,7 +3944,7 @@
       "name": "data-privacy-scanner",
       "source": "./plugins/security/data-privacy-scanner",
       "description": "Scan for data privacy issues",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3713,7 +3952,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3721,7 +3960,7 @@
       "name": "dependency-checker",
       "source": "./plugins/security/dependency-checker",
       "description": "Check dependencies for known vulnerabilities, outdated packages, and license compliance",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3732,7 +3971,7 @@
         "vulnerabilities"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3740,7 +3979,7 @@
       "name": "encryption-tool",
       "source": "./plugins/security/encryption-tool",
       "description": "Encrypt and decrypt data with various algorithms",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3748,7 +3987,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3756,7 +3995,7 @@
       "name": "gdpr-compliance-scanner",
       "source": "./plugins/security/gdpr-compliance-scanner",
       "description": "Scan for GDPR compliance issues",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3764,7 +4003,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3772,7 +4011,7 @@
       "name": "hipaa-compliance-checker",
       "source": "./plugins/security/hipaa-compliance-checker",
       "description": "Check HIPAA compliance",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3780,7 +4019,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3788,7 +4027,7 @@
       "name": "input-validation-scanner",
       "source": "./plugins/security/input-validation-scanner",
       "description": "Scan input validation practices",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3796,7 +4035,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3804,7 +4043,7 @@
       "name": "owasp-compliance-checker",
       "source": "./plugins/security/owasp-compliance-checker",
       "description": "Check OWASP Top 10 compliance",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3812,7 +4051,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3820,7 +4059,7 @@
       "name": "pci-dss-validator",
       "source": "./plugins/security/pci-dss-validator",
       "description": "Validate PCI DSS compliance",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3828,7 +4067,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3836,7 +4075,7 @@
       "name": "penetration-tester",
       "source": "./plugins/security/penetration-tester",
       "description": "Automated penetration testing for web applications with OWASP Top 10 coverage",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3846,7 +4085,7 @@
         "exploitation"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3854,7 +4093,7 @@
       "name": "secret-scanner",
       "source": "./plugins/security/secret-scanner",
       "description": "Scan codebase for exposed secrets, API keys, passwords, and sensitive credentials",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3864,7 +4103,7 @@
         "passwords"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3872,7 +4111,7 @@
       "name": "security-audit-reporter",
       "source": "./plugins/security/security-audit-reporter",
       "description": "Generate comprehensive security audit reports",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3880,7 +4119,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3888,7 +4127,7 @@
       "name": "security-headers-analyzer",
       "source": "./plugins/security/security-headers-analyzer",
       "description": "Analyze HTTP security headers",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3896,7 +4135,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3904,7 +4143,7 @@
       "name": "security-incident-responder",
       "source": "./plugins/security/security-incident-responder",
       "description": "Assist with security incident response",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3912,7 +4151,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3920,7 +4159,7 @@
       "name": "security-misconfiguration-finder",
       "source": "./plugins/security/security-misconfiguration-finder",
       "description": "Find security misconfigurations",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3928,7 +4167,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3936,7 +4175,7 @@
       "name": "session-security-checker",
       "source": "./plugins/security/session-security-checker",
       "description": "Check session security implementation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3944,7 +4183,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3952,7 +4191,7 @@
       "name": "soc2-audit-helper",
       "source": "./plugins/security/soc2-audit-helper",
       "description": "Assist with SOC2 audit preparation",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3960,7 +4199,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3968,7 +4207,7 @@
       "name": "sql-injection-detector",
       "source": "./plugins/security/sql-injection-detector",
       "description": "Detect SQL injection vulnerabilities",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3976,7 +4215,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -3984,7 +4223,7 @@
       "name": "ssl-certificate-manager",
       "source": "./plugins/security/ssl-certificate-manager",
       "description": "Manage and monitor SSL/TLS certificates",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -3992,7 +4231,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4000,7 +4239,7 @@
       "name": "vulnerability-scanner",
       "source": "./plugins/security/vulnerability-scanner",
       "description": "Comprehensive vulnerability scanning for code, dependencies, and configurations with CVE detection",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -4010,7 +4249,7 @@
         "sast"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4018,7 +4257,7 @@
       "name": "xss-vulnerability-scanner",
       "source": "./plugins/security/xss-vulnerability-scanner",
       "description": "Scan for XSS vulnerabilities",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "security",
       "keywords": [
         "security",
@@ -4026,7 +4265,7 @@
         "auditing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4034,7 +4273,7 @@
       "name": "api-test-automation",
       "source": "./plugins/testing/api-test-automation",
       "description": "Automated API endpoint testing with request generation, validation, and comprehensive test coverage",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -4045,7 +4284,7 @@
         "endpoints"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4053,7 +4292,7 @@
       "name": "e2e-test-framework",
       "source": "./plugins/testing/e2e-test-framework",
       "description": "End-to-end test automation with Playwright, Cypress, and Selenium for browser-based testing",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -4064,7 +4303,7 @@
         "browser-testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4072,7 +4311,7 @@
       "name": "integration-test-runner",
       "source": "./plugins/testing/integration-test-runner",
       "description": "Run and manage integration test suites with environment setup, database seeding, and cleanup",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -4082,7 +4321,52 @@
         "api-testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
+      }
+    },
+    {
+      "name": "katalon-test-expert",
+      "source": "./plugins/testing/katalon-test-expert",
+      "description": "Comprehensive Katalon test expert with insurance domain knowledge - craft expert test cases, analyze failures, generate HTML email reports, publish to Confluence, data-driven testing with MySQL/CSV, and deep insurance industry expertise (all 50 US states + global markets)",
+      "version": "2025.0.0",
+      "category": "testing",
+      "keywords": [
+        "katalon",
+        "test-analysis",
+        "test-authoring",
+        "data-driven-testing",
+        "insurance-testing",
+        "insurance-domain",
+        "multi-state-testing",
+        "rating-algorithms",
+        "premium-calculations",
+        "regulatory-compliance",
+        "har-files",
+        "performance-testing",
+        "mysql",
+        "csv-integration",
+        "test-debugging",
+        "network-analysis",
+        "test-results",
+        "failure-analysis",
+        "jira-integration",
+        "logrocket",
+        "aws-device-farm",
+        "session-scraping",
+        "firecrawl",
+        "automated-triage",
+        "bug-classification",
+        "confluence-integration",
+        "html-email-reports",
+        "confluence-publishing",
+        "user-story-mapping",
+        "test-case-crafting",
+        "financial-calculations",
+        "actuarial-testing"
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4090,7 +4374,7 @@
       "name": "mutation-test-runner",
       "source": "./plugins/testing/mutation-test-runner",
       "description": "Mutation testing to validate test quality by introducing code changes and verifying tests catch them",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -4100,7 +4384,7 @@
         "pitest"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4108,7 +4392,7 @@
       "name": "performance-test-suite",
       "source": "./plugins/testing/performance-test-suite",
       "description": "Load testing and performance benchmarking with metrics analysis and bottleneck identification",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -4118,7 +4402,7 @@
         "stress-testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4126,7 +4410,7 @@
       "name": "regression-test-tracker",
       "source": "./plugins/testing/regression-test-tracker",
       "description": "Track and run regression tests to ensure new changes don't break existing functionality",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -4136,7 +4420,7 @@
         "quality-assurance"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4144,7 +4428,7 @@
       "name": "security-test-scanner",
       "source": "./plugins/testing/security-test-scanner",
       "description": "Automated security vulnerability testing covering OWASP Top 10, SQL injection, XSS, CSRF, and authentication issues",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -4154,7 +4438,7 @@
         "penetration-testing"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4162,7 +4446,7 @@
       "name": "test-coverage-analyzer",
       "source": "./plugins/testing/test-coverage-analyzer",
       "description": "Analyze code coverage metrics, identify untested code, and generate comprehensive coverage reports",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -4172,7 +4456,7 @@
         "analysis"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4180,7 +4464,7 @@
       "name": "test-data-generator",
       "source": "./plugins/testing/test-data-generator",
       "description": "Generate realistic test data including users, products, orders, and custom schemas for comprehensive testing",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -4190,7 +4474,7 @@
         "factory"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4198,7 +4482,7 @@
       "name": "unit-test-generator",
       "source": "./plugins/testing/unit-test-generator",
       "description": "Automatically generate comprehensive unit tests from source code with multiple testing framework support",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "testing",
       "keywords": [
         "testing",
@@ -4210,7 +4494,7 @@
         "junit"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       }
     },
@@ -4218,7 +4502,7 @@
       "name": "creator-studio-pack",
       "source": "./plugins/packages/creator-studio-pack",
       "description": "Complete plugin suite for builder-filmmakers: Build products AND create viral videos. 20 plugins covering documentation, video production, content strategy, and workflow optimization. Transform from code to published video in 30 minutes.",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "packages",
       "keywords": [
         "video",
@@ -4241,7 +4525,7 @@
         "premium"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -4260,7 +4544,7 @@
       "name": "ai-sdk-agents",
       "source": "./plugins/ai-ml/ai-sdk-agents",
       "description": "Multi-agent orchestration with AI SDK v5 - handoffs, routing, and coordination for any AI provider (OpenAI, Anthropic, Google)",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "ai-ml",
       "keywords": [
         "ai-sdk",
@@ -4278,7 +4562,7 @@
         "coordination"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -4292,7 +4576,7 @@
       "name": "ai-commit-gen",
       "source": "./plugins/productivity/ai-commit-gen",
       "description": "AI-powered commit message generator - analyzes your git diff and creates conventional commit messages instantly",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "productivity",
       "keywords": [
         "git",
@@ -4304,7 +4588,7 @@
         "devops"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -4317,7 +4601,7 @@
       "name": "travel-assistant",
       "source": "./plugins/productivity/travel-assistant",
       "description": "Intelligent travel assistant with real-time weather, currency conversion, timezone info, and AI-powered itinerary planning. Your complete travel companion.",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "productivity",
       "keywords": [
         "travel",
@@ -4334,7 +4618,7 @@
         "packing-list"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -4350,7 +4634,7 @@
       "name": "openbb-terminal",
       "source": "./plugins/finance/openbb-terminal",
       "description": "Open-source investment research terminal integration - comprehensive equity analysis, crypto tracking, macro indicators, portfolio optimization, and AI-powered financial insights using OpenBB Platform",
-      "version": "1.0.0",
+      "version": "2025.0.0",
       "category": "finance",
       "keywords": [
         "finance",
@@ -4370,7 +4654,7 @@
         "ai-finance"
       ],
       "author": {
-        "name": "Jeremy Longshore",
+        "name": "Andrew Nixdorf",
         "email": "[email protected]"
       },
       "featured": true,
@@ -4378,6 +4662,36 @@
         "commands": 6,
         "agents": 4,
         "total": 10
+      }
+    },
+    {
+      "name": "color-accessibility-specialist",
+      "source": "./plugins/design/color-accessibility-specialist",
+      "description": "Elite color theory and accessibility expert with exceptional eye for contrast issues, WCAG compliance, and aesthetic harmony. Analyzes colors visually with screenshots and provides specific fixes.",
+      "version": "2025.0.0",
+      "category": "accessibility",
+      "keywords": [
+        "accessibility",
+        "color-theory",
+        "wcag",
+        "contrast",
+        "color-blind",
+        "aesthetics",
+        "design",
+        "a11y",
+        "visual-testing",
+        "ui-design",
+        "color-harmony",
+        "screenshot-analysis"
+      ],
+      "author": {
+        "name": "Andrew Nixdorf",
+        "email": "[email protected]"
+      },
+      "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+      "components": {
+        "agents": 1,
+        "commands": 1
       }
     }
   ]

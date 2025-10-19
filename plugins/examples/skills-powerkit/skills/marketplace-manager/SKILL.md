@@ -46,7 +46,7 @@ When adding new plugin:
   "name": "plugin-name",
   "source": "./plugins/category/plugin-name",
   "description": "Clear one-line description",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "productivity",
   "keywords": ["keyword1", "keyword2"],
   "author": {

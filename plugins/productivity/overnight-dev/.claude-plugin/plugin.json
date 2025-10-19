@@ -1,15 +1,20 @@
 {
   "name": "overnight-dev",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Run Claude autonomously for 6-8 hours overnight using Git hooks that enforce TDD - wake up to fully tested features",
   "author": {
-    "name": "Intent Solutions IO",
+    "name": "Andrew Nixdorf",
     "url": "https://intentsolutions.io",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "categories": ["productivity", "testing", "automation", "devops"],
+  "categories": [
+    "productivity",
+    "testing",
+    "automation",
+    "devops"
+  ],
   "keywords": [
     "overnight",
     "autonomous",

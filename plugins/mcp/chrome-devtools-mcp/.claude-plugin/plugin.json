@@ -1,0 +1,22 @@
+{
+  "name": "chrome-devtools-mcp",
+  "version": "2025.0.0",
+  "description": "Official Chrome DevTools Protocol MCP server from Google - control and inspect live Chrome browsers with performance insights, network analysis, and console access.",
+  "author": {
+    "name": "Google Chrome Team",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "license": "Apache-2.0",
+  "keywords": [
+    "chrome",
+    "devtools",
+    "cdp",
+    "debugging",
+    "performance",
+    "network-analysis",
+    "puppeteer",
+    "mcp",
+    "google"
+  ]
+}

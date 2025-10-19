@@ -1,7 +1,7 @@
 {
   "name": "application-profiler",
   "description": "Profile application performance with CPU, memory, and execution time analysis",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "performance",

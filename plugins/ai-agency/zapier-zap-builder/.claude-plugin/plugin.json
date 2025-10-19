@@ -1,13 +1,25 @@
 {
   "name": "zapier-zap-builder",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Create multi-step Zapier Zaps with filters, paths, and formatters",
   "author": {
-    "name": "Claude Code Plugin Hub",
-    "url": "https://github.com/AndroidNextdoor/stoked-automations"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor/stoked-automations",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "categories": ["automation", "ai-agency", "zapier"],
-  "keywords": ["zapier", "zap", "automation", "integration", "workflow", "ai-agency"]
+  "categories": [
+    "automation",
+    "ai-agency",
+    "zapier"
+  ],
+  "keywords": [
+    "zapier",
+    "zap",
+    "automation",
+    "integration",
+    "workflow",
+    "ai-agency"
+  ]
 }

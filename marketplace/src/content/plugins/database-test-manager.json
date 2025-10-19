@@ -1,7 +1,7 @@
 {
   "name": "database-test-manager",
   "description": "Database testing utilities with test data setup, transaction rollback, and schema validation",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "testing",
   "keywords": [
     "testing",
@@ -13,7 +13,7 @@
     "transactions"
   ],
   "author": {
-    "name": "Claude Code Plugin Hub"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/testing/database-test-manager",

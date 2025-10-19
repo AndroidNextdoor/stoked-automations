@@ -1,9 +1,9 @@
 {
   "name": "infrastructure-drift-detector",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Detect infrastructure drift from desired state",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

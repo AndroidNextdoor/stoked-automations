@@ -701,10 +701,10 @@ export const scenarios = {
   auth: {
     // Test credentials
     testUsers: {
-      'admin@example.com': { password: 'admin123', role: 'admin', mfaEnabled: true },
-      'user@example.com': { password: 'user123', role: 'user', mfaEnabled: false },
-      'locked@example.com': { password: 'locked123', locked: true },
-      'expired@example.com': { password: 'expired123', passwordExpired: true }
+      'admin@stokedautomations.com': { password: 'admin123', role: 'admin', mfaEnabled: true },
+      'user@stokedautomations.com': { password: 'user123', role: 'user', mfaEnabled: false },
+      'locked@stokedautomations.com': { password: 'locked123', locked: true },
+      'expired@stokedautomations.com': { password: 'expired123', passwordExpired: true }
     },
 
     handler: (email, password) => {
@@ -1349,7 +1349,7 @@ const corsOptions = {
   origin: (origin, callback) => {
     const whitelist = [
       'http://localhost:3000',
-      'https://app.example.com'
+      'https://app.stokedautomations.com'
     ];
     if (!origin || whitelist.includes(origin)) {
       callback(null, true);

@@ -1,12 +1,17 @@
 {
   "name": "api-versioning-manager",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Manage API versions with migration strategies and backward compatibility",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["api", "versioning", "migration", "backward-compatibility"]
+  "keywords": [
+    "api",
+    "versioning",
+    "migration",
+    "backward-compatibility"
+  ]
 }

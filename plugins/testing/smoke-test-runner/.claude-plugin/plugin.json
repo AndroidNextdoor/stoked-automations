@@ -1,9 +1,9 @@
 {
   "name": "smoke-test-runner",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Quick smoke test suites to verify critical functionality after deployments",
   "author": {
-    "name": "Claude Code Plugin Hub",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

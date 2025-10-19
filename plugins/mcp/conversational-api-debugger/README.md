@@ -57,7 +57,7 @@ Or provide logs directly:
     {
       "timestamp": "2025-10-10T12:00:00Z",
       "method": "POST",
-      "url": "https://api.example.com/users",
+      "url": "https://api.stokedautomations.com/users",
       "statusCode": 400,
       "requestBody": { "name": "John" },
       "responseBody": { "error": "Missing required field: email" }
@@ -149,7 +149,7 @@ Your request only included "name".
 2. Ensure email format is valid ([email protected])
 
  TEST COMMAND
-curl -X POST "https://api.example.com/users" \
+curl -X POST "https://api.stokedautomations.com/users" \
   -H "Content-Type: application/json" \
   -d '{
     "name": "John Doe",
@@ -281,7 +281,7 @@ const logs = [
   {
     timestamp: new Date().toISOString(),
     method: 'POST',
-    url: 'https://api.example.com/users',
+    url: 'https://api.stokedautomations.com/users',
     statusCode: 400,
     requestHeaders: {
       'Content-Type': 'application/json'

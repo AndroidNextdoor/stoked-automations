@@ -1,13 +1,26 @@
 {
   "name": "make-scenario-builder",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Create Make.com (Integromat) scenarios with AI assistance - visual automation design",
   "author": {
-    "name": "Claude Code Plugin Hub",
-    "url": "https://github.com/AndroidNextdoor/stoked-automations"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor/stoked-automations",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "categories": ["automation", "ai-agency", "make"],
-  "keywords": ["make", "integromat", "automation", "scenarios", "workflow", "ai-agency", "visual"]
+  "categories": [
+    "automation",
+    "ai-agency",
+    "make"
+  ],
+  "keywords": [
+    "make",
+    "integromat",
+    "automation",
+    "scenarios",
+    "workflow",
+    "ai-agency",
+    "visual"
+  ]
 }

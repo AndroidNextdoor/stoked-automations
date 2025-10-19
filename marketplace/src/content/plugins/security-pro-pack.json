@@ -1,7 +1,7 @@
 {
   "name": "security-pro-pack",
-  "description": "Professional security tools for Claude Code: vulnerability scanning, compliance, cryptography audit, container & API security",
-  "version": "1.0.0",
+  "description": "Professional security tools for Stoked Automations: vulnerability scanning, compliance, cryptography audit, container & API security",
+  "version": "2025.0.0",
   "category": "security",
   "keywords": [
     "security",

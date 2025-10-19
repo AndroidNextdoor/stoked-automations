@@ -1,7 +1,7 @@
 {
   "name": "devops-automation-pack",
   "description": "Complete DevOps automation suite with 25 plugins covering Git workflows, CI/CD pipelines, Docker optimization, Kubernetes management, Terraform IaC, and deployment strategies",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "devops",
   "keywords": [
     "devops",

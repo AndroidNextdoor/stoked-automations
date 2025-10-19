@@ -289,7 +289,7 @@ ssl_prefer_server_ciphers off;  # Let client choose (TLS 1.3 best practice)
 //  CORRECT: Verify TLS certificates
 const https = require('https')
 
-https.get('https://api.example.com', {
+https.get('https://api.stokedautomations.com', {
   // Don't disable certificate validation!
   rejectUnauthorized: true  // Default, but be explicit
 }, (res) => {
@@ -297,7 +297,7 @@ https.get('https://api.example.com', {
 })
 
 //  WRONG: Disabling certificate validation
-https.get('https://api.example.com', {
+https.get('https://api.stokedautomations.com', {
   rejectUnauthorized: false  // NEVER DO THIS IN PRODUCTION!
 }, (res) => {
   // Vulnerable to man-in-the-middle attacks

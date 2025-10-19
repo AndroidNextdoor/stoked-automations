@@ -1,7 +1,7 @@
 {
   "name": "roi-calculator",
   "description": "Calculate and present ROI for AI automation projects",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "business-tools",
   "keywords": [
     "roi",
@@ -12,7 +12,7 @@
     "ai-agency"
   ],
   "author": {
-    "name": "Claude Code Plugin Hub"
+    "name": "Andrew Nixdorf"
   },
   "featured": false,
   "repository": "https://github.com/AndroidNextdoor/stoked-automations/tree/main/./plugins/ai-agency/roi-calculator",

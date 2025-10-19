@@ -1,12 +1,17 @@
 {
   "name": "api-request-logger",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Log API requests with structured logging and correlation IDs",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["logging", "observability", "audit", "correlation"]
+  "keywords": [
+    "logging",
+    "observability",
+    "audit",
+    "correlation"
+  ]
 }

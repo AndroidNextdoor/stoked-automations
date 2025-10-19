@@ -1,9 +1,9 @@
 {
   "name": "secrets-manager-integrator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Integrate with secrets managers (Vault, AWS Secrets Manager, etc)",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

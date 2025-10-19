@@ -1,7 +1,7 @@
 {
   "name": "arbitrage-opportunity-finder",
   "description": "Advanced arbitrage scanner discovering profitable opportunities across 100+ exchanges and DeFi protocols with real-time profitability analysis, MEV detection, and automated execution strategies",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "other",
   "keywords": [
     "arbitrage",

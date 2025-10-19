@@ -21,7 +21,7 @@ export class AuthService {
         return false;
       }
 
-      if (payload.iss !== 'auth.example.com') {
+      if (payload.iss !== 'auth.stokedautomations.com') {
         return false;
       }
 

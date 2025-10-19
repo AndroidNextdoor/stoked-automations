@@ -1,7 +1,7 @@
 {
   "name": "performance-budget-validator",
   "description": "Validate application against performance budgets",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "performance-budget",

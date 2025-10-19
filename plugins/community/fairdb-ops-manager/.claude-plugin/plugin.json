@@ -1,10 +1,10 @@
 {
   "name": "fairdb-ops-manager",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Comprehensive operations manager for FairDB managed PostgreSQL service - SOPs, incident response, monitoring, and automation",
   "author": {
-    "name": "Intent Solutions IO",
-    "email": "andrew@stokedautomation.com"
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",

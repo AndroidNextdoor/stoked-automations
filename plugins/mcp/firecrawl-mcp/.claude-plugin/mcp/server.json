@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "firecrawl": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mendable/firecrawl-mcp"
+      ],
+      "env": {
+        "FIRECRAWL_API_KEY": "${FIRECRAWL_API_KEY}",
+        "FIRECRAWL_API_URL": "${FIRECRAWL_API_URL:-https://api.firecrawl.dev}"
+      },
+      "metadata": {
+        "description": "Firecrawl MCP server for advanced web scraping and data extraction",
+        "documentation": "https://docs.firecrawl.dev/mcp-server",
+        "tools": [
+          {
+            "name": "scrape_url",
+            "description": "Scrape a single URL and convert to clean markdown with structured data extraction"
+          },
+          {
+            "name": "crawl_website",
+            "description": "Crawl an entire website starting from a URL, following links and extracting data"
+          },
+          {
+            "name": "map_website",
+            "description": "Generate a sitemap of a website showing all discoverable pages and their structure"
+          },
+          {
+            "name": "extract_structured_data",
+            "description": "Extract structured data from web pages using AI-powered schema detection"
+          },
+          {
+            "name": "batch_scrape",
+            "description": "Scrape multiple URLs in parallel for efficient bulk data collection"
+          },
+          {
+            "name": "search_web",
+            "description": "Search the web and return scraped content from top results"
+          }
+        ]
+      }
+    }
+  }
+}

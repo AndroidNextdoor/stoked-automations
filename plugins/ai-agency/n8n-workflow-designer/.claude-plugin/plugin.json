@@ -1,13 +1,25 @@
 {
   "name": "n8n-workflow-designer",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Design complex n8n workflows with AI assistance - loops, branching, error handling",
   "author": {
-    "name": "Claude Code Plugin Hub",
-    "url": "https://github.com/AndroidNextdoor/stoked-automations"
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/AndroidNextdoor/stoked-automations",
+    "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "categories": ["automation", "ai-agency", "workflow"],
-  "keywords": ["n8n", "workflow", "automation", "self-hosted", "open-source", "ai-agency"]
+  "categories": [
+    "automation",
+    "ai-agency",
+    "workflow"
+  ],
+  "keywords": [
+    "n8n",
+    "workflow",
+    "automation",
+    "self-hosted",
+    "open-source",
+    "ai-agency"
+  ]
 }

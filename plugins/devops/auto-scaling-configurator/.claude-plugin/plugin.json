@@ -1,9 +1,9 @@
 {
   "name": "auto-scaling-configurator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Configure auto-scaling policies for applications and infrastructure",
   "author": {
-    "name": "Claude Code Plugins",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

@@ -1,0 +1,66 @@
+{
+  "name": "katalon-test-expert",
+  "version": "2025.0.0",
+  "description": "Comprehensive Katalon test expert with insurance domain knowledge - craft expert test cases, analyze failures, generate HTML email reports, publish to Confluence, data-driven testing with MySQL/CSV, and deep insurance industry expertise (all 50 US states + global markets)",
+  "category": "testing",
+  "keywords": [
+    "katalon",
+    "test-analysis",
+    "test-authoring",
+    "data-driven-testing",
+    "insurance-testing",
+    "insurance-domain",
+    "multi-state-testing",
+    "rating-algorithms",
+    "premium-calculations",
+    "regulatory-compliance",
+    "har-files",
+    "performance-testing",
+    "mysql",
+    "csv-integration",
+    "test-debugging",
+    "network-analysis",
+    "test-results",
+    "failure-analysis",
+    "jira-integration",
+    "logrocket",
+    "aws-device-farm",
+    "session-scraping",
+    "firecrawl",
+    "automated-triage",
+    "bug-classification",
+    "confluence-integration",
+    "html-email-reports",
+    "confluence-publishing",
+    "user-story-mapping",
+    "test-case-crafting",
+    "financial-calculations",
+    "actuarial-testing"
+  ],
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdorf/stoked-automations",
+  "license": "MIT",
+  "prerequisites": {
+    "description": "Requires MySQL client, Python 3, Firecrawl MCP for session scraping, and Atlassian MCP for JIRA integration",
+    "steps": [
+      "Install MySQL client: brew install mysql-client (macOS) or apt-get install mysql-client (Linux)",
+      "Install Python 3: python3 --version (should be 3.7+)",
+      "Install haralyzer: pip3 install haralyzer",
+      "Install Firecrawl MCP: npm install -g @firecrawl/mcp-server (for session scraping)",
+      "Install Atlassian MCP for JIRA integration: https://github.com/yoziru-desu/mcp-server-atlassian",
+      "Ensure Docker MySQL container is running with Katalon test database",
+      "Optional: Install jq for JSON processing: brew install jq",
+      "Configure MySQL connection via environment variables or Docker exec",
+      "Configure LogRocket/AWS Device Farm authentication (cookies or tokens)"
+    ]
+  },
+  "dependencies": {
+    "mcp_servers": [
+      "firecrawl",
+      "atlassian"
+    ]
+  }
+}

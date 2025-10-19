@@ -44,7 +44,7 @@ describe('parseSearchResults', () => {
     const basicResults = [
       {
         title: 'Test Article',
-        url: 'https://example.com/article',
+        url: 'https://stokedautomations.com/article',
         snippet: 'This is a test snippet',
         score: 0.95,
       },
@@ -56,9 +56,9 @@ describe('parseSearchResults', () => {
       expect(result.sources).toHaveLength(1);
       expect(result.sources[0]).toEqual({
         title: 'Test Article',
-        url: 'https://example.com/article',
+        url: 'https://stokedautomations.com/article',
         snippet: 'This is a test snippet',
-        domain: 'example.com',
+        domain: 'stokedautomations.com',
         relevance: 0.95,
       });
     });
@@ -66,7 +66,7 @@ describe('parseSearchResults', () => {
     it('should limit sources to maxSources option', () => {
       const manyResults = Array.from({ length: 10 }, (_, i) => ({
         title: `Article ${i}`,
-        url: `https://example.com/article${i}`,
+        url: `https://stokedautomations.com/article${i}`,
         snippet: `Snippet ${i}`,
       }));
 
@@ -78,7 +78,7 @@ describe('parseSearchResults', () => {
     it('should use default maxSources of 5', () => {
       const manyResults = Array.from({ length: 10 }, (_, i) => ({
         title: `Article ${i}`,
-        url: `https://example.com/article${i}`,
+        url: `https://stokedautomations.com/article${i}`,
         snippet: `Snippet ${i}`,
       }));
 
@@ -91,7 +91,7 @@ describe('parseSearchResults', () => {
       const noScoreResults = [
         {
           title: 'Article',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'Test',
         },
       ];
@@ -104,7 +104,7 @@ describe('parseSearchResults', () => {
     it('should use "Untitled" for missing title', () => {
       const noTitleResults = [
         {
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'Test',
         },
       ];
@@ -118,7 +118,7 @@ describe('parseSearchResults', () => {
       const noSnippetResults = [
         {
           title: 'Article',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
         },
       ];
 
@@ -131,7 +131,7 @@ describe('parseSearchResults', () => {
       const descriptionResults = [
         {
           title: 'Article',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           description: 'This is a description',
         },
       ];
@@ -147,28 +147,28 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Test',
-          url: 'https://www.example.com/path/to/page',
+          url: 'https://www.stokedautomations.com/path/to/page',
           snippet: 'Test',
         },
       ];
 
       const result = parseSearchResults(results);
 
-      expect(result.sources[0].domain).toBe('www.example.com');
+      expect(result.sources[0].domain).toBe('www.stokedautomations.com');
     });
 
     it('should extract domain from http URL', () => {
       const results = [
         {
           title: 'Test',
-          url: 'http://example.com/page',
+          url: 'http://stokedautomations.com/page',
           snippet: 'Test',
         },
       ];
 
       const result = parseSearchResults(results);
 
-      expect(result.sources[0].domain).toBe('example.com');
+      expect(result.sources[0].domain).toBe('stokedautomations.com');
     });
 
     it('should handle invalid URL gracefully', () => {
@@ -189,14 +189,14 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Test',
-          url: 'https://blog.example.com/post',
+          url: 'https://blog.stokedautomations.com/post',
           snippet: 'Test',
         },
       ];
 
       const result = parseSearchResults(results);
 
-      expect(result.sources[0].domain).toBe('blog.example.com');
+      expect(result.sources[0].domain).toBe('blog.stokedautomations.com');
     });
   });
 
@@ -205,7 +205,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Best Practices',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet:
             'You should always validate input. This is important for security. Regular testing is recommended.',
         },
@@ -223,7 +223,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Best Practices',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'You should always validate input.',
         },
       ];
@@ -237,13 +237,13 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Article 1',
-          url: 'https://example.com/1',
+          url: 'https://stokedautomations.com/1',
           snippet:
             'You should always validate input. This is critical for security.',
         },
         {
           title: 'Article 2',
-          url: 'https://example.com/2',
+          url: 'https://stokedautomations.com/2',
           snippet:
             'You should always validate input. Another important point here.',
         },
@@ -266,7 +266,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Long Article',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: longSnippet,
         },
       ];
@@ -280,7 +280,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Article',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'Short. This is important for performance. OK.',
         },
       ];
@@ -298,7 +298,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Article',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'We recommend using TypeScript for better type safety.',
         },
       ];
@@ -312,7 +312,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Article',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'It is best practice to use environment variables.',
         },
       ];
@@ -326,7 +326,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Article',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'You should avoid using deprecated APIs in production.',
         },
       ];
@@ -342,7 +342,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Critical Security Vulnerability Found',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'This is a critical security issue that needs immediate attention.',
         },
       ];
@@ -356,7 +356,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'CVE-2024-1234 Advisory',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'New CVE discovered affecting popular library.',
         },
       ];
@@ -370,7 +370,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Breaking Changes',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'This API is deprecated and will be removed soon.',
         },
       ];
@@ -384,7 +384,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Introduction to Testing',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'Learn how to write effective tests for your application.',
         },
       ];
@@ -398,7 +398,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Critical Security Issue',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'This is urgent and critical.',
         },
       ];
@@ -412,7 +412,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Urgent Update Required',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'An urgent patch is needed.',
         },
       ];
@@ -426,7 +426,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Exploit Discovered',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'New exploit found in the wild.',
         },
       ];
@@ -442,7 +442,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'How to Deploy Your Application',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'This guide shows you how to deploy step by step.',
         },
       ];
@@ -456,7 +456,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Complete Tutorial',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'A comprehensive tutorial on testing.',
         },
       ];
@@ -470,7 +470,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Setup Guide',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'Learn how to setup your environment.',
         },
       ];
@@ -484,7 +484,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Theory of Computing',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'This article explores theoretical concepts.',
         },
       ];
@@ -498,7 +498,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'How to Guide',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'Step by step tutorial.',
         },
       ];
@@ -514,7 +514,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Testing JavaScript Applications',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet:
             'Learn about testing JavaScript applications with modern testing frameworks.',
         },
@@ -530,7 +530,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Article',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet:
             'programming development software engineering testing deployment automation monitoring performance security reliability scalability',
         },
@@ -545,7 +545,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'The Best Guide',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'This is the best guide for your testing needs.',
         },
       ];
@@ -561,7 +561,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Test API for Code',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'Use API for your test code.',
         },
       ];
@@ -577,12 +577,12 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Testing',
-          url: 'https://example.com/1',
+          url: 'https://stokedautomations.com/1',
           snippet: 'Testing is important. Testing frameworks help with testing.',
         },
         {
           title: 'Testing Again',
-          url: 'https://example.com/2',
+          url: 'https://stokedautomations.com/2',
           snippet: 'More about testing and development.',
         },
       ];
@@ -596,7 +596,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: '',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: '',
         },
       ];
@@ -610,7 +610,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Testing JAVASCRIPT Applications',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'Learn TESTING with JavaScript and testing frameworks.',
         },
       ];
@@ -629,12 +629,12 @@ describe('parseSearchResults', () => {
       const mixedResults = [
         {
           title: 'Valid Article',
-          url: 'https://example.com/valid',
+          url: 'https://stokedautomations.com/valid',
           snippet: 'This is a valid snippet.',
         },
         {
           // Missing title
-          url: 'https://example.com/notitle',
+          url: 'https://stokedautomations.com/notitle',
           snippet: 'No title here.',
         },
         {
@@ -655,7 +655,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Critical Security: How to Fix CVE-2024-1234',
-          url: 'https://security.example.com/advisory',
+          url: 'https://security.stokedautomations.com/advisory',
           snippet:
             'This critical vulnerability must be patched immediately. You should update your dependencies and ensure security.',
           score: 0.99,
@@ -679,7 +679,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Guide à la Testing 🚀',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: 'Important: Always validate émojis and spëcial characters.',
         },
       ];
@@ -696,7 +696,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: 'Long Article',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: longSnippet,
         },
       ];
@@ -708,7 +708,7 @@ describe('parseSearchResults', () => {
       const results = [
         {
           title: '   ',
-          url: 'https://example.com',
+          url: 'https://stokedautomations.com',
           snippet: '   \n\t   ',
         },
       ];

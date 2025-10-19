@@ -1,7 +1,7 @@
 {
   "name": "penetration-tester",
   "description": "Automated penetration testing for web applications with OWASP Top 10 coverage",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "security",
   "keywords": [
     "security",

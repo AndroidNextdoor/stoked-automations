@@ -1,6 +1,6 @@
 {
   "name": "@stoked-automations/conversational-api-debugger",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "MCP server for debugging REST API failures using OpenAPI specs and HTTP logs",
   "type": "module",
   "main": "./dist/servers/api-debugger.js",

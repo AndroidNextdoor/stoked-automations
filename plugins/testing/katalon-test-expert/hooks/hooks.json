@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "PostToolUse": {
+      "matchers": [
+        {
+          "tools": ["Bash"],
+          "commandPatterns": [".*webhook-receiver\\.sh.*"],
+          "description": "Automatically analyze test results after webhook processing"
+        }
+      ],
+      "command": "${CLAUDE_PLUGIN_ROOT}/scripts/post-webhook-analysis.sh"
+    }
+  }
+}

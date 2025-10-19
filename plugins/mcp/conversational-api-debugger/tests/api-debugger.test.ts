@@ -22,7 +22,7 @@ beforeEach(async () => {
     },
     servers: [
       {
-        url: 'https://api.example.com/v1'
+        url: 'https://api.stokedautomations.com/v1'
       }
     ],
     paths: {
@@ -106,7 +106,7 @@ beforeEach(async () => {
           time: 150,
           request: {
             method: 'GET',
-            url: 'https://api.example.com/v1/users/123',
+            url: 'https://api.stokedautomations.com/v1/users/123',
             headers: [
               { name: 'Authorization', value: 'Bearer token123' },
               { name: 'Accept', value: 'application/json' }
@@ -127,7 +127,7 @@ beforeEach(async () => {
           time: 50,
           request: {
             method: 'POST',
-            url: 'https://api.example.com/v1/users',
+            url: 'https://api.stokedautomations.com/v1/users',
             headers: [
               { name: 'Content-Type', value: 'application/json' }
             ],
@@ -187,7 +187,7 @@ describe('API Debugger MCP Server', () => {
       const spec = JSON.parse(content);
 
       expect(spec.servers).toBeDefined();
-      expect(spec.servers[0].url).toBe('https://api.example.com/v1');
+      expect(spec.servers[0].url).toBe('https://api.stokedautomations.com/v1');
     });
 
     it('should validate OpenAPI version', async () => {
@@ -396,7 +396,7 @@ describe('API Debugger MCP Server', () => {
       const content = await fs.readFile(openAPISpecPath, 'utf-8');
       const spec = JSON.parse(content);
 
-      const url = 'https://api.example.com/v1/users/123';
+      const url = 'https://api.stokedautomations.com/v1/users/123';
       const pathname = new URL(url).pathname.replace('/v1', '');
 
       const pathPattern = '/users/{id}';
@@ -443,7 +443,7 @@ describe('API Debugger MCP Server', () => {
     it('should generate basic GET request', () => {
       const log = {
         method: 'GET',
-        url: 'https://api.example.com/users',
+        url: 'https://api.stokedautomations.com/users',
         requestHeaders: {}
       };
 
@@ -454,13 +454,13 @@ describe('API Debugger MCP Server', () => {
       parts.push(`"${log.url}"`);
 
       const curl = parts.join(' ');
-      expect(curl).toBe('curl "https://api.example.com/users"');
+      expect(curl).toBe('curl "https://api.stokedautomations.com/users"');
     });
 
     it('should generate POST request with body', () => {
       const log = {
         method: 'POST',
-        url: 'https://api.example.com/users',
+        url: 'https://api.stokedautomations.com/users',
         requestHeaders: {},
         requestBody: { name: 'John', email: '[email protected]' }
       };
@@ -478,7 +478,7 @@ describe('API Debugger MCP Server', () => {
     it('should include custom headers', () => {
       const log = {
         method: 'GET',
-        url: 'https://api.example.com/users',
+        url: 'https://api.stokedautomations.com/users',
         requestHeaders: {
           'Authorization': 'Bearer token123',
           'Accept': 'application/json'
@@ -504,7 +504,7 @@ describe('API Debugger MCP Server', () => {
     });
 
     it('should format with line breaks for readability', () => {
-      const parts = ['curl', '-X POST', '-H "Content-Type: application/json"', '"https://api.example.com/users"'];
+      const parts = ['curl', '-X POST', '-H "Content-Type: application/json"', '"https://api.stokedautomations.com/users"'];
       const pretty = parts.join(' \\\n  ');
 
       expect(pretty).toContain('\\\n');
@@ -516,7 +516,7 @@ describe('API Debugger MCP Server', () => {
     it('should generate HTTPie command', () => {
       const log = {
         method: 'POST',
-        url: 'https://api.example.com/users',
+        url: 'https://api.stokedautomations.com/users',
         requestHeaders: {
           'Authorization': 'Bearer token123'
         },
@@ -552,7 +552,7 @@ describe('API Debugger MCP Server', () => {
     it('should generate JavaScript fetch code', () => {
       const log = {
         method: 'POST',
-        url: 'https://api.example.com/users',
+        url: 'https://api.stokedautomations.com/users',
         requestHeaders: {
           'Content-Type': 'application/json'
         },
@@ -642,7 +642,7 @@ describe('API Debugger MCP Server', () => {
       });
 
       expect(() => MakeReproSchema.parse({ logIndex: 0 })).not.toThrow();
-      expect(() => MakeReproSchema.parse({ log: { method: 'GET', url: 'https://api.example.com' } })).not.toThrow();
+      expect(() => MakeReproSchema.parse({ log: { method: 'GET', url: 'https://api.stokedautomations.com' } })).not.toThrow();
       // Empty object is valid since all fields are optional
       expect(() => MakeReproSchema.parse({})).not.toThrow();
     });

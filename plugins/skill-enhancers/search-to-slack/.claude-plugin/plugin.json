@@ -1,9 +1,9 @@
 {
   "name": "search-to-slack",
-  "version": "0.1.0",
+  "version": "2025.0.0",
   "description": "Enhances web_search Skill by posting formatted research digests to Slack channels",
   "author": {
-    "name": "Claude Code Plugins Team",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",

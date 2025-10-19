@@ -1,11 +1,17 @@
 {
   "name": "formatter",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Auto-format code files after editing using hooks",
   "author": {
-    "name": "Jeremy Longshore"
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
   },
   "license": "MIT",
-  "keywords": ["formatting", "hooks", "automation", "prettier"],
+  "keywords": [
+    "formatting",
+    "hooks",
+    "automation",
+    "prettier"
+  ],
   "hooks": "./hooks/hooks.json"
 }

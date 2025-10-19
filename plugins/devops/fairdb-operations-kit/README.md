@@ -159,7 +159,7 @@ Claude: I'll help you onboard Acme Corp. Let me use the fairdb-onboard-customer 
 ✅ Connection documentation generated
 
 Customer can now connect using:
-postgresql://acme_corp_user:<password>@fairdb.example.com:5432/acme_corp_db?sslmode=require
+postgresql://acme_corp_user:<password>@fairdb.stokedautomations.com:5432/acme_corp_db?sslmode=require
 ```
 
 ### Emergency Response

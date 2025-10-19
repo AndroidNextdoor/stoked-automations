@@ -70,7 +70,7 @@ res.cookie('session', token, {
 ```javascript
 app.use((req, res, next) => {
     const origin = req.headers.origin || req.headers.referer;
-    const allowedOrigins = ['https://example.com'];
+    const allowedOrigins = ['https://stokedautomations.com'];
 
     if (!origin || !allowedOrigins.some(allowed => origin.startsWith(allowed))) {
         return res.status(403).json({error: 'Invalid origin'});
@@ -97,7 +97,7 @@ VULNERABLE ENDPOINTS
    Impact: Unauthorized fund transfers
 
    Attack Scenario:
-   <form action="https://example.com/api/transfer" method="POST">
+   <form action="https://stokedautomations.com/api/transfer" method="POST">
        <input name="to" value="attacker">
        <input name="amount" value="10000">
    </form>

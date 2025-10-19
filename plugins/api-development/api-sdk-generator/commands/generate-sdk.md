@@ -91,7 +91,7 @@ info:
   title: E-commerce API
   version: 1.0.0
 servers:
-  - url: https://api.example.com/v1
+  - url: https://api.stokedautomations.com/v1
 paths:
   /products:
     get:
@@ -191,7 +191,7 @@ export class ApiClient {
 
   constructor(apiKey?: string, basePath?: string) {
     this.config = new Configuration({
-      basePath: basePath || 'https://api.example.com/v1',
+      basePath: basePath || 'https://api.stokedautomations.com/v1',
       accessToken: apiKey,
       baseOptions: {
         timeout: 10000,
@@ -362,7 +362,7 @@ class EnhancedApiClient:
     ):
         # Configure base client
         config = Configuration()
-        config.host = base_url or "https://api.example.com/v1"
+        config.host = base_url or "https://api.stokedautomations.com/v1"
         if api_key:
             config.api_key['Authorization'] = api_key
             config.api_key_prefix['Authorization'] = 'Bearer'

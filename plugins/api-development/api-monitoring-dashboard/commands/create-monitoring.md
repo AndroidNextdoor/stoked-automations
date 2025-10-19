@@ -996,8 +996,8 @@ groups:
         annotations:
           summary: "High error rate on {{ $labels.service }}"
           description: "{{ $labels.service }} in {{ $labels.environment }} has error rate of {{ $value | humanizePercentage }} (threshold: 1%)"
-          runbook_url: "https://wiki.example.com/runbooks/api-high-error-rate"
-          dashboard_url: "https://grafana.example.com/d/api-overview?var-service={{ $labels.service }}"
+          runbook_url: "https://wiki.stokedautomations.com/runbooks/api-high-error-rate"
+          dashboard_url: "https://grafana.stokedautomations.com/d/api-overview?var-service={{ $labels.service }}"
 
       - alert: APIHighLatency
         expr: |
@@ -1190,8 +1190,8 @@ receivers:
 
   - name: 'payments-team'
     email_configs:
-      - to: 'payments-team@example.com'
-        from: 'alerts@example.com'
+      - to: 'payments-team@stokedautomations.com'
+        from: 'alerts@stokedautomations.com'
         headers:
           Subject: 'Payment Alert: {{ .GroupLabels.alertname }}'
 

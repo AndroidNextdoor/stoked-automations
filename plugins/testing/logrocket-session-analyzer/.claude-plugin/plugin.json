@@ -1,0 +1,39 @@
+{
+  "name": "logrocket-session-analyzer",
+  "version": "2025.0.0",
+  "description": "Scrape and analyze LogRocket and AWS Device Farm session recordings using Firecrawl MCP - extract console logs, network activity, user actions, and performance metrics from test sessions",
+  "category": "testing",
+  "keywords": [
+    "logrocket",
+    "aws-device-farm",
+    "session-replay",
+    "test-debugging",
+    "firecrawl",
+    "web-scraping",
+    "session-analysis",
+    "test-artifacts",
+    "browser-testing",
+    "user-session-tracking"
+  ],
+  "author": {
+    "name": "Andrew Nixdorf",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/AndroidNextdoor/stoked-automations",
+  "license": "MIT",
+  "prerequisites": {
+    "description": "Requires Firecrawl MCP server for web scraping session recordings",
+    "steps": [
+      "Install Firecrawl MCP server: npm install -g @firecrawl/mcp-server",
+      "Or use the mcp/firecrawl-mcp plugin from this marketplace",
+      "Ensure Firecrawl MCP is configured in Claude Code MCP settings",
+      "Optional: Install jq for JSON processing: brew install jq",
+      "Note: LogRocket sessions require authentication (SSO) - may need manual cookie extraction"
+    ]
+  },
+  "dependencies": {
+    "mcp_servers": [
+      "firecrawl"
+    ]
+  }
+}

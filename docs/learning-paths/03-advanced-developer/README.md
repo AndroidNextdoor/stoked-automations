@@ -154,7 +154,7 @@ Update `package.json`:
 ```json
 {
   "name": "my-mcp-plugin",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "type": "module",
   "bin": {
     "my-mcp-plugin": "./dist/index.js"
@@ -313,7 +313,7 @@ Create `.claude-plugin/plugin.json`:
 ```json
 {
   "name": "my-mcp-plugin",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Code analysis MCP server",
   "mcpServers": {
     "my-mcp-plugin": {
@@ -699,12 +699,12 @@ Update marketplace.json:
   "name": "my-mcp-plugin",
   "source": "./plugins/mcp/my-mcp-plugin",
   "description": "Code analysis MCP server with tools and resources",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "analysis",
   "keywords": ["mcp", "code-analysis", "tools"],
   "author": {
     "name": "Your Name",
-    "email": "you@example.com"
+    "email": "you@stokedautomations.com"
   }
 }
 ```

@@ -1,12 +1,17 @@
 {
   "name": "api-rate-limiter",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Implement rate limiting with token bucket, sliding window, and Redis",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["rate-limiting", "throttling", "api", "redis"]
+  "keywords": [
+    "rate-limiting",
+    "throttling",
+    "api",
+    "redis"
+  ]
 }

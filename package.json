@@ -9,7 +9,8 @@
     "test": "pnpm --filter '*' test",
     "lint": "pnpm --filter '*' lint",
     "typecheck": "pnpm --filter '*' typecheck",
-    "sync-marketplace": "node scripts/sync-marketplace.cjs"
+    "sync-marketplace": "node scripts/sync-marketplace.cjs",
+    "mode:pr-review": "scripts/modes/enable-pr-review-mode.sh"
   },
   "keywords": [
     "claude-code",

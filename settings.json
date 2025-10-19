@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sqlite3 :*)",
+      "Bash(uvx --from git+https://github.com/oraios/serena serena start-mcp-server)",
+      "Bash(./scripts/test-installation.sh)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

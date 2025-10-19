@@ -55,7 +55,7 @@ Successfully generated **110 marketplace website JSON files** for the Stoked Aut
 {
   "name": "plugin-name",
   "description": "Clear description",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "category",
   "keywords": ["keyword1", "keyword2"],
   "author": {

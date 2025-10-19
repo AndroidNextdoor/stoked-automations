@@ -55,7 +55,7 @@ Before deploying to production:
 /dss myapp:latest
 
 # Step 3: API security audit (if building APIs)
-/asa https://staging-api.example.com
+/asa https://staging-api.stokedautomations.com
 
 # Step 4: Review findings
 cat security-scan-report.md

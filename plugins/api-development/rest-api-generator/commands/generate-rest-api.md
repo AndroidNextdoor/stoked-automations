@@ -96,7 +96,7 @@ info:
   description: RESTful API for e-commerce platform
 
 servers:
-  - url: https://api.example.com/v1
+  - url: https://api.stokedautomations.com/v1
     description: Production server
   - url: http://localhost:3000/v1
     description: Development server
@@ -773,7 +773,7 @@ app.add_middleware(
 app.add_middleware(GZipMiddleware, minimum_size=1000)
 app.add_middleware(
     TrustedHostMiddleware,
-    allowed_hosts=["*.example.com", "localhost"]
+    allowed_hosts=["*.stokedautomations.com", "localhost"]
 )
 
 # Pydantic models

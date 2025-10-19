@@ -56,17 +56,19 @@ my-plugin/
 ```json
 {
   "name": "my-plugin",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Clear one-line description",
   "author": {
     "name": "Your Name",
-    "email": "your.email@example.com"
+    "email": "your.email@stokedautomations.com"
   },
   "repository": "https://github.com/username/repo",
   "license": "MIT",
   "keywords": ["keyword1", "keyword2"]
 }
 ```
+
+**Version Format**: `YYYY.MAJOR.MINOR` (e.g., 2025.0.0 for initial release in 2025)
 
 **2. Slash Commands** (`commands/*.md`)
 - Triggered with `/command-name`
@@ -108,11 +110,11 @@ Edit `.claude-plugin/plugin.json`:
 ```json
 {
   "name": "my-first-plugin",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "My first Claude Code plugin for learning",
   "author": {
     "name": "Your Name",
-    "email": "you@example.com"
+    "email": "you@stokedautomations.com"
   },
   "repository": "https://github.com/yourusername/my-first-plugin",
   "license": "MIT",
@@ -463,12 +465,12 @@ EOF
      "name": "my-first-plugin",
      "source": "./plugins/community/my-first-plugin",
      "description": "My first Claude Code plugin",
-     "version": "1.0.0",
+     "version": "2025.0.0",
      "category": "productivity",
      "keywords": ["learning", "example"],
      "author": {
        "name": "Your Name",
-       "email": "you@example.com"
+       "email": "you@stokedautomations.com"
      }
    }
    ```
@@ -502,13 +504,13 @@ cat > .claude-plugin/marketplace.json << 'EOF'
   "name": "my-marketplace",
   "owner": {
     "name": "Your Name",
-    "email": "you@example.com"
+    "email": "you@stokedautomations.com"
   },
   "plugins": [
     {
       "name": "my-first-plugin",
       "source": "./plugins/my-first-plugin",
-      "version": "1.0.0"
+      "version": "2025.0.0"
     }
   ]
 }

@@ -58,7 +58,7 @@ Add to your Claude Code MCP configuration file (`~/.claude/mcp_config.json`):
     "ai-experiment-logger": {
       "command": "node",
       "args": [
-        "/absolute/path/to/plugins/mcp/ai-experiment-logger/dist/index.js"
+        "$HOME/Projects/stoked-automation/plugins/mcp/ai-experiment-logger/dist/index.js"
       ]
     }
   }
@@ -343,7 +343,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - **Issues:** [GitHub Issues](https://github.com/AndroidNextdoor/stoked-automations/issues)
 - **Discussions:** [GitHub Discussions](https://github.com/AndroidNextdoor/stoked-automations/discussions)
-- **Email:** plugins@example.com
+- **Email:** plugins@stokedautomations.com
 
 ## Changelog
 

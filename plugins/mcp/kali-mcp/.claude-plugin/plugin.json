@@ -1,0 +1,40 @@
+{
+  "name": "kali-mcp",
+  "version": "2025.0.0",
+  "description": "Kali Linux security tools integration via MCP - execute penetration testing commands, run security scans, automate reconnaissance, and solve CTF challenges with AI assistance",
+  "category": "security",
+  "keywords": [
+    "kali-linux",
+    "penetration-testing",
+    "security",
+    "nmap",
+    "metasploit",
+    "burp-suite",
+    "reconnaissance",
+    "exploitation",
+    "ctf",
+    "offensive-security",
+    "red-team",
+    "bug-bounty",
+    "vulnerability-scanning",
+    "mcp-server"
+  ],
+  "author": {
+    "name": "Andrew Nixdorf",
+    "url": "https://github.com/Wh0am123",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/Wh0am123/MCP-Kali-Server",
+  "license": "MIT",
+  "prerequisites": {
+    "description": "Requires Docker or local Kali Linux environment with Python 3 and security tools installed",
+    "steps": [
+      "Install Docker Desktop and ensure it's running (for containerized deployment)",
+      "OR Install Python 3 on a Kali Linux machine for local deployment",
+      "Ensure Kali Linux security tools are installed (nmap, gobuster, curl, wget, etc.)",
+      "Configure API server endpoint and authentication if using remote deployment",
+      "Set KALI_API_URL environment variable to point to your Kali API server",
+      "Optional: Set KALI_API_TOKEN for authenticated API access"
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "database-recovery-manager",
   "description": "Database plugin for database-recovery-manager",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "database",
   "keywords": [
     "database",

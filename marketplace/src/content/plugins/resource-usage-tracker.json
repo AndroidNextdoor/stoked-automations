@@ -1,7 +1,7 @@
 {
   "name": "resource-usage-tracker",
   "description": "Track and optimize resource usage across the stack",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "category": "performance",
   "keywords": [
     "resources",

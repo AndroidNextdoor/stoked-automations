@@ -548,8 +548,8 @@ gantt
 
 ### Maintainer Contact
 
-**Repository Owner**: jeremylongshore
-**Organization**: Intent Solutions (https://intentsolutions.io)
+**Repository Owner**: AndroidNextdoor
+**Organization**: Stoked Automation (https://stokedautomation.com)
 
 ---
 

@@ -1,12 +1,17 @@
 {
   "name": "api-contract-generator",
-  "version": "1.0.0",
+  "version": "2025.0.0",
   "description": "Generate API contracts for consumer-driven contract testing",
   "author": {
-    "name": "Jeremy Longshore",
+    "name": "Andrew Nixdorf",
     "email": "[email protected]"
   },
   "repository": "https://github.com/AndroidNextdoor/stoked-automations",
   "license": "MIT",
-  "keywords": ["contract", "pact", "testing", "microservices"]
+  "keywords": [
+    "contract",
+    "pact",
+    "testing",
+    "microservices"
+  ]
 }

