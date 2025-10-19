@@ -380,10 +380,11 @@ All plugins have been migrated from `1.0.0` (semantic versioning) to `2025.0.0` 
      - Suspicious URLs (non-HTTPS, URL shorteners)
    - MCP plugin dependency audit (`npm audit`)
 
-2. **`.github/workflows/deploy-marketplace.yml`** (deploys to Vercel)
-   - Builds Astro site with Vercel CLI
-   - Deploys to production: https://stokedautomations.com/
-   - Requires `VERCEL_TOKEN` secret configured in GitHub
+2. **Vercel Git Integration** (automatic marketplace deployment)
+   - No GitHub Actions workflow required
+   - Automatic deployment on push to `main` branch
+   - Automatic preview deployments for PRs
+   - Production URL: https://stokedautomations.com/
 
 3. **`.github/workflows/release.yml`** (version tagging with Annual-style versioning)
    - Creates GitHub releases with changelog

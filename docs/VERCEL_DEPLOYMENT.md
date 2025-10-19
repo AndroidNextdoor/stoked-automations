@@ -4,44 +4,50 @@ This guide explains how the Stoked Automations marketplace is deployed to Vercel
 
 ## Overview
 
-The marketplace (Astro website) is automatically deployed to **Vercel** on every push to the `main` branch. The live site is available at https://stokedautomations.com.
+The marketplace (Astro website) is **automatically deployed to Vercel** via Git integration. Every push to the repository triggers an automatic deployment. The live site is available at https://stokedautomations.com.
 
 ## Deployment Architecture
 
 ```
-GitHub (main branch)
+GitHub Repository
     ↓
-GitHub Actions Workflow
+Vercel Git Integration (automatic)
     ↓
-Vercel CLI (build + deploy)
+Vercel Build & Deploy
     ↓
 Production (stokedautomations.com)
 ```
 
-## GitHub Actions Workflow
+**No GitHub Actions required!** Vercel's Git integration handles everything automatically.
 
-### Workflow File
-`.github/workflows/deploy-marketplace.yml`
+## How It Works
 
-### Triggers
-- **Push to main:** Deploys when changes are pushed to `main` branch in `marketplace/` directory
-- **Manual dispatch:** Can be triggered manually from GitHub Actions UI
+### Automatic Deployment Triggers
 
-### Steps
-1. **Checkout repository**
-2. **Setup Node.js 20**
-3. **Install Vercel CLI**
-4. **Pull Vercel environment** (downloads project settings)
-5. **Build artifacts** with `vercel build --prod`
-6. **Deploy to production** with `vercel deploy --prebuilt --prod`
+| Branch | Deployment Type | URL |
+|--------|----------------|-----|
+| `main` | Production | https://stokedautomations.com |
+| Feature branches | Preview | `https://marketplace-[hash].vercel.app` |
+| Pull requests | Preview | Automatic preview comment on PR |
 
-### Required GitHub Secret
+### Deployment Process
 
-The workflow requires **one GitHub secret**:
+1. **Push to GitHub** (any branch)
+2. **Vercel detects change** via webhook
+3. **Builds project** using `vercel.json` configuration
+4. **Deploys automatically:**
+   - `main` branch → Production domain
+   - Other branches → Preview URLs
+5. **Comments on PR** with preview link (if applicable)
 
-| Secret Name | Description | How to Get |
-|-------------|-------------|------------|
-| `VERCEL_TOKEN` | Vercel authentication token | Generate from Vercel Dashboard → Settings → Tokens |
+### No Secrets Required
+
+Because Vercel uses **Git integration**, there's no need for:
+- ❌ GitHub Actions workflows
+- ❌ `VERCEL_TOKEN` secrets
+- ❌ Manual CLI deployments
+
+Everything happens automatically through Vercel's dashboard connection.
 
 ## Vercel Configuration
 
@@ -60,19 +66,21 @@ The marketplace is configured with `vercel.json`:
 
 ### Vercel Project Setup
 
-1. **Link to Vercel project:**
-   ```bash
-   cd marketplace/
-   vercel link
-   ```
+The project is **already configured** with Vercel:
 
-2. **Project is already linked:**
-   - The `.vercel/` directory contains project metadata
-   - Project ID and org ID are stored locally
+1. **Git Integration Connected:**
+   - Repository: `AndroidNextdoor/stoked-automations`
+   - Root directory: `marketplace/`
+   - Framework: Astro (auto-detected)
 
-3. **Domain configuration:**
-   - Primary domain: `stokedautomations.com`
-   - Configured in Vercel Dashboard → Domains
+2. **Project Linked Locally:**
+   - `.vercel/project.json` contains project metadata
+   - Project ID: `prj_jNEIhjs6q3TKjryaD0ptcP1ojcCt`
+
+3. **Domain Configuration:**
+   - Production domain: `stokedautomations.com`
+   - Configured in Vercel Dashboard → Settings → Domains
+   - SSL certificate: Automatic (Let's Encrypt)
 
 ## Local Development
 
@@ -115,10 +123,9 @@ If environment variables are needed in the future:
 ### Deployment Fails
 
 **Check:**
-1. `VERCEL_TOKEN` secret is set in GitHub
-2. Vercel token has not expired
-3. Build succeeds locally: `cd marketplace && npm run build`
-4. Check GitHub Actions logs for specific errors
+1. Build succeeds locally: `cd marketplace && npm run build`
+2. Check Vercel Dashboard → Deployments for build logs
+3. Verify Git integration is connected in Vercel Dashboard → Settings → Git
 
 ### Build Succeeds but Site Not Updated
 
@@ -127,12 +134,12 @@ If environment variables are needed in the future:
 2. Check domain DNS settings
 3. Wait 1-2 minutes for CDN to propagate
 
-### "Failed to pull Vercel environment"
+### Vercel Not Detecting Changes
 
 **Fix:**
-- Verify `.vercel/` directory exists in `marketplace/`
-- Re-link project: `cd marketplace && vercel link`
-- Commit updated `.vercel/project.json`
+1. Check webhook in GitHub Settings → Webhooks (should see `hooks.vercel.com`)
+2. Re-connect Git integration in Vercel Dashboard if needed
+3. Trigger manual deployment from Vercel Dashboard → Deployments → Redeploy
 
 ## Migration from GitHub Pages
 
@@ -149,21 +156,24 @@ Previously, the marketplace was deployed to **GitHub Pages**. It has been migrat
 | Feature | GitHub Pages | Vercel |
 |---------|-------------|--------|
 | **URL** | github.io subdomain | stokedautomations.com |
-| **Deployment** | GitHub Actions | GitHub Actions + Vercel CLI |
+| **Deployment** | GitHub Actions workflow | Automatic Git integration |
 | **Build time** | ~2-3 minutes | ~1-2 minutes |
+| **Preview deploys** | Manual only | Automatic for every PR |
 | **SSL** | Automatic | Automatic |
 | **CDN** | GitHub CDN | Global Edge Network |
 
-### Old Workflow (Removed)
-- Removed `actions/upload-pages-artifact@v4`
-- Removed `actions/deploy-pages@v4`
-- Removed `pages: write` permission
+### What Was Removed
+- ❌ Removed `.github/workflows/deploy-marketplace.yml` (not needed)
+- ❌ No more GitHub Actions for deployment
+- ❌ No secrets or tokens required
 
 ## Monitoring
 
 ### Deployment Status
-- **GitHub Actions:** https://github.com/AndroidNextdoor/stoked-automations/actions
 - **Vercel Dashboard:** https://vercel.com/dashboard
+  - View all deployments (production + previews)
+  - Real-time build logs
+  - Deployment history
 
 ### Analytics
 Available in Vercel Dashboard:
@@ -174,7 +184,7 @@ Available in Vercel Dashboard:
 
 ## Best Practices
 
-1. **Always test locally before pushing to main**
+1. **Always test locally before pushing**
    ```bash
    cd marketplace/
    npm run build
@@ -182,8 +192,9 @@ Available in Vercel Dashboard:
    ```
 
 2. **Use preview deployments for testing**
-   - Feature branches automatically get preview URLs
-   - Test before merging to main
+   - Push feature branch to GitHub
+   - Vercel automatically creates preview URL
+   - Test thoroughly before merging to main
 
 3. **Monitor build times**
    - Keep dependencies minimal
@@ -191,8 +202,14 @@ Available in Vercel Dashboard:
    - Use Astro's built-in optimizations
 
 4. **Check deployment logs**
-   - Review GitHub Actions logs after each deployment
-   - Monitor Vercel logs for runtime errors
+   - Monitor Vercel Dashboard after pushing
+   - Review build logs for any warnings
+   - Check runtime logs for errors
+
+5. **Take advantage of automatic previews**
+   - Every PR gets a unique preview URL
+   - Share preview links for review
+   - Test changes before merging
 
 ## Additional Resources
 
